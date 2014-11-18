@@ -1,0 +1,322 @@
+// webfonts
+@font-face {font-family: 'Nexa-Light';src: url('../webfonts/245AC9_E_0.eot');src: url('../webfonts/245AC9_E_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/245AC9_E_0.woff') format('woff'),url('../webfonts/245AC9_E_0.ttf') format('truetype');}
+@font-face {font-family: 'Nexa-XBold';src: url('../webfonts/245AC9_C_0.eot');src: url('../webfonts/245AC9_C_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/245AC9_C_0.woff') format('woff'),url('../webfonts/245AC9_C_0.ttf') format('truetype');}
+
+// YAY! multidimensional array FTW!
+// [product name, base color, gradient end color, link color],[...]
+$products: 'calculadoras' #1e6aa2 #41aab4 #036, 'proyectores' #60903f #a1bf41 #360, 'diccionarios' #e3234e #e76747 #600;
+
+html, body {
+  padding:0;
+  margin:0;
+  height:100%;
+  color:#444;
+  background:url(../images/background.jpg) fixed no-repeat top center;
+  font-size:.8em;
+}
+
+strong {
+  font-family:$header-font-family;
+}
+
+h1, h2 {
+  color:#444;
+}
+
+h1 {
+
+    margin-bottom:1em;
+
+  a {
+    background:url(../images/logo-casio-division-educativa.png) center no-repeat;
+    width:267px;
+    height:80px;
+    margin:0 auto;
+    text-indent:-999em;
+    overflow:hidden;
+    display:block;
+  }
+}
+
+h2 {
+  font-size:1.4em;
+}
+p {
+  line-height: 1.4em;
+}
+div#main {
+  height:100%;
+}
+
+.anchor {
+  display:none;
+}
+
+div#intro {
+  text-align:center;
+  color:#444;
+  position: relative;
+  padding: 30px 0;
+  //top: 50%;
+  //-webkit-transform: translateY(50%);
+  //-ms-transform: translateY(50%);
+  //transform: translateY(50%);
+
+  p {
+    font-size:1.4em;
+
+    a {
+      text-decoration:none;
+      border-bottom:#444 1px dotted;
+      color:#444;
+    }
+  }
+
+  div#divisions {
+
+    .columns {
+      margin-bottom:2em;
+    }
+
+    padding-top:1em;
+
+    @each $product in $products {
+      .#{nth($product,1)} {
+        a {
+          display:block;
+          font-size:1.2em;
+          width:100%;
+          padding-top:90px;
+          background:url(../images/icon-#{nth($product,1)}.png) center top no-repeat;
+          color:nth($product,2);
+          background-size:70px;
+        }
+      }
+    }
+  }
+
+}
+
+div#intro {
+  div.social-profiles {
+    display:none;
+  }
+}
+
+.content-block {
+  //min-height:100%;
+  padding: 5em 0;
+  color:#fff;
+  -webkit-box-shadow: inset 0px -25px 50px -20px rgba(0,0,0,0.2);
+  -moz-box-shadow: inset 0px -25px 50px -20px rgba(0,0,0,0.2);
+  box-shadow: inset 0px -25px 50px -20px rgba(0,0,0,0.2);
+  text-align:left;
+  position: relative;
+
+
+  &.inverse {
+    color:#000;
+    -webkit-box-shadow: inset 0px -25px 50px -20px rgba(255,255,255,0.2);
+    -moz-box-shadow: inset 0px -25px 50px -20px rgba(255,255,255,0.2);
+    box-shadow: inset 0px -25px 50px -20px rgba(255,255,255,0.2);
+    h4 {
+      color: #444 ;
+    }
+
+  }
+
+
+  .row {
+   // padding-top:3em;
+  }
+
+  h2 {
+    margin:0;
+    color:#fff;
+    font-size:2.2em;
+    //margin-bottom:1em;
+  }
+}
+
+.social-shares {
+  margin-top:2em;
+  float: left;
+  position: relative;
+  display: block;
+
+  .addthis_default_style .at300b {
+    padding:0;
+    margin-bottom:.5em;
+    margin-right:.1em;
+  }
+
+}
+
+@each $product in $products {
+
+  section##{nth($product,1)} {
+
+    background: nth($product,2);
+    background: -moz-linear-gradient(top, nth($product,2) 0%, nth($product,3) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#{nth($product,2)}), color-stop(100%,nth($product,3))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, nth($product,2) 0%, nth($product,3) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, nth($product,2) 0%, nth($product,3) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, nth($product,2) 0%, nth($product,3) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, nth($product,2) 0%, nth($product,3) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='nth($product,2)', endColorstr='nth($product,3)',GradientType=0 ); /* IE6-9 */
+    border-top: 1px solid nth($product, 3);
+
+
+    h2 {
+      padding-top:105px;
+      background:url(../images/icon-#{nth($product,1)}-outline.png) left top no-repeat;
+      background-size:80px;
+    }
+
+    .link {
+      border-bottom: 1px solid nth($product,4);
+      color:nth($product,4);
+      font-size:1em;
+      font-weight: 700;
+      letter-spacing: -.05em;
+      margin-right: 1em;
+      margin-top: .3em;
+      margin-bottom: .8em;
+      float: left;
+      white-space: nowrap;
+    }
+
+    .button {
+      background-color:nth($product,4);
+      margin: 15px 0;
+      padding: .6em 1em;
+      font-weight: 700;
+      border-radius: 3px;
+    }
+
+    .columns {
+      //background:url(../images/background-#{nth($product,1)}.png) 110% 0 no-repeat;
+      //background-size:140px;
+    }
+
+  }
+}
+
+section#calculadoras {
+  text-align: center;
+  overflow: hidden;
+  h2 {
+    background-position:center top;
+  }
+  .stillimg {
+  }
+}
+
+section#proyectores {
+  text-align: center;
+  overflow: hidden;
+
+  h2 {
+    background-position:center top;
+  }
+
+  .columns {
+    background-position: left 5%;
+  }
+  .stillimg {
+    position: absolute;
+    max-width: 160%;
+    right: 0;
+    top: 250px;
+  }
+  .banner {
+    font-size: 1em;
+    margin-top: 18em;
+    padding: 2%;
+    float: left;
+    position: relative;
+    color: #fff;
+    //background-color: #b0cb75;
+    //border: 1px solid #85A764;
+    border: 1px solid #9EBB60;
+    border-radius: 3px;
+    -webkit-transition: background-color 300ms ease-out;
+    -moz-transition: background-color 300ms ease-out;
+    transition: background-color 300ms ease-out;
+    &:hover {
+      background-color:rgba(255,255,255,.1);
+    }
+    img {
+      float: left;
+      position: relative;
+      width: 37%;
+      margin: 3% 1%;
+    }
+    b {
+      font-weight: 700;
+      font-family: 'Nexa-XBold';
+    }
+    span.text {
+      float: left;
+      //color: #fff;
+      line-height: normal;
+      text-align: left;
+      display: block;
+      width: 54%;
+      margin: 3% 2% 3% 5%;
+      font-size: 1.4em;
+    }
+    span.button {
+      //border: 1px solid #fff;
+      background: transparent;
+      font-size: .9em;
+      padding: .5em .5em .2em;
+      border-radius: 3px;
+      //color: #fff;
+      background: #336600;
+      line-height: normal;
+      float: left;
+      display: block;
+      margin: 20px 0 0;
+    }
+    &:hover span.button {
+      background: #000;
+    }
+  }
+}
+
+section#diccionarios {
+  text-align: center;
+  overflow: hidden;
+  h2 {
+    background-position:center top;
+  }
+  .columns {
+    background-size:164px;
+  }
+  .stillimg {
+  }
+  .icon-product {
+    background: url(../images/logo-exword.png) left top no-repeat;
+    background-size: 100%;
+    text-indent: -9999px;
+    width: 220px;
+    height: 38px;
+    display: block;
+    margin: 1.4em 0 0 6em;
+    position: absolute;
+  }
+}
+
+footer#footer {
+
+  background:#fff;
+  text-align:center;
+
+  .legal {
+    font-size:.9em;
+    color:#666;
+    padding:3em 0 4em;
+    margin-bottom: 0;
+  }
+}
