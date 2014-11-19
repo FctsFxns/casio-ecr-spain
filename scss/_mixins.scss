@@ -1,0 +1,8 @@
+
+
+@mixin border-radius($global-radius) {
+  -webkit-border-radius: $global-radius;
+     -moz-border-radius: $global-radius;
+      -ms-border-radius: $global-radius;
+          border-radius: $global-radius;
+}
