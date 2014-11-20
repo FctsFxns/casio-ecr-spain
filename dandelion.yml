@@ -1,0 +1,22 @@
+# Required
+scheme: ftp
+host: "???"
+port: "21"
+username: "???"
+password: "???"
+path: "public_html"
+exclude:
+    - .DS_Store
+    - .sass-cache
+    - .bowerrc
+    - .gitignore
+    - dandelion.yml
+    - scss
+    - README.md
+    - config.rb
+    - Gemfile
+    - Gemfile.lock
+    - bower.json
+
+revision_file: .revision
+
