@@ -1,7 +1,10 @@
-.ecr-section img {
-  position: absolute;
-  max-width: none;
-  margin-top: -30%;
+.ecr-section {
+  height: 50%;
+  img {
+    position: absolute;
+    max-width: none;
+    margin-top: -30%;
+  }
 }
 .promo-section {
   background: url(../images/promo-bk.jpg) no-repeat left bottom #515358;
