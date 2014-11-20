@@ -1,9 +1,9 @@
 # Required
 scheme: ftp
-host: "???"
+host: "casio-ecr.es.dedi294.your-server.de"
 port: "21"
-username: "???"
-password: "???"
+username: "casioo"
+password: "8137ZtwL"
 path: "public_html"
 exclude:
     - .DS_Store
