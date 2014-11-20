@@ -21,50 +21,87 @@ header[role="banner"]{
     }
   }
 }
+footer#footer {
+  text-align: center;
+  color: $iron;
+  clear: both;
+  margin: 0 auto;
+  padding: 2em 0;
+  background-color: $jet;
 
-.v-align {
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  a {
+    color: $jumbo;
+    &:hover {
+      color: $iron;
+    }
+  }
 }
 .ecr-section {
   color: $iron;
-  height: 80%;
+  height: 50%;
   overflow: hidden;
-  margin-top: 20px;
+  padding: 4em 0;
+ // margin-top: 20px;
+  h2 {
+    color: $white;
+  }
   p{
     font-size: 21px;
+    color: $jumbo;
   }
   a {
     border-bottom: 1px solid $primary-color;
   }
   img {
-    position: absolute;
-    max-width: none;
-    margin-top: -35%;
+    position: relative;
+    //max-width: none;
+    margin-top: auto;
   }
 }
 
 .promo-section {
   background-color: #515358;
+  min-height: 100%;
+  padding-top: 50px;
+
+  .icon-promo {
+    background: url(../images/icon-anchor.png) no-repeat center center;
+    background-color: #515358;
+    text-indent: -9999px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    top: -25px;
+    width: 54px;
+    height: 54px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+  }
 
   .title-promo {
     text-align: center;
     margin: 60px 0; 
     width: 100%;
   }
-
+  .stillimg {
+    margin: 4em 0;
+  }
   p {
     color: $iron;
     font-size: 21px;
+    .big-text {
+      font-size: 34px;
+      letter-spacing: -.03em;
+      text-transform: uppercase;
+      color: $white;
+    }
   }
 }
 
 .form-content {
-  background: #eeeeee;
-  border: 6px solid $base;
+  background: $white;
+  border: 6px solid $white;
   margin: 0 auto 60px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -79,6 +116,7 @@ header[role="banner"]{
     margin-top: -35px;
     margin-bottom: 25px;
   }
+
   form {
     fieldset {
       margin: 0;
@@ -93,8 +131,9 @@ header[role="banner"]{
     }
     label {
       display: block;
-      color: $jet;
-      font-size: 15px;
+      color: $jumbo;
+      font-size: 13px;
+      text-transform: uppercase;
       margin-bottom: 0;
       float: left;
       text-align: right;
@@ -102,7 +141,8 @@ header[role="banner"]{
       font-weight: 500;
       width: 35%;
       padding: 0 15px;
-      margin: 5px 0 0px;
+      margin: 9px 0 0px;
+      line-height: 1em;
       span {
         color: red;
         margin-left: 0.25em;
@@ -151,11 +191,13 @@ header[role="banner"]{
       margin-bottom: 15px;
       label {
         width: 50%;
-        font-size: 13px;
+        font-size: 15px;
+        color: $jet;
         float: left;
         position: relative;
         clear: none;
-        margin: 5px 0 0;
+        text-transform: none;
+        margin: 9px 0 0;
         padding: 0;
         text-align: left;
         font-weight: 400;
@@ -163,6 +205,12 @@ header[role="banner"]{
           margin: 0 7px 0 0;
         }
       }
+    }
+    button {
+      -webkit-border-radius: $global-radius;
+      -moz-border-radius: $global-radius;
+      border-radius: $global-radius;
+      padding: .7em 3.2em;
     }
     .button-content {
       text-align: center;

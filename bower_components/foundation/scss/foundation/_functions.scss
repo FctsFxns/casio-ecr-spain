@@ -10,8 +10,8 @@ $rem-base: 16px !default;
 $modules: () !default;
 @mixin exports($name) {
   $module_index: index($modules, $name);
-  @if (($module_index == null) or ($module_index == false)) {
-    $modules: append($modules, $name);
+  @if (($module_index == null) or (not $module_index)) {
+    $modules: append($modules, $name) !global;
     @content;
   }
 }
@@ -19,7 +19,6 @@ $modules: () !default;
 //
 // @functions
 //
-
 
 // RANGES
 // We use these functions to define ranges for various things, like media queries. 

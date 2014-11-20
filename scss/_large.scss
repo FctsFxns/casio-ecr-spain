@@ -1,0 +1,18 @@
+.ecr-section img {
+  position: absolute;
+  max-width: none;
+  margin-top: -30%;
+}
+.promo-section {
+  background: url(../images/promo-bk.jpg) no-repeat left bottom #515358;
+  p {
+    margin-top: 60px;
+  }
+}
+.v-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
