@@ -22,7 +22,7 @@ header[role="banner"]{
   }
 }
 footer#footer {
-  text-align: center;
+  text-align: left;
   color: $iron;
   clear: both;
   margin: 0 auto;
@@ -35,6 +35,8 @@ footer#footer {
       color: $iron;
     }
   }
+
+
 }
 .ecr-section {
   color: $iron;
@@ -95,6 +97,10 @@ footer#footer {
       letter-spacing: -.03em;
       text-transform: uppercase;
       color: $white;
+    }
+    a {
+      color: $iron;
+      text-decoration: underline;
     }
   }
 }
