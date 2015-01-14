@@ -43,7 +43,7 @@ footer#footer {
   min-height: 640px;
   overflow: hidden;
   padding: 4em 0;
- // margin-top: 20px;
+  margin-top: 20px;
   h2 {
     color: $white;
   }
@@ -62,6 +62,7 @@ footer#footer {
 }
 
 .promo-section {
+  display: none;
   background-color: #515358;
   min-height: 100%;
   padding-top: 50px;
@@ -83,7 +84,7 @@ footer#footer {
 
   .title-promo {
     text-align: center;
-    margin: 60px 0; 
+    margin: 60px 0;
     width: 100%;
   }
   .stillimg {
