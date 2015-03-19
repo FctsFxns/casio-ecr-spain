@@ -43,9 +43,10 @@ footer#footer {
   min-height: 640px;
   overflow: hidden;
   padding: 4em 0;
-  margin-top: 20px;
+  //margin-top: 20px;
   h2 {
     color: $white;
+    line-height: 1.2em;
   }
   p{
     font-size: 21px;
@@ -62,10 +63,15 @@ footer#footer {
 }
 
 .promo-section {
-  display: none;
   background-color: #515358;
-  min-height: 100%;
-  padding-top: 50px;
+  //min-height: 100%;
+  padding-top: 160px;
+
+  h1 {
+    color: #fff;
+    line-height: 1.2em;
+    margin: 1.5em 0 0;
+  }
 
   .icon-promo {
     background: url(../images/icon-anchor.png) no-repeat center center;
@@ -88,7 +94,8 @@ footer#footer {
     width: 100%;
   }
   .stillimg {
-    margin: 4em 0;
+    margin: 2.5em auto;
+    display: block;
   }
   p {
     color: $iron;
