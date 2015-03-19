@@ -12,6 +12,7 @@ $(document).ready(function(){
     cookieWhatAreLinkText: "Más información.",
     cookieWhatAreTheyLink: 'conformidad-con-cookies.html',
     cookieOverlayEnabled: false
+  });
 });
 
 $(function() {
