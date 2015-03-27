@@ -40,7 +40,7 @@
               <h1 >No pierdas ni un segundo y gana un reloj <b>CASIO Edifice Premium</b></h1>
               <p>Optimiza y sácale el máximo partido a todas las soluciones TPV de CASIO y prepárate para empezar la temporada con el mejor terminal de punto de venta.
               </p>
-              <a href="http://www.edifice-watches.eu/es/lineup/eqw-t620db-1aer/">Descubre más en nuestra web</a>
+              <a href="http://www.edifice-watches.eu/es/lineup/eqb-500d-1aer/">Descubre más en nuestra web</a>
               <img src="images/image-promo.png" alt="CASIO Edifice Premium" class="stillimg"/>
 
             </div>
@@ -102,63 +102,37 @@
                           <label for="fieldttghli-0"><input id="fieldttghli-0" name="cm-fo-ttghli" value="5058725" type="checkbox" required /> Acepto las condiciones legales</label>
                       </div>
                       <textarea rows="4" cols="50" readonly>Condiciones del sorteo
-    1º.- DURACIÓN: Los sorteos estarán vigentes mientras aparezcan publicados en la
-    web como sorteos activos. Normalmente el plazo de duración de un sorteo es de
-    entre 1 y 30 días naturales, existiendo sorteos especiales de mayor duración. En el web
-    siempre está disponible y especificado en cada sorteo el tiempo que resta para
-    poder participar en el mismo.
+    1º.- DURACIÓN: Los sorteos estarán vigentes mientras aparezcan publicados en la web como sorteos activos. Normalmente el plazo de duración de un sorteo es de entre 1 y 30 días naturales, existiendo sorteos especiales de mayor duración. En el web siempre está disponible y especificado en cada sorteo el tiempo que resta para poder participar en el mismo.
 
-    2º.- AMBITO TERRITORIAL: El ámbito territorial de estos sorteos se extiende a
-    todo el territorio nacional español.
-
+    2º.- AMBITO TERRITORIAL: El ámbito territorial de estos sorteos se extiende a todo el territorio nacional español.
     *AVISO :Es probable que en determinados sorteos puedan participar personas residentes fuera de España,en ese caso,se avisará de este hecho en propio sorteo,donde el usuario podrá ver un *AVISO de que en dicho sorteo pueden participar residentes fuera de España.
 
-    3º.- GRATUIDAD: Para participar en los sorteos no es necesario abonar cantidad
-    alguna, teniendo todos ellos carácter gratuito.
+    3º.- GRATUIDAD: Para participar en los sorteos no es necesario abonar cantidad alguna, teniendo todos ellos carácter gratuito.
 
-    4º.- AMBITO PERSONAL: Podrán participar en el sorteo las personas mayores
-    de edad, que sean residentes en el territorio nacional(Se avisará en los sorteos que se amplíe la participación a residentes fuera de España) y que cumplan los requisitos que se piden cuando le damos a PARTICIPAR en cualquiera de los sorteos activos:
+    4º.- AMBITO PERSONAL: Podrán participar en el sorteo las personas mayores de edad, que sean residentes en el territorio nacional(Se avisará en los sorteos que se amplíe la participación a residentes fuera de España) y que cumplan los requisitos que se piden cuando le damos a PARTICIPAR en cualquiera de los sorteos activos:
+    No podrán participar en los sorteos ni los trabajadores de CASIO, ni sus cónyuges o familiares de hasta tercer grado, así como los trabajadores de cualquier empresa implicada en los sorteos.
+    La participación del usuario en los sorteos, implica la completa aceptación de las presentes Bases. El incumplimiento de lo establecido en las presentes bases conllevará la inadmisión del usuario como participante del sorteo.
 
-    No podrán participar en los sorteos ni los trabajadores de CASIO, ni sus
-    cónyuges o familiares de hasta tercer grado, así como los trabajadores de cualquier
-    empresa implicada en los sorteos.
-    La participación del usuario en los sorteos, implica la completa aceptación de las
-    presentes Bases.
-    El incumplimiento de lo establecido en las presentes bases conllevará la inadmisión
-    del usuario como participante del sorteo.
+    5º.- COMUNICACIÓN DE LOS SORTEOS: la realización de los sorteos, se comunicará a través de la página web http://casio-ecr.es
 
-    5º.- COMUNICACIÓN DE LOS SORTEOS: la realización de los sorteos, se
-    comunicará a través de la página web http://casio-ecr.es
+    6º.- MECANICA DE PARTICIPACIÓN: Para participar en los sorteos que realizamos semanalmente, tan sólo tienes que rellenar el formulario. Todos los participantes tienen las mismas posibilidades de ganar.
 
-    6º.- MECANICA DE PARTICIPACIÓN: Para participar en los sorteos que
-    realizamos semanalmente, tan sólo tienes que rellenar el formulario.
-    Todos los participantes tienen las mismas
-    posibilidades de ganar.
-
-    7º.- SORTEO: El sorteo se realizará pasadas 24-48 horas laborables desde la
-    finalización del sorteo. Se informará al ganador mediante email.
+    7º.- SORTEO: El sorteo se realizará pasadas 24-48 horas laborables desde la finalización del sorteo. Se informará al ganador mediante email.
     En caso de que el ganador rechace el premio se volverá a generar un nuevo ganador, pasando este a ser el nuevo ganador del sorteo.
     El mecanismo del sorteo se realiza de forma informática. Los datos de los participantes se almacenan en una Base de datos , 1 registro por participante.
-    En la celebración del sorteo, un encargado de CASIO iniciará el Programa informático que seleccionará de forma aleatoria un registro de entre todos los Registros de la Base de datos donde se almacenan todos los datos de los participantes,
-    Siendo el registro elegido el ganador del sorteo.
+    En la celebración del sorteo, un encargado de CASIO iniciará el Programa informático que seleccionará de forma aleatoria un registro de entre todos los Registros de la Base de datos donde se almacenan todos los datos de los participantes, Siendo el registro elegido el ganador del sorteo.
     CASIO se reserva el derecho de retrasar la celebración del sorteo si por cualquier causa justificada así fuera necesario para la justa y objetiva realización del sorteo. En caso de que sucediese esto, CASIO se compromete a publicarlo en la web.
 
     PREMIOS
     8º.- GANADORES: El resultado de los sorteos realizados será comunicado a los ganadores a través de la dirección de correo electrónico facilitada en el momento de participar; así como en la página web http://casio-ecr.es
 
-    9º.- ACEPTACIÓN DEL PREMIO: Una vez remitida comunicación por mail por
-    parte de CASIO a los ganadores, los ganadores dispondrán de un plazo de quince (15 días) para aceptar el premio y facilitar los datos donde desea recibir el premio.
-    En caso de que los ganadores no contesten a esta comunicación o no acepten el premio, se volverá a generar un nuevo ganador,pasando este a ser el nuevo ganador del sorteo..
-    Los costes de envío y/o transporte del premio correrán a cargo de CASIO.
+    9º.- ACEPTACIÓN DEL PREMIO: Una vez remitida comunicación por mail por parte de CASIO a los ganadores, los ganadores dispondrán de un plazo de quince (15 días) para aceptar el premio y facilitar los datos donde desea recibir el premio. En caso de que los ganadores no contesten a esta comunicación o no acepten el premio, se volverá a generar un nuevo ganador,pasando este a ser el nuevo ganador del sorteo.. Los costes de envío y/o transporte del premio correrán a cargo de CASIO.
 
-    10º.- RESPONSABILIDADES: CASIO No se responsabiliza de las posibles pérdidas, deterioros, robos, retrasos o cualquier otra circunstancia imputable a Internet o a terceros que puedan afectar a los envíos de los premios y/o a la posibilidad de participar en la página web. En ningún caso CASIO será responsable de los servicios que cualquier otra entidad con la que esta colabore, presten a los
-    agraciados como consecuencia de la obtención de los premios entregados. Los participantes garantizan el efectivo cumplimiento de los requisitos establecidos en las presentes bases, eximiendo en todo caso a CASIO de cualquier tipo de responsabilidad frente a terceros derivada del incumplimiento de dicha garantía.
+    10º.- RESPONSABILIDADES: CASIO No se responsabiliza de las posibles pérdidas, deterioros, robos, retrasos o cualquier otra circunstancia imputable a Internet o a terceros que puedan afectar a los envíos de los premios y/o a la posibilidad de participar en la página web. En ningún caso CASIO será responsable de los servicios que cualquier otra entidad con la que esta colabore, presten a los agraciados como consecuencia de la obtención de los premios entregados. Los participantes garantizan el efectivo cumplimiento de los requisitos establecidos en las presentes bases, eximiendo en todo caso a CASIO de cualquier tipo de responsabilidad frente a terceros derivada del incumplimiento de dicha garantía.
 
     11º.- PROTECIÓN DE DATOS: Los datos personales consignados por los usuarios a través de la página web http://casio-ecr.es , entrarán a formar parte de un fichero de datos de carácter personal creado por CASIO.
 
-    12º.- LEGISLACIÓN Y COMPETENCIA: Las presentes bases se rigen por la ley española y tanto los participantes como CASIO, con renuncia expresa a cualquier otro fuero que pudiera corresponderles, se someten expresamente, para el conocimiento de cualquier litigio que pudiera plantearse en cuanto a la
-    interpretación o aplicación de las presentes Bases, a la jurisdicción y competencia de los Juzgados y Tribunales de Alicante. En el caso de que el anunciante tuviese unas condiciones más restrictivas
-    Primarán estas sobre las presentes.
+    12º.- LEGISLACIÓN Y COMPETENCIA: Las presentes bases se rigen por la ley española y tanto los participantes como CASIO, con renuncia expresa a cualquier otro fuero que pudiera corresponderles, se someten expresamente, para el conocimiento de cualquier litigio que pudiera plantearse en cuanto a la interpretación o aplicación de las presentes Bases, a la jurisdicción y competencia de los Juzgados y Tribunales de Alicante. En el caso de que el anunciante tuviese unas condiciones más restrictivas Primarán estas sobre las presentes.
 
     PROTECCIÓN DE DATOS
     De conformidad con la Ley 15/1999 de datos de Carácter personal y la ley 34/2002 de la Sociedad de la Información (LSSICE) le informamos que :
