@@ -41,7 +41,7 @@
               <p>Optimiza y sácale el máximo partido a todas las soluciones TPV de CASIO y prepárate para empezar la temporada con el mejor terminal de punto de venta.
               </p>
               <a href="http://www.edifice-watches.eu/es/lineup/eqb-500d-1aer/">Descubre más en nuestra web</a>
-              <img src="images/image-promo.png" alt="CASIO Edifice Premium" class="stillimg"/>
+              <img src="images/EQB-500D-1AER.png" alt="CASIO Edifice Premium" class="stillimg"/>
 
             </div>
             <div class="large-6 medium-6 columns">
