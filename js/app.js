@@ -10,7 +10,7 @@ $(document).ready(function(){
     cookieAnalyticsMessage: "Este sitio usa cookies. Para continuar sin cambiar su configuración, acepta el uso de cookies.",
     cookieAcceptButtonText: "x",
     cookieWhatAreLinkText: "Más información.",
-    cookieWhatAreTheyLink: 'conformidad-con-cookies.html',
+    cookieWhatAreTheyLink: 'conformidad-con-cookies.php',
     cookieOverlayEnabled: false
   });
 });
