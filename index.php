@@ -69,7 +69,7 @@
                   <label for="fieldttghli-0"><input id="fieldttghli-0" name="cm-fo-ttghli" value="5058725" type="checkbox" required /> Acepto las condiciones legales</label>
               </div>
               <textarea rows="4" cols="50" readonly>Condiciones del sorteo
-1º.- DURACIÓN: Los sorteos estarán vigentes mientras aparezcan publicados en la web como sorteos activos. Normalmente el plazo de duración de un sorteo es de entre 1 y 30 días naturales, existiendo sorteos especiales de mayor duración. En el web siempre está disponible y especificado en cada sorteo el tiempo que resta para poder participar en el mismo.
+1º.- DURACIÓN: Los sorteos estarán vigentes mientras aparezcan publicados en la web como sorteos activos. Normalmente el plazo de duración de un sorteo es de entre 1 y 60 días naturales, existiendo sorteos especiales de mayor duración. En el web siempre está disponible y especificado en cada sorteo el tiempo que resta para poder participar en el mismo.
 
 2º.- AMBITO TERRITORIAL: El ámbito territorial de estos sorteos se extiende a todo el territorio nacional español.
 *AVISO :Es probable que en determinados sorteos puedan participar personas residentes fuera de España,en ese caso,se avisará de este hecho en propio sorteo,donde el usuario podrá ver un *AVISO de que en dicho sorteo pueden participar residentes fuera de España.
