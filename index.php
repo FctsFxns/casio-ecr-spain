@@ -7,7 +7,7 @@
       <h1 >No pierdas ni un segundo y gana un reloj <b>CASIO Edifice Premium</b></h1>
       <p>Optimiza y sácale el máximo partido a todas las soluciones TPV de CASIO y prepárate para empezar la temporada con el mejor terminal de punto de venta.
       </p>
-      <a href="http://www.edifice-watches.eu/es/lineup/eqb-500d-1aer/">Descubre más en nuestra web</a>
+      <a href="http://www.edifice-watches.eu/es/lineup/eqb-500d-1aer/" target="_blank">Descubre más en nuestra web</a>
       <img src="images/EQB-500D-1AER.png" alt="CASIO Edifice Premium" class="stillimg"/>
 
     </div>
@@ -130,7 +130,7 @@ Si sus datos han sido recogidos para la utilización de algún servicio de infor
       <div class="large-5 medium-6 columns">
           <h2>Un nuevo estilo para tu punto de venta en hostelería y retail</h2>
           <p>Las soluciones de Casio ECR son herramientas inteligentes, seguras y elegantes para trabajar. Tecnología de alto rendimiento que hará tu jornada laboral más eficiente y eficaz.</p>
-          <a href="http://bit.ly/sorteoecr" class="link">Consulte nuestros productos de ECR</a>
+          <a href="http://bit.ly/sorteoecr" class="link" target="_blank">Consulte nuestros productos de ECR</a>
 
       </div>
       <div class="large-7 medium-6 columns">

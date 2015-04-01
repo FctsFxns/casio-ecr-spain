@@ -19,4 +19,3 @@ exclude:
     - bower.json
 
 revision_file: .revision
-
