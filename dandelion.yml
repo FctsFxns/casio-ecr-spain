@@ -17,5 +17,6 @@ exclude:
     - Gemfile
     - Gemfile.lock
     - bower.json
-
+    - _form.html
+    - index.php__OLD
 revision_file: .revision
