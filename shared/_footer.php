@@ -1,7 +1,7 @@
     <footer id="footer">
       <div class="row">
         <div class="large-12 medium-12 columns">
-          <b>© 2014 CASIO ESPAÑA S.L.</b>
+          <b>© 2015 CASIO ESPAÑA S.L.</b>
         </div>
       </div>
       <div class="row">
@@ -16,7 +16,7 @@
           <a href="http://support.casio-europe.com/es/registration/" target="_blank">Registro de producto</a>
         </div>
         <div class="large-3 medium-3 columns">
-          <a href="https://www.youtube.com/channel/UC8sM-1xyMoafb1LtVeyOT_Q" target="_blank">Canal Youtube</a>
+          <a href="http://bit.ly/casioecrTV" target="_blank">Nuestro Canal Youtube</a>
         </div>
 
         <div class="large-3 medium-3 columns">
@@ -39,7 +39,7 @@
     </script>
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
-    
+
     <!-- UE Cookie compliance -->
     <script src="js/vendor/jquery.cookie.js"></script>
     <script src="js/vendor/jquery.cookiecuttr.js"></script>
