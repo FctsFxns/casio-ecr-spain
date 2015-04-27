@@ -4,10 +4,10 @@
 
   <div class="row">
     <div class="large-6 medium-6 columns">
-      <h1 >No pierdas ni un segundo y gana un reloj <b>CASIO Edifice Premium</b></h1>
+      <h1>No pierdas ni un segundo y gana un reloj <b>CASIO Edifice Premium</b></h1>
       <p>Optimiza y sácale el máximo partido a todas las soluciones TPV de CASIO y prepárate para empezar la temporada con el mejor terminal de punto de venta.
       </p>
-      <a href="http://www.edifice-watches.eu/es/lineup/eqb-500d-1aer/" target="_blank">Descubre más en nuestra web</a>
+      <a href="http://bit.ly/eqb500d" target="_blank">Descubre más en nuestra web</a>
       <img src="images/EQB-500D-1AER.png" alt="CASIO Edifice Premium" class="stillimg"/>
 
     </div>
@@ -115,6 +115,7 @@ Si sus datos han sido recogidos para la utilización de algún servicio de infor
               </textarea>
             </fieldset>
             <div class="button-content">
+                <input id="fieldihulthd" name="cm-f-ihulthd" type="hidden" value="cmp201504" />
                 <button type="submit" class="medium success button">Enviar</button>
             </div>
         </form>
