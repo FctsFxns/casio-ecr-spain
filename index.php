@@ -58,7 +58,7 @@
               <div class="inputgroup">
                   <label for="fieldttgdhi">¿Tiene ya un algún sistema de TPV?</label>
                   <div id="fieldttgdhi" name="cm-fo-ttgdhi" class="radiogroup">
-                      <label><input type="radio" name="cm-fo-ttgdhi" value="5058723">si</label>
+                      <label><input type="radio" name="cm-fo-ttgdhi" value="5058723">sí</label>
                       <label><input type="radio" name="cm-fo-ttgdhi" value="5058724">no</label>
                   </div>
               </div>
