@@ -154,6 +154,9 @@ footer#footer {
       &:first-child {
         border: none;
       }
+      &.add-info {
+        background: rgba(12, 16, 19, 0.05);
+      }
 
     }
     label {
@@ -190,7 +193,8 @@ footer#footer {
     textarea {
       resize:vertical;
       margin: 5px 0 0;
-      color:  $monsoon;
+      color:  $aluminum;
+      background: #fff;
       font-size: 13px;
     }
     .inputgroup{
@@ -240,7 +244,9 @@ footer#footer {
       padding: .7em 3.2em;
 
       &.success {
-          background-color: #f10600;
+        background-color: #f10600;
+        font-size: 1.2em;
+        font-weight: 700;
         &:hover {
           background-color: #f10600;
         }

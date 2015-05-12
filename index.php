@@ -4,7 +4,7 @@
 
   <div class="row">
     <div class="large-6 medium-6 columns">
-      <h1>No pierdas ni un segundo y gana un reloj <b>CASIO Edifice Premium</b></h1>
+      <h1>No pierdas ni un segundo. <br>¡Llévate este reloj <b>CASIO Edifice Premium</b> gratis!</h1>
       <p>Optimiza y sácale el máximo partido a todas las soluciones TPV de CASIO y prepárate para empezar la temporada con el mejor terminal de punto de venta.
       </p>
       <a href="http://bit.ly/eqb500d" target="_blank">Descubre más en nuestra web</a>
@@ -13,25 +13,25 @@
     </div>
     <div class="large-6 medium-6 columns">
       <div class="form-content">
-        <h2 class="title-form">Participa en el sorteo</h2>
+        <h2 class="title-form">¡Rellena los campos y entra en el sorteo del reloj!</h2>
         <form action="http://marketing.divisioneducativa.es/t/r/s/iydlddr/" method="post">
             <fieldset>
               <div class="inputgroup">
-                  <label for="fieldName">Su nombre y apellidos <span>*</span></label>
+                  <label for="fieldName">Nombre y apellidos <span>*</span></label>
                   <input id="fieldName" name="cm-name" type="text" placeholder="Ej: Juan Alonso" required />
               </div>
               <div class="inputgroup">
                   <label for="fieldEmail">Correo electrónico <span>*</span></label>
                   <input id="fieldEmail" name="cm-iydlddr-iydlddr" type="email" required placeholder="Ej: tu-email@dominio.es" required />
               </div>
-              <div class="inputgroup">
+             <!-- <div class="inputgroup">
                   <label for="fieldttgdtu">Teléfono de contacto</label>
                   <input id="fieldttgdtu" name="cm-f-ttgdtu" type="text" placeholder="Ej: 91 000 00 00" />
-              </div>
+              </div>-->
             </fieldset>
-            <fieldset>
+            <fieldset class="add-info">
               <div class="inputgroup">
-                  <label for="fieldttgddi">¿A qué se dedica?</label>
+                  <label for="fieldttgddi">¿A qué te dedicas?</label>
                   <div id="fieldttgddi" name="cm-fo-ttgddi" class="radiogroup">
                       <label><input type="radio" name="cm-fo-ttgddi" value="5058636">Comercio</label>
                       <label><input type="radio" name="cm-fo-ttgddi" value="5058637">Hostelería</label>
@@ -39,7 +39,7 @@
                   </div>
               </div>
               <div class="inputgroup">
-                  <label for="fieldttgddd">¿Cómo se llama su empresa?</label>
+                  <label for="fieldttgddd">¿Cómo se llama tu empresa?</label>
                   <input id="fieldttgddd" name="cm-f-ttgddd" type="text" placeholder="Ej: Asador de Aranda" />
               </div>
               <div class="inputgroup">
@@ -47,7 +47,7 @@
                   <input id="fieldttgddh" name="cm-f-ttgddh" type="text" placeholder="Ej: Madrid" />
               </div>
               <div class="inputgroup">
-                  <label for="fieldttgdht">¿Cuántos empleados son?</label>
+                  <label for="fieldttgdht">¿Cuántos empleados sois?</label>
                   <div id="fieldttgdht" name="cm-fo-ttgdht" class="radiogroup">
                       <label><input type="radio" name="cm-fo-ttgdht" value="5058719">menos de 4</label>
                       <label><input type="radio" name="cm-fo-ttgdht" value="5058720">menos de 15</label>
@@ -56,7 +56,7 @@
                   </div>
               </div>
               <div class="inputgroup">
-                  <label for="fieldttgdhi">¿Tiene ya un algún sistema de TPV?</label>
+                  <label for="fieldttgdhi">¿Tiene algún sistema de TPV?</label>
                   <div id="fieldttgdhi" name="cm-fo-ttgdhi" class="radiogroup">
                       <label><input type="radio" name="cm-fo-ttgdhi" value="5058723">sí</label>
                       <label><input type="radio" name="cm-fo-ttgdhi" value="5058724">no</label>
@@ -116,7 +116,7 @@ Si sus datos han sido recogidos para la utilización de algún servicio de infor
             </fieldset>
             <div class="button-content">
                 <input id="fieldihulthd" name="cm-f-ihulthd" type="hidden" value="cmp201504" />
-                <button type="submit" class="medium success button">Enviar</button>
+                <button type="submit" class="medium success button">¡Quiero ganar!</button>
             </div>
         </form>
       </div>
