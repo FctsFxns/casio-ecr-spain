@@ -5,6 +5,7 @@
   <div class="row">
     <div class="large-6 medium-6 columns">
       <h1>No pierdas ni un segundo. <br>¡Llévate este reloj <b>CASIO Edifice Premium</b> gratis!</h1>
+
       <p>Optimiza y sácale el máximo partido a todas las soluciones TPV de CASIO y prepárate para empezar la temporada con el mejor terminal de punto de venta.
       </p>
       <a href="http://bit.ly/eqb500d" target="_blank">Descubre más en nuestra web</a>
@@ -13,7 +14,7 @@
     </div>
     <div class="large-6 medium-6 columns">
       <div class="form-content">
-        <h2 class="title-form">¡Rellena los campos y entra en el sorteo del reloj!</h2>
+        <h2 class="title-form">Rellena los campos y entra en el sorteo del reloj<br> <b>¡Corre! Tienes hasta el <u>31 de mayo</u></b></h2>
         <form action="http://marketing.divisioneducativa.es/t/r/s/iydlddr/" method="post">
             <fieldset>
               <div class="inputgroup">
@@ -56,7 +57,7 @@
                   </div>
               </div>
               <div class="inputgroup">
-                  <label for="fieldttgdhi">¿Tiene algún sistema de TPV?</label>
+                  <label for="fieldttgdhi">¿Tenéis algún sistema de TPV?</label>
                   <div id="fieldttgdhi" name="cm-fo-ttgdhi" class="radiogroup">
                       <label><input type="radio" name="cm-fo-ttgdhi" value="5058723">sí</label>
                       <label><input type="radio" name="cm-fo-ttgdhi" value="5058724">no</label>
@@ -65,10 +66,10 @@
             </fieldset>
             <fieldset>
               <div class="inputgroup checkgroup">
-                  <label for="fieldttgdud-0"><input id="fieldttgdud-0" name="cm-fo-ttgdud" value="5058726" type="checkbox" checked /> ¿Podemos comunicarle nuestras ofertas?</label><br />
-                  <label for="fieldttghli-0"><input id="fieldttghli-0" name="cm-fo-ttghli" value="5058725" type="checkbox" required /> Acepto las condiciones legales</label>
+                  <label for="fieldttgdud-0"><input id="fieldttgdud-0" name="cm-fo-ttgdud" value="5058726" type="checkbox" checked /> ¿Podemos comunicarte nuestras ofertas?</label><br />
+                  <label for="fieldttghli-0"><input id="fieldttghli-0" name="cm-fo-ttghli" value="5058725" type="checkbox" required /><span>*</span> Acepto las <a href="#" id="legal-toggl">condiciones legales</a></label>
               </div>
-              <textarea rows="4" cols="50" readonly>Condiciones del sorteo
+              <textarea rows="4" cols="50" readonly class="legal-text" style="display:none">Condiciones del sorteo
 1º.- DURACIÓN: Los sorteos estarán vigentes mientras aparezcan publicados en la web como sorteos activos. Normalmente el plazo de duración de un sorteo es de entre 1 y 60 días naturales, existiendo sorteos especiales de mayor duración. En el web siempre está disponible y especificado en cada sorteo el tiempo que resta para poder participar en el mismo.
 
 2º.- AMBITO TERRITORIAL: El ámbito territorial de estos sorteos se extiende a todo el territorio nacional español.
@@ -117,6 +118,7 @@ Si sus datos han sido recogidos para la utilización de algún servicio de infor
             <div class="button-content">
                 <input id="fieldihulthd" name="cm-f-ihulthd" type="hidden" value="cmp201504" />
                 <button type="submit" class="medium success button">¡Quiero ganar!</button>
+                <p class="required"><span>* campos obligatorios</span></p>
             </div>
         </form>
       </div>

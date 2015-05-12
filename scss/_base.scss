@@ -80,7 +80,7 @@ footer#footer {
   h1 {
     color: #fff;
     line-height: 1.2em;
-    margin: 1.5em 0 .5em;
+   // margin: 1.5em 0 .5em;
     font-size: 2.5em;
   }
 
@@ -175,8 +175,15 @@ footer#footer {
       line-height: 1em;
       span {
         color: red;
-        margin-left: 0.25em;
       }
+      a{
+        text-decoration: underline;
+      }
+    }
+    .required {
+        color: red;
+        font-size: .7em;
+        text-transform: uppercase;
     }
     input[type="name"], input[type="text"], input[type="email"], input[type="url"], input[type="password"] {
       color: $jet;
@@ -247,6 +254,7 @@ footer#footer {
         background-color: #f10600;
         font-size: 1.2em;
         font-weight: 700;
+        margin-bottom: 10px;
         &:hover {
           background-color: #f10600;
         }

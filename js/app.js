@@ -29,3 +29,14 @@ $(function() {
     }
   });
 });
+
+
+(function ($) {
+  
+      $('#legal-toggl').click(function(e){
+        e.preventDefault();
+        $('.legal-text').slideToggle('fast');
+        $(this).toggleClass('active');
+      });
+      
+}(jQuery));
