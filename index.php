@@ -6,7 +6,7 @@
     <div class="large-6 medium-6 columns">
       <h1>No pierdas ni un segundo. <br>¡Llévate este reloj <b>CASIO Edifice Premium</b> gratis!</h1>
 
-      <p>Optimiza y sácale el máximo partido a todas las soluciones TPV de CASIO y prepárate para empezar la temporada con el mejor terminal de punto de venta.
+      <p>Optimiza y sácale el máximo partido a todas las soluciones <a href="#tpv">TPV de CASIO</a> y prepárate para empezar la temporada con el mejor terminal de punto de venta.
       </p>
       <a href="http://bit.ly/eqb500d" target="_blank">Descubre más en nuestra web</a>
       <img src="images/EQB-500D-1AER.png" alt="CASIO Edifice Premium" class="stillimg"/>
@@ -127,7 +127,7 @@ Si sus datos han sido recogidos para la utilización de algún servicio de infor
 </section>
 
 
-<section class="ecr-section">
+<section class="ecr-section" id="tpv">
   <div class="v-align">
     <div class="row">
       <div class="large-5 medium-6 columns">

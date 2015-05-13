@@ -4,7 +4,9 @@ body {
   font-family: $body-font-family;
   border-top: 8px solid #0064b5;
 }
-
+a {
+  color: $link-color;
+}
 header[role="banner"]{
   border-top: 20px solid $primary-color;
   position: absolute;
