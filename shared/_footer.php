@@ -16,7 +16,7 @@
           <a href="http://support.casio-europe.com/es/registration/" target="_blank">Registro de producto</a>
         </div>
         <div class="large-3 medium-3 columns">
-          <a href="http://bit.ly/casioecrTV" target="_blank">Nuestro Canal Youtube</a>
+          <a href="http://bit.ly/casioecrTV" target="_blank">Video-tutoriales</a>
         </div>
 
         <div class="large-3 medium-3 columns">
