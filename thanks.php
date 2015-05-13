@@ -6,10 +6,10 @@
       <div class="large-5 medium-6 columns small-centered ">
         <br><br><br><br><br><br><br>
           <h2>¡Gracias por participar!</h2>
-          <p>Su solicitud de participación en el sorteo ha sido realizada con éxito.</p>
-          <p>No dude en contactar con nuestro departamento comercial llamando al teléfono <strong>93 485 84 00</strong> o por e-mail en <a href="mailto:info@casio-ecr.es">info@casio-ecr.es</a> para cualquier aclaración.</p>
+          <p>La participación en el sorteo ha sido realizada con éxito. A partir del 31 de Mayo anunciaremos el ganador.</p>
+          <p>Para cualquier aclaración contacte con nuestro departamento comercial llamando al teléfono <strong style="color:#fff; font-size:1.2em; white-space:nowrap">934 858 400</strong> o por email a <a href="mailto:info@casio-ecr.es">info@casio-ecr.es</a>.</p>
           <br/>
-          <a href="http://bit.ly/sorteoecr" class="link button radius small" target="_blank">Consulte nuestros productos</a>
+          <a href="http://bit.ly/sorteoecr" class="link button radius" target="_blank">Consulte nuestros productos</a>
           <br/>
           <br/>
           <br/>
