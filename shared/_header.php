@@ -10,7 +10,7 @@
     <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
     <meta http-equiv="pragma" content="no-cache" />
 
-    <title>No pierdas ni un segundo y gana un reloj CASIO Edifice Premium</title>
+    <title>¡Llévate un reloj CASIO Edifice Premium!</title>
     <meta name="description" content="Optimiza y sácale el máximo partido a todas las soluciones TPV de CASIO y prepárate para empezar la temporada con el mejor terminal de punto de venta.">
 
     <link href='http://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700' rel='stylesheet' type='text/css'>
