@@ -6,10 +6,10 @@
     <div class="large-6 medium-6 columns">
       <h1>No pierdas ni un segundo. <br>¡Llévate este reloj <b>CASIO Edifice Premium</b> gratis!</h1>
 
-      <p>Optimiza y sácale el máximo partido a todas las <a href="#tpv">soluciones TPV de CASIO</a> y prepárate para empezar la temporada con el mejor terminal de punto de venta.
+      <p>Optimiza y sácale el máximo partido a todas las <a href="#tpv" class="track"  data-category="interaction" data-action="goto" data-label="soluciones-tpv" data-value="0">soluciones TPV de CASIO</a> y prepárate para empezar la temporada con el mejor terminal de punto de venta.
       </p>
-      <a href="http://bit.ly/eqb500d" target="_blank">El reloj ideal para tu smartphone</a>
-      <a href="http://bit.ly/eqb500d" target="_blank"><img src="images/EQB-500D-1AER.png" alt="CASIO Edifice Premium" class="stillimg"/></a>
+      <a href="http://bit.ly/eqb500d" target="_blank" class="track"  data-category="outbound-link" data-action="visit" data-label="edifice-watch" data-value="2">El reloj ideal para tu smartphone</a>
+      <a href="http://bit.ly/eqb500d"target="_blank" class="track"  data-category="outbound-link" data-action="visit" data-label="edifice-watch" data-value="2"><img src="images/EQB-500D-1AER.png" alt="CASIO Edifice Premium" class="stillimg"/></a>
 
     </div>
     <div class="large-6 medium-6 columns">
@@ -135,11 +135,13 @@ Si sus datos han sido recogidos para la utilización de algún servicio de infor
       <div class="large-5 medium-6 columns">
           <h2>Un nuevo estilo para tu punto de venta en hostelería y retail</h2>
           <p>Las soluciones de Casio ECR son herramientas inteligentes, seguras y elegantes para trabajar. Tecnología de alto rendimiento que hará tu jornada laboral más eficiente y eficaz.</p>
-          <a href="http://bit.ly/ecrb2b" class="link" target="_blank">Consulta nuestras soluciones de punto de venta y B2B</a>
+          <a href="http://bit.ly/ecrb2b" class="link track" target="_blank" data-category="goal" data-action="visit" data-label="b2b-site" data-value="10">Consulta nuestras soluciones de punto de venta y B2B</a>
 
       </div>
       <div class="large-7 medium-6 columns">
-        <img src="images/ecr-product-01.jpg" alt="Electronic cash register V-R100" class="stillimg"/>
+        <a href="http://bit.ly/casiovr100" class="track" target="_blank" data-category="goal" data-action="visit" data-label="product-VR100" data-value="10">
+          <img src="images/ecr-product-01.jpg" alt="Electronic cash register V-R100" class="stillimg"/>
+        </a>
       </div>
     </div>
   </div>
