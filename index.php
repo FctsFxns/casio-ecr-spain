@@ -6,15 +6,15 @@
     <div class="large-6 medium-6 columns">
       <h1>No pierdas ni un segundo. <br>¡Llévate este reloj <b>CASIO Edifice Premium</b> gratis!</h1>
 
-      <p>Optimiza y sácale el máximo partido a todas las soluciones <a href="#tpv">TPV de CASIO</a> y prepárate para empezar la temporada con el mejor terminal de punto de venta.
+      <p>Optimiza y sácale el máximo partido a todas las <a href="#tpv">soluciones TPV de CASIO</a> y prepárate para empezar la temporada con el mejor terminal de punto de venta.
       </p>
-      <a href="http://bit.ly/eqb500d" target="_blank">Descubre más en nuestra web</a>
-      <img src="images/EQB-500D-1AER.png" alt="CASIO Edifice Premium" class="stillimg"/>
+      <a href="http://bit.ly/eqb500d" target="_blank">El reloj ideal para tu smartphone</a>
+      <a href="http://bit.ly/eqb500d" target="_blank"><img src="images/EQB-500D-1AER.png" alt="CASIO Edifice Premium" class="stillimg"/></a>
 
     </div>
     <div class="large-6 medium-6 columns">
       <div class="form-content">
-        <h2 class="title-form">Rellena los campos y entra en el sorteo del reloj<br> <b>¡Corre! Tienes hasta el <u>31 de mayo</u></b></h2>
+        <h2 class="title-form">Rellena los campos y entra en el sorteo del reloj<br> <b>¡Aprovecha! Tienes hasta el <u>31 de mayo</u></b></h2>
         <form action="http://marketing.divisioneducativa.es/t/r/s/iydlddr/" method="post">
             <fieldset>
               <div class="inputgroup">
@@ -25,14 +25,10 @@
                   <label for="fieldEmail">Correo electrónico <span>*</span></label>
                   <input id="fieldEmail" name="cm-iydlddr-iydlddr" type="email" required placeholder="Ej: tu-email@dominio.es" required />
               </div>
-             <!-- <div class="inputgroup">
-                  <label for="fieldttgdtu">Teléfono de contacto</label>
-                  <input id="fieldttgdtu" name="cm-f-ttgdtu" type="text" placeholder="Ej: 91 000 00 00" />
-              </div>-->
             </fieldset>
             <fieldset class="add-info">
               <div class="inputgroup">
-                  <label for="fieldttgddi">¿A qué te dedicas?</label>
+                  <label for="fieldttgddi">¿A qué se dedica tu empresa?</label>
                   <div id="fieldttgddi" name="cm-fo-ttgddi" class="radiogroup">
                       <label><input type="radio" name="cm-fo-ttgddi" value="5058636">Comercio</label>
                       <label><input type="radio" name="cm-fo-ttgddi" value="5058637">Hostelería</label>
@@ -40,7 +36,7 @@
                   </div>
               </div>
               <div class="inputgroup">
-                  <label for="fieldttgddd">¿Cómo se llama tu empresa?</label>
+                  <label for="fieldttgddd">¿Cómo se llama?</label>
                   <input id="fieldttgddd" name="cm-f-ttgddd" type="text" placeholder="Ej: Asador de Aranda" />
               </div>
               <div class="inputgroup">
@@ -63,6 +59,12 @@
                       <label><input type="radio" name="cm-fo-ttgdhi" value="5058724">no</label>
                   </div>
               </div>
+             <div class="inputgroup">
+                  <label for="fieldttgdtu">Déjanos tu teléfono, si deseas información</label>
+                  <input id="fieldttgdtu" name="cm-f-ttgdtu" type="text" placeholder="Ej: 91 000 00 00" />
+              </div>
+
+
             </fieldset>
             <fieldset>
               <div class="inputgroup checkgroup">
@@ -117,7 +119,7 @@ Si sus datos han sido recogidos para la utilización de algún servicio de infor
             </fieldset>
             <div class="button-content">
                 <input id="fieldihulthd" name="cm-f-ihulthd" type="hidden" value="cmp201504" />
-                <button type="submit" class="medium success button">¡Quiero ganar!</button>
+                <button type="submit" class="medium success button">Enviar</button>
                 <p class="required"><span>* campos obligatorios</span></p>
             </div>
         </form>
@@ -133,7 +135,7 @@ Si sus datos han sido recogidos para la utilización de algún servicio de infor
       <div class="large-5 medium-6 columns">
           <h2>Un nuevo estilo para tu punto de venta en hostelería y retail</h2>
           <p>Las soluciones de Casio ECR son herramientas inteligentes, seguras y elegantes para trabajar. Tecnología de alto rendimiento que hará tu jornada laboral más eficiente y eficaz.</p>
-          <a href="http://bit.ly/sorteoecr" class="link" target="_blank">Consulte nuestros productos de ECR</a>
+          <a href="http://bit.ly/ecrb2b" class="link" target="_blank">Consulta nuestras soluciones de punto de venta y B2B</a>
 
       </div>
       <div class="large-7 medium-6 columns">
