@@ -134,7 +134,7 @@ Si sus datos han sido recogidos para la utilización de algún servicio de infor
     <div class="row">
       <div class="large-5 medium-6 columns">
           <h2>Un nuevo estilo para tu punto de venta en hostelería y retail</h2>
-          <p>Las soluciones de Casio ECR son herramientas inteligentes, seguras y elegantes para trabajar. Tecnología de alto rendimiento que hará tu jornada laboral más eficiente y eficaz.</p>
+          <p>Las soluciones de Casio ECR son herramientas inteligentes, seguras y elegantes para trabajar. Una solución tecnológica que dará un alto rendimiento a tu jornada laboral.</p>
           <a href="http://bit.ly/ecrb2b" class="link track" target="_blank" data-category="goal" data-action="visit" data-label="b2b-site" data-value="10">Consulta nuestras soluciones de punto de venta y B2B</a>
 
       </div>

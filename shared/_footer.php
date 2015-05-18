@@ -12,7 +12,7 @@
         </div>
         <div class="large-3 medium-3 columns">
           <a href="http://support.casio.com/es/manual/manuallist.php?cid=006" target="_blank" class="track" data-category="outbound-link" data-action="visit" data-label="manuals" data-value="2">Manuales y descargas</a> <br/>
-          <a href="http://support.casio-europe.com/euro/repair/ecr/" target="_blank">Reparación de productos</a> <br/>
+          <a href="http://support.casio-europe.com/euro/repair/ecr/" target="_blank" class="track" data-category="outbound-link" data-action="visit" data-label="repair" data-value="2">Reparación de productos</a> <br/>
           <a href="http://support.casio-europe.com/es/registration/" target="_blank" class="track" data-category="goal" data-action="register-product" data-label="web" data-value="15">Registro de producto</a>
         </div>
         <div class="large-3 medium-3 columns">
