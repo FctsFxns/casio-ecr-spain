@@ -14,7 +14,7 @@
     </div>
     <div class="large-6 medium-6 columns">
       <div class="form-content">
-        <h2 class="title-form">Rellena los campos y entra en el sorteo del reloj<br> <b>¡Aprovecha! Tienes hasta el <u>31 de mayo</u></b></h2>
+        <h2 class="title-form">Entra en el sorteo de un reloj CASIO Edifice Premium<br> <b>¡Aprovecha! Tienes hasta el <u>31 de mayo</u></b></h2>
         <form action="http://marketing.divisioneducativa.es/t/r/s/iydlddr/" method="post">
             <fieldset>
               <div class="inputgroup">
