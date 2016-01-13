@@ -39,9 +39,13 @@
 			* @tip Set the border for your email.
 			*/
 			#templateContainer{
-				/*@editable*/ border: 1px solid #ffffff;
+				/*@editable*/ border: 1px solid #3c7ac5;
 			}
-			
+
+			hr {
+				color: #3c7ac5 !important;
+			}
+
 			/**
 			* @tab Page
 			* @section heading 1
@@ -49,10 +53,10 @@
 			* @style heading 1
 			*/
 			h1, .h1{
-				/*@editable*/ color:#202020;
+				/*@editable*/ color:#0062B9;
 				display:block;
 				/*@editable*/ font-family:Helvetica;
-				/*@editable*/ font-size:28px;
+				/*@editable*/ font-size:32px;
 				/*@editable*/ font-weight:bold;
 				/*@editable*/ line-height:100%;
 				margin-top:0;
@@ -72,11 +76,11 @@
 			* @style heading 2
 			*/
 			h2, .h2{
-				/*@editable*/ color:#202020;
+				/*@editable*/ color:#005a9b;
 				display:block;
 				/*@editable*/ font-family:Helvetica;
 				/*@editable*/ font-size:30px;
-				/*@editable*/ font-weight:bold;
+				/*@editable*/ font-weight:normal;
 				/*@editable*/ line-height:100%;
 				margin-top:0;
 				margin-right:0;
@@ -92,11 +96,11 @@
 			* @style heading 3
 			*/
 			h3, .h3{
-				/*@editable*/ color:#202020;
+				/*@editable*/ color:#0062B9;
 				display:block;
 				/*@editable*/ font-family:Helvetica;
 				/*@editable*/ font-size:26px;
-				/*@editable*/ font-weight:bold;
+				/*@editable*/ font-weight:normal;
 				/*@editable*/ line-height:100%;
 				margin-top:0;
 				margin-right:0;
@@ -112,7 +116,7 @@
 			* @style heading 4
 			*/
 			h4, .h4{
-				/*@editable*/ color:#202020;
+				/*@editable*/ color:#0062B9;
 				display:block;
 				/*@editable*/ font-family:Helvetica;
 				/*@editable*/ font-size:22px;
@@ -134,7 +138,7 @@
 			* @theme page
 			*/
 			#templatePreheader{
-				/*@editable*/ background-color:#FAFAFA;
+				/*@editable*/ background-color:#efefef;
 			}
 			
 			/**
@@ -172,7 +176,7 @@
 			* @theme header
 			*/
 			#templateHeader{
-				/*@editable*/ background-color:#005A9B;
+				/*@editable*/ background-color:#0062B9;
 				/*@editable*/ border-bottom:0;
 			}
 
@@ -417,6 +421,21 @@
 			#monkeyRewards img{
 				max-width:190px;
 			}
+
+			/**
+			 *  Buttons
+			 **/
+			 .button {
+		      background: #F10600; color: #ffffff; padding: 10px 15px; font-weight: bold; text-decoration: none; border-radius: 5px; moz-border-radius: 5px; khtml-border-radius: 5px; o-border-radius: 5px; webkit-border-radius: 5px; ms-border-radius: 5px; clear:both; display: block; float: left; margin-top: 10px;
+		      font-family: helvetica;
+			 }
+
+			.button a {
+			      color: #ffffff !important;
+			      text-decoration: none !important;
+			      font-weight: bold !important;
+		    }
+
 		</style>
 	</head>
     <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
@@ -434,7 +453,7 @@
                                     	<tr>
                                         	<td valign="top">
                                             	<div mc:edit="std_preheader_content">
-                                                	 CASIO le ofrece pases gratuitos a la Feria HOREQ el próximo 20 al 22 de enero en IFEMA, Madrid.   
+                                                	 CASIO le ofrece pases gratuitos a la HOREQ que se celebra el próximo 20 al 22 de enero en IFEMA, Madrid. ¡Ven a vernos al stand 2A03!
                                                 </div>
                                             </td>
 											<td valign="top" width="190">
@@ -470,24 +489,7 @@
                                 </td>
                             </tr>
 
-                        	<tr>
-                            	<td align="center" valign="top">
-                                    <!-- // Begin Template Header \\ -->
-                                	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateHeader">
-                                        <tr>
-                                            <td class="headerContent">
-                                            
-                                            	<!-- // Begin Module: Standard Header Image \\ -->
-                                            	<img src="http://gallery.mailchimp.com/653153ae841fd11de66ad181a/images/placeholder_600.gif" style="max-width:600px;" id="headerImage campaign-icon" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext />
-                                            	<!-- // End Module: Standard Header Image \\ -->
-                                            
-                                            </td>
-                                        </tr>
-                                    </table>
-                                    <!-- // End Template Header \\ -->
-                                </td>
-                            </tr>
-
+                            <!-- invitacion -->
                         	<tr>
                             	<td align="center" valign="top">
                                     <!-- // Begin Template Body \\ -->
@@ -497,18 +499,80 @@
                                         	<td colspan="3" valign="top" class="bodyContent">
                                             
                                                 <!-- // Begin Module: Standard Content \\ -->
-                                                <table border="0" cellpadding="20" cellspacing="0" width="100%">
+                                                <table border="0" cellpadding="20" cellspacing="0" width="100%" >
+                                                    <tr>
+                                                        <td valign="top" >
+                                                            <div mc:edit="std_content00">
+                                                                <h2 class="h2">CASIO te invita a HOREQ</h2>
+                                                                <strong>¡Te esperamos desde el 20 al 22 de enero de 2016 en IFEMA!</strong>
+                                                                <br/>
+                                                                HOREQ es la cita anual en el Salón Profesional de Proveedores para la Hostelería y el Sector Turístico. No pierdas la oportunidad de asistir a este evento de manera gratuita.
+                                                                <br/>
+                                                                <br/>
+                                                                <h3 class="h3">Ven a vernos al <span style="background: yellow">stand 2A03</span>.</h3>
+                                                                <strong>Pídenos tu entrada </strong> enviando un correo electrónico a <strong>info@casio-ecr.es</strong>.
+                                                                <br />
+                                                                <br />
+																<div class="button" >
+	                                                                <a href="mailto:info@casio-ecr.es">Solicita tu pase gratuito a HOREQ</a>
+                                                                </div>
+                                                                <br/>
+                                                                <br/>
+                                                                <br/>
+                                                            </div>
+														</td>
+                                                    </tr>
+                                                </table>
+                                                <!-- // End Module: Standard Content \\ -->
+                                            
+                                            </td>
+                                        </tr>
+
+                                    </table>
+                                    <!-- // End Template Body \\ -->
+                                </td>
+                            </tr>
+
+                            <!-- HERO image -->
+                        	<tr>
+                            	<td align="center" valign="top">
+                                    <!-- // Begin Template Header \\ -->
+                                	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateHeader">
+                                        <tr>
+                                            <td class="headerContent">
+                                            
+                                            	<!-- // Begin Module: Standard Header Image \\ -->
+                                            	<img src="hero-image.jpg" style="max-width:600px;" id="headerImage campaign-icon" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext />
+                                            	<!-- // End Module: Standard Header Image \\ -->
+                                            
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // End Template Header \\ -->
+                                </td>
+                            </tr>
+
+                            <!-- products -->
+                        	<tr>
+                            	<td align="center" valign="top">
+                                    <!-- // Begin Template Body \\ -->
+                                	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateBody">
+                                        <!-- Products intro -->
+                                    	<tr>
+                                        	<td colspan="3" valign="top" class="bodyContent">
+                                            
+                                                <!-- // Begin Module: Standard Content \\ -->
+                                                <table border="0" cellpadding="20" cellspacing="0" width="100%" >
                                                     <tr>
                                                         <td valign="top">
                                                             <div mc:edit="std_content00">
-                                                                <h1 class="h1">Heading 1</h1>
-                                                                <h2 class="h2">Heading 2</h2>
-                                                                <h3 class="h3">Heading 3</h3>
-                                                                <h4 class="h4">Heading 4</h4>
-                                                                <strong>Getting started:</strong> Customize your template by clicking on the style editor tabs up above. Set your fonts, colors, and styles. After setting your styling is all done you can click here in this area, delete the text, and start adding your own awesome content!
-                                                                <br />
-                                                                <br />
-                                                                After you enter your content, highlight the text you want to style and select the options you set in the style editor in the "styles" drop down box. Want to <a href="http://www.mailchimp.com/kb/article/im-using-the-style-designer-and-i-cant-get-my-formatting-to-change" target="_blank">get rid of styling on a bit of text</a>, but having trouble doing it? Just use the "remove formatting" button to strip the text of any formatting and reset your style.
+                                                                <h3 class="h3">
+                                                                	Todos los productos CASIO ofrecen al consumidor una solución de calidad, estable y segura
+                                                                </h3>
+                                                                <br/>
+																Nuestra marca nos avala a lo largo de los años y en cualquiera de las tipologías de producto dónde ofrecemos soluciones. Nuestros sistemas de control y registro permiten a nuestros distribuidores profesionales <strong>encontrar soluciones a todas las necesidades de cualquier punto de venta</strong>, tanto para hostelería como para comercio.                         
+																<br/><br/>                                       
+																Ahora podemos presentar toda nuestra <strong>gama de productos Android</strong>, ofreciendo a nuestros dealers profesionales una solución para cada una de las necesidades de nuestros clientes.
                                                             </div>
 														</td>
                                                     </tr>
@@ -526,10 +590,13 @@
                                                 <table border="0" cellpadding="20" cellspacing="0" width="100%">
                                                     <tr mc:repeatable>
                                                         <td valign="top">
-                                                            <img src="http://gallery.mailchimp.com/653153ae841fd11de66ad181a/images/placeholder_260.gif" style="max-width:260px;" mc:label="image" mc:edit="tiwc300_image00" />
+                                                            <img src="product-1.jpg" style="max-width:260px;" mc:label="image" mc:edit="tiwc300_image00" />
                                                             <div mc:edit="tiwc300_content00">
- 	                                                           <h4 class="h4">Heading 4</h4>
-                                                               <strong>Repeatable content blocks:</strong> Repeatable sections are noted with plus and minus signs so that you can add and subtract content blocks. You can also <a href="http://www.mailchimp.com/kb/article/how-do-i-work-with-repeatable-content-blocks" target="_blank">get a little fancy</a>: repeat blocks and remove all text to make image "gallery" sections, or do the opposite and remove images for text-only blocks!
+ 	                                                            <h4 class="h4">VR-100</h4>
+                                                                <strong>PEQUEÑA Y ELEGANTE.</strong> Modelo compacto, cabe perfectamente en cualquier mostrador.
+																<strong>Bajo consumo de energía</strong>. Eco-Consumo, -85% del consumo normal.
+																<strong>Fácil de usar</strong>. La aplicación de Punto de Venta es fácil e intuitiva, parametrizable para muchos tipos de negocio.
+																<strong>Fácil Instalación</strong>. Todo en uno con pocos cables. <strong>Fácil Soporte</strong>. Posible soporte remoto para el dealer.
 
                                                             </div>
                                                         </td>
@@ -544,10 +611,14 @@
                                                 <table border="0" cellpadding="20" cellspacing="0" width="100%">
                                                     <tr mc:repeatable>
                                                         <td valign="top">
-                                                            <img src="http://gallery.mailchimp.com/653153ae841fd11de66ad181a/images/placeholder_260.gif" style="max-width:260px;" mc:label="image" mc:edit="tiwc300_image01" />
+                                                            <img src="product-2.jpg" style="max-width:260px;" mc:label="image" mc:edit="tiwc300_image01" />
                                                             <div mc:edit="tiwc300_content01">
- 	                                                           <h4 class="h4">Heading 4</h4>
-                                                               <strong>Repeatable content blocks:</strong> Repeatable sections are noted with plus and minus signs so that you can add and subtract content blocks. You can also <a href="http://www.mailchimp.com/kb/article/how-do-i-work-with-repeatable-content-blocks" target="_blank">get a little fancy</a>: repeat blocks and remove all text to make image "gallery" sections, or do the opposite and remove images for text-only blocks!
+ 	                                                           <h4 class="h4">Tablet VT-500</h4>
+                                                                <strong>ALTA SEGURIDAD PARA DATOS CONFIDENCIALES</strong>.
+																<strong>Fuerte y robusta</strong>. Carcasa hermética al polvo y a las salpicaduras, cumple norma IP-54 (1 metro),… Perfecta para cualquier
+																uso profesional.
+																<strong>Tecnología inteligente para todas las exigencias profesionales
+																del mercado</strong>. Permite trabajar como terminal de punto de venta o como comandero.
 
                                                             </div>
                                                         </td>
@@ -566,10 +637,13 @@
                                                 <table border="0" cellpadding="20" cellspacing="0" width="100%">
                                                     <tr mc:repeatable>
                                                         <td valign="top">
-                                                            <img src="http://gallery.mailchimp.com/653153ae841fd11de66ad181a/images/placeholder_260.gif" style="max-width:260px;" mc:label="image" mc:edit="tiwc300_image00" />
+                                                            <img src="product-3.jpg" style="max-width:260px;" mc:label="image" mc:edit="tiwc300_image00" />
                                                             <div mc:edit="tiwc300_content00">
- 	                                                           <h4 class="h4">Heading 4</h4>
-                                                               <strong>Repeatable content blocks:</strong> Repeatable sections are noted with plus and minus signs so that you can add and subtract content blocks. You can also <a href="http://www.mailchimp.com/kb/article/how-do-i-work-with-repeatable-content-blocks" target="_blank">get a little fancy</a>: repeat blocks and remove all text to make image "gallery" sections, or do the opposite and remove images for text-only blocks!
+ 	                                                           <h4 class="h4">VR-7000/VR-7100</h4>
+                                                               <strong>LCD PARA TODAS LAS NECESIDADES</strong>. Nuevo y revolucionario terminal para hostelería y comercio, equipado con pantalla LCD panorámica de 15,6 pulgadas (1.366x768 píxeles). Diseñado para evitar manchas de huellas.
+																<strong>Compatible VESA</strong>. Soporte VESA para montaje en la pared, permitiendo Display Vertical u Horizontal con protección IP53.
+																<strong>Conectividad ilimitada</strong> VR-7000 Conectividad Ethernet
+																VR-7100 Conectividad Ethernet &amp; LAN inalámbrica (WiFi &amp; Bluetooth)
 
                                                             </div>
                                                         </td>
@@ -584,10 +658,10 @@
                                                 <table border="0" cellpadding="20" cellspacing="0" width="100%">
                                                     <tr mc:repeatable>
                                                         <td valign="top">
-                                                            <img src="http://gallery.mailchimp.com/653153ae841fd11de66ad181a/images/placeholder_260.gif" style="max-width:260px;" mc:label="image" mc:edit="tiwc300_image01" />
+                                                            <img src="product-4.jpg" style="max-width:260px;" mc:label="image" mc:edit="tiwc300_image01" />
                                                             <div mc:edit="tiwc300_content01">
- 	                                                           <h4 class="h4">Heading 4</h4>
-                                                               <strong>Repeatable content blocks:</strong> Repeatable sections are noted with plus and minus signs so that you can add and subtract content blocks. You can also <a href="http://www.mailchimp.com/kb/article/how-do-i-work-with-repeatable-content-blocks" target="_blank">get a little fancy</a>: repeat blocks and remove all text to make image "gallery" sections, or do the opposite and remove images for text-only blocks!
+ 	                                                           <h4 class="h4">CASIO Registradora App</h4>
+ 	                                                           <strong>SOFTWARE.</strong> Permite: Gestión de Ventas y de Efectivo. Liquidación y reportes de Ventas. Gestión de Reservas y Stocks. Fidelización y Marketing Directo. Reporting Remoto a SmartPhone’s. ABM en el PC con ECR Setting Tools Networking. Soporte Técnico Remoto.
 
                                                             </div>
                                                         </td>
@@ -598,11 +672,15 @@
                                             </td>
                                         </tr>
 
+
+
                                     </table>
                                     <!-- // End Template Body \\ -->
                                 </td>
                             </tr>
 
+
+                            <!-- footer -->
                         	<tr>
                             	<td align="center" valign="top">
                                     <!-- // Begin Template Footer \\ -->
