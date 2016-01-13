@@ -116,7 +116,7 @@
 			* @style heading 4
 			*/
 			h4, .h4{
-				/*@editable*/ color:#0062B9;
+				/*@editable*/ color:#000000;
 				display:block;
 				/*@editable*/ font-family:Helvetica;
 				/*@editable*/ font-size:22px;
@@ -303,7 +303,7 @@
 			* @tip Set the background color for your email's body area.
 			*/
 			#templateContainer, .bodyContent{
-				/*@editable*/ background-color:#FFFFFF;
+				/*@editable*/ background-color:#e3e3e3;
 			}
 			
 			/**
@@ -426,7 +426,7 @@
 			 *  Buttons
 			 **/
 			 .button {
-		      background: #F10600; color: #ffffff; padding: 10px 15px; font-weight: bold; text-decoration: none; border-radius: 5px; moz-border-radius: 5px; khtml-border-radius: 5px; o-border-radius: 5px; webkit-border-radius: 5px; ms-border-radius: 5px; clear:both; display: block; float: left; margin-top: 10px;
+		      background: #7FCB26; color: #ffffff; padding: 10px 15px; font-weight: bold; text-decoration: none; border-radius: 5px; moz-border-radius: 5px; khtml-border-radius: 5px; o-border-radius: 5px; webkit-border-radius: 5px; ms-border-radius: 5px; clear:both; display: block; float: left; margin-top: 10px;
 		      font-family: helvetica;
 			 }
 
@@ -503,18 +503,20 @@
                                                     <tr>
                                                         <td valign="top" >
                                                             <div mc:edit="std_content00">
-                                                                <h2 class="h2">CASIO te invita a HOREQ</h2>
+                                                                <h2 class="h2">Te invitamos a <strong>HOREQ</strong></h2>
                                                                 <strong>¡Te esperamos desde el 20 al 22 de enero de 2016 en IFEMA!</strong>
+                                                                <br/>
                                                                 <br/>
                                                                 HOREQ es la cita anual en el Salón Profesional de Proveedores para la Hostelería y el Sector Turístico. No pierdas la oportunidad de asistir a este evento de manera gratuita.
                                                                 <br/>
                                                                 <br/>
-                                                                <h3 class="h3">Ven a vernos al <span style="background: yellow">stand 2A03</span>.</h3>
+                                                                <br/>
+                                                                <h3 class="h3">Ven a vernos al <strong>stand 2A03</strong></h3>
                                                                 <strong>Pídenos tu entrada </strong> enviando un correo electrónico a <strong>info@casio-ecr.es</strong>.
                                                                 <br />
                                                                 <br />
 																<div class="button" >
-	                                                                <a href="mailto:info@casio-ecr.es">Solicita tu pase gratuito a HOREQ</a>
+	                                                                <a href="mailto:info@casio-ecr.es">Solicita tu pase gratuito ahora</a>
                                                                 </div>
                                                                 <br/>
                                                                 <br/>
@@ -559,17 +561,16 @@
                                 	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateBody">
                                         <!-- Products intro -->
                                     	<tr>
-                                        	<td colspan="3" valign="top" class="bodyContent">
+                                        	<td colspan="3" valign="top" class="bodyContent" style="background: #ffffff">
                                             
                                                 <!-- // Begin Module: Standard Content \\ -->
                                                 <table border="0" cellpadding="20" cellspacing="0" width="100%" >
                                                     <tr>
                                                         <td valign="top">
                                                             <div mc:edit="std_content00">
-                                                                <h3 class="h3">
+                                                                <h4 class="h4">
                                                                 	Todos los productos CASIO ofrecen al consumidor una solución de calidad, estable y segura
-                                                                </h3>
-                                                                <br/>
+                                                                </h4>
 																Nuestra marca nos avala a lo largo de los años y en cualquiera de las tipologías de producto dónde ofrecemos soluciones. Nuestros sistemas de control y registro permiten a nuestros distribuidores profesionales <strong>encontrar soluciones a todas las necesidades de cualquier punto de venta</strong>, tanto para hostelería como para comercio.                         
 																<br/><br/>                                       
 																Ahora podemos presentar toda nuestra <strong>gama de productos Android</strong>, ofreciendo a nuestros dealers profesionales una solución para cada una de las necesidades de nuestros clientes.
@@ -693,35 +694,18 @@
                                                     <tr>
                                                         <td colspan="2" valign="middle" id="social">
                                                             <div mc:edit="std_social">
-                                                                &nbsp;<a href="*|TWITTER:PROFILEURL|*">follow on Twitter</a> | <a href="*|FACEBOOK:PROFILEURL|*">friend on Facebook</a> | <a href="*|FORWARD|*">forward to a friend</a>&nbsp;
+                                                            	<hr>
+                                                            	<br/>
+                                                                &nbsp;© 2016 CASIO ESPAÑA S.L.
+                                                                <br/>
+                                                                <br/>
+                                                                &nbsp;<a href="http://www.casio-europe.com/es/corporate/imprint/privacy/">Política de Privacidad</a> | <a href="http://www.casio-europe.com/es/corporate/imprint/termsofuse/">Términos de Uso</a> | <a href="mailto:info@casio-ecr.es" >Contacto</a>&nbsp;
+
                                                             </div>
                                                         </td>
                                                     </tr>
-                                                    <tr>
-                                                        <td valign="top" width="350">
-                                                            <div mc:edit="std_footer">
-																<em>Copyright &copy; *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved.</em>
-																<br />
-																*|IFNOT:ARCHIVE_PAGE|* *|LIST:DESCRIPTION|*
-																<br />
-																<strong>Our mailing address is:</strong>
-																<br />
-																*|HTML:LIST_ADDRESS_HTML|**|END:IF|* 
-                                                            </div>
-                                                        </td>
-                                                        <td valign="top" width="190" id="monkeyRewards">
-                                                            <div mc:edit="monkeyrewards">
-                                                                *|IF:REWARDS|* *|HTML:REWARDS|* *|END:IF|*
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td colspan="2" valign="middle" id="utility">
-                                                            <div mc:edit="std_utility">
-                                                                &nbsp;<a href="*|UNSUB|*">unsubscribe from this list</a> | <a href="*|UPDATE_PROFILE|*">update subscription preferences</a>&nbsp;
-                                                            </div>
-                                                        </td>
-                                                    </tr>
+
+                                                    
                                                 </table>
                                                 <!-- // End Module: Standard Footer \\ -->
                                             
