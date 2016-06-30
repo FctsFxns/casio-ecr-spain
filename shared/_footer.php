@@ -1,7 +1,7 @@
     <footer id="footer">
       <div class="row">
         <div class="large-12 medium-12 columns">
-          <b>© 2015 CASIO ESPAÑA S.L.</b>
+          <b>© <?php echo date('Y'); ?> CASIO ESPAÑA S.L.</b>
         </div>
       </div>
       <div class="row">
