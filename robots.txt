@@ -1,0 +1,4 @@
+# robots.txt for http://www.casio-ecr.es/
+
+User-agent: *
+Disallow: /alpha/     # This is for the development of the new wite

@@ -21,4 +21,5 @@ exclude:
     - index.php__OLD
     - sandbox
     - newsletters/2016-01-horeq/README.md
+    - alpha/README.md
 revision_file: .revision
