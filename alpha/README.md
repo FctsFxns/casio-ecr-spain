@@ -2,10 +2,9 @@
 
 	Març de 2017
 
-[![Build Status](https://travis-ci.org/FctsFxns/factsandfictions-site.png)](https://travis-ci.org/FctsFxns/factsandfictions-site)
+[![Build Status](https://travis-ci.org/casioecr/casio-ecr.es.png)](https://travis-ci.org/casioecr/casio-ecr.es)
 
 	url: http://www.casio-ecr.es/alpha/
-
 
 ## Información para editores
 

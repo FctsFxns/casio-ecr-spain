@@ -76,10 +76,10 @@ module.exports = function(grunt) {
     connect: {
       server: {
         options: {
-          port: 8000,
+          port: 8004,
           base: './_site',
           open: {
-            target: 'http://localhost:8000'
+            target: 'http://localhost:8004'
           }
         }
       }
