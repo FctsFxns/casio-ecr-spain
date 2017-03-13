@@ -22,4 +22,5 @@ exclude:
     - sandbox
     - newsletters/2016-01-horeq/README.md
     - alpha/README.md
+    - alpha/sandbox
 revision_file: .revision
