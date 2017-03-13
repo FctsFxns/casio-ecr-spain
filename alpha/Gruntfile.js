@@ -87,9 +87,7 @@ module.exports = function(grunt) {
   });
   require('load-grunt-tasks')(grunt);
 
-
   grunt.loadNpmTasks('grunt-contrib-clean');
-
   
   // Build the full site
   // Less -> sass + js -> jekyll -> _dist
@@ -105,6 +103,5 @@ module.exports = function(grunt) {
 
   // Watch for content and forget about the rest
   grunt.registerTask('default', ['theming']);
-
 
 };
