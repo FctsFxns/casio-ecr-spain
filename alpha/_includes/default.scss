@@ -1,0 +1,13 @@
+
+@charset "utf-8";
+
+// Brand variables
+// Colors
+$cc-primary:   #593F7F;
+
+// Import partials from `sass_dir` (defaults to `_assets/stylesheets`)
+@import
+    'syntax-highlighting'
+;
+
+@import 'custom';
