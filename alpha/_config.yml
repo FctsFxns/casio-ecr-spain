@@ -50,6 +50,7 @@ assets:
     - _assets/bower
     - _assets/js
     - _assets/stylesheets
+    - _assets/unify
 
 
 # Handling Reading
@@ -87,6 +88,7 @@ include:
   -  'humans.txt' 
   -  'robots.txt'
   -  'favicon.ico'
+  -  'unify'
 
 # keep_files:     [".git", ".svn"]
 markdown_ext:     'markdown,mkdown,mkdn,mkd,md'

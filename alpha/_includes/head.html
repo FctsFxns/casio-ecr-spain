@@ -1,15 +1,53 @@
-<!DOCTYPE html lang="en">
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<!DOCTYPE html>
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+    <title>Unify - Responsive Website Template</title>
+
+    <!-- Meta -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="description">
+    <meta content="" name="author">
 
-    <link rel="Shortcut Icon" href="{{ site.data.global.url }}/favicon.ico" type="image/x-icon" /> 
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{{ site.data.global.url }}/favicon.ico">
 
+    <!-- Web Fonts -->
+    <link rel="shortcut" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600&subset=cyrillic,latin">
+
+    <!-- CSS Global Compulsory -->
+    {% stylesheet bootstrap/dist/css/bootstrap.min %}
+
+    <!-- Unify CSS Styles -->
+    <!-- Unify General  Styles -->
+    {% stylesheet assets/css/style %}
+
+    <!-- CSS Header and Footer -->
+    {% stylesheet assets/css/headers/header-default.css %}
+    {% stylesheet assets/css/footers/footer-v1.css %}
+
+    <!-- CSS Implementing Plugins -->
+    {% stylesheet assets/plugins/animate.css %}
+    {% stylesheet assets/plugins/line-icons/line-icons.css %}
+    {% stylesheet assets/plugins/font-awesome/css/font-awesome.css %}
+
+    <!-- CSS Theme -->
+    {% stylesheet assets/css/theme-colors/default.css %}
+
+    <!-- CSS Customization -->
+    {% stylesheet assets/css/custom.css %}
+    
+    <style type="text/css">
+        {% capture include_to_scssify %}
+          {% include default.scss %}
+        {% endcapture %}
+        {{ include_to_scssify | scssify }}
+    </style>
+</head>
+<body class="{{ post.title | downcase | replace:' ','-' | replace:',','' | strip_html }}{% if page.category %} category-{{ page.category }}{% endif %}{% if page.layout_class %} {{ page.layout_class }}{% endif %} {{ work.title | downcase | replace:' ','-' | replace:',','' | strip_html }}">
+
+{% comment %}
     <!-- RSS -->
     <link rel="alternate" type="application/rss+xml" title="{{ site.data.global.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/atom+xml" title="{{ site.data.global.title }}" href="{{ "/atom.xml" | prepend: site.baseurl | prepend: site.url }}">
@@ -41,15 +79,5 @@
             <meta property="twitter:image" content="{{ page.featured_image  | prepend: site.baseurl | prepend: site.url }}" />
         {% endif %}
     {% endif %}
-   
-    <style type="text/css">
-        {% capture include_to_scssify %}
-          {% include default.scss %}
-        {% endcapture %}
-        {{ include_to_scssify | scssify }}
-    </style>
-
-</head>
-<body class="{{ post.title | downcase | replace:' ','-' | replace:',','' | strip_html }}{% if page.category %} category-{{ page.category }}{% endif %}{% if page.layout_class %} {{ page.layout_class }}{% endif %} {{ work.title | downcase | replace:' ','-' | replace:',','' | strip_html }}">
-
+{% endcomment %}
 

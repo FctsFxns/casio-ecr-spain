@@ -1,13 +1,42 @@
   </body>
 
-  <!-- OJO!!!  -->
-  {% comment %}
-    <!-- Les scripts from third parties  -->
-    {% javascript vendor %}
-    <!-- Les scripts for my app -->
-    {% javascript application %}
-  {% endcomment %}
+  <!-- Les scripts from third parties -->
+  {% javascript vendor %}
 
+  {% comment %}
+    <!-- Unify template js is included on vendor.js file ;) -->
+
+    <!-- JS Global Compulsory -->
+    <!-- <script src="assets/plugins/jquery/jquery.min.js"></script> -->
+    <!-- <script src="{{ site.data.global.url }}/unify/assets/plugins/jquery/jquery-migrate.min.js"></script> -->
+    <!-- <script src="{{ site.data.global.url }}/unify/assets/plugins/bootstrap/js/bootstrap.min.js"></script> -->
+
+    <!-- JS Implementing Plugins -->
+    <!-- <script src="{{ site.data.global.url }}/unify/assets/plugins/back-to-top.js"></script> -->
+    <!-- <script src="{{ site.data.global.url }}/unify/assets/plugins/smoothScroll.js"></script> -->
+
+    <!-- JS Customization -->
+    <!-- <script type="text/javascript" src="{{ site.data.global.url }}/unify/assets/js/custom.js"></script> -->
+
+    <!-- JS Page Level -->
+    <!-- <script src="{{ site.data.global.url }}/unify/assets/js/app.js"></script> -->
+  
+    <!--[if lt IE 9]>
+        <script src="{{ site.data.global.url }}/unify/assets/plugins/respond.js"></script>
+        <script src="{{ site.data.global.url }}/unify/assets/plugins/html5shiv.js"></script>
+        <script src="{{ site.data.global.url }}/unify/assets/plugins/placeholder-IE-fixes.js"></script>
+    <![endif]-->
+  {% endcomment %}  
+
+  <script>
+  jQuery(document).ready(function() {
+      App.init();
+  });
+  </script>
+
+  <!--[if lt IE 9]>
+      {% javascript vendor.ie9 %}
+  <![endif]-->
 
   {% if site.env == 'development' %}
     <!-- Only in development mode -->
