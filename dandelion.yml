@@ -23,4 +23,18 @@ exclude:
     - newsletters/2016-01-horeq/README.md
     - alpha/README.md
     - alpha/sandbox
+    - alpha/.asset-cache
+    - alpha/.sass-cache
+    - alpha/_assets
+    - alpha/_data
+    - alpha/_drafts
+    - alpha/_includes
+    - alpha/_page
+    - alpha/plugins
+    - alpha/posts
+    - alpha/media
+    - alpha/node_modules
+    - alpha/unify
+    - alpha
+
 revision_file: .revision
