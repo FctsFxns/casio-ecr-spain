@@ -2,7 +2,7 @@
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 <head>
-    <title>Unify - Responsive Website Template</title>
+    <title>Bienvenida | CASIO System Solutions España</title>
 
     <!-- Meta -->
     <meta charset="utf-8">
@@ -21,23 +21,27 @@
 
     <!-- Unify CSS Styles -->
     <!-- Unify General  Styles -->
-    {% stylesheet assets/css/style %}
-
-    <!-- CSS Header and Footer -->
-    {% stylesheet assets/css/headers/header-default.css %}
-    {% stylesheet assets/css/footers/footer-v1.css %}
+    {% stylesheet One-Pages/assets/css/app %}
+    {% comment %}
+    {% stylesheet One-Pages/assets/css/blocks %}
+    {% endcomment %}
+    <link rel="stylesheet" href="../unify/One-Pages/assets/css/blocks.css">
+    {% stylesheet One-Pages/assets/css/one.style %}
 
     <!-- CSS Implementing Plugins -->
-    {% stylesheet assets/plugins/animate.css %}
-    {% stylesheet assets/plugins/line-icons/line-icons.css %}
-    {% stylesheet assets/plugins/font-awesome/css/font-awesome.css %}
+    {% stylesheet One-Pages/assets/plugins/animate.css %}
+    {% stylesheet One-Pages/assets/plugins/line-icons/line-icons.css %}
+    {% stylesheet One-Pages/assets/plugins/font-awesome/css/font-awesome.css %}
+    {% stylesheet One-Pages/assets/plugins/sky-forms-pro/skyforms/css/sky-forms.css %}
+    {% stylesheet One-Pages/assets/plugins/sky-forms-pro/skyforms/custom/custom-sky-forms-v2.css %}
+    {% stylesheet One-Pages/assets/plugins/slick/slick.css %}
+    {% stylesheet One-Pages/assets/plugins/shhos/shhos.css %}
+    {% stylesheet One-Pages/assets/plugins/login-signup-modal-window/css/style.css %}
 
     <!-- CSS Theme -->
-    {% stylesheet assets/css/theme-colors/default.css %}
+    {% stylesheet One-Pages/Accounting/assets/css/accounting.style.css %}
 
     <!-- CSS Customization -->
-    {% stylesheet assets/css/custom.css %}
-    
     <style type="text/css">
         {% capture include_to_scssify %}
           {% include default.scss %}
@@ -45,7 +49,8 @@
         {{ include_to_scssify | scssify }}
     </style>
 </head>
-<body class="{{ post.title | downcase | replace:' ','-' | replace:',','' | strip_html }}{% if page.category %} category-{{ page.category }}{% endif %}{% if page.layout_class %} {{ page.layout_class }}{% endif %} {{ work.title | downcase | replace:' ','-' | replace:',','' | strip_html }}">
+
+<body id="home{% if page.layout_id %} {{ page.layout_id }}{% endif %}" class="{{ post.title | downcase | replace:' ','-' | replace:',','' | strip_html }}{% if page.category %} category-{{ page.category }}{% endif %}{% if page.layout_class %} {{ page.layout_class }}{% endif %} {{ work.title | downcase | replace:' ','-' | replace:',','' | strip_html }}">
 
 {% comment %}
     <!-- RSS -->

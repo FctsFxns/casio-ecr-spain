@@ -6,3 +6,5 @@
 //= require assets/plugins/smoothScroll
 
 //= require assets/js/app
+
+

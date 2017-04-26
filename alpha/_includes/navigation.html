@@ -1,15 +1,73 @@
-<nav>
-    <a href="{{ '/' | prepend: site.data.global.url }}">
-        <span>{{ site.data.global.title }}</span>
-    </a>
-    <ul>
-        {% for item in site.data.nav.main %}
-            <li >
-                <a href="{{ item.url | prepend: site.data.global.url }}" title="{{ item.title }}">
-                    {{ item.text }}
-                </a>
+
+{% comment %}
+    <nav>
+        <a href="{{ '/' | prepend: site.data.global.url }}">
+            <span>{{ site.data.global.title }}</span>
+        </a>
+        <ul>
+            {% for item in site.data.nav.main %}
+                <li >
+                    <a href="{{ item.url | prepend: site.data.global.url }}" title="{{ item.title }}">
+                        {{ item.text }}
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>  
+    </nav>
+{% endcomment %}
+
+
+  <!--=== Header ===-->
+  <nav class="one-page-header navbar navbar-default navbar-fixed-top one-page-nav-scrolling one-page-nav__fixed" data-role="navigation">
+    <div class="container">
+      <div class="menu-container page-scroll">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Cambiar navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#body">
+          <img src="/media/images/logo-casioss-black.png" alt="CASIO System Solutions">
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <div class="menu-container">
+          <ul class="nav navbar-nav">
+            <li class="page-scroll">
+              <a href="#body"><span data-hover="Home">Home</span></a>
             </li>
-        {% endfor %}
-    </ul>  
-</nav>
+            <li class="page-scroll">
+              <a href="#about"><span data-hover="About">About</span></a>
+            </li>
+            <li class="page-scroll">
+              <a href="#services"><span data-hover="Services">Services</span></a>
+            </li>
+            <li class="page-scroll">
+              <a href="#projects"><span data-hover="Our projects">Our projects</span></a>
+            </li>
+            <li class="page-scroll">
+              <a href="#testimonials"><span data-hover="Testimonials">Testimonials</span></a>
+            </li>
+            <li class="page-scroll">
+              <a href="#offers"><span data-hover="Best Offers">Best Offers</span></a>
+            </li>
+            <li class="page-scroll">
+              <a href="#contact"><span data-hover="Contact">Contact</span></a>
+            </li>
+          </ul>
+            <div class="header-buttons cd-log_reg">
+                <a class="btn-u btn-u-lg btn-u-upper cd-signin" href="javascript:void(0);">Login</a>
+            </div>
+        </div>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
+  <!--=== End Header ===-->
+
+
 

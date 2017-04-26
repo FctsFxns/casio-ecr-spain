@@ -1,10 +1,577 @@
 ---
-layout: default
+layout:       default
 layout-class: page-home   
+layout_id:    home   
 ---
-<h1>{{ site.data.global.title }}</h1>
-<h2>{{ site.data.global.description | markdownify }}</h2>
-<hr/>            
-<!-- <p>{{ site.data.global.description | markdownify }}</p> -->
+{% comment %}
+	<h1>{{ site.data.global.title }}</h1>
+	<h2>{{ site.data.global.description | markdownify }}</h2>
+	<hr/>    
+	<code>Página de bienvenida con acceso a todas las secciones en un one-page.</code>        
+{% endcomment %}
+
             
 
+		<!-- Promo Section -->
+		<section class="promo-section text-center">
+	    <div class="promo-item" data-title="About us" style="background-image: url(assets/img-temp/promo/1.jpg);">
+	      <div class="container">
+	        <div class="promo-item-content">
+	          <h3>We are a accounting firm unify<br> providing <strong class="g-color-default">tax</strong> and <strong class="g-color-default">accounting</strong> services</h3>
+	          <p class="g-color-white--dark hidden-2xs">Suspendisse potenti. Mauris et lorem sit amet sapien gravida feugiat vitae in libero. Morbi eu pharetra diam. Mauris justo purus, eleifend sit amet nisl in, sollicitudin bibendum nisl. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</p>
+	          <a class="btn-u btn-u-lg btn-u-upper" href="#">View presentation</a>
+	        </div>
+	      </div>
+	    </div>
+	    <div class="promo-item" data-title="Experience" style="background-image: url(assets/img-temp/promo/2.jpg);">
+	      <div class="container">
+	        <div class="promo-item-content">
+	          <h3>We are a accounting firm unify<br> providing <strong class="g-color-default">tax</strong> and <strong class="g-color-default">accounting</strong> services</h3>
+	          <p class="g-color-white--dark hidden-2xs">Suspendisse potenti. Mauris et lorem sit amet sapien gravida feugiat vitae in libero. Morbi eu pharetra diam. Mauris justo purus, eleifend sit amet nisl in, sollicitudin bibendum nisl. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</p>
+	          <a class="btn-u btn-u-lg btn-u-upper" href="#">View presentation</a>
+	        </div>
+	      </div>
+	    </div>
+	    <div class="promo-item" data-title="Services" style="background-image: url(assets/img-temp/promo/3.jpg);">
+	      <div class="container">
+	        <div class="promo-item-content">
+	          <h3>We are a accounting firm unify<br> providing <strong class="g-color-default">tax</strong> and <strong class="g-color-default">accounting</strong> services</h3>
+	          <p class="g-color-white--dark hidden-2xs">Suspendisse potenti. Mauris et lorem sit amet sapien gravida feugiat vitae in libero. Morbi eu pharetra diam. Mauris justo purus, eleifend sit amet nisl in, sollicitudin bibendum nisl. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</p>
+	          <a class="btn-u btn-u-lg btn-u-upper" href="#">View presentation</a>
+	        </div>
+	      </div>
+	    </div>
+	    <div class="promo-item" data-title="Who we work" style="background-image: url(assets/img-temp/promo/4.jpg);">
+	      <div class="container">
+	        <div class="promo-item-content">
+	          <h3>We are a accounting firm unify<br> providing <strong class="g-color-default">tax</strong> and <strong class="g-color-default">accounting</strong> services</h3>
+	          <p class="g-color-white--dark hidden-2xs">Suspendisse potenti. Mauris et lorem sit amet sapien gravida feugiat vitae in libero. Morbi eu pharetra diam. Mauris justo purus, eleifend sit amet nisl in, sollicitudin bibendum nisl. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</p>
+	          <a class="btn-u btn-u-lg btn-u-upper" href="#">View presentation</a>
+	        </div>
+	      </div>
+	    </div>
+		</section>
+		<!-- /Promo Section -->
+
+		<!-- About Section -->
+		<section class="infoblock-trio text-center--2xs" id="about">
+			<div class="infoblock-trio-col infoblock-trio-col-1 g-bg-gray">
+				<div class="infoblock-trio-col-1-image" style="background-image: url(assets/img-temp/1.jpg);"></div>
+				<div class="infoblock-trio-col-1-content">
+					<div class="g-block-middle">
+						<h3 class="g-mb-15 g-color-white">About us</h3>
+						<p>Etiam mollis iaculis dolor nec molestie. Fusce fringilla ipsum nec accumsan auctor. Sed eget justo est. Sed pellentesque velit ante, in porttitor lorem gravida non. Ut in eros ac lectus viverra vestibulum. Quisque sodales velit ac odio iaculis accumsan. In sit amet lorem id velit tincidunt mollis. Nullam vel turpis sagittis, viverra urna et, facilisis quam. Donec at mi nec lorem accumsan.</p>
+					</div>
+				</div>
+			</div>
+			<div class="infoblock-trio-col infoblock-trio-col-2 g-bg-gray--light">
+				<div class="infoblock-trio-col-2-content">
+					<div class="g-block-middle">
+						<h2 class="g-mb-30">We know our job</h2>
+						<p>Aliquam mattis neque justo, non maximus dui ornare nec. Praesent efficitur velit nisl, sed tincidunt mi imperdiet at. Cras urna libero, fringilla vitae luctus eu, egestas eget metus. Nam et massa eros.</p>
+
+						<p>Maecenas sit amet lacinia lectus. Maecenas ut mauris risus. Quisque mi urna, mattis id varius nec, convallis eu odio. Integer eu malesuada leo, placerat semper neque. Nullam id volutpat dui, quis luctus magna. Suspendisse rutrum ipsum in quam semper laoreet. Praesent dictum nulla id viverra vehicula.</p>
+
+						<p>Praesent blandit hendrerit justo sed egestas. Proin tincidunt purus in tortor cursus fermentum. Proin laoreet erat vitae dui blandit, vitae faucibus lacus auctor. Proin ornare sit amet arcu at aliquam. Vivamus eu enim sit amet lacus dapibus pharetra. Duis a tellus pharetra, pellentesque mauris id, lacinia felis. Nunc metus libero, eleifend auctor interdum vitae, egestas non velit.</p>
+
+						<p>Aliquam mattis neque justo, non maximus dui ornare nec. Praesent efficitur velit nisl, sed tincidunt mi imperdiet at. Cras urna libero, fringilla vitae luctus eu, egestas eget metus. Nam et massa eros.</p>
+
+					</div>
+				</div>
+			</div>
+			<div class="infoblock-trio-col infoblock-trio-col-3 g-bg-gray">
+				<div class="infoblock-trio-col-3-content">
+					<h3 class="g-mb-15 g-color-white">Professional staff</h3>
+					<p>Cras sit amet varius velit. Maecenas porta condimentum tortor at sagittis. Cum sociis natoque penatibus et magnis disvarius velit. Class aptent taciti sociosqu ad litor.</p>
+				</div>
+				<div class="infoblock-trio-col-3-content">
+					<h3 class="g-mb-15 g-color-white">Quality solutions</h3>
+					<p>Cras ultricies nisl a leo tempus rhoncus. Nam mauris tellus, molestie quis purus sed, maximus vulputate lorem. Proin augue neque, mattis vel leo ac, porttitor laoreet felis.</p>
+				</div>
+				<div class="infoblock-trio-col-3-content">
+					<h3 class="g-mb-15 g-color-white">Quick response</h3>
+					<p>Morbi gravida magna vel odio accumsan, eu auctor diam sollicitudin. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia consequat.</p>
+				</div>
+				<div class="infoblock-trio-col-3-content">
+					<h3 class="g-mb-15 g-color-white">Quick response</h3>
+					<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas ac nulla vehicula risus pulvinar feugiat ullamcorper sit amet mi.</p>
+				</div>
+			</div>
+		</section>
+		<!-- /About Section -->
+
+		<!-- Offer Section -->
+		<section class="g-pt-90 text-center--2xs" id="services">
+			<div class="container">
+	      <div class="text-center g-max-width--770 g-margin-side-auto g-mb-60">
+	        <h2 class="g-mb-30">What we offer</h2>
+	        <p>Cras luctus blandit sapien eget varius. Ut egestas justo faucibus laoreet fringilla. Pellentesque dictum, massa ut consequat euismod, tortor diam cursus nulla, a rhoncus justo mi ut diam.</p>
+	      </div>
+	    </div>
+
+			<div class="infoblocks">
+				<div class="infoblock-item" data-title="Tax preparation">
+			    <div class="infoblock g-bg-gray">
+			      <!-- Infoblock info -->
+						<div class="infoblock-content">
+							<h3 class="g-mb-25 g-color-white">Part-time cfo/controller</h3>
+							<p>Aliquam mattis neque justo, non maximus dui ornare nec. Praesent efficitur velit nisl, sed tincidunt mi imperdiet at. Cras urna libero, fringilla vitae luctus eu, egestas eget metus. Nam et massa eros. Maecenas sit amet lacinia lectus.</p>
+
+							<p>Maecenas ut mauris risus. Quisque mi urna, mattis id varius nec, convallis eu odio. Integer eu malesuada leo, placerat semper neque. Nullam id volutpat dui, quis luctus magna. Suspendisse rutrum ipsum in quam semper laoreet. Praesent dictum nulla id viverra vehicula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas ac nulla vehicula risus pulvinar feugiat ullamcorper sit amet mi.</p>
+
+							<a class="btn-u btn-u-lg btn-u-upper" href="#">Contact us for more info</a>
+			  		</div>
+			      <!-- /Object info -->
+			      <div class="infoblock-img" style="background-image: url(assets/img-temp/offers/1.jpg);"></div>
+					</div>
+				</div>
+				<div class="infoblock-item" data-title="Tax issues">
+			    <div class="infoblock g-bg-gray">
+			      <!-- Infoblock info -->
+						<div class="infoblock-content">
+							<h3 class="g-mb-25 g-color-white">Part-time cfo/controller</h3>
+							<p>Aliquam mattis neque justo, non maximus dui ornare nec. Praesent efficitur velit nisl, sed tincidunt mi imperdiet at. Cras urna libero, fringilla vitae luctus eu, egestas eget metus. Nam et massa eros. Maecenas sit amet lacinia lectus.</p>
+
+							<p>Maecenas ut mauris risus. Quisque mi urna, mattis id varius nec, convallis eu odio. Integer eu malesuada leo, placerat semper neque. Nullam id volutpat dui, quis luctus magna. Suspendisse rutrum ipsum in quam semper laoreet. Praesent dictum nulla id viverra vehicula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas ac nulla vehicula risus pulvinar feugiat ullamcorper sit amet mi.</p>
+
+							<a class="btn-u btn-u-lg btn-u-upper" href="#">Contact us for more info</a>
+			  		</div>
+			      <!-- /Object info -->
+			      <div class="infoblock-img" style="background-image: url(assets/img-temp/offers/2.jpg);"></div>
+					</div>
+				</div>
+				<div class="infoblock-item" data-title="Part-time cfo/controller">
+			    <div class="infoblock g-bg-gray">
+			      <!-- Infoblock info -->
+						<div class="infoblock-content">
+							<h3 class="g-mb-25 g-color-white">Part-time cfo/controller</h3>
+							<p>Aliquam mattis neque justo, non maximus dui ornare nec. Praesent efficitur velit nisl, sed tincidunt mi imperdiet at. Cras urna libero, fringilla vitae luctus eu, egestas eget metus. Nam et massa eros. Maecenas sit amet lacinia lectus.</p>
+
+							<p>Maecenas ut mauris risus. Quisque mi urna, mattis id varius nec, convallis eu odio. Integer eu malesuada leo, placerat semper neque. Nullam id volutpat dui, quis luctus magna. Suspendisse rutrum ipsum in quam semper laoreet. Praesent dictum nulla id viverra vehicula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas ac nulla vehicula risus pulvinar feugiat ullamcorper sit amet mi.</p>
+
+							<a class="btn-u btn-u-lg btn-u-upper" href="#">Contact us for more info</a>
+			  		</div>
+			      <!-- /Object info -->
+			      <div class="infoblock-img" style="background-image: url(assets/img-temp/offers/3.jpg);"></div>
+					</div>
+				</div>
+				<div class="infoblock-item" data-title="Small business accounting">
+			    <div class="infoblock g-bg-gray">
+			      <!-- Infoblock info -->
+						<div class="infoblock-content">
+							<h3 class="g-mb-25 g-color-white">Part-time cfo/controller</h3>
+							<p>Aliquam mattis neque justo, non maximus dui ornare nec. Praesent efficitur velit nisl, sed tincidunt mi imperdiet at. Cras urna libero, fringilla vitae luctus eu, egestas eget metus. Nam et massa eros. Maecenas sit amet lacinia lectus.</p>
+
+							<p>Maecenas ut mauris risus. Quisque mi urna, mattis id varius nec, convallis eu odio. Integer eu malesuada leo, placerat semper neque. Nullam id volutpat dui, quis luctus magna. Suspendisse rutrum ipsum in quam semper laoreet. Praesent dictum nulla id viverra vehicula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas ac nulla vehicula risus pulvinar feugiat ullamcorper sit amet mi.</p>
+
+							<a class="btn-u btn-u-lg btn-u-upper" href="#">Contact us for more info</a>
+			  		</div>
+			      <!-- /Object info -->
+			      <div class="infoblock-img" style="background-image: url(assets/img-temp/offers/4.jpg);"></div>
+					</div>
+				</div>
+				<div class="infoblock-item" data-title="Non-profit accountiong">
+			    <div class="infoblock g-bg-gray">
+			      <!-- Infoblock info -->
+						<div class="infoblock-content">
+							<h3 class="g-mb-25 g-color-white">Part-time cfo/controller</h3>
+							<p>Aliquam mattis neque justo, non maximus dui ornare nec. Praesent efficitur velit nisl, sed tincidunt mi imperdiet at. Cras urna libero, fringilla vitae luctus eu, egestas eget metus. Nam et massa eros. Maecenas sit amet lacinia lectus.</p>
+
+							<p>Maecenas ut mauris risus. Quisque mi urna, mattis id varius nec, convallis eu odio. Integer eu malesuada leo, placerat semper neque. Nullam id volutpat dui, quis luctus magna. Suspendisse rutrum ipsum in quam semper laoreet. Praesent dictum nulla id viverra vehicula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas ac nulla vehicula risus pulvinar feugiat ullamcorper sit amet mi.</p>
+
+							<a class="btn-u btn-u-lg btn-u-upper" href="#">Contact us for more info</a>
+			  		</div>
+			      <!-- /Object info -->
+			      <div class="infoblock-img" style="background-image: url(assets/img-temp/offers/5.jpg);"></div>
+					</div>
+				</div>
+				<div class="infoblock-item" data-title="Non-profit accountiong">
+			    <div class="infoblock g-bg-gray">
+			      <!-- Infoblock info -->
+						<div class="infoblock-content">
+							<h3 class="g-mb-25 g-color-white">Part-time cfo/controller</h3>
+							<p>Aliquam mattis neque justo, non maximus dui ornare nec. Praesent efficitur velit nisl, sed tincidunt mi imperdiet at. Cras urna libero, fringilla vitae luctus eu, egestas eget metus. Nam et massa eros. Maecenas sit amet lacinia lectus.</p>
+
+							<p>Maecenas ut mauris risus. Quisque mi urna, mattis id varius nec, convallis eu odio. Integer eu malesuada leo, placerat semper neque. Nullam id volutpat dui, quis luctus magna. Suspendisse rutrum ipsum in quam semper laoreet. Praesent dictum nulla id viverra vehicula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas ac nulla vehicula risus pulvinar feugiat ullamcorper sit amet mi.</p>
+
+							<a class="btn-u btn-u-lg btn-u-upper" href="#">Contact us for more info</a>
+			  		</div>
+			      <!-- /Object info -->
+			      <div class="infoblock-img" style="background-image: url(assets/img-temp/offers/6.jpg);"></div>
+					</div>
+				</div>
+			</div>
+	  </section>
+	  <!-- /Offer Section -->
+
+		<!-- Projects Section -->
+		<section class="projects-section text-center--2xs g-pt-90 g-pb-60" id="projects">
+			<div class="container">
+	      <div class="text-center g-max-width--770 g-margin-side-auto g-mb-60">
+	        <h2 class="g-mb-30">Our projects</h2>
+	        <p>Cras luctus blandit sapien eget varius. Ut egestas justo faucibus laoreet fringilla. Pellentesque dictum, massa ut consequat euismod, tortor diam cursus nulla, a rhoncus justo mi ut diam.</p>
+	      </div>
+
+	      <div class="row">
+	      	<div class="col-sm-4 g-mb-30">
+	      		<div class="project-item">
+			        <a href="#" class="project-item__image"><img src="assets/img-temp/projects/1.jpg" alt="" class="img-responsive"></a>
+			        <div class="project-item__content">
+			          <h3 class="g-mb-20"><a href="#">Aenean bibendum purus eu nisi pulvinar venenatis vitae </a></h3>
+			          <p>Proin dignissim eget enim id aliquam. Proin ornare dictum leo, non elementum tellus molestie et. Vivamus sit amet scelerisque leo.</p>
+			        </div>
+	      		</div>
+	      	</div>
+	      	<div class="col-sm-4 g-mb-30">
+	      		<div class="project-item">
+			        <a href="#" class="project-item__image"><img src="assets/img-temp/projects/2.jpg" alt="" class="img-responsive"></a>
+			        <div class="project-item__content">
+			          <h3 class="g-mb-20"><a href="#">Aenean bibendum purus eu nisi pulvinar venenatis vitae </a></h3>
+			          <p>Proin dignissim eget enim id aliquam. Proin ornare dictum leo, non elementum tellus molestie et. Vivamus sit amet scelerisque leo.</p>
+			        </div>
+	      		</div>
+	      	</div>
+	      	<div class="col-sm-4 g-mb-30">
+	      		<div class="project-item">
+			        <a href="#" class="project-item__image"><img src="assets/img-temp/projects/3.jpg" alt="" class="img-responsive"></a>
+			        <div class="project-item__content">
+			          <h3 class="g-mb-20"><a href="#">Aenean bibendum purus eu nisi pulvinar venenatis vitae </a></h3>
+			          <p>Proin dignissim eget enim id aliquam. Proin ornare dictum leo, non elementum tellus molestie et. Vivamus sit amet scelerisque leo.</p>
+			        </div>
+	      		</div>
+	      	</div>
+	      </div>
+	    </div>
+	  </section>
+	  <!-- /Projects Section -->
+
+		<!-- Accounting System Section -->
+		<section class="g-bg-gray--light g-pt-90 g-pb-60">
+			<div class="container">
+	      <div class="text-center g-max-width--770 g-margin-side-auto g-mb-60">
+	        <h2 class="g-mb-30">Our tax and accounting system</h2>
+	        <p>Nulla facilisi. Integer consectetur elit sit amet urna sollicitudin bibendum. Morbi a suscipit ipsum. Suspendisse mollis libero ante. Pellentesque finibus convallis nulla vel placerat.</p>
+	      </div>
+
+	      <div class="text-center row">
+	      	<div class="col-sm-4 g-mb-30">
+	      		<i class="icon-custom icon-lg rounded-x icon-color-default">1</i>
+	      		<h3 class="g-mb-15">Meet your accountant</h3>
+	      		<p>Integer accumsan maximus leo, et consectetur metus vestibulum in. Vestibulum viverra justo odio. Donec eu nulla leo. Nullam eget felis non sapien blandit efficitur</p>
+	      	</div>
+	      	<div class="col-sm-4 g-mb-30">
+	      	<i class="icon-custom icon-lg rounded-x icon-color-default">2</i>
+	      		<h3 class="g-mb-15">Connect bank &amp; creadit cards</h3>
+	      		<p>Aenean volutpat erat quis mollis accumsan. Mauris at cursus ipsum. Praesent molestie imperdiet purus. Nullam eget felis non sapien blandit efficitur</p>
+	      	</div>
+	      	<div class="col-sm-4 g-mb-30">
+	      	<i class="icon-custom icon-lg rounded-x icon-color-default">3</i>
+	      		<h3 class="g-mb-15">Set up system</h3>
+	      		<p>Duis tristique bibendum nunc ut semper. Phasellus bibendum semper lectus, in ornare erat tempus eget. Nullam eget felis non sapien blandit efficitur</p>
+	      	</div>
+	      </div>
+	    </div>
+	  </section>
+	  <!-- /Accounting System Section -->
+
+		<!-- Action Section -->
+		<section class="action-section g-color-white--darker g-bg-gray g-pt-90 g-pb-90">
+			<div class="action-section-inner">
+	      <div class="text-center g-max-width--770 g-margin-side-auto">
+	        <h2 class="g-mb-20 g-color-white">Most quality sollution for you</h2>
+	        <p class="g-color-white--dark g-mb-35">Morbi a suscipit ipsum. Suspendisse mollis libero ante. Pellentesque finibus convallis nulla vel placerat.</p>
+	        <a href="#" class="btn-u btn-brd btn-u-lg btn-u-upper g-mr-30 g-3xs-mb-20 g-3xs-mr-0">Try trial version</a><div class="visible-3xs clearfix"></div><a href="#" class="btn-u btn-u-lg btn-u-upper">Buy full version</a>
+	      </div>
+			</div>
+		</section>
+		<!-- /Action Section -->
+
+		<!-- Testimonials Section -->
+		<section class="testimonials-section g-pt-90" id="testimonials">
+			<div class="container">
+	      <div class="text-center g-max-width--770 g-margin-side-auto g-mb-60">
+	        <h2 class="g-mb-30">What customer says</h2>
+	        <p>Praesent blandit hendrerit justo sed egestas. Proin tincidunt purus in tortor cursus fermentum. Proin laoreet erat vitae dui blandit, vitae faucibus lacus auctor. Proin ornare sit amet arcu at aliquam.</p>
+	      </div>
+	      <div class="text-center g-max-width--770 g-margin-side-auto">
+	        <div class="testinomials-nav">
+	          <div class="testinomials-nav-item">
+	            <img src="assets/img-temp/testimonials/1.jpg" alt="" class="rounded-x img-responsive">
+	          </div>
+	          <div class="testinomials-nav-item">
+	            <img src="assets/img-temp/testimonials/2.jpg" alt="" class="rounded-x img-responsive">
+	          </div>
+	          <div class="testinomials-nav-item">
+	            <img src="assets/img-temp/testimonials/3.jpg" alt="" class="rounded-x img-responsive">
+	          </div>
+	          <div class="testinomials-nav-item">
+	            <img src="assets/img-temp/testimonials/4.jpg" alt="" class="rounded-x img-responsive">
+	          </div>
+	          <div class="testinomials-nav-item">
+	            <img src="assets/img-temp/testimonials/5.jpg" alt="" class="rounded-x img-responsive">
+	          </div>
+	          <div class="testinomials-nav-item">
+	            <img src="assets/img-temp/testimonials/6.jpg" alt="" class="rounded-x img-responsive">
+	          </div>
+	        </div>
+
+	        <div class="testinomials-content">
+	          <div class="testinomials-content-item">
+	          	<div class="visible-xs-block testimonials-item__author-photo"><img src="assets/img-temp/testimonials/1.jpg" alt="" class="rounded-x img-responsive"></div>
+	            <strong class="testimonials-item__author">Mary Brown, <em>CTO Jiope</em></strong>
+	            <div class="testimonials-item__quote">Ut augue diam, lacinia fringilla erat eu, vehicula commodo quam. Aliquam eget accumsan ligula. Maecenas sit amet consectetur lectus. Suspendisse commodo et magna non pulvinar. Quisque et ultricies sem, et vulputate dui. Morbi aliquam leo id ipsum tempus mollis. Integer ut sollicitudin justo. Class aptent taciti sociosqu ad litora torquent per.</div>
+	          </div>
+	          <div class="testinomials-content-item">
+	          	<div class="visible-xs-block testimonials-item__author-photo"><img src="assets/img-temp/testimonials/2.jpg" alt="" class="rounded-x img-responsive"></div>
+	            <strong class="testimonials-item__author">Bob Cristopher, <em>CEO Unifex</em></strong>
+	            <div class="testimonials-item__quote">Ut augue diam, lacinia fringilla erat eu, vehicula commodo quam. Aliquam eget accumsan ligula. Maecenas sit amet consectetur lectus. Suspendisse commodo et magna non pulvinar. Quisque et ultricies sem, et vulputate dui. Morbi aliquam leo id ipsum tempus mollis. Integer ut sollicitudin justo. Class aptent taciti sociosqu ad litora torquent per.</div>
+	          </div>
+	          <div class="testinomials-content-item">
+	          	<div class="visible-xs-block testimonials-item__author-photo"><img src="assets/img-temp/testimonials/3.jpg" alt="" class="rounded-x img-responsive"></div>
+	            <strong class="testimonials-item__author">Helena Jordany, <em>SMM AquaWater</em></strong>
+	            <div class="testimonials-item__quote">Ut augue diam, lacinia fringilla erat eu, vehicula commodo quam. Aliquam eget accumsan ligula. Maecenas sit amet consectetur lectus. Suspendisse commodo et magna non pulvinar. Quisque et ultricies sem, et vulputate dui. Morbi aliquam leo id ipsum tempus mollis. Integer ut sollicitudin justo. Class aptent taciti sociosqu ad litora torquent per.</div>
+	          </div>
+	          <div class="testinomials-content-item">
+	          	<div class="visible-xs-block testimonials-item__author-photo"><img src="assets/img-temp/testimonials/3.jpg" alt="" class="rounded-x img-responsive"></div>
+	            <strong class="testimonials-item__author">Melissa Armstrong, <em>Manager Moogle</em></strong>
+	            <div class="testimonials-item__quote">Ut augue diam, lacinia fringilla erat eu, vehicula commodo quam. Aliquam eget accumsan ligula. Maecenas sit amet consectetur lectus. Suspendisse commodo et magna non pulvinar. Quisque et ultricies sem, et vulputate dui. Morbi aliquam leo id ipsum tempus mollis. Integer ut sollicitudin justo. Class aptent taciti sociosqu ad litora torquent per.</div>
+	          </div>
+	          <div class="testinomials-content-item">
+	          	<div class="visible-xs-block testimonials-item__author-photo"><img src="assets/img-temp/testimonials/4.jpg" alt="" class="rounded-x img-responsive"></div>
+	            <strong class="testimonials-item__author">Melani Shnaider, <em>Account manager Undex</em></strong>
+	            <div class="testimonials-item__quote">Ut augue diam, lacinia fringilla erat eu, vehicula commodo quam. Aliquam eget accumsan ligula. Maecenas sit amet consectetur lectus. Suspendisse commodo et magna non pulvinar. Quisque et ultricies sem, et vulputate dui. Morbi aliquam leo id ipsum tempus mollis. Integer ut sollicitudin justo. Class aptent taciti sociosqu ad litora torquent per.</div>
+	          </div>
+	          <div class="testinomials-content-item">
+	          	<div class="visible-xs-block testimonials-item__author-photo"><img src="assets/img-temp/testimonials/5.jpg" alt="" class="rounded-x img-responsive"></div>
+	            <strong class="testimonials-item__author">Rebecca Kenton, <em>Molestie ullamcorper</em></strong>
+	            <div class="testimonials-item__quote">Ut augue diam, lacinia fringilla erat eu, vehicula commodo quam. Aliquam eget accumsan ligula. Maecenas sit amet consectetur lectus. Suspendisse commodo et magna non pulvinar. Quisque et ultricies sem, et vulputate dui. Morbi aliquam leo id ipsum tempus mollis. Integer ut sollicitudin justo. Class aptent taciti sociosqu ad litora torquent per.</div>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+	  </section>
+	  <!-- /Testimonials Section -->
+
+		<!-- Brands Section -->
+		<section class="brands-section g-pt-90 g-pb-90">
+			<div class="container">
+				<div class="row brands-list">
+					<div class="col-md-2 col-sm-4 col-xs-6 col-3xs-12 brand-item">
+						<img src="assets/img-temp/clients/1.png" alt="" class="img-responsive">
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6 col-3xs-12 brand-item">
+						<img src="assets/img-temp/clients/2.png" alt="" class="img-responsive">
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6 col-3xs-12 brand-item">
+						<img src="assets/img-temp/clients/3.png" alt="" class="img-responsive">
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6 col-3xs-12 brand-item">
+						<img src="assets/img-temp/clients/4.png" alt="" class="img-responsive">
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6 col-3xs-12 brand-item">
+						<img src="assets/img-temp/clients/5.png" alt="" class="img-responsive">
+					</div>
+					<div class="col-md-2 col-sm-4 col-xs-6 col-3xs-12 brand-item">
+						<img src="assets/img-temp/clients/6.png" alt="" class="img-responsive">
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- /Brands Section -->
+
+		<!-- Pricing Section -->
+		<section class="pricing-section g-bg-gray g-pt-90 g-pb-90" id="offers">
+			<div class="container">
+	      <div class="text-center g-max-width--770 g-margin-side-auto g-mb-60">
+	        <h2 class="g-mb-30 g-color-white">Best offers</h2>
+	        <p>Praesent blandit hendrerit justo sed egestas. Proin tincidunt purus in tortor cursus fermentum. Proin laoreet erat vitae dui blandit, vitae faucibus lacus auctor. Proin ornare sit amet arcu at aliquam.</p>
+	      </div>
+
+				<!-- Pricing list -->
+	      <div class="pricing-list">
+	      	<!-- Pricing item -->
+	      	<div class="pricing-item text-center">
+	      		<div class="pricing-item-header g-bg-default">
+	      			<h3 class="g-mb-20">Starter</h3>
+	      			<strong class="g-mb-5">$10.00</strong>
+	      			per month
+	      		</div>
+	      		<div class="pricing-item-body">
+		      		<ul class="list-unstyled">
+								<li>Etiam mollis iaculis</li>
+								<li>Fusce fringilla ipsum</li>
+								<li>Sed eget justo est</li>
+								<li>Sed pellentesque velit ante</li>
+								<li>Fusce fringilla ipsum nec</li>
+								<li>Nullam vel turpis</li>
+		      		</ul>
+		      		<a href="#" class="btn-u btn-u-lg btn-u-upper">Order now</a>
+	      		</div>
+	      	</div>
+	      	<!-- /Pricing item -->
+	      	<!-- Pricing item -->
+	      	<div class="pricing-item text-center">
+	      		<div class="pricing-item-header g-bg-default">
+	      			<h3 class="g-mb-20">Starter</h3>
+	      			<strong class="g-mb-5">$10.00</strong>
+	      			per month
+	      		</div>
+	      		<div class="pricing-item-body">
+		      		<ul class="list-unstyled">
+								<li>Etiam mollis iaculis</li>
+								<li>Fusce fringilla ipsum</li>
+								<li>Sed eget justo est</li>
+								<li>Sed pellentesque velit ante</li>
+								<li>Fusce fringilla ipsum nec</li>
+								<li>Nullam vel turpis</li>
+		      		</ul>
+		      		<a href="#" class="btn-u btn-u-lg btn-u-upper">Order now</a>
+	      		</div>
+	      	</div>
+	      	<!-- /Pricing item -->
+	      	<!-- Pricing item -->
+	      	<div class="pricing-item text-center">
+	      		<div class="pricing-item-header g-bg-default">
+	      			<h3 class="g-mb-20">Starter</h3>
+	      			<strong class="g-mb-5">$10.00</strong>
+	      			per month
+	      		</div>
+	      		<div class="pricing-item-body">
+		      		<ul class="list-unstyled">
+								<li>Etiam mollis iaculis</li>
+								<li>Fusce fringilla ipsum</li>
+								<li>Sed eget justo est</li>
+								<li>Sed pellentesque velit ante</li>
+								<li>Fusce fringilla ipsum nec</li>
+								<li>Nullam vel turpis</li>
+		      		</ul>
+		      		<a href="#" class="btn-u btn-u-lg btn-u-upper">Order now</a>
+	      		</div>
+	      	</div>
+	      	<!-- /Pricing item -->
+	      	<!-- Pricing item -->
+	      	<div class="pricing-item text-center">
+	      		<div class="pricing-item-header g-bg-default">
+	      			<h3 class="g-mb-20">Starter</h3>
+	      			<strong class="g-mb-5">$10.00</strong>
+	      			per month
+	      		</div>
+	      		<div class="pricing-item-body">
+		      		<ul class="list-unstyled">
+								<li>Etiam mollis iaculis</li>
+								<li>Fusce fringilla ipsum</li>
+								<li>Sed eget justo est</li>
+								<li>Sed pellentesque velit ante</li>
+								<li>Fusce fringilla ipsum nec</li>
+								<li>Nullam vel turpis</li>
+		      		</ul>
+		      		<a href="#" class="btn-u btn-u-lg btn-u-upper">Order now</a>
+	      		</div>
+	      	</div>
+	      	<!-- /Pricing item -->
+	      	<!-- Pricing item -->
+	      	<div class="pricing-item text-center">
+	      		<div class="pricing-item-header g-bg-default">
+	      			<h3 class="g-mb-20">Starter</h3>
+	      			<strong class="g-mb-5">$10.00</strong>
+	      			per month
+	      		</div>
+	      		<div class="pricing-item-body">
+		      		<ul class="list-unstyled">
+								<li>Etiam mollis iaculis</li>
+								<li>Fusce fringilla ipsum</li>
+								<li>Sed eget justo est</li>
+								<li>Sed pellentesque velit ante</li>
+								<li>Fusce fringilla ipsum nec</li>
+								<li>Nullam vel turpis</li>
+		      		</ul>
+		      		<a href="#" class="btn-u btn-u-lg btn-u-upper">Order now</a>
+	      		</div>
+	      	</div>
+	      	<!-- /Pricing item -->
+	      </div>
+	      <!-- /Pricing list -->
+			</div>
+		</section>
+		<!-- /Pricing Section -->
+
+		<!-- Contact Section -->
+		<section class="contacts-section g-pt-90 g-pb-90" id="contact">
+			<div class="container">
+	      <div class="text-center g-max-width--770 g-margin-side-auto g-mb-60">
+	        <h2 class="g-mb-30">Contact us</h2>
+	        <p>Cras luctus blandit sapien eget varius. Ut egestas justo faucibus laoreet fringilla. Pellentesque dictum, massa ut consequat euismod, tortor diam cursus nulla, a rhoncus justo mi ut diam.</p>
+	      </div>
+
+	      <!-- Contact Form -->
+	  		<form action="../assets/php/sky-forms-pro/demo-contacts-process.php" method="post" id="sky-form3" class="sky-form g-max-width--770 g-margin-side-auto">
+	  			<fieldset>
+			  		<div class="row">
+			  			<div class="col-sm-6 g-mb-30">
+		            <label class="input">
+		              <input type="text" name="name" id="name" placeholder="Your name">
+		            </label>
+			  			</div>
+			  			<div class="col-sm-6 g-mb-30">
+		            <label class="input">
+		              <input type="text" placeholder="Your phone">
+		            </label>
+			  			</div>
+			  		</div>
+
+			  		<div class="row g-mb-30">
+			  			<div class="col-sm-12">
+		            <label class="input">
+		              <input type="text" placeholder="Subject">
+		            </label>
+			  			</div>
+			  		</div>
+
+			  		<div class="row g-mb-40">
+			  			<div class="col-sm-12">
+		            <label class="textarea textarea-expandable">
+		              <textarea rows="3" name="message" id="message" placeholder="Message"></textarea>
+		            </label>
+			  			</div>
+			  		</div>
+
+			  		<div class="text-center">
+			  			<button type="submit" class="btn-u btn-u-lg btn-u-upper">Send Message</button>
+			  		</div>
+		  		</fieldset>
+
+					<div class="message text-center">
+						<i class="sky-form__message-icon rounded-x fa fa-check"></i>
+						<p>Your message was successfully sent!</p>
+					</div>
+	  		</form>
+	      <!-- /Contact Form -->
+			</div>
+		</section>
+		<!-- /Contact Section -->
+
+		<!-- Login Section -->
+		<section class="login-section g-bg-dark text-center g-pt-50 g-pb-25">
+			<div class="container">
+	      <!-- Contact Form -->
+	  		<form action="#" class="sky-form g-max-width--770 g-margin-side-auto">
+		  		<div class="row">
+		  			<div class="col-sm-5 col-xs-6 col-2xs-12 g-mb-20">
+	            <label class="input">
+	              <input type="text" placeholder="Login">
+	            </label>
+		  			</div>
+		  			<div class="col-sm-5 col-xs-6 col-2xs-12 g-mb-20">
+	            <label class="input">
+	              <input type="text" placeholder="Password">
+	            </label>
+		  			</div>
+			  		<div class="col-sm-2 g-mb-20">
+			  			<button type="submit" class="btn-u btn-u-lg btn-u-upper">Log in</button>
+			  		</div>
+		  		</div>
+	  		</form>
+	      <!-- /Contact Form -->
+			</div>
+		</section>
+		<!-- /Login Section -->

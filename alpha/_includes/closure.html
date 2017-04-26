@@ -3,40 +3,54 @@
   <!-- Les scripts from third parties -->
   {% javascript vendor %}
 
+  <!-- JS Global Compulsory -->
+  <script src="{{ site.data.global.url }}/unify/One-Pages/assets/plugins/jquery/jquery.min.js"></script>
+  <script src="{{ site.data.global.url }}/unify/One-Pages/assets/plugins/jquery/jquery-migrate.min.js"></script>
+  <script src="{{ site.data.global.url }}/unify/One-Pages/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+  <!-- JS Implementing Plugins -->
+  <script src="{{ site.data.global.url }}/unify/One-Pages/assets/plugins/smoothScroll.js"></script>
+  <script src="{{ site.data.global.url }}/unify/One-Pages/assets/plugins/jquery.easing.min.js"></script>
+  <script src="{{ site.data.global.url }}/unify/One-Pages/assets/plugins/sky-forms-pro/skyforms/js/jquery.form.min.js"></script>
+  <script src="{{ site.data.global.url }}/unify/One-Pages/assets/plugins/sky-forms-pro/skyforms/js/jquery.validate.min.js"></script>
+  <script src="{{ site.data.global.url }}/unify/One-Pages/assets/plugins/modernizr.js"></script>
+  <script src="{{ site.data.global.url }}/unify/One-Pages/assets/plugins/slick/slick.min.js"></script>
+  <script src="{{ site.data.global.url }}/unify/One-Pages/assets/plugins/shhos/shhos.js"></script>
+  <script src="{{ site.data.global.url }}/unify/One-Pages/assets/plugins/login-signup-modal-window/js/main.js"></script>
+
+  <!-- JS Page Level-->
+  <script src="{{ site.data.global.url }}/unify/One-Pages/assets/js/one.app.js"></script>
+  <script src="{{ site.data.global.url }}/unify/One-Pages/Accounting/assets/js/forms/contact.js"></script>
+  <script src="{{ site.data.global.url }}/unify/One-Pages/Accounting/assets/js/plugins/pricing.js"></script>
+  <script src="{{ site.data.global.url }}/unify/One-Pages/Accounting/assets/js/plugins/testimonials.js"></script>
+  <script src="{{ site.data.global.url }}/unify/One-Pages/Accounting/assets/js/plugins/infoblock.js"></script>
+  <script src="{{ site.data.global.url }}/unify/One-Pages/Accounting/assets/js/plugins/promo.js"></script>
+
+
+
   {% comment %}
     <!-- Unify template js is included on vendor.js file ;) -->
 
-    <!-- JS Global Compulsory -->
-    <!-- <script src="assets/plugins/jquery/jquery.min.js"></script> -->
-    <!-- <script src="{{ site.data.global.url }}/unify/assets/plugins/jquery/jquery-migrate.min.js"></script> -->
-    <!-- <script src="{{ site.data.global.url }}/unify/assets/plugins/bootstrap/js/bootstrap.min.js"></script> -->
 
-    <!-- JS Implementing Plugins -->
-    <!-- <script src="{{ site.data.global.url }}/unify/assets/plugins/back-to-top.js"></script> -->
-    <!-- <script src="{{ site.data.global.url }}/unify/assets/plugins/smoothScroll.js"></script> -->
-
-    <!-- JS Customization -->
-    <!-- <script type="text/javascript" src="{{ site.data.global.url }}/unify/assets/js/custom.js"></script> -->
-
-    <!-- JS Page Level -->
-    <!-- <script src="{{ site.data.global.url }}/unify/assets/js/app.js"></script> -->
   
-    <!--[if lt IE 9]>
-        <script src="{{ site.data.global.url }}/unify/assets/plugins/respond.js"></script>
-        <script src="{{ site.data.global.url }}/unify/assets/plugins/html5shiv.js"></script>
-        <script src="{{ site.data.global.url }}/unify/assets/plugins/placeholder-IE-fixes.js"></script>
-    <![endif]-->
+   
   {% endcomment %}  
 
   <script>
   jQuery(document).ready(function() {
       App.init();
+      ContactForm.initContactForm();
   });
   </script>
 
   <!--[if lt IE 9]>
       {% javascript vendor.ie9 %}
   <![endif]-->
+
+  <!--[if lt IE 10]>
+    <script src="{{ site.data.global.url }}/unify/assets/plugins/sky-forms-pro/skyforms/js/jquery.placeholder.min.js"></script>
+  <![endif]-->
+
 
   {% if site.env == 'development' %}
     <!-- Only in development mode -->
