@@ -1,9 +1,10 @@
 # CASIO ECR site, jekyll configuration file
 
-# Important info for editors!
-
+# Important info for editors:
+# ===========================
 # - Settings related to content are stored in /_data/global.yml
 # - Main navigation is stored in /_data/nav.yml
+# - Content plages are stored at /…
 
 # Where things are
 plugins_dir:      ./_plugins
@@ -76,9 +77,10 @@ exclude:          [
   , 'README.md'  
   , 'sandbox'
   , '_assets/vendor'           # necessary for travis integration
+  , 'unify'
   ]
 
-include:          
+include:        
   -  '.htaccess'
   -  '_pages'
   -  'feed.xml' 
@@ -88,7 +90,9 @@ include:
   -  'humans.txt' 
   -  'robots.txt'
   -  'favicon.ico'
-  -  'unify'
+  -  'unify/One-Pages/assets/css/blocks.css'
+  # -  'unify'
+  
 
 # keep_files:     [".git", ".svn"]
 markdown_ext:     'markdown,mkdown,mkdn,mkd,md'

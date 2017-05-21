@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 # Dependencies
 # Fix build with travis on jekyll 3.1.6
-gem 'jekyll', '3.1.6'
+gem 'jekyll', '3.4.3'
 gem 'jekyll-watch', '1.4.0'
 gem 'sprockets', '3.6.3'
 gem 'sass'

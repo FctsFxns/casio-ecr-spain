@@ -40,7 +40,7 @@ formato YAML que te van a permitir gestionar los valores de:
 
 Antes de nada es necesario instalar grunt
 
-> npm init
+> npm install
 
 Los comandosde theming son los siguientes:
 

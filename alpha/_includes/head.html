@@ -21,13 +21,13 @@
 
     <!-- CSS Global Compulsory -->
     {% stylesheet bootstrap/dist/css/bootstrap.min %}
-
-    <!-- General  Styles -->
     {% stylesheet One-Pages/assets/css/app %}
     {% comment %}
+        <!-- Dona error de Jekyll si ho afegim -->
+        <!-- Liquid Exception: undefined method `gsub' for nil:NilClass in … -->
         {% stylesheet One-Pages/assets/css/blocks %}
     {% endcomment %}
-    <link type="text/css" rel="stylesheet" href="/unify/One-Pages/assets/css/blocks.css">
+    <link type="text/css" rel="stylesheet" href="/media/One-Pages/assets/css/blocks.css">
     {% stylesheet One-Pages/assets/css/one.style %}
 
     <!-- CSS Implementing Plugins -->
@@ -42,9 +42,9 @@
 
     <!-- CSS Theme -->
     {% stylesheet One-Pages/Accounting/assets/css/accounting.style.css %}
-    {% stylesheet one.page.scss %}
 
     <!-- CSS Customization -->
+    {% stylesheet one.page.scss %}
     <style type="text/css">
         {% capture include_to_scssify %}
           {% include default.scss %}
