@@ -1,0 +1,140 @@
+/*
+* Version: 1.9.5
+* Base Color: $primary-color;
+* Base Hover Color: $link-color;
+* Text color: $text-color;
+*/
+
+
+/* Global */
+.g-color-default { color: $primary-color !important; }
+.g-color-link { color: $link-color !important; }
+.g-color-dark { color: #333 !important;}
+
+
+.g-color-white { color: #fff !important; }
+.g-color-white--dark { color: rgba(255,255,255,.7) !important; }
+.g-color-white--darker { color: rgba(255,255,255,.5) !important; }
+.g-color-white--darkest { color: rgba(255,255,255,.3) !important; }
+
+.g-bg-default { background-color: $primary-color !important; }
+.g-bg-dark {    background-color: #222222 !important; }
+.g-bg-gray {    background-color: #505050 !important; }
+.g-bg-gray--light { background-color: #fafafa !important; }
+
+
+i.icon-color-default {
+  border-color: $primary-color;
+}
+
+/* General */
+
+body {
+  color: $text-color;
+}
+
+p,
+li,
+li a {
+  color: $text-color;
+}
+
+a {
+  color: $primary-color;
+}
+a,
+a:focus,
+a:hover,
+a:active {
+  color: $link-color;
+}
+a:focus {
+}
+
+/* Highlight */
+::-moz-selection {
+  background: $secondary-color;
+}
+::selection {
+  background: $secondary-color;
+}
+
+/* Buttons */
+.btn-u {
+  background: $primary-color;
+}
+.btn-u:hover,
+.btn-u:focus {
+  background: $link-color;
+}
+.btn-u.btn-brd:hover,
+.btn-u.btn-brd:focus {
+  background: $link-color;
+}
+
+
+/* Navbar */
+.one-page-header .navbar-nav > li > a span[data-hover]:before {
+  color: $primary-color;
+}
+.one-page-header .navbar-nav > .active > a span[data-hover],
+.one-page-header .navbar-nav > .active > a:hover span[data-hover],
+.one-page-header .navbar-nav > .active > a:focus span[data-hover],
+.one-page-header .dropdown-menu > .active > a span[data-hover],
+.one-page-header .dropdown-menu > .active > a:hover span[data-hover],
+.one-page-header .dropdown-menu > .active > a:focus span[data-hover],
+.one-page-header.top-nav-collapse .dropdown-menu > .active > a span[data-hover],
+.one-page-header.top-nav-collapse .dropdown-menu > .active > a:hover span[data-hover],
+.one-page-header.top-nav-collapse .dropdown-menu > .active > a:focus span[data-hover] {
+  color: $primary-color;
+}
+@media (max-width: 991px) {
+  .one-page-header .navbar-nav > li > a:hover span[data-hover] {
+    color: $primary-color;
+  }
+}
+
+/* Navbar Toggle */
+.one-page-header.navbar-default .navbar-toggle:hover .icon-bar,
+.one-page-header.top-nav-collapse .navbar-toggle:hover .icon-bar {
+  background: $primary-color;
+}
+
+/* Promo section */
+@media (min-width: 1200px) {
+  .promo-section .slick-dots .slick-active {
+    color: $link-color;
+    border-color: $link-color;
+  }
+}
+
+/* Infoblocks */
+.infoblocks .slick-dots .slick-active {
+  color: $primary-color;
+}
+.infoblocks .slick-dots .slick-active span {
+  border: 3px solid $primary-color;
+}
+
+/* Testimonials Section */
+.testinomials-content .slick-dots li.slick-active {
+  background: $primary-color;
+}
+
+.testimonials-item__author em {
+  color: $primary-color;
+}
+
+/* Pricing Section */
+.pricing-item-header {
+  background: $primary-color;
+}
+.pricing-list li.slick-active {
+  background: $primary-color;
+}
+
+/* Contact Form */
+.sky-form__message-icon {
+  color: $primary-color;
+  border-color: $primary-color !important;
+}

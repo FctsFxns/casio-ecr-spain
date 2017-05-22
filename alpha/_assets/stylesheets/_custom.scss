@@ -1,15 +1,184 @@
+body {
+	font-family: $font-family-sans-serif;
+	font-size: 14px;
+}
+
 .one-page-header {
     background: rgba(255,255,255,0.9);
 }
 
+.g-max-width--900 {
+  max-width: 900px;
+  position: relative;
+}
+
 small {
-	color: $cc-primary;
+	color: $primary-color;
 	font-size: 18px;
 	font-style: italic;
 }
 
+/* Sky Form Styles */
+.sky-form .input input,
+.sky-form .textarea textarea,
+.sky-form .input input:hover,
+.sky-form .textarea textarea:hover {
+  border-color: #ececec;
+  border-radius: 0;
+ }
 
-/* Promo section */
-.promo-section .slick-dots {
-  bottom: 120px;
+/* Button Styles */
+.btn-u-lg,
+a.btn-u-lg,
+.btn-u.btn-brd {
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 0;
+  padding: 15px 25px;
+}
+
+
+
+/* Navbar */
+.one-page-header.top-nav-collapse .navbar-brand,
+.one-page-header.top-nav-collapse .navbar-nav > li > a,
+.one-page-header.top-nav-collapse .navbar-nav > li > a:before {
+  font-size: 13px;
+}
+
+.one-page-header .navbar-nav > li > a {
+  font-size: 13px;
+}
+
+/** Homepage **/
+
+/** > Promo section **/
+.promo-section {
+	p {
+		font-size: 16px;
+	}
+	h3 {
+		strong {
+		  color: $link-color !important;
+		}
+	}
+	.slick-dots {
+	  // bottom: 120px;
+	  li {
+	  	&.slick-active {
+	  		color: $link-color;
+	  		border-color: $link-color;
+	  	}
+	  }
+	}
+
+
+	.btn-u {
+	  background: $link-color;
+	}
+	.btn-u:hover,
+	.btn-u:focus {
+	  background: $primary-color;
+	}
+	.btn-u.btn-brd:hover,
+	.btn-u.btn-brd:focus {
+	  background: $primary-color;
+	}
+
+
+}
+
+/** > Soluciones section **/
+.soluciones-section {
+	.intro {
+		p {
+			font-size: 16px;
+		}
+	}
+}
+
+/* Infoblocks */
+.infoblocks {
+  padding-top: 80px;
+}
+
+/** > Action section **/
+.action-section {
+    background: url(../media/assets/One-Pages/assets/img-temp/2.jpg) no-repeat 50% 50% / cover;
+    p {
+    	font-size: 20px;
+    	font-weight: 300;
+    }
+}
+
+/* Projects Section */
+.projects-section {
+	.projects-intro {
+		p {
+			font-size: 16px;
+		}
+	}
+}
+
+.project-item__content {
+	h3 {
+		a {
+			color: #111;
+			&:hover {
+				color: $primary-color;
+			}
+		}
+	} 
+}
+
+/* Pre-Footer */
+.pre-footer {
+	li {
+		&::before {
+			content: "";
+			border-color: transparent $link-color;
+			border-style: solid;
+			border-width: 0.35em 0 0.35em 0.45em;
+			display: block;
+			height: 0;
+			width: 0;
+			left: -1em;
+			top: 14px;
+			position: relative;			
+		}
+		a {
+			color: #aaa;
+		}
+	}
+}
+
+/* Footer */
+.footer {
+	.container {
+	  border-top: none;
+	}
+	a {
+	  color: $primary-color;
+	}
+	.copyright {
+		display: inline-block;
+		font-size: 10px;
+	}
+	.casio-logo {
+		display: inline-block;
+		padding-right: 30px;
+		em {
+			display: inline-block;
+			font-family: "Helvetica Neue",HelveticaNeue,Helvetica,Arial,"Arial Unicode MS",sans-serif;
+			font-size: .9em;
+			margin-left: .25em;
+			padding-left: 1em;
+			font-style: normal;
+			font-weight: 200;
+			line-height: 2em;
+			color: #5977b3;
+			border-left: 1px solid #dae0f2;			
+		}
+	}
+
 }

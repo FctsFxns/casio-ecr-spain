@@ -1,47 +1,38 @@
 		<!-- Pre-Footer -->
 		<section class="pre-footer g-bg-dark text-center--2xs">
-			<div class="container g-pt-30">
+			<div class="container g-pt-40 g-pb-20">
 				<div class="row">
 					<div class="col-md-4 g-mb-25">
-						<h3 class="g-mb-15 g-color-white">Text widget</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae est lorem. Aenean imperdiet nisi a dolor condimentum, id ullamcorper lacus vestibulum. Praesent pulvinar gravida. Aenean lobortis ante ac porttitor eleifend.</p>
+						<h3 class="g-mb-15 g-color-white">{{ site.data.global.title }}</h3>
+						<p class="g-color-white--darker">
+							{{ site.data.global.footer_contact }} 
+							<br><a href="mailto:{{ site.data.global.email }} ">{{ site.data.global.email }} </a>
+						</p>
 					</div>
 					<div class="col-md-8">
 						<div class="row">
-							<div class="col-sm-3 col-xs-6 col-2xs-12 g-mb-25">
-								<h3 class="g-mb-15 g-color-white">Categories</h3>
+							<div class="col-sm-4 col-xs-4 col-2xs-12 g-mb-25">
+								<h3 class="g-mb-15 g-color-white">Asistencia</h3>
 								<ul class="list-unstyled">
-									<li><a href="#">Proin vitae est lorem</a></li>
-									<li><a href="#">Aenean imperdiet nisi</a></li>
-									<li><a href="#">Praesent pulvinar gravida</a></li>
-									<li><a href="#">Integer commodo est</a></li>
+									<li><a href="https://www.casio-europe.com/es/asistencia/">Asistencia técnica</a></li>
+									<li><a href="http://support.casio.com/es/support/faq.php?cid=006">Preguntas más frecuentes</a></li>
+									<li><a href="http://www.support.casio-europe.com/es/manuals/">Manuales y descargas</a></li>
 								</ul>
 							</div>
-							<div class="col-sm-3 col-xs-6 col-2xs-12 g-mb-25">
-								<h3 class="g-mb-15 g-color-white">Customer support</h3>
+							<div class="col-sm-4 col-xs-4 col-2xs-12 g-mb-25">
+								<h3 class="g-mb-15 g-color-white">Enlaces de interés</h3>
 								<ul class="list-unstyled">
-									<li><a href="#">Vivamus egestas sapien</a></li>
-									<li><a href="#">Sed convallis nec enim</a></li>
-									<li><a href="#">Pellentesque a tristique risus</a></li>
-									<li><a href="#">Nunc vitae libero lacus</a></li>
+									<li><a href="https://secure.casio-europe.com/registration/es/ecr/">Registro de producto</a></li>
+									<li><a href="http://www.casio-europe.com/es/asistencia/reparacion-de-productos/sistemas-de-caja/">Reparación de productos</a></li>
+									<li><a href="https://www.casio-europe.com/es/la-empresa/">La empresa</a></li>
 								</ul>
 							</div>
-							<div class="col-sm-3 col-xs-6 col-2xs-12 g-mb-25">
-								<h3 class="g-mb-15 g-color-white">Top link</h3>
+							<div class="col-sm-4 col-xs-4 col-2xs-12 g-mb-25">
+								<h3 class="g-mb-15 g-color-white">Linea de productos</h3>
 								<ul class="list-unstyled">
-									<li><a href="#">Pellentesque a tristique risus</a></li>
-									<li><a href="#">Nunc vitae libero lacus</a></li>
-									<li><a href="#">Praesent pulvinar gravida</a></li>
-									<li><a href="#">Integer commodo est</a></li>
-								</ul>
-							</div>
-							<div class="col-sm-3 col-xs-6 col-2xs-12 g-mb-25">
-								<h3 class="g-mb-15 g-color-white">Usefull links</h3>
-								<ul class="list-unstyled">
-									<li><a href="#">Praesent pulvinar gravida</a></li>
-									<li><a href="#">Integer commodo est</a></li>
-									<li><a href="#">Praesent pulvinar gravida</a></li>
-									<li><a href="#">Integer commodo est</a></li>
+									<li><a href="https://www.casio-europe.com/es/productos/sistemas-de-caja/soluciones-para-sistemas/">Soluciones para sistemas</a></li>
+									<li><a href="https://www.casio-europe.com/es/productos/sistemas-de-caja/cajas-individuales/">Cajas individuales</a></li>
+									<li><a href="https://www.casio-europe.com/es/productos/sistemas-de-caja/terminales-de-red/">Terminales de red</a></li>
 								</ul>
 							</div>
 						</div>
@@ -53,36 +44,28 @@
 
 
 	  <!-- Footer -->
-	  <footer class="footer g-bg-dark text-center--2xs">
+	  <footer class="footer text-center--2xs">
 	    <div class="container g-pt-40 g-pb-20">
 	      <div class="row">
-	        <div class="col-xs-6 col-2xs-12 g-pb-20">
-	          <p>&copy; {{ site.data.global.footer_text }}</a></p>
+	        <div class="col-xs-8 col-2xs-12 g-pb-20">
+	        	<span class="casio-logo">   
+                <a href="http://www.casio-europe.com/es/">
+                  <img src="/media/images/logo-casio.png" alt="CASIO"> 
+                  <em>España</em>
+                </a>              
+            </span>
+
+	          <p class="copyright">{{ site.data.global.footer_text }}</a></p>
 	        </div>
 
-	        <div class="col-xs-6 col-2xs-12 text-right g-pb-20">
-	        <ul class="list-inline g-margin-0">
-	          <li>
-	            <a href="#" class="footer__social">
-	              <i class="icon-bg-u icon-sm rounded fa fa-twitter"></i>
-	            </a>
-	          </li>
-	          <li>
-	            <a href="#" class="footer__social">
-	              <i class="icon-bg-u icon-sm rounded fa fa-pinterest-p"></i>
-	            </a>
-	          </li>
-	          <li>
-	            <a href="#" class="footer__social">
-	              <i class="icon-bg-u icon-sm rounded fa fa-facebook"></i>
-	            </a>
-	          </li>
-	          <li>
-	            <a href="#" class="footer__social">
-	              <i class="icon-bg-u icon-sm rounded fa fa-linkedin"></i>
-	            </a>
-	          </li>
-	        </ul>
+	        <div class="col-xs-4 col-2xs-12 text-right g-pb-20">
+		        <ul class="list-inline g-margin-0">
+		          <li>
+								<a href="http://www.casio-europe.com/es/corporate/imprint/privacy/" target="_blank">Política de Privacidad</a>	            
+		          </li>
+		          <li>
+								<a href="http://www.casio-europe.com/es/corporate/imprint/termsofuse/" target="_blank">Términos de uso</a>	          </li>
+		        </ul>
 	        </div>
 	      </div>
 	    </div>

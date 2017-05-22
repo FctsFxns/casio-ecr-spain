@@ -32,8 +32,12 @@ call_url:              ''
 # Contact
 email:            info@casio-ecr.es
 
+footer_contact:   > # …
+            C/Josep Pla, 2. Torre B2 Planta 12. <br/>
+            08019 Barcelona (ES)<br>
+            Tel. 934 858 400  -  Fax. 934 858 440   
 
-footer_text:      '2017 CASIO ESPAÑA S.L. © Todos los derechos reservados'
+footer_text:      '© 2017 CASIO System Solutions es un sitio propiedad de CASIO España, S.L, Todos los derechos reservados.'
 
 # Admin Settings
 admin_name:       'Daniel Canet'

@@ -1,14 +1,19 @@
 @charset "utf-8";
 
+
 // Brand variables
+$font-family-sans-serif: "Open Sans", Arial, sans-serif;
+
+
 // Colors
+$cc-primary:      #593F7F;
 
-$cc-primary:   #593F7F;
+$text-color:      #999;
+$primary-color:   #0057AC;
+$link-color:      #00BDF5;
+$secondary-color: #e7e7e7;
 
+@import 'theme_color_base';
 @import 'custom';
 
-/** Homepage **/
 
-.action-section {
-    background: url(../media/assets/One-Pages/assets/img-temp/2.jpg) no-repeat 50% 50% / cover;
-}
