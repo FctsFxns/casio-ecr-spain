@@ -11,12 +11,10 @@
 //= require One-Pages/assets/plugins/shhos/shhos
 
 //= require One-Pages/assets/js/one.app
-//= require One-Pages/Accounting/assets/js/forms/contact
-//= require One-Pages/Accounting/assets/js/forms/contact
-//= require One-Pages/Accounting/assets/js/plugins/pricing
-//= require One-Pages/Accounting/assets/js/plugins/testimonials
-//= require One-Pages/Accounting/assets/js/plugins/infoblock
-//= require One-Pages/Accounting/assets/js/plugins/promo
+//= require One-Pages/homepage/assets/js/forms/contact
+//= require One-Pages/homepage/assets/js/plugins/pricing
+//= require One-Pages/homepage/assets/js/plugins/infoblock
+//= require One-Pages/homepage/assets/js/plugins/promo
 
 
 
