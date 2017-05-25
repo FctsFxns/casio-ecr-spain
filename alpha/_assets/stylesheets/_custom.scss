@@ -24,7 +24,7 @@ small {
 .sky-form .input input:hover,
 .sky-form .textarea textarea:hover {
   border-color: #ececec;
-  border-radius: 0;
+  border-radius: 3px;
  }
 
 /* Button Styles */
@@ -33,7 +33,7 @@ a.btn-u-lg,
 .btn-u.btn-brd {
   font-size: 12px;
   font-weight: bold;
-  border-radius: 0;
+  border-radius: 3px;
   padding: 15px 25px;
 }
 
@@ -52,8 +52,15 @@ a.btn-u-lg,
 
 /** > Promo section **/
 .promo-section {
+	.promo-item-content {
+		text-align: left;
+	}
+
 	p {
-		font-size: 16px;
+		color: #fafafa;
+		font-size: 18px;
+		max-width: 70%;
+		margin: 0 0 35px;
 	}
 	h3 {
 		strong {
@@ -138,6 +145,13 @@ a.btn-u-lg,
 	a.read-more {
 		font-size: 12px;
 		text-transform: uppercase;
+	}
+}
+
+/* Subscribe section */
+.login-section {
+	.btn-u-lg  {
+		padding: 13px 25px;
 	}
 }
 
