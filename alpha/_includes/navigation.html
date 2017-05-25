@@ -37,25 +37,25 @@
         <div class="menu-container">
           <ul class="nav navbar-nav">
             <li class="page-scroll">
-              <a href="{{ '/' | prepend: site.data.global.url }}#welcome"><span data-hover="Inicio">Inicio</span></a>
+              <a href="{% if page.layout_id != 'home' %}{{ '/' | prepend: site.data.global.url }}{% endif %}#welcome"><span data-hover="Inicio">Inicio</span></a>
             </li>
             <li class="page-scroll">
-              <a href="{{ '/' | prepend: site.data.global.url }}#about"><span data-hover="Quienes somos">Quienes somos</span></a>
+              <a href="{% if page.layout_id != 'home' %}{{ '/' | prepend: site.data.global.url }}{% endif %}#about"><span data-hover="Quienes somos">Quienes somos</span></a>
             </li>
             <li class="page-scroll">
-              <a href="{{ '/' | prepend: site.data.global.url }}#soluciones"><span data-hover="Soluciones">Soluciones</span></a>
+              <a href="{% if page.layout_id != 'home' %}{{ '/' | prepend: site.data.global.url }}{% endif %}#soluciones"><span data-hover="Soluciones">Soluciones</span></a>
             </li>
             <li class="page-scroll">
-              <a href="{{ '/' | prepend: site.data.global.url }}#projects"><span data-hover="Noticias">Noticias</span></a>
+              <a href="{% if page.layout_id != 'home' %}{{ '/' | prepend: site.data.global.url }}{% endif %}#projects"><span data-hover="Noticias">Noticias</span></a>
             </li>
             <li class="page-scroll">
-              <a href="{{ '/' | prepend: site.data.global.url }}#partners"><span data-hover="Programa para Partners">Programa para Partners</span></a>
+              <a href="{% if page.layout_id != 'home' %}{{ '/' | prepend: site.data.global.url }}{% endif %}#partners"><span data-hover="Programa para Partners">Programa para Partners</span></a>
             </li>
             <li class="page-scroll">
-              <a href="{{ '/' | prepend: site.data.global.url }}#contacto"><span data-hover="Contacto">Contacto</span></a>
+              <a href="{% if page.layout_id != 'home' %}{{ '/' | prepend: site.data.global.url }}{% endif %}#contacto"><span data-hover="Contacto">Contacto</span></a>
             </li>
           </ul>
-            <div class="header-buttons cd-log_reg">
+            <div class="header-buttons">
                 <a class="btn-u btn-u-lg" href="{{ '/' | prepend: site.data.global.url }}{{site.data.global.url_distribuidor}}">Distribuidores</a>
             </div>
         </div>
