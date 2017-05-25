@@ -3,15 +3,31 @@
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 <head>
      <!-- Page metas -->
-    <title>{% if page.title %}{{ page.title | truncate: 120 }} | {{ site.data.global.title }}{% else %}{{ site.data.global.title }}{% endif %}</title>
+    <title>{% if page.title %}{{ page.title }}{% elsif post.title %}{{ post.title }}{% else %}{{ site.data.global.title }} {% endif %}</title>
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <meta name="description" content="{% if page.intro %}{{ page.intro | strip_html | strip_newlines | truncate: 160 | replace:'"',''}}{% else %}{% if work.intro %}{{ work.intro | strip_html | strip_newlines | truncate: 160 | replace:'"','' }}{% else %}{{ site.data.global.description }}{% endif %}{% endif %}">
 
     <!-- Meta -->
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="description">
-    <meta content="" name="author">
+
+    <meta name="description" content="{% if page.intro %}{{ page.intro | strip_html | strip_newlines | truncate: 160 | replace:'"',''}}{% else %}{% if post.intro %}{{ post.intro | strip_html | strip_newlines | truncate: 160 | replace:'"','' }}{% else %}{{ site.data.global.description }}{% endif %}{% endif %}">
+    <meta name="author" content="{{ site.data.global.author }}" >
+
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% elsif post.title %}{{ post.title }}{% else %}{{ site.data.global.title }} {% endif %}" />
+    <meta property="og:site_name" content="{{ site.data.global.title }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+    <meta property="og:description" content="{% if page.intro %}{{ page.intro | strip_html | strip_newlines | truncate: 160 | replace:'"',''}}{% else %}{% if post.intro %}{{ post.intro | strip_html | strip_newlines | truncate: 160 | replace:'"','' }}{% else %}{{ site.data.global.description }}{% endif %}{% endif %}" />
+    {% if page.featured_image %}
+        <meta property="og:image" content="{{ page.featured_image  | prepend: site.baseurl | prepend: site.url }}" />
+    {% endif %}
+
+
+    {% if page.sitemap == 0 %}
+        <!-- Sitemap -->
+        <meta name="robots" content="noindex, nofollow">
+    {% endif %}
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{ site.data.global.url }}/favicon.ico">
@@ -22,6 +38,7 @@
     <!-- CSS Global Compulsory -->
     {% stylesheet bootstrap/dist/css/bootstrap.min %}
     {% stylesheet One-Pages/assets/css/app %}
+
     {% comment %}
         <!-- Dona error de Jekyll si ho afegim -->
         <!-- Liquid Exception: undefined method `gsub' for nil:NilClass in … -->
@@ -44,7 +61,7 @@
     {% stylesheet One-Pages/assets/plugins/shhos/shhos.css %}
 
     <!-- CSS Theme -->
-    {% stylesheet One-Pages/homepage/assets/css/accounting.style.css %}
+    {% stylesheet One-Pages/homepage/assets/css/homepage.style.css %}
 
     <!-- CSS Customization -->
     {% stylesheet one.page.scss %}
@@ -59,33 +76,21 @@
 
 <body id="{% if page.layout_id %} {{page.layout_id}}{% endif %}" class="{{ post.title | downcase | replace:' ','-' | replace:',','' | strip_html }}{% if page.category %} category-{{ page.category }}{% endif %}{% if page.layout_class %} {{ page.layout_class }}{% endif %} {{ work.title | downcase | replace:' ','-' | replace:',','' | strip_html }}">
 
-{% comment %}
-    <!-- RSS -->
-    <link rel="alternate" type="application/rss+xml" title="{{ site.data.global.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
-    <link rel="alternate" type="application/atom+xml" title="{{ site.data.global.title }}" href="{{ "/atom.xml" | prepend: site.baseurl | prepend: site.url }}">
-
-
-    <!-- OGP Shite -->
-    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% elsif post.title %}{{ post.title }}{% else %}{{ site.data.global.title }} {% endif %}" />
-    <meta property="og:site_name" content="{{ site.data.global.title }}" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
-    <meta property="og:description" content="{% if page.intro %}{{ page.intro | strip_html | strip_newlines | truncate: 160 | replace:'"',''}}{% else %}{% if work.intro %}{{ work.intro | strip_html | strip_newlines | truncate: 160 | replace:'"','' }}{% else %}{{ site.data.global.description }}{% endif %}{% endif %}" />
-   
-    {% if page.featured_image %}
-        <meta property="og:image" content="{{ page.featured_image  | prepend: site.baseurl | prepend: site.url }}" />
-    {% endif %}
-
-    {% if site.data.global.twitter_username %}
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@{{ site.data.global.twitter_username }}" />
-        <meta name="twitter:creator" content="@{{ site.data.global.twitter_username }}" />
-        <meta name="twitter:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
-        <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% elsif post.title %}{{ post.title }}{% else %}{{ site.data.global.title }} {% endif %}" />
-        <meta name="twitter:description" content="{% if page.intro %}{{ page.intro | strip_html | strip_newlines | truncate: 200 | replace:'"',''}}{% else %}{% if work.intro %}{{ work.intro | strip_html | strip_newlines | truncate: 160 | replace:'"','' }}{% else %}{{ site.data.global.description }}{% endif %}{% endif %}" />
-            {% if page.featured_image %}
-                <meta property="twitter:image" content="{{ page.featured_image  | prepend: site.baseurl | prepend: site.url }}" />
-            {% endif %}
-    {% endif %}
-{% endcomment %}
+    {% comment %}
+        <!-- RSS -->
+        <link rel="alternate" type="application/rss+xml" title="{{ site.data.global.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+        <link rel="alternate" type="application/atom+xml" title="{{ site.data.global.title }}" href="{{ "/atom.xml" | prepend: site.baseurl | prepend: site.url }}">
+        <!-- OGP Shite -->
+        {% if site.data.global.twitter_username %}
+            <meta name="twitter:card" content="summary" />
+            <meta name="twitter:site" content="@{{ site.data.global.twitter_username }}" />
+            <meta name="twitter:creator" content="@{{ site.data.global.twitter_username }}" />
+            <meta name="twitter:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+            <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% elsif post.title %}{{ post.title }}{% else %}{{ site.data.global.title }} {% endif %}" />
+            <meta name="twitter:description" content="{% if page.intro %}{{ page.intro | strip_html | strip_newlines | truncate: 200 | replace:'"',''}}{% else %}{% if work.intro %}{{ work.intro | strip_html | strip_newlines | truncate: 160 | replace:'"','' }}{% else %}{{ site.data.global.description }}{% endif %}{% endif %}" />
+                {% if page.featured_image %}
+                    <meta property="twitter:image" content="{{ page.featured_image  | prepend: site.baseurl | prepend: site.url }}" />
+                {% endif %}
+        {% endif %}
+    {% endcomment %}
 

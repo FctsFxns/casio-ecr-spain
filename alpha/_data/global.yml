@@ -29,10 +29,11 @@ call_link:             > # …
 call_url:              ''
 
 # URL's como constantes
-url_distribuidor: '/ser-distribuidor'
+url_distribuidor: 'ser-distribuidor'
 
 
 # Contact
+author:           CASIO España
 email:            info@casio-ecr.es
 
 footer_contact:   > # …

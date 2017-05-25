@@ -1,7 +1,10 @@
 ---
 layout:       default
-layout-class: page-home   
+layout_class: page-home   
 layout_id:    home   
+sitemap:      1
+title:        CASIO System Solutions
+intro:        'Optimiza y sácale el máximo partido a todas las soluciones TPV de CASIO y prepárate para empezar la temporada con el mejor terminal de punto de venta.'
 ---
 {% comment %}
 	<h1>{{ site.data.global.title }}</h1>
@@ -262,7 +265,7 @@ layout_id:    home
 	      <div class="g-max-width--900 g-margin-side-auto page-scroll">
 	        <h2 class="g-mb-20 g-color-white">Trabaja con los mejores</h2>
 	        <p class="g-color-white--dark g-mb-40"><strong>Hazte distribuidor oficial de CASIO</strong>. <br>Participa en el programa CASIO ECR Partners y consigue ventajas competitivas.</p>
-	        <a href="#ventajas" class="btn-u btn-brd btn-u-lg btn-u-upper g-mb-20 g-mr-30 g-3xs-mb-20 g-3xs-mr-0">Ventajas para distribuidores</a><div class="visible-3xs clearfix"></div><a href="{{site.data.global.url_distribuidor}}" class="btn-u btn-u-lg btn-u-upper">Participa en el programa</a>
+	        <a href="#ventajas" class="btn-u btn-brd btn-u-lg btn-u-upper g-mb-20 g-mr-30 g-3xs-mb-20 g-3xs-mr-0">Ventajas para distribuidores</a><div class="visible-3xs clearfix"></div><a href="{{ '/' | prepend: site.data.global.url }}{{site.data.global.url_distribuidor}}" class="btn-u btn-u-lg btn-u-upper">Participa en el programa</a>
 	      </div>
 			</div>
 		</section>
@@ -298,7 +301,7 @@ layout_id:    home
 	      </div>
 	      <div class="text-center row">
 	      	<div class="col-xs-12 g-mb-30">
-	          <a class="btn-u btn-u-lg" href="{{site.data.global.url_distribuidor}}">Únete a la red de distribuidores CASIO</a>	      		
+	          <a class="btn-u btn-u-lg" href="{{ '/' | prepend: site.data.global.url }}{{site.data.global.url_distribuidor}}">Únete a la red de distribuidores CASIO</a>	      		
 	      	</div>
 	      </div>
 

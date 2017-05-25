@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: legal
 layout_class: page-legal   
-layout_id: legal   
+layout_id: page-legal    
 title: Términos de uso
 permalink: /terminos-de-uso/
 sitemap: 0
