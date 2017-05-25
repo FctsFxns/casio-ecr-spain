@@ -1,0 +1,6 @@
+/* Add here all your css styles (customizations) */
+.error-v6 span.sorry p {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 300;
+}

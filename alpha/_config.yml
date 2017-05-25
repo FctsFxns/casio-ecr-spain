@@ -82,7 +82,6 @@ exclude:          [
 
 include:        
   -  '.htaccess'
-  -  '_pages'
   -  'feed.xml' 
   -  'atom.xml' 
   -  'crossdomain.xml' 
@@ -91,11 +90,19 @@ include:
   -  'robots.txt'
   -  'favicon.ico'
   -  'unify/One-Pages/assets/css/blocks.css'
-  # -  'unify'
+#  -  '_pages'
+#  -  'unify'
   
 
 # keep_files:     [".git", ".svn"]
 markdown_ext:     'markdown,mkdown,mkdn,mkd,md'
+
+# Collections
+collections:
+  pages:
+    path:      pages
+    output:    true
+    permalink: /:title/
 
 
 # Compress html

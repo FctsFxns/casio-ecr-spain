@@ -23,7 +23,6 @@
         <meta property="og:image" content="{{ page.featured_image  | prepend: site.baseurl | prepend: site.url }}" />
     {% endif %}
 
-
     {% if page.sitemap == 0 %}
         <!-- Sitemap -->
         <meta name="robots" content="noindex, nofollow">
@@ -44,6 +43,7 @@
         <!-- Liquid Exception: undefined method `gsub' for nil:NilClass in … -->
         {% stylesheet One-Pages/assets/css/blocks %}
     {% endcomment %}
+    
     <link type="text/css" rel="stylesheet" href="/media/One-Pages/assets/css/blocks.css">
     {% stylesheet One-Pages/assets/css/one.style %}
 
