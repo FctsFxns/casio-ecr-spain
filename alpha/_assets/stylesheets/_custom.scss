@@ -126,7 +126,7 @@ a.btn-u-lg,
 	}
 }
 
-.project-item__content {
+.project-item {
 	h3 {
 		a {
 			color: #111;
@@ -135,26 +135,13 @@ a.btn-u-lg,
 			}
 		}
 	} 
-}
-
-/* Pre-Footer */
-.pre-footer {
-	li {
-		&::before {
-			content: "";
-			border-color: transparent $link-color;
-			border-style: solid;
-			border-width: 0.35em 0 0.35em 0.45em;
-			display: block;
-			height: 0;
-			width: 0;
-			left: -1em;
-			top: 14px;
-			position: relative;			
-		}
+	a.read-more {
+		font-size: 12px;
+		text-transform: uppercase;
 	}
 }
 
+/* Pre-Footer */
 .pre-footer {
 	li {
 		a {
@@ -162,6 +149,26 @@ a.btn-u-lg,
 		}
 	}
 }
+
+@media (min-width: 768px) {
+	.pre-footer {
+		li {
+			&::before {
+				content: "";
+				border-color: transparent $link-color;
+				border-style: solid;
+				border-width: 0.35em 0 0.35em 0.45em;
+				display: block;
+				height: 0;
+				width: 0;
+				left: -1em;
+				top: 14px;
+				position: relative;			
+			}
+		}
+	}
+}
+
 /* Footer */
 .footer {
 	.container {
@@ -177,6 +184,7 @@ a.btn-u-lg,
 	.casio-logo {
 		display: inline-block;
 		padding-right: 30px;
+		padding-bottom: 10px;
 		em {
 			display: inline-block;
 			font-family: "Helvetica Neue",HelveticaNeue,Helvetica,Arial,"Arial Unicode MS",sans-serif;
@@ -190,5 +198,20 @@ a.btn-u-lg,
 			border-left: 1px solid #dae0f2;			
 		}
 	}
+	.legal {
+		ul li a {
+			font-size: 12px;
+		}
+	}
 
+}
+@media (max-width: 768px) {
+	.footer {
+		.legal {
+			text-align: center;
+			ul li a {
+				font-size: 11px;
+			}
+		}
+	}
 }

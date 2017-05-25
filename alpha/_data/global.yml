@@ -28,6 +28,9 @@ call_link:             > # …
 
 call_url:              ''
 
+# URL's como constantes
+url_distribuidor: '/ser-distribuidor'
+
 
 # Contact
 email:            info@casio-ecr.es
