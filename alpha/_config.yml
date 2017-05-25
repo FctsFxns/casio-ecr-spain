@@ -97,11 +97,6 @@ include:
 # keep_files:     [".git", ".svn"]
 markdown_ext:     'markdown,mkdown,mkdn,mkd,md'
 
-# Outputting
-permalink:       /:title.html
-#paginate_path:   /page:num
-#paginate:        3
-timezone:        'ES'
 
 # Compress html
 # @see: http://jch.penibelst.de/

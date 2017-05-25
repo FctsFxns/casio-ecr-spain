@@ -57,7 +57,7 @@
     </style>
 </head>
 
-<body id="{% if page.layout_id %} {{ page.layout_id }}{% endif %}" class="{{ post.title | downcase | replace:' ','-' | replace:',','' | strip_html }}{% if page.category %} category-{{ page.category }}{% endif %}{% if page.layout_class %} {{ page.layout_class }}{% endif %} {{ work.title | downcase | replace:' ','-' | replace:',','' | strip_html }}">
+<body id="{% if page.layout_id %} {{page.layout_id}}{% endif %}" class="{{ post.title | downcase | replace:' ','-' | replace:',','' | strip_html }}{% if page.category %} category-{{ page.category }}{% endif %}{% if page.layout_class %} {{ page.layout_class }}{% endif %} {{ work.title | downcase | replace:' ','-' | replace:',','' | strip_html }}">
 
 {% comment %}
     <!-- RSS -->
