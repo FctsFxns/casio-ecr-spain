@@ -1,0 +1,32 @@
+.page-distribuidor {
+	.action-section-inner {
+		height: 500px;
+	}
+	.action-section {
+		&::before {
+			display: none;
+		}
+		background-image: none;
+		background-color: #00bfa5;
+		h3 {
+			color: #eee;
+		}
+		p {
+			font-size: 16px;
+			font-weight: 100;
+		}
+		a {
+			color: #fff;
+			text-decoration: underline;
+		}
+	}
+}
+@media (min-width: 768px) {
+	.page-distribuidor {
+		.action-section {
+			p {
+				max-width: 550px;
+			}
+		}
+	}
+}

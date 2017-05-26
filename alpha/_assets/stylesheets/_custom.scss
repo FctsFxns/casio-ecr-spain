@@ -4,7 +4,10 @@ body {
 }
 
 .one-page-header {
-    background: rgba(255,255,255,0.9);
+    background: rgba(255,255,255,1);
+    &.top-nav-collapse {
+    	background: rgba(255,255,255,0.9);
+    }
 }
 
 .g-max-width--900 {
@@ -143,8 +146,12 @@ a.btn-u-lg,
 		}
 	} 
 	a.read-more {
-		font-size: 12px;
+		font-size: 14px;
 		text-transform: uppercase;
+		i {
+			font-size: 18px;
+			margin-right: 4px;
+		}
 	}
 }
 
@@ -164,24 +171,6 @@ a.btn-u-lg,
 	}
 }
 
-@media (min-width: 768px) {
-	.pre-footer {
-		li {
-			&::before {
-				content: "";
-				border-color: transparent $link-color;
-				border-style: solid;
-				border-width: 0.35em 0 0.35em 0.45em;
-				display: block;
-				height: 0;
-				width: 0;
-				left: -1em;
-				top: 14px;
-				position: relative;			
-			}
-		}
-	}
-}
 
 /* Footer */
 .footer {
