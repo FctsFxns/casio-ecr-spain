@@ -139,3 +139,7 @@ a:focus {
   color: $primary-color;
   border-color: $primary-color !important;
 }
+
+.sky-form .state-error + em {
+  color: $link-color;
+}
