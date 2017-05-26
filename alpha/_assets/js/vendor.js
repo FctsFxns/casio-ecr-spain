@@ -12,7 +12,6 @@
 
 //= require One-Pages/assets/js/one.app
 //= require One-Pages/homepage/assets/js/forms/contact
-//= require One-Pages/homepage/assets/js/plugins/pricing
 //= require One-Pages/homepage/assets/js/plugins/infoblock
 //= require One-Pages/homepage/assets/js/plugins/promo
 

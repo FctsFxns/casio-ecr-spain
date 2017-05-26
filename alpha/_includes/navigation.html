@@ -1,22 +1,5 @@
-{% comment %}
-    <nav>
-        <a href="{{ '/' | prepend: site.data.global.url }}">
-            <span>{{ site.data.global.title }}</span>
-        </a>
-        <ul>
-            {% for item in site.data.nav.main %}
-                <li >
-                    <a href="{{ item.url | prepend: site.data.global.url }}" title="{{ item.title }}">
-                        {{ item.text }}
-                    </a>
-                </li>
-            {% endfor %}
-        </ul>  
-    </nav>
-{% endcomment %}
-
   <!--=== Header ===-->
-  <nav class="one-page-header navbar navbar-default navbar-fixed-top one-page-nav-scrolling one-page-nav__fixed" data-role="navigation">
+  <nav class="one-page-header navbar navbar-default navbar-fixed-top one-page-nav-scrolling one-page-nav__fixed " data-role="navigation">
     <div class="container g-pt-10 g-pb-10">
       <div class="menu-container page-scroll">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">

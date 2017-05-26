@@ -1,10 +1,36 @@
 var ContactForm = function () {
-
     return {
-
         //Contact Form
         initContactForm: function () {
 	        // Validation
+	        $("#sky-form1").validate({
+	            // Rules for form validation
+	            rules:
+	            {
+	            		// E-mail
+	                'cm-ddurtit-ddurtit':
+	                {
+	                    required: true,
+	                    email: true
+	                },
+	            },
+	            // Messages for form validation
+	            messages:
+	            {
+	            		// E-mail
+	                'cm-ddurtit-ddurtit':
+	                {
+	                    required: 'Debes indicar tu dirección de email',
+	                    email: 'Por favor, introduce un dirección de email válida'
+	                },
+	            },
+	            // Do not change code below
+	            errorPlacement: function(error, element)
+	            {
+	                error.insertAfter(element.parent());
+	            }
+	        });
+
 	        $("#sky-form3").validate({
 	            // Rules for form validation
 	            rules:
@@ -76,7 +102,5 @@ var ContactForm = function () {
 	            }
 	        });
         }
-
     };
-
 }();

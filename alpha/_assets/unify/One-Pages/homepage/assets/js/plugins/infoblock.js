@@ -4,6 +4,7 @@ $(function() {
     arrows: false,
     dots: true,
     slidesToShow: 1,
+    speed: 500,
     customPaging : function(slider, i) {
       var title = $(slider.$slides[i]).data('title');
       return '<span></span> <strong>'+title+'</strong>';
