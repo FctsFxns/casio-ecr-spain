@@ -25,10 +25,57 @@ small {
 .sky-form .input input,
 .sky-form .textarea textarea,
 .sky-form .input input:hover,
-.sky-form .textarea textarea:hover {
+.sky-form .textarea textarea:hover
+ {
   border-color: #ececec;
   border-radius: 3px;
- }
+  color: #444;
+}
+
+.sky-form .select select {
+  border-color: #ececec;
+  border-radius: 3px;	
+}
+
+.sky-form .input input:focus, 
+.sky-form .textarea textarea:focus,
+.sky-form .select select:focus {
+ 	color: #444;
+}
+
+.sky-form .radio input + i::after {
+ 	background-color: #444;	
+}
+
+.sky-form .state-success input, .sky-form .state-success select, .sky-form .state-success select + i, .sky-form .state-success textarea, .sky-form .radio.state-success i, .sky-form .checkbox.state-success i, .sky-form .toggle.state-success i, .sky-form .toggle.state-success input:checked + i 
+{
+	background: #f0fff0 !important;
+	color: #444;
+}
+
+.sky-form .state-error input, .sky-form .state-error select, .sky-form .state-error select + i, .sky-form .state-error textarea, .sky-form .radio.state-error i, .sky-form .checkbox.state-error i, .sky-form .toggle.state-error i, .sky-form .toggle.state-error input:checked + i {
+    background: #fff0f0 !important;
+}
+
+
+
+.sky-form {
+	&.sky-form-custom {
+		.textarea textarea {
+			height: 45px;
+			padding: 6px 12px;
+		}
+
+		.textarea-expandable textarea {
+			height: 45px;			
+		}
+		.textarea-expandable textarea:focus {
+			height: 125px;
+		}
+
+	}	
+}
+
 
 /* Button Styles */
 .btn-u-lg,
@@ -38,6 +85,18 @@ a.btn-u-lg,
   font-weight: bold;
   border-radius: 3px;
   padding: 15px 25px;
+}
+
+.header-buttons {
+	.btn-u.btn-brd {
+		color: $link-color;
+		border: solid 1px $link-color;
+		border-color: $link-color;
+		&:hover {
+			background: $link-color;
+			color: #fff;
+		}
+	}	
 }
 
 /* Navbar */
@@ -112,10 +171,26 @@ a.btn-u-lg,
 
 /** > Action section **/
 .action-section {
-    background: url(../media/assets/One-Pages/assets/img-temp/02.jpg) no-repeat 50% 50% / cover;
+		position: relative;
+		overflow: hidden;
+    background: url(../media/assets/One-Pages/assets/img-temp/02.jpg) no-repeat 50% 50% / cover;    
     p {
     	font-size: 20px;
     	font-weight: 300;
+    }
+
+    .action-follow {
+    	position: absolute;
+    	z-index: 100;
+    	left: 50%;
+			margin-left: -25px;
+			text-align: center;
+			i.icon-custom {
+				border-color: transparent !important;
+			}
+    	a {
+
+    	}
     }
 }
 

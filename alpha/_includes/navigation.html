@@ -17,28 +17,38 @@
       <div class="collapse navbar-collapse navbar-ex1-collapse">
         <div class="menu-container">
           <ul class="nav navbar-nav">
-            <li class="page-scroll">
-              <a href="{% if page.layout_id != 'home' %}{{ '/' | prepend: site.data.global.url }}{% endif %}#welcome"><span data-hover="Inicio">Inicio</span></a>
-            </li>
-            <li class="page-scroll">
-              <a href="{% if page.layout_id != 'home' %}{{ '/' | prepend: site.data.global.url }}{% endif %}#about"><span data-hover="Quienes somos">Quienes somos</span></a>
-            </li>
-            <li class="page-scroll">
-              <a href="{% if page.layout_id != 'home' %}{{ '/' | prepend: site.data.global.url }}{% endif %}#soluciones"><span data-hover="Soluciones">Soluciones</span></a>
-            </li>
-            <li class="page-scroll">
-              <a href="{% if page.layout_id != 'home' %}{{ '/' | prepend: site.data.global.url }}{% endif %}#projects"><span data-hover="Noticias">Noticias</span></a>
-            </li>
-            <li class="page-scroll">
-              <a href="{% if page.layout_id != 'home' %}{{ '/' | prepend: site.data.global.url }}{% endif %}#partners"><span data-hover="Programa para Partners">Programa para Partners</span></a>
-            </li>
-            <li class="page-scroll">
-              <a href="{% if page.layout_id != 'home' %}{{ '/' | prepend: site.data.global.url }}{% endif %}#contacto"><span data-hover="Contacto">Contacto</span></a>
-            </li>
+            {% if page.layout_class == 'page-distribuidor' %}
+              <li class="page-scroll">
+                <a href="{% if page.layout_id != 'home' %}{{ '/' | prepend: site.data.global.url }}{% endif %}"><span data-hover="< Volver al Inicio">< Volver al Inicio</span></a>
+              </li>
+            {% else %}
+              <li class="page-scroll">
+                <a href="{% if page.layout_id != 'home' %}{{ '/' | prepend: site.data.global.url }}{% endif %}#welcome"><span data-hover="Inicio">Inicio</span></a>
+              </li>
+              <li class="page-scroll">
+                <a href="{% if page.layout_id != 'home' %}{{ '/' | prepend: site.data.global.url }}{% endif %}#about"><span data-hover="Quienes somos">Quienes somos</span></a>
+              </li>
+              <li class="page-scroll">
+                <a href="{% if page.layout_id != 'home' %}{{ '/' | prepend: site.data.global.url }}{% endif %}#soluciones"><span data-hover="Soluciones">Soluciones</span></a>
+              </li>
+              <li class="page-scroll">
+                <a href="{% if page.layout_id != 'home' %}{{ '/' | prepend: site.data.global.url }}{% endif %}#projects"><span data-hover="Noticias">Noticias</span></a>
+              </li>
+              <li class="page-scroll">
+                <a href="{% if page.layout_id != 'home' %}{{ '/' | prepend: site.data.global.url }}{% endif %}#partners"><span data-hover="Programa para Partners">Programa para Partners</span></a>
+              </li>
+              <li class="page-scroll">
+                <a href="{% if page.layout_id != 'home' %}{{ '/' | prepend: site.data.global.url }}{% endif %}#contacto"><span data-hover="Contacto">Contacto</span></a>
+              </li>
+            {% endif %}
           </ul>
-            <div class="header-buttons">
-                <a class="btn-u btn-u-lg" href="{{ '/' | prepend: site.data.global.url }}{{site.data.global.url_distribuidor}}">Quiero Ser Distribuidor</a>
-            </div>
+          <div class="header-buttons">
+            {% if page.layout_class != 'page-distribuidor' %}
+              <a class="btn-u btn-u-lg btn-distribuidor" href="{{ '/' | prepend: site.data.global.url }}{{site.data.global.url_distribuidor}}">Quiero Ser Distribuidor</a>
+            {% else %}
+              <a class="btn-u btn-u-lg btn-brd btn-u-upper " href="{{ '/' | prepend: site.data.global.url }}">Contactar con Soporte</a>            
+            {% endif %}  
+          </div>
         </div>
       </div>
       <!-- /.navbar-collapse -->

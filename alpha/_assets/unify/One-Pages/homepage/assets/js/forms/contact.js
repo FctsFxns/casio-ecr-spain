@@ -2,7 +2,7 @@ var ContactForm = function () {
     return {
         //Contact Form
         initContactForm: function () {
-	        // Validation
+	        // Validation for subscription form
 	        $("#sky-form1").validate({
 	            // Rules for form validation
 	            rules:
@@ -30,6 +30,24 @@ var ContactForm = function () {
 	                error.insertAfter(element.parent());
 	            }
 	        });
+
+
+	        // Validation for become a partner form
+	        $("#sky-form2").validate({
+	          	rules:
+	          	{
+
+	          	},
+	          	messages: 
+	          	{
+	          	}, 
+	            // Do not change code below
+	            errorPlacement: function(error, element)
+	            {
+	                error.insertAfter(element.parent());
+	            }	        	
+	        });
+
 
 	        $("#sky-form3").validate({
 	            // Rules for form validation

@@ -1,4 +1,27 @@
 .page-distribuidor {
+	// Navegació
+	.header-buttons {
+		.btn-distribuidor {
+			display: none;
+		}		
+	}
+
+	.sky-form {
+		.action-buttons {
+			p {
+				line-height: 1.75;
+				a {
+					color: $link-color;
+				}
+				span {
+					line-height: 1;
+					font-size: 12px;
+				}
+			}
+		}
+	}
+
+	// Capçalera principal
 	.action-section-inner {
 		height: 500px;
 	}
@@ -17,11 +40,17 @@
 		}
 		p {
 			font-size: 16px;
-			font-weight: 100;
+			font-weight: 300;
+			&.lead {				
+				font-weight: 400;
+			}
 		}
 		a {
 			color: #fff;
 			text-decoration: underline;
+			&:hover {
+				text-decoration: none;
+			}
 		}
 	}
 }
@@ -29,7 +58,7 @@
 	.page-distribuidor {
 		.action-section {
 			p {
-				max-width: 550px;
+				// max-width: 550px;
 			}
 		}
 	}
