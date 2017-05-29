@@ -37,19 +37,19 @@ intro:        'Lorem ipsum…'
 		<div class="row">
 			<div class="col-sm-12">
 		    <!-- Contact Form -->
-				<form action="../assets/php/sky-forms-pro/demo-contacts-process.php" method="post" id="sky-form2" class="sky-form sky-form-custom ">
+				<form action="http://email.casio-ecr.es/t/r/s/uylhwu/" method="post" id="sky-form2" class="sky-form sky-form-custom ">
 					<fieldset>
 			  		<div class="row">
 			  			<div class="col-sm-6 g-mb-30">
 				  			<label class="label" >Nombre y apellidos *</label>
 		            <label class="input">
-		              <input required type="text" name="name" id="name" placeholder="Nombre y apellidos">
+		              <input required type="text" id="fieldName" name="cm-name" placeholder="Nombre y apellidos">
 		            </label>
 			  			</div>
 			  			<div class="col-sm-6 g-mb-30">
 				  			<label class="label" >Teléfono *</label>
 		            <label class="input">
-		              <input required type="text" placeholder="Teléfono">
+		              <input required type="text" placeholder="Teléfono" id="fielddylidtkt" name="cm-f-dylidtkt" >
 		            </label>
 			  			</div>
 			  		</div>
@@ -58,14 +58,37 @@ intro:        'Lorem ipsum…'
 			  			<div class="col-sm-6 g-mb-30">
 		 		  			<label class="label" >Email de trabajo *</label>
 			           <label class="input">
-			              <input required type="email" name="email" id="email" placeholder="Email de trabajo">
+			              <input required type="email" id="fieldEmail" name="cm-uylhwu-uylhwu" placeholder="Email de trabajo">
 			            </label>
 			  			</div>
 			  			<div class="col-sm-6 g-mb-30">
 				  			<label class="label" >Posición laboral</label>
 		            <label class="input">
-		              <input type="text" name="posicion" id="posicion" placeholder="Posición laboral">
+		              <input type="text" id="fielddylidtki" name="cm-f-dylidtki"  placeholder="Posición laboral">
 		            </label>
+			  			</div>
+			  		</div>
+
+			  		<div class="row">
+			  			<div class="col-sm-6 g-mb-30">
+				  			<label class="label" >Nombre de la empresa *</label>
+		            <label class="input">
+		              <input required type="text" id="fielddylidtkd" name="cm-f-dylidtkd" placeholder="Nombre de la empresa">
+		            </label>
+			  			</div>
+			  			<div class="col-sm-6 g-mb-30">
+				  			<label class="label" >Nº de empleados *</label>
+								<label class="select">
+									<select required  id="fielddylidtkh" name="cm-fo-dylidtkh">
+										<option disabled selected>Nº de empleados</option>
+										<option value="9549764">0 - 2</option>
+										<option value="9549765">3 - 5</option>
+										<option value="9549766">6 - 10</option>
+										<option value="9549767">11 - 50</option>
+										<option value="9549768">50+</option>
+									</select>
+									<i></i>
+								</label>
 			  			</div>
 			  		</div>
 
@@ -73,14 +96,14 @@ intro:        'Lorem ipsum…'
 			  			<div class="col-sm-6 g-mb-30">
 				  			<label class="label" >Ciudad *</label>
 		            <label class="input">
-		              <input required type="text" name="ciudad" id="ciudad" placeholder="Ciudad">
+		              <input required type="text" id="fielddylidtkk" name="cm-f-dylidtkk" placeholder="Ciudad">
 		            </label>
 
 			  			</div>
 			  			<div class="col-sm-6 g-mb-30">
 		            <label class="label">Provincia *</label>
 		            <label class="select">
-		                <select id="fielddruikhdj" name="cm-f-druikhdj" required>
+		                <select id="fielddylidtku" name="cm-f-dylidtku" required>
 		                     <option disabled selected>Indica una provincia…</option>
 		                     <option value='alava'>Álava</option>
 		                     <option value='albacete'>Albacete</option>
@@ -144,53 +167,31 @@ intro:        'Lorem ipsum…'
 
 			  		<div class="row">
 			  			<div class="col-sm-6 g-mb-30">
-				  			<label class="label" >Nombre de la empresa *</label>
-		            <label class="input">
-		              <input required type="text" name="company" id="company" placeholder="Nombre de la empresa">
-		            </label>
-			  			</div>
-			  			<div class="col-sm-6 g-mb-30">
-				  			<label class="label" >Nº de empleados *</label>
-								<label class="select">
-									<select required>
-										<option disabled selected>Nº de empleados</option>
-										<option value="1">0 - 2</option>
-										<option value="2">3 - 5</option>
-										<option value="3">6 - 10</option>
-										<option value="4">11 - 50</option>
-										<option value="4">50+</option>
-									</select>
-									<i></i>
-								</label>
-			  			</div>
-			  		</div>
-
-			  		<div class="row">
-			  			<div class="col-sm-6 g-mb-30">
 				  			<label class="label" >Página web *</label>
 		            <label class="input">
-		              <input required type="text" name="web" id="web" placeholder="Página web">
+		              <input required type="text" id="fielddylidtul" name="cm-f-dylidtul" placeholder="Página web">
 		            </label>
 			  			</div>
 			  			<div class="col-sm-6 g-mb-30">
 				  			<label class="label" >Explíquenos un poco sobre su interés</label>
 		            <label class="textarea textarea-expandable">
-			            <textarea rows="3" name="mensaje" id="mensaje"></textarea>
+			            <textarea rows="3" id="fielddylidtur" name="cm-f-dylidtur" ></textarea>
 		            </label>
 			  			</div>
 			  		</div>
+			  		
 			  		<div class="row">
 			  			<div class="col-sm-6 g-mb-30">
 				  			<label class="label" >¿En qué soluciones CASIO está usted interesado principalmente? *</label>
 								<label class="select">
-									<select required>
+									<select required id="fielddylidtuy" name="cm-f-dylidtuy">
 										<option disabled selected>Escoja una opción</option>
-										<option value="1">Sistemas de Caja Individual</option>
-										<option value="2">Puntos de venta</option>
-										<option value="3">Soluciones para Sistemas</option>
-										<option value="4">Terminales de Red</option>
-										<option value="5">Comanderos y PDA's</option>
-										<option value="6">Software y aplicaciones Android</option>
+										<option value="Sistemas de Caja Individual">Sistemas de Caja Individual</option>
+										<option value="Puntos de venta">Puntos de venta</option>
+										<option value="Soluciones para Sistemas">Soluciones para Sistemas</option>
+										<option value="Terminales de Red">Terminales de Red</option>
+										<option value="Comanderos y PDAs">Comanderos y PDA's</option>
+										<option value="Software y aplicaciones Android">Software y aplicaciones Android</option>
 									</select>
 									<i></i>
 								</label>
@@ -201,8 +202,8 @@ intro:        'Lorem ipsum…'
 			  			<div class="col-sm-6 g-mb-60">
 								<label class="label">Apúntese a recibir comunicaciones de CASIO System Solutions.<br>Podrá darse de baja en cualquier momento.</label>
 								<div class="inline-group">
-									<label class="radio"><input type="radio" name="radio-inline" checked><i class="rounded-x"></i>Sí</label>
-									<label class="radio"><input type="radio" name="radio-inline"><i class="rounded-x"></i>No</label>
+									<label class="radio"><input type="radio" name="radio-inline" checked id="fielddylidtuj" name="cm-fo-dylidtuj" value="9549769"><i class="rounded-x"></i>Sí</label>
+									<label class="radio"><input type="radio" name="radio-inline" id="fielddylidtuj" name="cm-fo-dylidtuj" value="9549770"><i class="rounded-x"></i>No</label>
 								</div>
 			  			</div>
 			  		</div>
@@ -210,7 +211,8 @@ intro:        'Lorem ipsum…'
 			  		<div class="row">
 			  			<div class="col-sm-6 g-mb-30 action-buttons">
 			  				<p><span class="color-red">Por favor, debe rellenar todos los campos requeridos antes de continuar.</span></p>
-				  			<button type="submit" class="btn-u btn-u-lg btn-u-upper g-mt-20 g-mb-50">Enviar</button>
+				        <input id="fielddylidtky" name="cm-f-dylidtky" type="hidden" value="website" />
+				  			<button type="submit" class="btn-u btn-u-lg btn-u-upper g-mt-20 g-mb-50">Enviar solicitud</button>
 				  			<p>
 				  				* Campo requerido
 		 							<br><br>
@@ -235,3 +237,76 @@ intro:        'Lorem ipsum…'
 	</div>
 </section>
 <!-- /Contact Section -->
+
+{% comment %}
+<!-- Code from Campaign Monitor -->
+<!-- Redirects to: /hemos-recibido-tu-solicitud-al-programa-de-distribuidores/ -->
+<form action="http://email.casio-ecr.es/t/r/s/uylhwu/" method="post" id="subForm">
+    <p>
+        <label for="fieldName">Name</label><br />
+        <input id="fieldName" name="cm-name" type="text" />
+    </p>
+    <p>
+        <label for="fieldEmail">Email</label><br />
+        <input id="fieldEmail" name="cm-uylhwu-uylhwu" type="email" required />
+    </p>
+    <p>
+        <label for="fielddylidtkt">Telefono</label><br />
+        <input id="fielddylidtkt" name="cm-f-dylidtkt" type="text" />
+    </p>
+    <p>
+        <label for="fielddylidtki">Posicion laboral</label><br />
+        <input id="fielddylidtki" name="cm-f-dylidtki" type="text" />
+    </p>
+    <p>
+        <label for="fielddylidtkd">Nombre de la empresa</label><br />
+        <input id="fielddylidtkd" name="cm-f-dylidtkd" type="text" />
+    </p>
+    <p>
+        <label for="fielddylidtkh">Nº de empleados </label><br />
+        <select id="fielddylidtkh" name="cm-fo-dylidtkh">
+            <option value=""></option>
+            <option value="9549764">0-2</option>
+            <option value="9549765">3-5</option>
+            <option value="9549766">6-10</option>
+            <option value="9549767">11-50</option>
+            <option value="9549768">50+</option>
+        </select>
+    </p>
+    <p>
+        <label for="fielddylidtkk">Ciudad</label><br />
+        <input id="fielddylidtkk" name="cm-f-dylidtkk" type="text" />
+    </p>
+    <p>
+        <label for="fielddylidtku">Provincia</label><br />
+        <input id="fielddylidtku" name="cm-f-dylidtku" type="text" />
+    </p>
+    <p>
+        <label for="fielddylidtul">Página web</label><br />
+        <input id="fielddylidtul" name="cm-f-dylidtul" type="text" />
+    </p>
+    <p>
+        <label for="fielddylidtur">Comentarios</label><br />
+        <input id="fielddylidtur" name="cm-f-dylidtur" type="text" />
+    </p>
+    <p>
+        <label for="fielddylidtuy">Interes principal</label><br />
+        <input id="fielddylidtuy" name="cm-f-dylidtuy" type="text" />
+    </p>
+    <p>
+        <label for="fielddylidtuj">Recibir comunicaciones</label><br />
+        <select id="fielddylidtuj" name="cm-fo-dylidtuj">
+            <option value=""></option>
+            <option value="9549769">Sí</option>
+            <option value="9549770">No</option>
+        </select>
+    </p>
+    <p>
+        <label for="fielddylidtky">Origen</label><br />
+        <input id="fielddylidtky" name="cm-f-dylidtky" type="text" />
+    </p>
+    <p>
+        <button type="submit">Subscribe</button>
+    </p>
+</form>
+{% endcomment %}

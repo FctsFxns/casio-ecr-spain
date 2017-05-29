@@ -24,7 +24,7 @@
     {% endif %}
 
     {% if page.sitemap == 0 %}
-        <!-- Sitemap -->
+        <!-- Exclude from Sitemap -->
         <meta name="robots" content="noindex, nofollow">
     {% endif %}
 
@@ -42,19 +42,18 @@
         <!-- Dona error de Jekyll si ho afegim -->
         <!-- Liquid Exception: undefined method `gsub' for nil:NilClass in … -->
         {% stylesheet One-Pages/assets/css/blocks %}
-    {% endcomment %}
-    
+    {% endcomment %}    
     <link type="text/css" rel="stylesheet" href="/media/One-Pages/assets/css/blocks.css">
     {% stylesheet One-Pages/assets/css/one.style %}
 
     <!-- CSS Implementing Plugins -->
     {% stylesheet One-Pages/assets/plugins/animate.css %}
     {% comment %}
+        <!-- We don't use line-icons at all. It weights a ton in terms of image assets -->
         {% stylesheet One-Pages/assets/plugins/line-icons/line-icons.css %}
         {% stylesheet One-Pages/assets/plugins/font-awesome/css/font-awesome.css %}
     {% endcomment %}
-    <link type="text/css" rel="stylesheet" href="/media/assets/One-Pages/assets/plugins/font-awesome/css/font-awesome.css">
-
+    <link type="text/css" rel="stylesheet" href="/media/assets/One-Pages/assets/plugins/font-awesome/css/font-awesome.min.css">
     {% stylesheet One-Pages/assets/plugins/sky-forms-pro/skyforms/css/sky-forms.css %}
     {% stylesheet One-Pages/assets/plugins/sky-forms-pro/skyforms/custom/custom-sky-forms-v2.css %}
     {% stylesheet One-Pages/assets/plugins/slick/slick.css %}
