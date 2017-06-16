@@ -97,5 +97,3 @@ Imagen perfecta para un place-it del app
 - https://es.123rf.com/search.php?word=retrato+restaurante&start=600&t_word=Restaurant%20portrait&t_lang=es&imgtype=&oriSearch=retrato%20camarero&searchopts=&itemsperpage=100&sti=n5lfbcold47p8qgspx|&mediapopup=54066155
 
 
-Cromo 'Trabaja con los mejores'
-- https://es.123rf.com/search.php?word=partner+retail&srch_lang=es&imgtype=&t_word=Partner+retail&t_lang=es&oriSearch=partner&sti=mbyywj7ed2wndolcb3|&mediapopup=37955271
