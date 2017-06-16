@@ -13,15 +13,15 @@ intro:        'Lorem ipsum…'
     <div class="g-max-width--770 g-margin-side-auto">
     	<h3 class="g-mb-10 g-color-white-dark">Hazte distribuidor oficial CASIO</h3>
       <h2 class="g-mb-20 g-color-white">
-				Habla con un representante<br/>de ventas de la compañía
+				Trabaja con los mejores
       </h2>
       <p class="g-color-white lead">
-	      Sé el referente CASIO en tu zona de negocio. Diferencia cualitativamente tu negocio y amplía la base de tus clientes. Accede a más consumidores que tienen como referente los productos CASIO. 
+	      Sé el referente CASIO en tu zona de negocio. Marca la diferencia con tus competidores y amplía la base de tus clientes. 
 	    </p>
 	    <p class="g-color-white g-mb-20">
-				Rellena el formulario y contactaremos con tu negocio para poner en común visión y objetivos. 
+				Rellena el formulario y contactaremos con tu negocio para empezar colaboración. 
 				<br><br>
-				¿Ya eres distribuidor y necesitas ayuda? <a href="#">Contacta con soporte</a>. 
+				¿Ya eres distribuidor y necesitas ayuda? <a href="{{ '/' | prepend: site.data.global.url }}">Contacta con soporte</a>. 
       </p>
       <div class="action-follow page-scroll">
       	<a href="#contacto-distribuidor" class="" title="Scroll"><i class="icon-custom icon-lg rounded-x fa fa-angle-down "></i></a>
@@ -169,7 +169,7 @@ intro:        'Lorem ipsum…'
 			  			<div class="col-sm-6 g-mb-30">
 				  			<label class="label" >Página web *</label>
 		            <label class="input">
-		              <input required type="text" id="fielddylidtul" name="cm-f-dylidtul" placeholder="Página web">
+		              <input type="text" id="fielddylidtul" name="cm-f-dylidtul" placeholder="Página web">
 		            </label>
 			  			</div>
 			  			<div class="col-sm-6 g-mb-30">

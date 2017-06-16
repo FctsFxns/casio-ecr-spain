@@ -311,7 +311,23 @@ section {
 		.input input:focus, .textarea textarea:focus, .select select:focus {
 			color: #fff;
 		}
+
+		.state-success input, .state-success select, .state-success select + i,  .state-success textarea, .radio.state-success i, .checkbox.state-success i, .toggle.state-success i, .toggle.state-success input:checked + i 
+		{
+			border-color: darken($secondary-color, 10%) !important;
+			color: $secondary-color !important;
+			background: none !important;
+		}
+
+		.state-error input, .state-error select,.state-error select + i, .state-error textarea, .radio.state-error i, .checkbox.state-error i, .toggle.state-error i, .toggle.state-error input:checked + i {
+		  border-color: red !important;
+			background: none !important;
+		}
+
 	}
+
+
+
 }
 
 
