@@ -10,6 +10,34 @@ body {
     }
 }
 
+.headline-after {
+	position: relative;
+	padding-bottom: 40px;
+	margin-bottom: 40px;
+	.headline-name {
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 600;
+		text-transform: uppercase;
+		display: block;
+		color: $primary-color;
+		margin-bottom: 20px;
+		letter-spacing: 2px;
+	}	
+	&:after {
+    content: "";
+    display: inline-block;
+    width: 70px;
+    height: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;		
+		left: 50%;
+		margin-left: -35px;
+    background: $primary-color;
+	}
+}
+
 .g-max-width--900 {
   max-width: 900px;
   position: relative;
@@ -112,6 +140,14 @@ a.btn-u-lg,
 
 /** Homepage **/
 
+section {
+	p {
+		&.lead {
+			font-size: 18px;
+		}
+	}
+}
+
 /** > Promo section **/
 .promo-section {
 	.promo-item-content {
@@ -159,7 +195,6 @@ a.btn-u-lg,
 .soluciones-section {
 	.intro {
 		p {
-			font-size: 16px;
 		}
 	}
 }
@@ -229,6 +264,56 @@ a.btn-u-lg,
 		}
 	}
 }
+
+/* Contact Section */
+.contacts-section {
+	background-color: $primary-color-dark;
+	color: #fff ; 
+	h2 {
+		color: #fff;
+	}
+	h3 {
+		color: rgba(255,255,255,.5);
+	}
+	h4 {
+		color: rgba(255,255,255,.5);
+	}
+	.contact-blocks {
+		border-right: 1px solid $primary-color;
+		&:last-child {
+			border: none;
+		}
+
+		h4 {
+			font-size: 12px;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			margin: 0;
+			font-weight: 600;
+		}
+
+		i {
+			font-size: 50px;
+			margin-bottom: 18px;
+			border: none;
+			font-weight: normal;			
+		}
+	}
+
+	.sky-form {
+		fieldset {
+			background: none;
+		}
+		.input input, .textarea textarea,  .input input:hover,  .textarea textarea:hover {
+			color: $secondary-color;
+			border-color: darken($secondary-color, 30%);
+		}
+		.input input:focus, .textarea textarea:focus, .select select:focus {
+			color: #fff;
+		}
+	}
+}
+
 
 /* Subscribe section */
 .login-section {

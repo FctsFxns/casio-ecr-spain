@@ -32,7 +32,7 @@ intro:        'Lorem ipsum…'
 <!-- /Intro Section -->
 
 <!-- Contact Section -->
-<section class="contacts-section g-pt-60 g-pb-90" id="contacto-distribuidor">
+<section class="contacto-distribuidor-section g-pt-60 g-pb-90" id="contacto-distribuidor">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
