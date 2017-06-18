@@ -52,7 +52,7 @@ Los comandosde theming son los siguientes:
 > 
 > grunt theming
 
-## Variables de desarrollo
+##### Variables de desarrollo
 
 Empleamos variables de desarrollo para aprovechar el uso de livereload, por ejemplo.
 
@@ -61,6 +61,10 @@ Empleamos variables de desarrollo para aprovechar el uso de livereload, por ejem
 ### Despliegue
 
 El despliegue se realiza de manera automática mediante travis.
+
+Para ello se emplea un repositorio exclusivo de despliegue en github:
+
+- [https://github.com/FctsFxns/casio-ecr-spain](https://github.com/FctsFxns/casio-ecr-spain)
 
 **Notas:**
 
