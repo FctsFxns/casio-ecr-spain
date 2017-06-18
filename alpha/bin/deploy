@@ -1,8 +1,11 @@
 #!/bin/bash
 
-if [[ $TRAVIS_BRANCH == 'deploy' ]] ; then
+# if [[ $TRAVIS_BRANCH == 'deploy' ]] ; then
 
+	# Set pwd to sub-dir 
+	cd alpha
 
+	# Install dependencies
 	gem install bundler --conservative
 	bundle check || bundle install
 
@@ -17,7 +20,7 @@ if [[ $TRAVIS_BRANCH == 'deploy' ]] ; then
 	echo "ftp_password: ${ftp_password}" >> _glynn.yml
 	bundle exec glynn
  
-else
- echo 'This branch will not be deployed, though. The site is deployed from "deploy" branch, only.'
- exit 1
-fi
+# else
+# echo 'This branch will not be deployed, though. The site is deployed from "deploy" branch, only.'
+# exit 1
+# fi
