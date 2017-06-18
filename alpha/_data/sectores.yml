@@ -17,51 +17,51 @@
 - title:        'Hostelería'
   headline:     'Organización laboral y de personal en el sector hostelero'
   text:         > # this means to ignore newlines until next key
-                <strong>Soluciones útiles y de calidad contrastada para el sector gastronómico</strong>.
-                De gran utilidad para los camareros, se adaptan rápidamente a los requisitos particulares del negocio o cadena de negocios.
-                Su software inteligente, con una amplia gama de funciones de tabla y teclado de fácil uso, simplifica y flexibiliza el trabajo diario en el sector hotelero, restaurantes y bares.
+                <p><strong>Soluciones útiles y de calidad contrastada para el sector gastronómico</strong>. </p> 
+                <p>De gran utilidad para los camareros, se adaptan rápidamente a los requisitos particulares del negocio o cadena de negocios.  </p>
+                <p>Su software inteligente, con una amplia gama de funciones de tabla y teclado de fácil uso, simplifica y flexibiliza el trabajo diario en el sector hotelero, restaurantes y bares.</p>  
   button:       'Solicita más información'
   url:          '#contacto-details'
-  media:        'media/assets/One-Pages/assets/img-temp/offers/01b.jpg'
+  media:        'media/assets/One-Pages/assets/img-temp/offers/01d.jpg'
 
 - title:        'Bares y clubs'
   headline:     'El mundo del ocio aumentará agilidad y productividad'
   text:         > # this means to ignore newlines until next key
-              <p><strong>Bares y pubs obtienen un control constante y ordenado del negocio.</strong></p>
-              <p>Además de las funciones de caja registradora tradicionales, proporciona a los trabajadores el control de las ventas y funciona con un sistema inalámbrico de toma de pedidos, radio-nota y comandas.</p>
-              <p>Fácil gestión de datos, pedidos y devoluciones, información de productos más gestión y análisis de clientes.</p>
+                <p><strong>Bares y pubs obtienen un control constante y ordenado del negocio.</strong></p>
+                <p>Además de las funciones de caja registradora tradicionales, proporciona a los trabajadores el control de las ventas y funciona con un sistema inalámbrico de toma de pedidos, radio-nota y comandas.</p>
+                <p>Fácil gestión de datos, pedidos y devoluciones, información de productos más gestión y análisis de clientes.</p>
   button:       'Solicita más información'
   url:          '#contacto-details'
-  media:        'media/assets/One-Pages/assets/img-temp/offers/02b.jpg'
+  media:        'media/assets/solutions/item-2.jpg'
 
 - title:        'Tiendas'
   headline:     'Un socio fiable para los comercios de venta al por menor'
   text:         > # this means to ignore newlines until next key
-              <p>Contribuyen a la organización y despegue del negocio.</p>
-              <p>Preciso y adaptado a los requisitos del uso diario, reduciendo tiempo y coste de gestión. El teclado de fácil uso permite registros rápidos en grandes almacenes, tiendas de comestibles, librerías o quioscos. </p>
-              <p>Ampliables con accesorios, como lectores de códigos de barras de mano, impresoras externas, matrices de puntos o impresoras térmicas.</p>
+                <p>Contribuyen a la organización y despegue del negocio.</p>
+                <p>Preciso y adaptado a los requisitos del uso diario, reduciendo tiempo y coste de gestión. El teclado de fácil uso permite registros rápidos en grandes almacenes, tiendas de comestibles, librerías o quioscos. </p>
+                <p>Ampliables con accesorios, como lectores de códigos de barras de mano, impresoras externas, matrices de puntos o impresoras térmicas.</p>
   button:       'Solicita más información'
   url:          '#contacto-details'
-  media:        'media/assets/One-Pages/assets/img-temp/offers/03a.jpg'
+  media:        'media/assets/solutions/item-3.jpg'
 
 - title:        'Negocio familiar'
   headline:     'El negocio familiar se adapta a la actualidad'
   text:         > # this means to ignore newlines until next key
-              <p>Solución de futuro para una nueva generación con nuevas expectativas.</p>
-              <p>Resistentes y de fácil uso, se adaptan de forma sencilla a los requisitos particulares del establecimiento.</p>
-              <p>Fiabilidad y diversidad perfecta para panaderías, cadenas o negocios familiares. <br> Permite atender a varios clientes al mismo tiempo, gestionar pedidos y devoluciones y registrar el tiempo de trabajo mediante un número de empleado.</p>
+                <p>Solución de futuro para una nueva generación con nuevas expectativas.</p>
+                <p>Resistentes y de fácil uso, se adaptan de forma sencilla a los requisitos particulares del establecimiento.</p>
+                <p>Fiabilidad y diversidad perfecta para salones de belleza, cadenas o negocios familiares. <br> Permite atender a varios clientes al mismo tiempo, gestionar pedidos y devoluciones y registrar el tiempo de trabajo mediante un número de empleado.</p>
   button:       'Solicita más información'
   url:          '#contacto-details'
-  media:        'media/assets/One-Pages/assets/img-temp/offers/04c.jpg'
+  media:        'media/assets/solutions/item-4.jpg'
 
 - title:        'Panaderías'
   headline:     'Fiabilidad para panaderías y hornos'
   text:         > # this means to ignore newlines until next key
-              <p>Nuestros modelos se adaptan a las condiciones requeridas.</p>
-              <p>Preparadas para cambios de temperatura del establecimiento y el trato constante de alimentos, están preparadas para estas situaciones.</p>
-              <p>Con un teclado intuitivo, tendrás la capacidad de atender multiples pedidos a la vez que devoluciones.</p>
+                <p>Nuestros modelos se adaptan a las condiciones requeridas.</p>
+                <p>Preparadas para cambios de temperatura del establecimiento y el trato constante de alimentos, están preparadas para estas situaciones.</p>
+                <p>Con un teclado intuitivo, tendrás la capacidad de atender multiples pedidos a la vez que devoluciones.</p>
   button:       'Solicita más información'
   url:          '#contacto-details'
-  media:        'media/assets/One-Pages/assets/img-temp/offers/05a.jpg'
+  media:        'media/assets/solutions/item-5.jpg'
 
 
