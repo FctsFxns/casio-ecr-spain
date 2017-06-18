@@ -7,34 +7,6 @@
 	url: http://www.casio-ecr.es/alpha/
 
 
-## Parámetres técnics i credencials
-
-### FTP
-
-- servidor: "casio-ecr.es"
-- port: "21"
-- username: "casioo"
-- password: "75p7278l"
-- path: "public_html/alpha"
-
-### Base de dades
-
-Credencials de la base de des
-
-- servidor: "casio-ecr.es" o "localhost"
-- database: "casioo_db1"
-- username: "casioo_1"
-- password: "nrGy2QGTtYiuwCvi"
-
-### Campaign monitor
-
-Hemos creado un usuario en campaign monitor que emplearemos para notificar los registros en los formularios de la web.
-
-- user: emarketing@casio-ecr.es
-- pwd: 11casioecr22
-
-> @todo: activar en KONSOLEH la redirección al email de casio.es cuando la web esté en marcha.
-
 ## Información para editores
 
 El contenido de la web se gestiona a través de este repositorio de código.
