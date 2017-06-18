@@ -5,5 +5,5 @@ cd alpha
 
 bundle exec jekyll build --trace
 
-# Ignore 'htmlproofer' while not moving to final destination
-# bundle exec htmlproofer ./_site --only-4xx --url-ignore "#,/https:\/\/www\.youtube\.com\/.*/,/http:\/\/www\.youtube\.com\/.*/,/http:\/\/www\.casio-ecr\.es\/.*/"
+# Ignore 'htmlproofer' while not moving to final destination ??
+bundle exec htmlproofer ./_site --only-4xx --url-ignore "#,/https:\/\/www\.youtube\.com\/.*/,/http:\/\/www\.youtube\.com\/.*/,/http:\/\/www\.casio-ecr\.es\/.*/"
