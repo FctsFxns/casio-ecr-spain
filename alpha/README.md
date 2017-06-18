@@ -45,6 +45,7 @@ En la carpeta '_data' encontrarás los ficheros de configuración en
 formato YAML que te van a permitir gestionar los valores de:
 
 - **global.yml**: textos comunes y valores del sitio web
+- **sectores.yml**: textos, enlaces e imágenes para la sección 'Soluciones' de la homepage.
 - **nav.yml**: la navegación principal del sitio web
 
 ## Información para desarrolladores

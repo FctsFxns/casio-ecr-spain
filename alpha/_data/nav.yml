@@ -1,4 +1,0 @@
-main:
-    - { url: '/noticias', text: 'Noticias', title: 'Noticias' }
-    - { url: '/about', text: 'About us', title: 'Who we are' }
-    # - { url: '/contacto', text: 'Contacto', title: 'Contacte con nosotros' }
