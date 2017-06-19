@@ -16,18 +16,19 @@
 #   media:        'media/assets/products/sample-1900x1329.png'
 #
 
-# - title:        'La compañía'
-#   headline:     '<strong>CASIO</strong> te ofrece una <strong>solución a la medida</strong> de tu negocio'
-#   text:         > # this means to ignore newlines until next key
-#     Nuestros modelos se adaptan a las necesidades del comercio y te
-#     ayudan a la gestión del establecimiento.
-#     <br><br>
-#     Con equipos que reducen costes energéticos y 
-#     comprenden el ciclo de compra completo de los clientes tomarás las mejores decisiones en tu negocio.
-#   button:       'Soluciones por sector'
-#   url:          '#soluciones'
-#   call:         'Tecnología para la hostelería y el comercio en español'
-#   media:        'media/assets/products/item-1.jpg'
+- title:        'La compañía'
+  headline:     '<strong>CASIO</strong> te ofrece una <strong>solución a la medida</strong> de tu negocio'
+  text:         > # this means to ignore newlines until next key
+    Nuestros modelos se adaptan a las necesidades del comercio y te
+    ayudan a la gestión del establecimiento.
+    <br><br>
+    Con equipos que reducen costes energéticos y 
+    comprenden el ciclo de compra completo de los clientes tomarás las mejores decisiones en tu negocio.
+  button:       'Soluciones por sector'
+  url:          '#soluciones'
+  call:         'Tecnología para la hostelería y el comercio en español'
+  class:        ''
+  media:        'media/assets/products/item-1.jpg'
 
 # - title:        'Soluciones para sistemas'
 #   headline:     '<strong>Aplicaciones personalizadas</strong> que faciliten la integración de cajas registradoras con su gestión'
@@ -61,7 +62,7 @@
 #   media:        'media/assets/products/04.jpg'
 
 - title:        'Comanderos'
-  headline:     '¡Fuerte y Robusta! la tablet profesional <strong>VT-500</strong>'
+  headline:     '<strong>¡Fuerte y Robusta!</strong> la tablet profesional <strong>VT-500</strong> se presenta como el comandero perfecto'
   text:         > # this means to ignore newlines until next key
     Ideal y versátil para todos los negocios. Comandero, TPV táctil, admisión de pedidos, gestión de venta al por menor… 
     <br><br>
@@ -69,5 +70,6 @@
   button:       'Más detalles'
   call:         ''
   url:          'http://www.mobile-barcode-scanner.com/es/productos/v-t500-tablet/'
-  media:        'media/assets/products/item-4.jpg'
+  call:         'Ergonómicas y equipadas con protección anti-robo'
+  media:        'media/assets/products/item-44.jpg'
 
