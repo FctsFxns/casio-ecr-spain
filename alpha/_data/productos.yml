@@ -30,14 +30,16 @@
   class:        ''
   media:        'media/assets/products/item-1.jpg'
 
-# - title:        'Soluciones para sistemas'
-#   headline:     '<strong>Aplicaciones personalizadas</strong> que faciliten la integración de cajas registradoras con su gestión'
-#   text:         > # this means to ignore newlines until next key
-#     Se pueden integrar en estructuras de los sectores minorista y de hostelería. Además, incluyen aplicaciones preinstaladas: desde la gestión de información de ventas o tiempo a funciones de análisis exhaustivo categorizables según el producto, departamento o grupo.
-#   button:       'Consultar modelos'
-#   url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/soluciones-para-sistemas/#article-1'
-#   call:         'Solución inteligente y de diseño elegante'
-#   media:        'media/assets/products/3.jpg'
+- title:        'Soluciones para sistemas'
+  headline:     '<strong>V-R7000/7100</strong> Solución inteligente y de diseño elegante'
+  text:         > # this means to ignore newlines until next key
+    Una nueva plataforma para la innovación en los comercios minoristas y la transformación de los puntos de venta.
+    <br><br>
+    Incluyen aplicaciones preinstaladas que van de la gestión de información de ventas o tiempo a funciones de análisis exhaustivo categorizables según el producto, departamento o grupo.
+  button:       'Consultar modelos'
+  url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/soluciones-para-sistemas/#article-1'
+  call:         'Compatible con el estándar de montaje VESA'
+  media:        'media/assets/products/item-2.jpg'
 
 # - title:        'Terminales de red'
 #   headline:     'La gama <strong>V-R200</strong> ofrece un nuevo estilo para tu punto de venta'
@@ -51,13 +53,13 @@
 #   media:        'media/assets/products/02.jpg'
 
 # - title:        'Cajas individuales'
-#   headline:     '<strong>Modelos SE-400+</strong> la nueva generación de cajas registradoras'
+#   headline:     'Los <strong>Modelos SE-400+</strong> son la nueva generación de cajas registradoras'
 #   text:         > # this means to ignore newlines until next key
 #     Ideales para todo tipo de comercios: diseño elegante y moderno.
 #     <br><br>
 #     Encaja en tiendas pequeñas o para cafeterías, bares y locales de comida rápida. Rápida y silenciosa es perfecta para entornos tranquilos y hace que trabajar con la caja registradora sea una tarea agradable.
 #   button:       'Consultar modelos'
-#   call:         ''
+#   call:         'La mejor manera de trabajar con factura simplificada'
 #   url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/se-400-modelos/'
 #   media:        'media/assets/products/04.jpg'
 
