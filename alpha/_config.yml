@@ -27,8 +27,8 @@ gems:
   - jekyll-assets
 
 # Custom var
-ga_analytics: UA-16011780-5
-ga_site:      www.casio-ecr.es
+ga_analytics:      UA-16011780-5
+ga_site:           alpha.casio-ecr.es
 
 # Dependencies
 markdown:         kramdown
