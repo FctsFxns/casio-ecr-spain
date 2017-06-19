@@ -79,6 +79,7 @@ exclude:          [
   , 'sandbox'
   , '_assets/vendor'           # necessary for travis integration
   , 'unify'
+  , '_snapshots'
   ]
 
 include:        
