@@ -11,6 +11,7 @@
 #     XXXXX.
 #   button:       'Xxxx'
 #   url:          'xxxx'
+#   call:          'xxxx'   # optional
 #   media:        'media/assets/products/sample-1900x1329.png'
 #
 
@@ -22,6 +23,7 @@
     comprensión del ciclo de compra del cliente para una mejor toma de decisiones del negocio.
   button:       'Soluciones por sector'
   url:          '#soluciones'
+  call:         'Soluciones para la hostelería y el comercio en español'
   media:        'media/assets/products/item-1.jpg'
 
 - title:        'Soluciones para sistemas'
@@ -32,6 +34,7 @@
     Más que simples cajas registradoras, se trata de terminales de información que mejoran la gestión de los comercios.
   button:       'Consultar modelos'
   url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/soluciones-para-sistemas/#article-1'
+  call:         ''
   media:        'media/assets/products/02.jpg'
 
 - title:        'Terminales de red'
@@ -40,6 +43,7 @@
     Se pueden integrar en estructuras de los sectores minorista y de hostelería. Además, incluyen aplicaciones preinstaladas: desde la gestión de información de ventas o tiempo a funciones de análisis exhaustivo categorizables según el producto, departamento o grupo.
   button:       'Consultar modelos'
   url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/terminales-de-red/#article-1'
+  call:         ''
   media:        'media/assets/products/3.jpg'
 
 - title:        'Cajas individuales'
@@ -47,6 +51,7 @@
   text:         > # this means to ignore newlines until next key
     Encaja en tiendas pequeñas o para cafeterías, bares y locales de comida rápida. Rápida y silenciosa es perfecta para entornos tranquilos y hace que trabajar con la caja registradora sea una tarea agradable.
   button:       'Consultar modelos'
+  call:         ''
   url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/cajas-individuales/#article-1'
   media:        'media/assets/products/04.jpg'
 
@@ -55,6 +60,7 @@
   text:         > # this means to ignore newlines until next key
     Ideal y versátil para todos los negocios. Comandero, TPV táctil, admisión de pedidos, gestión de venta al por menor… Cuenta con sistema operativo Android™, pueden aguantar una caída de un metro y cumplen con los estándares IP54 de resistencia al polvo y agua.
   button:       'Más detalles'
+  call:         ''
   url:          'http://www.mobile-barcode-scanner.com/es/productos/v-t500-tablet/'
-  media:        'media/assets/products/2.jpg'
+  media:        'media/assets/products/4.jpg'
 
