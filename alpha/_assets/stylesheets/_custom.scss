@@ -170,7 +170,7 @@ section {
 		&.inverse {
 			margin-left: 30%;
 			text-align: right;
-			h3, h4, p {
+			h3, p {
 				text-align: right;
 			}
 			h4, p {
@@ -236,7 +236,7 @@ section {
 }
 
 .promo-item::after {
-	background: rgba(0,0,0,0.5);
+	background: rgba(0,0,0,0.4);
 }
 
 /** > Soluciones section **/
@@ -353,7 +353,13 @@ section {
 	}
 	h4 {
 		color: rgba(255,255,255,.5);
+		font-size: 12px;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		margin: 0;
+		font-weight: 600;
 	}
+
 	.contact-blocks {
 		border-right: 1px solid $primary-color;
 		&:last-child {
