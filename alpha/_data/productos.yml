@@ -1,0 +1,60 @@
+# P R O D U C T O S 
+# ------------------
+#
+# Textos para la sección de promociones de producto que encabeza la homepage
+
+# Ejemplo de formato para un copiar/pegar
+#
+# - title:        'Xxxx'
+#   headline:     'Xxxxxx'
+#   text:         > # this means to ignore newlines until next key
+#     XXXXX.
+#   button:       'Xxxx'
+#   url:          'xxxx'
+#   media:        'media/assets/products/sample-1900x1329.png'
+#
+
+- title:        'La compañía'
+  headline:     '<strong>CASIO</strong> te ofrece una <strong>solución a la medida</strong> de tu negocio'
+  text:         > # this means to ignore newlines until next key
+    Nuestros modelos se adaptan a las necesidades del comercio, 
+    ayuda a la gestión del establecimiento, reducción de costes energéticos y 
+    comprensión del ciclo de compra del cliente para una mejor toma de decisiones del negocio.
+  button:       'Soluciones por sector'
+  url:          '#soluciones'
+  media:        'media/assets/products/item-1.jpg'
+
+- title:        'Soluciones para sistemas'
+  headline:     'La gama <strong>V-R200</strong> ofrece un nuevo estilo para tu punto de venta'
+  text:         > # this means to ignore newlines until next key
+    Una nueva plataforma para la innovación en los comercios minoristas y la transformación de los puntos de venta. 
+    <br><br>
+    Más que simples cajas registradoras, se trata de terminales de información que mejoran la gestión de los comercios.
+  button:       'Consultar modelos'
+  url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/soluciones-para-sistemas/#article-1'
+  media:        'media/assets/products/02.jpg'
+
+- title:        'Terminales de red'
+  headline:     '<strong>Aplicaciones personalizadas</strong> que faciliten la integración de cajas registradoras con su gestión'
+  text:         > # this means to ignore newlines until next key
+    Se pueden integrar en estructuras de los sectores minorista y de hostelería. Además, incluyen aplicaciones preinstaladas: desde la gestión de información de ventas o tiempo a funciones de análisis exhaustivo categorizables según el producto, departamento o grupo.
+  button:       'Consultar modelos'
+  url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/terminales-de-red/#article-1'
+  media:        'media/assets/products/3.jpg'
+
+- title:        'Cajas individuales'
+  headline:     'Ideal para todo tipo de tiendas: diseño <strong>elegante y moderno</strong>'
+  text:         > # this means to ignore newlines until next key
+    Encaja en tiendas pequeñas o para cafeterías, bares y locales de comida rápida. Rápida y silenciosa es perfecta para entornos tranquilos y hace que trabajar con la caja registradora sea una tarea agradable.
+  button:       'Consultar modelos'
+  url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/cajas-individuales/#article-1'
+  media:        'media/assets/products/04.jpg'
+
+- title:        'Comanderos'
+  headline:     '¡Fuerte y Robusta! <strong>VT-500</strong>, la tablet profesional'
+  text:         > # this means to ignore newlines until next key
+    Ideal y versátil para todos los negocios. Comandero, TPV táctil, admisión de pedidos, gestión de venta al por menor… Cuenta con sistema operativo Android™, pueden aguantar una caída de un metro y cumplen con los estándares IP54 de resistencia al polvo y agua.
+  button:       'Más detalles'
+  url:          'http://www.mobile-barcode-scanner.com/es/productos/v-t500-tablet/'
+  media:        'media/assets/products/2.jpg'
+

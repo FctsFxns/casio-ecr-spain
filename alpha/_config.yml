@@ -17,7 +17,7 @@ destination:      ./_site
 host:             127.0.0.1
 port:             9003
 encoding:         UTF-8
-url:              'http://alpha.casio-ecr.es'
+url:              'http://www.alpha.casio-ecr.es'
 baseurl:          "" # does not include hostname
 #detach:          false
 
