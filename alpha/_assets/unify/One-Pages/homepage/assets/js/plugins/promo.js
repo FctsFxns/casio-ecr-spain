@@ -3,6 +3,7 @@ $(function() {
 		autoplay: true,
 		arrows: false,
 		dots: true,
+		pauseOnDotsHover: true,
 		slidesToShow: 1,
 	  autoplaySpeed: 6000,
 		customPaging : function(slider, i) {

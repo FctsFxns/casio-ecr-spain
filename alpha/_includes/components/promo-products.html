@@ -2,7 +2,7 @@
 			{% for item in site.data.productos %}
 		    <div class="promo-item" data-title="{{ item.title }}" style="background-image: url({{ item.media }});">
 		      <div class="container">
-		        <div class="promo-item-content">
+		        <div class="promo-item-content {{ item.class }}">
 		          <h3>{{ item.headline }}</h3>
 	          	{{ item.text | markdownify }}
 		          <div class="page-scroll">
