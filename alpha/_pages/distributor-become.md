@@ -11,14 +11,16 @@ intro:        'Lorem ipsum…'
 <section class="action-section g-color-white--darker g-pt-10 g-mt-90" id="intro">
 	<div class="action-section-inner">
     <div class="g-max-width--770 g-margin-side-auto">
-    	<h3 class="g-mb-10 g-color-white-dark">Hazte distribuidor oficial CASIO</h3>
+    	<h3 class="g-mb-10 g-color-white-dark">Habla con un representante de ventas de la compañía</h3>
       <h2 class="g-mb-20 g-color-white">
-				Trabaja con los mejores
+				Hazte distribuidor oficial CASIO
       </h2>
       <p class="g-color-white lead">
+      	Consigue ventajas competitivas además de ser acreditado por CASIO System Solutions España como un negocio referente en experiencia y calidad. 
+      	<br><br>
 	      Sé el referente CASIO en tu zona de negocio. Marca la diferencia con tus competidores y amplía la base de tus clientes. 
 	    </p>
-	    <p class="g-color-white g-mb-20">
+	    <p class="g-color-white g-mb-20  lead">
 				Rellena el formulario y contactaremos con tu negocio para empezar colaboración. 
 				<br><br>
 				¿Ya eres distribuidor y necesitas ayuda? <a href="{{ '/' | prepend: site.data.global.url }}">Contacta con soporte</a>. 
@@ -238,75 +240,75 @@ intro:        'Lorem ipsum…'
 </section>
 <!-- /Contact Section -->
 
-{% comment %}
-<!-- Code from Campaign Monitor -->
-<!-- Redirects to: /hemos-recibido-tu-solicitud-al-programa-de-distribuidores/ -->
-<form action="http://email.casio-ecr.es/t/r/s/uylhwu/" method="post" id="subForm">
-    <p>
-        <label for="fieldName">Name</label><br />
-        <input id="fieldName" name="cm-name" type="text" />
-    </p>
-    <p>
-        <label for="fieldEmail">Email</label><br />
-        <input id="fieldEmail" name="cm-uylhwu-uylhwu" type="email" required />
-    </p>
-    <p>
-        <label for="fielddylidtkt">Telefono</label><br />
-        <input id="fielddylidtkt" name="cm-f-dylidtkt" type="text" />
-    </p>
-    <p>
-        <label for="fielddylidtki">Posicion laboral</label><br />
-        <input id="fielddylidtki" name="cm-f-dylidtki" type="text" />
-    </p>
-    <p>
-        <label for="fielddylidtkd">Nombre de la empresa</label><br />
-        <input id="fielddylidtkd" name="cm-f-dylidtkd" type="text" />
-    </p>
-    <p>
-        <label for="fielddylidtkh">Nº de empleados </label><br />
-        <select id="fielddylidtkh" name="cm-fo-dylidtkh">
-            <option value=""></option>
-            <option value="9549764">0-2</option>
-            <option value="9549765">3-5</option>
-            <option value="9549766">6-10</option>
-            <option value="9549767">11-50</option>
-            <option value="9549768">50+</option>
-        </select>
-    </p>
-    <p>
-        <label for="fielddylidtkk">Ciudad</label><br />
-        <input id="fielddylidtkk" name="cm-f-dylidtkk" type="text" />
-    </p>
-    <p>
-        <label for="fielddylidtku">Provincia</label><br />
-        <input id="fielddylidtku" name="cm-f-dylidtku" type="text" />
-    </p>
-    <p>
-        <label for="fielddylidtul">Página web</label><br />
-        <input id="fielddylidtul" name="cm-f-dylidtul" type="text" />
-    </p>
-    <p>
-        <label for="fielddylidtur">Comentarios</label><br />
-        <input id="fielddylidtur" name="cm-f-dylidtur" type="text" />
-    </p>
-    <p>
-        <label for="fielddylidtuy">Interes principal</label><br />
-        <input id="fielddylidtuy" name="cm-f-dylidtuy" type="text" />
-    </p>
-    <p>
-        <label for="fielddylidtuj">Recibir comunicaciones</label><br />
-        <select id="fielddylidtuj" name="cm-fo-dylidtuj">
-            <option value=""></option>
-            <option value="9549769">Sí</option>
-            <option value="9549770">No</option>
-        </select>
-    </p>
-    <p>
-        <label for="fielddylidtky">Origen</label><br />
-        <input id="fielddylidtky" name="cm-f-dylidtky" type="text" />
-    </p>
-    <p>
-        <button type="submit">Subscribe</button>
-    </p>
-</form>
-{% endcomment %}
+	{% comment %}
+	<!-- Code from Campaign Monitor -->
+	<!-- Redirects to: /hemos-recibido-tu-solicitud-al-programa-de-distribuidores/ -->
+	<form action="http://email.casio-ecr.es/t/r/s/uylhwu/" method="post" id="subForm">
+	    <p>
+	        <label for="fieldName">Name</label><br />
+	        <input id="fieldName" name="cm-name" type="text" />
+	    </p>
+	    <p>
+	        <label for="fieldEmail">Email</label><br />
+	        <input id="fieldEmail" name="cm-uylhwu-uylhwu" type="email" required />
+	    </p>
+	    <p>
+	        <label for="fielddylidtkt">Telefono</label><br />
+	        <input id="fielddylidtkt" name="cm-f-dylidtkt" type="text" />
+	    </p>
+	    <p>
+	        <label for="fielddylidtki">Posicion laboral</label><br />
+	        <input id="fielddylidtki" name="cm-f-dylidtki" type="text" />
+	    </p>
+	    <p>
+	        <label for="fielddylidtkd">Nombre de la empresa</label><br />
+	        <input id="fielddylidtkd" name="cm-f-dylidtkd" type="text" />
+	    </p>
+	    <p>
+	        <label for="fielddylidtkh">Nº de empleados </label><br />
+	        <select id="fielddylidtkh" name="cm-fo-dylidtkh">
+	            <option value=""></option>
+	            <option value="9549764">0-2</option>
+	            <option value="9549765">3-5</option>
+	            <option value="9549766">6-10</option>
+	            <option value="9549767">11-50</option>
+	            <option value="9549768">50+</option>
+	        </select>
+	    </p>
+	    <p>
+	        <label for="fielddylidtkk">Ciudad</label><br />
+	        <input id="fielddylidtkk" name="cm-f-dylidtkk" type="text" />
+	    </p>
+	    <p>
+	        <label for="fielddylidtku">Provincia</label><br />
+	        <input id="fielddylidtku" name="cm-f-dylidtku" type="text" />
+	    </p>
+	    <p>
+	        <label for="fielddylidtul">Página web</label><br />
+	        <input id="fielddylidtul" name="cm-f-dylidtul" type="text" />
+	    </p>
+	    <p>
+	        <label for="fielddylidtur">Comentarios</label><br />
+	        <input id="fielddylidtur" name="cm-f-dylidtur" type="text" />
+	    </p>
+	    <p>
+	        <label for="fielddylidtuy">Interes principal</label><br />
+	        <input id="fielddylidtuy" name="cm-f-dylidtuy" type="text" />
+	    </p>
+	    <p>
+	        <label for="fielddylidtuj">Recibir comunicaciones</label><br />
+	        <select id="fielddylidtuj" name="cm-fo-dylidtuj">
+	            <option value=""></option>
+	            <option value="9549769">Sí</option>
+	            <option value="9549770">No</option>
+	        </select>
+	    </p>
+	    <p>
+	        <label for="fielddylidtky">Origen</label><br />
+	        <input id="fielddylidtky" name="cm-f-dylidtky" type="text" />
+	    </p>
+	    <p>
+	        <button type="submit">Subscribe</button>
+	    </p>
+	</form>
+	{% endcomment %}
