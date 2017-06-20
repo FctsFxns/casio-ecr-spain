@@ -1,7 +1,7 @@
 ---
 layout: default
-layout_class: page-distribuidor  
-layout_id: page-contacto-gracias   
+layout_class: page-distribuidor  page-gracias
+layout_id: page-contacto-gracias 
 title: Gracias por contactar con CASIO System Solutions España
 permalink: /hemos-recibido-tu-solicitud-de-contacto/
 sitemap: 0

@@ -1,7 +1,7 @@
 ---
 layout: default
-layout_class: page-distribuidor  
-layout_id: page-gracias   
+layout_class: page-distribuidor page-gracias
+layout_id: page-subscription-gracias    
 title: Subscripción al newsletter de CASIO System Solutions España
 permalink: /hemos-recibido-tu-suscription-al-newsletter/
 sitemap: 0

@@ -1,6 +1,6 @@
 ---
 layout: default
-layout_class: page-distribuidor  
+layout_class: page-distribuidor  page-gracias 
 layout_id: page-distribuidor-gracias   
 title: ¡Gracias por enviarnos su solicitud! | Programa para distribuidores de CASIO
 permalink: /hemos-recibido-tu-solicitud-al-programa-de-distribuidores/
@@ -17,7 +17,6 @@ sitemap: 0
         ¡Felicidades! Acaba de hacer el primer paso para ser parte de nuestro equipo de distribuidores autorizados de CASIO System Solutions. 
         <br><br>
         Es un primer paso para hacer crecer tu negocio e influencia dentro de tu ámbito laboral. 
-        <br><br>
         En breve contactaremos contigo para establecer un primer contacto.
 				<br><br>
         ¿Necesitas ayuda con algún producto CASIO? <a href="{{ site.data.global.url }}">Contacta con soporte</a>. 

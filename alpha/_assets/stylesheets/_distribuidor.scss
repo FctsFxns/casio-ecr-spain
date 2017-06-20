@@ -26,11 +26,6 @@
 		height: 500px;
 	}
 	.action-section {
-		&::before {
-			display: none;
-		}
-		background-image: none;
-		background-color: #00bfa5;
 		i.icon-custom {
 			border-color: #fff;
 			color: #fff;
@@ -60,6 +55,22 @@
 		}
 	}
 }
+
+.page-distribuidor {
+	.action-section {
+		&::before {
+			display: none;
+		}
+		background-image: none;
+		background-color: $primary-color;
+	}
+	&.page-gracias {
+		.action-section {
+			background-color: $third-color;
+		}
+	}
+}
+
 @media (min-width: 768px) {
 	.page-distribuidor {
 		.action-section {
