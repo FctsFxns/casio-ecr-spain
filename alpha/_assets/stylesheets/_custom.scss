@@ -191,6 +191,17 @@ section {
 	h3 {
 		letter-spacing: 0;
 		font-weight: 800;		
+		position: relative;
+		span {
+			font-size: 12px;
+			font-style: normal;
+			font-weight: 600;
+			text-transform: uppercase;
+			display: block;
+			color: $secondary-color;
+			margin-bottom: 10px;
+			letter-spacing: 2px;
+		}
 		strong {
 			font-weight: 800;		
 		  color: $link-color !important;
@@ -207,8 +218,6 @@ section {
     text-align: center;
 	}
 
-	
-
 	.slick-dots {
 	  // bottom: 120px;
 	  li {
@@ -218,7 +227,6 @@ section {
 	  	}
 	  }
 	}
-
 
 	.btn-u {
 	  background: $link-color;
@@ -238,6 +246,42 @@ section {
 .promo-item::after {
 	background: rgba(0,0,0,0.4);
 }
+
+@media (max-width : 768px) {
+	.promo-item {
+		background-position: center right;
+	}
+	.promo-section {
+		.promo-item-content {
+			width: 100%;
+			p {
+				font-size: 16px;
+				margin: 0 0 15px;
+				max-width: 80%;
+			}
+		}
+	}
+}
+
+@media (max-width : 480px) {
+	.promo-section {
+		.promo-item-content {
+			&.inverse {
+				margin-left: 0;
+				text-align: left;
+				h4 {
+					margin-left: 0;
+				}
+			}
+			h4 {
+				max-width: 100%;
+				font-size: 15px;
+				line-height: 1.375;
+				}
+		}
+	}
+}
+
 
 /** > Soluciones section **/
 .soluciones-section {
@@ -266,6 +310,27 @@ section {
 			}
   	}
   }
+}
+
+/** > About section **/
+.infoblock-trio {
+	h2 {
+		text-transform: none;
+	}
+	ul, p, li {
+		font-weight: 300;
+		strong, b {
+			font-weight: 600;
+		}
+	}
+	.infoblock-trio-col-1 {}
+	.infoblock-trio-col-2 {
+		p, li {
+			color: #333 !important;
+		}
+	}
+	.infoblock-trio-col-3 {}
+
 }
 
 /** > Action section **/
