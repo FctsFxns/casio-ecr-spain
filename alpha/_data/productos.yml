@@ -30,28 +30,28 @@
   class:        ''
   media:        'media/assets/products/item-1.jpg'
 
-- title:        'Soluciones para sistemas'
-  headline:     '<strong>V-R7000/7100</strong> Solución inteligente y de diseño elegante'
-  text:         > # this means to ignore newlines until next key
-    Una nueva plataforma para la innovación en los comercios minoristas y la transformación de los puntos de venta.
-    <br><br>
-    Incluyen aplicaciones preinstaladas que van de la gestión de información de ventas o tiempo a funciones de análisis exhaustivo categorizables según el producto, departamento o grupo.
-  button:       'Consultar modelos'
-  url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/soluciones-para-sistemas/#article-1'
-  call:         'Compatible con el estándar de montaje VESA'
-  media:        'media/assets/products/item-2.jpg'
+# - title:        'Soluciones para sistemas'
+#   headline:     '<strong>V-R7000/7100</strong> Solución inteligente y de diseño elegante'
+#   text:         > # this means to ignore newlines until next key
+#     Una nueva plataforma para la innovación en los comercios minoristas y la transformación de los puntos de venta.
+#     <br><br>
+#     Incluyen aplicaciones preinstaladas que van de la gestión de información de ventas o tiempo a funciones de análisis exhaustivo categorizables según el producto, departamento o grupo.
+#   button:       'Consultar modelos'
+#   url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/soluciones-para-sistemas/#article-1'
+#   call:         'Compatible con el estándar de montaje VESA'
+#   media:        'media/assets/products/item-2.jpg'
 
-- title:        'Terminales de red'
-  headline:     'La gama <strong>V-R200</strong> ofrece un nuevo estilo para tu punto de venta'
-  text:         > # this means to ignore newlines until next key
-    Una nueva plataforma para la innovación en los comercios minoristas y la transformación de los puntos de venta. 
-    <br><br>
-    Más que simples cajas registradoras, se trata de terminales de información que mejoran la gestión de los comercios.
-  button:       'Consultar modelos'
-  url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/terminales-de-red/#article-1'
-  call:         'Primera solución Android™ en el mercado'
-  class:        ''
-  media:        'media/assets/products/02.jpg'
+# - title:        'Terminales de red'
+#   headline:     'La gama <strong>V-R200</strong> ofrece un nuevo estilo para tu punto de venta'
+#   text:         > # this means to ignore newlines until next key
+#     Una nueva plataforma para la innovación en los comercios minoristas y la transformación de los puntos de venta. 
+#     <br><br>
+#     Más que simples cajas registradoras, se trata de terminales de información que mejoran la gestión de los comercios.
+#   button:       'Consultar modelos'
+#   url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/terminales-de-red/#article-1'
+#   call:         'Primera solución Android™ en el mercado'
+#   class:        ''
+#   media:        'media/assets/products/02.jpg'
 
 - title:        'Comanderos'
   headline:     '<strong>¡Fuerte y Robusta!</strong> la tablet profesional <strong>VT-500</strong> se presenta como el comandero perfecto'
@@ -74,5 +74,5 @@
   button:       'Consultar modelos'
   call:         'La mejor manera de trabajar con factura simplificada'
   url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/se-400-modelos/'
-  media:        'media/assets/products/test-22.jpg'
+  media:        'media/assets/products/item-5.jpg'
 
