@@ -2,7 +2,7 @@
 layout: default
 layout_class: page-distribuidor  
 layout_id: page-gracias   
-title: Subscripción al newsletter de CASIO ECR
+title: Subscripción al newsletter de CASIO System Solutions España
 permalink: /hemos-recibido-tu-suscription-al-newsletter/
 sitemap: 0
 ---

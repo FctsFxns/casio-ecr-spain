@@ -2,7 +2,7 @@
 layout: default
 layout_class: page-distribuidor  
 layout_id: page-distribuidor-gracias   
-title: Subscripción al newsletter de CASIO ECR
+title: ¡Gracias por enviarnos su solicitud! | Programa para distribuidores de CASIO
 permalink: /hemos-recibido-tu-solicitud-al-programa-de-distribuidores/
 sitemap: 0
 ---
@@ -11,12 +11,16 @@ sitemap: 0
 	<div class="action-section-inner">
     <div class="g-max-width--770 g-margin-side-auto page-scroll text-center">
     	<i class="icon-custom icon-lg rounded-x fa fa-check"></i>
-    	<h3 class="g-mb-10 g-color-white-dark">Programa para Distribuidores de CASIO</h3>
+    	<h3 class="g-mb-10 g-color-white-dark">Programa para distribuidores de CASIO</h3>
       <h2 class="g-mb-20 g-color-white">¡Gracias por enviarnos tu solicitud!</h2>
       <p class="g-color-white g-mb-20 g-margin-side-auto">
-      	@todo … Nos comprometemos a no enviarte información que no sea de tu interés. Somos muy estrictos en cuanto a la seguridad de los datos, así que nunca compartiremos tus datos con terceros.
+        ¡Felicidades! Acaba de hacer el primer paso para ser parte de nuestro equipo de distribuidores autorizados de CASIO System Solutions. 
+        <br><br>
+        Es un primer paso para hacer crecer tu negocio e influencia dentro de tu ámbito laboral. 
+        <br><br>
+        En breve contactaremos contigo para establecer un primer contacto.
 				<br><br>
-				¿Necesita ayuda con sus productos CASIO? <a href="">Contacte con soporte</a>. 
+        ¿Necesitas ayuda con algún producto CASIO? <a href="{{ site.data.global.url }}">Contacta con soporte</a>. 
       </p>
     </div>
 	</div>
