@@ -11,12 +11,15 @@ sitemap: 0
 	<div class="action-section-inner">
     <div class="g-max-width--770 g-margin-side-auto page-scroll text-center">
     	<i class="icon-custom icon-lg rounded-x fa fa-check"></i>
-    	<h3 class="g-mb-10 g-color-white-dark">Newsletter de Casio System Solutions</h3>
+    	<h3 class="g-mb-10 g-color-white-dark">Boletín de Noticias CASIO System Solution</h3>
       <h2 class="g-mb-20 g-color-white">¡Gracias por registrarte en nuestra lista!</h2>
       <p class="g-color-white g-mb-20 g-margin-side-auto">
-      	Nos comprometemos a no enviarte información que no sea de tu interés. Somos muy estrictos en cuanto a la seguridad de los datos, así que nunca compartiremos tus datos con terceros.
+        ¡Felicidades! Eres parte de la comunidad de usuarios que recibirá noticias en primicia de los productos CASIO, ofertas exclusivas, descuentos para productos y eventos del sector.
+        <br><br>
+        Nos comprometemos a enviarte información de calidad e interés para tu negocio.
+        Somos muy estrictos en cuanto a la seguridad de los datos, así que nunca compartiremos tus datos con terceros.
 				<br><br>
-				¿Necesita ayuda con sus productos CASIO? <a href="">Contacte con soporte</a>. 
+				¿Necesitas ayuda con algún producto CASIO? <a href="{{ site.data.global.url }}">Contacta con soporte</a>. 
       </p>
     </div>
 	</div>
