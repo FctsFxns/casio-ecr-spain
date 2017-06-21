@@ -54,7 +54,7 @@
   media:        'media/assets/products/item-3.jpg'
 
 - title:        'Comanderos'
-  headline:     '<strong>¡Fuerte y Robusta!</strong> la tablet profesional <strong>VT-500</strong> se presenta como el comandero perfecto'
+  headline:     '<strong>¡Fuerte y Robusta!</strong><br> la tablet profesional <strong>VT-500</strong> es el comandero perfecto'
   text:         > # this means to ignore newlines until next key
     Ideal y versátil para todos los negocios. Comandero, TPV táctil, admisión de pedidos, gestión de venta al por menor… 
     <br><br>
@@ -63,7 +63,7 @@
   call:         ''
   url:          'http://www.mobile-barcode-scanner.com/es/productos/v-t500-tablet/'
   call:         'Ergonómicas y equipadas con protección anti-robo'
-  media:        'media/assets/products/item-44.jpg'
+  media:        'media/assets/products/item-4.jpg'
 
 - title:        'Cajas individuales'
   headline:     'Los <strong>Modelos SE-400+</strong> son la nueva generación de cajas registradoras'

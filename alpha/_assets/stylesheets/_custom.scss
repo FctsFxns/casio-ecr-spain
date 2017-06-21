@@ -247,10 +247,13 @@ section {
 	background: rgba(0,0,0,0.4);
 }
 
-@media (max-width : 768px) {
+@media (max-width: 991px) {
 	.promo-item {
 		background-position: center right;
-	}
+	}	
+}
+
+@media (max-width : 768px) {
 	.promo-section {
 		.promo-item-content {
 			width: 100%;

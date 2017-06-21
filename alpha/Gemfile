@@ -11,6 +11,7 @@ gem 'jekyll-paginate', '1.1.0'
 # To compile sass + .js files while don't use grunt or similar
 gem "jekyll-assets"
 
+
 # In case we use circle or travis to deploy we will need this
 # à la 'kickster'
 gem 'html-proofer'

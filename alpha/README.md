@@ -1,11 +1,9 @@
-# Desenvolupament del nou website de CASIO ECR
+#Desenvolupament del nou website de CASIO System Solutions
+
+[![Build Status](https://travis-ci.org/FctsFxns/casio-ecr-spain.svg?branch=master)](https://travis-ci.org/FctsFxns/casio-ecr-spain)
 
 	Març de 2017
-
-[![Build Status](https://travis-ci.org/casioecr/casio-ecr.es.png)](https://travis-ci.org/casioecr/casio-ecr.es)
-
 	url: http://www.casio-ecr.es/alpha/
-
 
 ## Información para editores
 

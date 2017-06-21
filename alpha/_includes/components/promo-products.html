@@ -8,11 +8,9 @@
 		          	{{ item.headline }}
 	          	</h3>
 	          	{{ item.text | markdownify }}
-
 		          <div class="page-scroll">
-			          <a class="btn-u btn-u-lg btn-u-upper g-mt-20" href="{{ item.url }}">{{ item.button }}</a>
+			          <a class="btn-u btn-u-lg btn-u-upper g-mt-20" href="{{ item.url }}">{{ item.button }} &nbsp;<i class="fa fa-angle-double-right  "></i></a>
 		          </div>
-
               {% if item.call != '' %}
 			          <h4 class="g-mt-40">{{ item.call }}</h4>
     					{% endif %}  
