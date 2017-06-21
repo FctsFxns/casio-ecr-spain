@@ -29,7 +29,7 @@
   text:         > # this means to ignore newlines until next key
                 <p><strong>Bares y pubs obtienen un control constante y ordenado del negocio.</strong></p>
                 <p>Además de las funciones de caja registradora tradicionales, proporciona a los trabajadores el control de las ventas y funciona con un sistema inalámbrico de toma de pedidos, radio-nota y comandas.</p>
-                <p>Fácil gestión de datos, pedidos y devoluciones, información de productos más gestión y análisis de clientes.</p>
+                <p>Fácil gestión de datos, pedidos y devoluciones. Analizarás rápidamente la información de productos y la gestión y análisis de clientes.</p>
   button:       'Solicita más información'
   url:          '#contacto-details'
   media:        'media/assets/solutions/item-2.jpg'

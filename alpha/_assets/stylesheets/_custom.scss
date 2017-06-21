@@ -13,7 +13,7 @@ h3 {
 .one-page-header {
     background: rgba(255,255,255,1);
     &.top-nav-collapse {
-    	background: rgba(255,255,255,0.9);
+    	background: rgba(255,255,255,1);
     }
 }
 
@@ -138,11 +138,11 @@ a.btn-u-lg,
 .one-page-header.top-nav-collapse .navbar-brand,
 .one-page-header.top-nav-collapse .navbar-nav > li > a,
 .one-page-header.top-nav-collapse .navbar-nav > li > a:before {
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .one-page-header .navbar-nav > li > a {
-  font-size: 13px;
+  font-size: 12px;
 }
 
 /** Homepage **/
@@ -190,7 +190,7 @@ section {
 	}
 	h3 {
 		letter-spacing: 0;
-		font-weight: 800;		
+		font-weight: 700;		
 		position: relative;
 		span {
 			font-size: 12px;
