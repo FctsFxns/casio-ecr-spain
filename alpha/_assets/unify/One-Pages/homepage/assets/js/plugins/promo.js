@@ -1,11 +1,11 @@
 $(function() {
   $(".promo-section").slick({
 		autoplay: true,
+	  // autoplaySpeed: 2000,
 		arrows: false,
 		dots: true,
 		pauseOnDotsHover: true,
 		slidesToShow: 1,
-	  autoplaySpeed: 6000,
 		customPaging : function(slider, i) {
 			var title = $(slider.$slides[i]).data('title');
 			return '<span>'+title+'</span>';
