@@ -67,12 +67,16 @@
     <!-- CSS Customization -->
     {% stylesheet one.page.scss %}
     
-    <style type="text/css">
-        {% capture include_to_scssify %}
-          {% include default.scss %}
-        {% endcapture %}
-        {{ include_to_scssify | scssify }}
-    </style>
+    {% comment %}
+        <!-- Inline CSS -->
+        <style type="text/css">
+            {% capture include_to_scssify %}
+              {% include default.scss %}
+            {% endcapture %}
+            {{ include_to_scssify | scssify }}
+        </style>
+    {% endcomment %}
+
 </head>
 
 <body id="{% if page.layout_id %} {{page.layout_id}}{% endif %}" class="{{ post.title | downcase | replace:' ','-' | replace:',','' | strip_html }}{% if page.category %} category-{{ page.category }}{% endif %}{% if page.layout_class %} {{ page.layout_class }}{% endif %} {{ work.title | downcase | replace:' ','-' | replace:',','' | strip_html }}">
