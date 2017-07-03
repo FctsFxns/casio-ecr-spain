@@ -5,6 +5,7 @@
     "respond": "^1.4.2",
     "jquery.migrate": "1.2.1",
     "bootstrap": "3.3.7",
-    "cookieconsent": "3.0.4"
+    "cookieconsent": "3.0.4",
+    "jquery-smooth-scroll": "2.2.0"
   }
 }
