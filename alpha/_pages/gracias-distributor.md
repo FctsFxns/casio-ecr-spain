@@ -19,7 +19,7 @@ sitemap: 0
         Es un primer paso para hacer crecer tu negocio e influencia dentro de tu ámbito laboral. 
         En breve contactaremos contigo para establecer un primer contacto.
 				<br><br>
-        ¿Necesitas ayuda con algún producto CASIO? <a href="{{ site.data.global.url }}">Contacta con soporte</a>. 
+        ¿Necesitas ayuda con algún producto CASIO? <a href="{{ '/' | prepend: site.data.global.url }}#contacto">Contacta con soporte</a>. 
       </p>
     </div>
 	</div>

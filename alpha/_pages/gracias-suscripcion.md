@@ -19,7 +19,7 @@ sitemap: 0
         Nos comprometemos a enviarte información de calidad e interés para tu negocio.
         Somos muy estrictos en cuanto a la seguridad de los datos, así que nunca compartiremos tus datos con terceros.
 				<br><br>
-				¿Necesitas ayuda con algún producto CASIO? <a href="{{ site.data.global.url }}">Contacta con soporte</a>. 
+				¿Necesitas ayuda con algún producto CASIO? <a href="{{ '/' | prepend: site.data.global.url }}#contacto">Contacta con soporte</a>. 
       </p>
     </div>
 	</div>

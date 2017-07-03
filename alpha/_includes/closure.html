@@ -30,6 +30,17 @@
         }
       })});
 
+     // SmoothScroll to Contacto, nyapa!
+      var reSmooth = /^#contacto/;
+      var id;
+      if (reSmooth.test(location.hash)) {
+        // Strip the "#smoothScroll" part off (and put "#" back on the beginning)
+        id = '#' + location.hash.replace(reSmooth, '');
+        $.smoothScroll({
+          scrollTarget: '#contacto'
+        });
+      }
+
   });
   </script>
 

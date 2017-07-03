@@ -21,7 +21,7 @@
                 <p>De gran utilidad para los camareros, se adaptan rápidamente a los requisitos particulares del negocio o cadena de negocios.  </p>
                 <p>Su software inteligente, con una amplia gama de funciones de tabla y teclado de fácil uso, simplifica y flexibiliza el trabajo diario en el sector hotelero, restaurantes y bares.</p>  
   button:       'Solicita más información'
-  url:          '#contacto-details'
+  url:          '#contacto'
   media:        'media/assets/solutions/item-1.jpg'
 
 - title:        'Bares y clubs'
@@ -31,7 +31,7 @@
                 <p>Además de las funciones de caja registradora tradicionales, proporciona a los trabajadores el control de las ventas y funciona con un sistema inalámbrico de toma de pedidos, radio-nota y comandas.</p>
                 <p>Fácil gestión de datos, pedidos y devoluciones. Analizarás rápidamente la información de productos y la gestión y análisis de clientes.</p>
   button:       'Solicita más información'
-  url:          '#contacto-details'
+  url:          '#contacto'
   media:        'media/assets/solutions/item-2.jpg'
 
 - title:        'Tiendas'
@@ -41,7 +41,7 @@
                 <p>Preciso y adaptado a los requisitos del uso diario, reduciendo tiempo y coste de gestión. El teclado de fácil uso permite registros rápidos en grandes almacenes, tiendas de comestibles, librerías o quioscos. </p>
                 <p>Ampliables con accesorios, como lectores de códigos de barras de mano, impresoras externas, matrices de puntos o impresoras térmicas.</p>
   button:       'Solicita más información'
-  url:          '#contacto-details'
+  url:          '#contacto'
   media:        'media/assets/solutions/item-3.jpg'
 
 - title:        'Negocio familiar'
@@ -51,7 +51,7 @@
                 <p>Resistentes y de fácil uso, se adaptan de forma sencilla a los requisitos particulares del establecimiento.</p>
                 <p>Fiabilidad y diversidad perfecta para salones de belleza, cadenas o negocios familiares. <br> Permite atender a varios clientes al mismo tiempo, gestionar pedidos y devoluciones y registrar el tiempo de trabajo mediante un número de empleado.</p>
   button:       'Solicita más información'
-  url:          '#contacto-details'
+  url:          '#contacto'
   media:        'media/assets/solutions/item-4.jpg'
 
 - title:        'Panaderías'
@@ -61,7 +61,7 @@
                 <p>Preparadas para cambios de temperatura del establecimiento y el trato constante de alimentos, están preparadas para estas situaciones.</p>
                 <p>Con un teclado intuitivo, tendrás la capacidad de atender multiples pedidos a la vez que devoluciones.</p>
   button:       'Solicita más información'
-  url:          '#contacto-details'
+  url:          '#contacto'
   media:        'media/assets/solutions/item-5.jpg'
 
 

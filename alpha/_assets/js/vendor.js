@@ -3,7 +3,8 @@
 //= require bootstrap/dist/js/bootstrap.min
 //= require cookieconsent/build/cookieconsent.min
 
-//= require One-Pages/assets/plugins/smoothScroll
+//= require jquery-smooth-scroll/jquery.smooth-scroll.min
+
 //= require One-Pages/assets/plugins/jquery.easing.min
 //= require One-Pages/assets/plugins/sky-forms-pro/skyforms/js/jquery.form.min
 //= require One-Pages/assets/plugins/sky-forms-pro/skyforms/js/jquery.validate.min
