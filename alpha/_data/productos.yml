@@ -16,20 +16,6 @@
 #   media:        'media/assets/products/sample-1900x1329.png'
 #
 
-- title:        'La compañía'
-  headline:     '<strong>CASIO</strong> te ofrece una <strong>solución a la medida</strong> de tu negocio'
-  text:         > # this means to ignore newlines until next key
-    Nuestros modelos se adaptan a las necesidades del comercio y te
-    ayudan a la gestión del establecimiento.
-    <br><br>
-    Con equipos que reducen costes energéticos y 
-    comprenden el ciclo de compra completo de los clientes tomarás las mejores decisiones en tu negocio.
-  button:       'Soluciones por sector'
-  url:          '#soluciones'
-  call:         'Tecnología para la hostelería y el comercio en español'
-  class:        ''
-  media:        'media/assets/products/item-1.jpg'
-
 - title:        'Soluciones para sistemas'
   headline:     '<strong>V-R7000/7100</strong> Solución inteligente y de diseño elegante'
   text:         > # this means to ignore newlines until next key
@@ -66,7 +52,7 @@
   media:        'media/assets/products/item-4.jpg'
 
 - title:        'Cajas individuales'
-  headline:     'Los <strong>Modelos SE-400+</strong> son la nueva generación de cajas registradoras'
+  headline:     '<strong>SE-S400/S3000 y SE-C450/C3500</strong> la nueva generación de cajas registradoras'
   text:         > # this means to ignore newlines until next key
     Ya sea en un restaurante, bar o tienda: gracias a su diseño elegante, las nuevas cajas registradoras de la serie SE400+ encajan perfectamente en el entorno moderno de la hostelería y el comercio.
     <br><br>
@@ -75,3 +61,18 @@
   call:         'La mejor manera de trabajar con factura simplificada'
   url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/se-400-modelos/'
   media:        'media/assets/products/item-5.jpg'
+
+
+- title:        'La compañía'
+  headline:     '<strong>CASIO</strong> te ofrece una <strong>solución a la medida</strong> de tu negocio'
+  text:         > # this means to ignore newlines until next key
+    Nuestros modelos se adaptan a las necesidades del comercio y te
+    ayudan a la gestión del establecimiento.
+    <br><br>
+    Con equipos que reducen costes energéticos y 
+    comprenden el ciclo de compra completo de los clientes tomarás las mejores decisiones en tu negocio.
+  button:       'Soluciones por sector'
+  url:          '#soluciones'
+  call:         'Tecnología para la hostelería y el comercio en español'
+  class:        ''
+  media:        'media/assets/products/item-1.jpg'
