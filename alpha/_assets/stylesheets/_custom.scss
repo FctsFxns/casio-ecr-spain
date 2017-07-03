@@ -285,6 +285,35 @@ section {
 	}
 }
 
+/** > Software section **/
+#software {
+	position: relative;
+	&::before {
+    left: 0;
+    bottom: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+	  background-image: url(../media/assets/software-hero-test2.png);
+	  background-position: center 113%;
+		background-size: 56%;
+		background-repeat: no-repeat;
+
+	}
+
+	background-image: url(../media/assets/software-hero-test-bg.jpg);
+  background-color: #000;
+
+  padding-bottom: 15%;
+
+  // url(../media/assets/software-hero.jpg)   
+  // no-repeat 50% 50% / cover
+  .action-section-inner {
+  	height: 500px;
+  }  
+}
 
 /** > Soluciones section **/
 .soluciones-section {
