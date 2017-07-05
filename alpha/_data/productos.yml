@@ -25,7 +25,7 @@
   button:       'Consultar modelos'
   url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/soluciones-para-sistemas/#article-1'
   call:         'Compatible con el estándar de montaje VESA'
-  pdf_url:      '#'
+  pdf_url:      ''
   media:        'media/assets/products/item-2.jpg'
 
 - title:        'Terminales de red'
@@ -39,19 +39,20 @@
   call:         'Primera solución Android™ en el mercado'
   class:        ''
   pdf_url:      'media/pdf/Ficha_V-R200.pdf'
-  media:        'media/assets/products/item-3.jpg'
+  media:        'media/assets/products/item-3d.jpg'
 
-# - title:        'Comanderos'
-#   headline:     '<strong>¡Fuerte y Robusta!</strong><br> la tablet profesional <strong>VT-500</strong> es el comandero perfecto'
-#   text:         > # this means to ignore newlines until next key
-#     Ideal y versátil para todos los negocios. Comandero, TPV táctil, admisión de pedidos, gestión de venta al por menor… 
-#     <br><br>
-#     Cuenta con sistema operativo Android™, pueden aguantar una caída de un metro y cumplen con los estándares IP54 de resistencia al polvo y agua.
-#   button:       'Más detalles'
-#   call:         ''
-#   url:          'http://www.mobile-barcode-scanner.com/es/productos/v-t500-tablet/'
-#   call:         'Ergonómicas y equipadas con protección anti-robo'
-#   media:        'media/assets/products/item-4.jpg'
+- title:        'Comanderos'
+  headline:     '<strong>¡Fuerte y Robusta!</strong><br> la tablet profesional <strong>IT-G400</strong> es el comandero perfecto'
+  text:         > # this means to ignore newlines until next key
+    Ideal y versátil para todos los negocios. Comandero, TPV táctil, admisión de pedidos, gestión de venta al por menor… 
+    <br><br>
+    Cuenta con sistema operativo Android™, pueden aguantar una caída de un metro y cumplen con los estándares IP54 de resistencia al polvo y agua.
+  button:       'Más detalles'
+  call:         ''
+  url:          'https://www.casio-europe.com/es/productos/la-captura-movil-de-datos/it-g400/'
+  call:         'Ergonómicas y equipadas con protección anti-robo'
+  pdf_url:      ''
+  media:        'media/assets/products/item-4a.jpg'
 
 - title:        'Modelos SE-400+'
   headline:     '<strong>Su registradora ideal</strong> para hostelería y comercio modernos'
@@ -69,9 +70,10 @@
 - title:        'Cajas individuales'
   headline:     '<strong>SE-S100</strong> Pon un toque de estilo a tu negocio'
   text:         > # this means to ignore newlines until next key
-    Pantalla LCD de fácil lectura para clientes que potencia su confianza, impresora térmica de alto rendimiento y compatible con tarjetas SD.
-    <br><br>
-    Diferentes colores para proporcionar una experiencia de compra más refinada: disponible en oro, plata, rojo y negro.
+      Diseñada para una óptima operatividad, tiene teclado práctico y eficaz con el que, 
+      con un simple toque, accedes a las funciones más utilizadas. 
+      <br><br>
+      Incorpora una silenciosa impresora térmica de alto rendimiento y es compatible con tarjetas SD.
   button:       'Consultar modelos'
   call:         'La mejor manera de trabajar con factura simplificada'
   url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/cajas-individuales/'
