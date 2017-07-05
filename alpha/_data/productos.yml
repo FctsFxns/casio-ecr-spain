@@ -16,28 +16,30 @@
 #   media:        'media/assets/products/sample-1900x1329.png'
 #
 
-# - title:        'Soluciones para sistemas'
-#   headline:     '<strong>V-R7000/7100</strong> Solución inteligente y de diseño elegante'
-#   text:         > # this means to ignore newlines until next key
-#     Una nueva plataforma para la innovación en los comercios minoristas y la transformación de los puntos de venta.
-#     <br><br>
-#     Incluyen aplicaciones preinstaladas que van de la gestión de información de ventas o tiempo a funciones de análisis exhaustivo categorizables según el producto, departamento o grupo.
-#   button:       'Consultar modelos'
-#   url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/soluciones-para-sistemas/#article-1'
-#   call:         'Compatible con el estándar de montaje VESA'
-#   media:        'media/assets/products/item-2.jpg'
+- title:        'Soluciones para sistemas'
+  headline:     '<strong>V-R7000/7100</strong> Solución inteligente y de diseño elegante'
+  text:         > # this means to ignore newlines until next key
+    Una nueva plataforma para la innovación en los comercios minoristas y la transformación de los puntos de venta.
+    <br><br>
+    Incluyen aplicaciones preinstaladas que van de la gestión de información de ventas o tiempo a funciones de análisis exhaustivo categorizables según el producto, departamento o grupo.
+  button:       'Consultar modelos'
+  url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/soluciones-para-sistemas/#article-1'
+  call:         'Compatible con el estándar de montaje VESA'
+  pdf_url:      '#'
+  media:        'media/assets/products/item-2.jpg'
 
-# - title:        'Terminales de red'
-#   headline:     'La gama <strong>V-R200</strong> ofrece un nuevo estilo para tu punto de venta'
-#   text:         > # this means to ignore newlines until next key
-#     Una nueva plataforma para la innovación en los comercios minoristas y la transformación de los puntos de venta. 
-#     <br><br>
-#     Más que simples cajas registradoras, se trata de terminales de información que mejoran la gestión de los comercios.
-#   button:       'Consultar modelos'
-#   url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/terminales-de-red/#article-1'
-#   call:         'Primera solución Android™ en el mercado'
-#   class:        ''
-#   media:        'media/assets/products/item-3.jpg'
+- title:        'Terminales de red'
+  headline:     'La gama <strong>V-R200</strong> ofrece un nuevo estilo para tu punto de venta'
+  text:         > # this means to ignore newlines until next key
+    Una nueva plataforma para la innovación en los comercios minoristas y la transformación de los puntos de venta. 
+    <br><br>
+    Más que simples cajas registradoras, se trata de terminales de información que mejoran la gestión de los comercios.
+  button:       'Consultar modelos'
+  url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/terminales-de-red/#article-1'
+  call:         'Primera solución Android™ en el mercado'
+  class:        ''
+  pdf_url:      'media/pdf/Ficha_V-R200.pdf'
+  media:        'media/assets/products/item-3.jpg'
 
 # - title:        'Comanderos'
 #   headline:     '<strong>¡Fuerte y Robusta!</strong><br> la tablet profesional <strong>VT-500</strong> es el comandero perfecto'
@@ -52,7 +54,7 @@
 #   media:        'media/assets/products/item-4.jpg'
 
 - title:        'Modelos SE-400+'
-  headline:     'Su registradora ideal para hostelería y comercio modernos'
+  headline:     '<strong>Su registradora ideal</strong> para hostelería y comercio modernos'
   text:         > # this means to ignore newlines until next key
     Ya sea en un restaurante, bar o tienda: gracias a su diseño elegante, las nuevas cajas registradoras de la serie SE400+ encajan perfectamente en el entorno moderno de la hostelería y el comercio.
     <br><br>
@@ -62,18 +64,19 @@
   call:         'Diseño elegante y funciones innovadoras'
   pdf_url:      'media/pdf/Ficha_SE-S400.pdf'
   class:        ''
-  media:        'media/assets/products/item-5a.jpg'
+  media:        'media/assets/products/item-5.jpg'
 
-# - title:        'Cajas individuales'
-#   headline:     '<strong>SE-S400/S3000 y SE-C450/C3500</strong> la nueva generación de cajas registradoras'
-#   text:         > # this means to ignore newlines until next key
-#     Ya sea en un restaurante, bar o tienda: gracias a su diseño elegante, las nuevas cajas registradoras de la serie SE400+ encajan perfectamente en el entorno moderno de la hostelería y el comercio.
-#     <br><br>
-#     Rápida y silenciosa es perfecta para entornos tranquilos y hace que trabajar con la caja registradora sea una tarea agradable.
-#   button:       'Consultar modelos'
-#   call:         'La mejor manera de trabajar con factura simplificada'
-#   url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/se-400-modelos/'
-#   media:        'media/assets/products/item-6.jpg'
+- title:        'Cajas individuales'
+  headline:     '<strong>SE-S100</strong> Pon un toque de estilo a tu negocio'
+  text:         > # this means to ignore newlines until next key
+    Pantalla LCD de fácil lectura para clientes que potencia su confianza, impresora térmica de alto rendimiento y compatible con tarjetas SD.
+    <br><br>
+    Diferentes colores para proporcionar una experiencia de compra más refinada: disponible en oro, plata, rojo y negro.
+  button:       'Consultar modelos'
+  call:         'La mejor manera de trabajar con factura simplificada'
+  url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/cajas-individuales/'
+  pdf_url:      'media/pdf/Ficha_SE-S100.pdf'
+  media:        'media/assets/products/item-6a.jpg'
 
 
 # - title:        'La compañía'
