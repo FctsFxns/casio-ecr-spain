@@ -9,7 +9,14 @@
 	          	</h3>
 	          	{{ item.text | markdownify }}
 		          <div class="page-scroll">
-			          <a class="btn-u btn-u-lg btn-u-upper btn-u-green g-mt-20" href="{{ item.url }}">{{ item.button }} &nbsp;<i class="fa fa-angle-double-right  "></i></a>
+			          <a class="btn-u btn-u-lg btn-u-upper btn-u-primary g-mt-20 g-mr-30 g-3xs-mb-20 g-3xs-mr-0" href="{{ item.url }}">{{ item.button }} &nbsp;<i class="fa fa-angle-double-right  "></i></a>
+
+	              {% if item.pdf_url != '' %}
+									<div class="visible-3xs clearfix"></div>
+									<a href="{{ item.pdf_url | prepend: site.data.global.url }}" target="_blank" class="btn-u btn-brd btn-u-lg btn-u-upper">
+									<i class="fa fa-arrow-circle-down"></i>Descarga ficha en PDF </a> 
+	    					{% endif %}  
+
 		          </div>
               {% if item.call != '' %}
 			          <h4 class="g-mt-40">{{ item.call }}</h4>

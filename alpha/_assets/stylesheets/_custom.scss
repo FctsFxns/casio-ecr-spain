@@ -227,17 +227,21 @@ section {
 	  	}
 	  }
 	}
+	.btn-brd {
+		border-color: transparent;
+	}
 
 	.btn-u {
-	  background: $link-color;
+	  // background: $link-color;
 	}
 	.btn-u:hover,
 	.btn-u:focus {
-	  background: $primary-color;
+	  // background: $primary-color;
 	}
 	.btn-u.btn-brd:hover,
 	.btn-u.btn-brd:focus {
-	  background: $primary-color;
+	  background: none;
+	  text-decoration: underline;
 	}
 
 
