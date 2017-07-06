@@ -16,6 +16,19 @@
 #   media:        'media/assets/products/sample-1900x1329.png'
 #
 
+- title:        'Terminales de red'
+  headline:     'La gama <strong>V-R200</strong> ofrece un nuevo estilo para tu punto de venta'
+  text:         > # this means to ignore newlines until next key
+    Una nueva plataforma para la innovación en los comercios minoristas y la transformación de los puntos de venta. 
+    <br><br>
+    Más que simples cajas registradoras, se trata de terminales de información que mejoran la gestión de los comercios.
+  button:       'Consultar modelos'
+  url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/terminales-de-red/#article-1'
+  call:         'Primera solución Android™ en el mercado'
+  class:        ''
+  pdf_url:      'media/pdf/Ficha_V-R200.pdf'
+  media:        'media/assets/products/item-3a.jpg'
+
 - title:        'Soluciones para sistemas'
   headline:     '<strong>V-R7000/7100</strong> Solución inteligente y de diseño elegante'
   text:         > # this means to ignore newlines until next key
@@ -28,21 +41,8 @@
   pdf_url:      ''
   media:        'media/assets/products/item-2.jpg'
 
-- title:        'Terminales de red'
-  headline:     'La gama <strong>V-R200</strong> ofrece un nuevo estilo para tu punto de venta'
-  text:         > # this means to ignore newlines until next key
-    Una nueva plataforma para la innovación en los comercios minoristas y la transformación de los puntos de venta. 
-    <br><br>
-    Más que simples cajas registradoras, se trata de terminales de información que mejoran la gestión de los comercios.
-  button:       'Consultar modelos'
-  url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/terminales-de-red/#article-1'
-  call:         'Primera solución Android™ en el mercado'
-  class:        ''
-  pdf_url:      'media/pdf/Ficha_V-R200.pdf'
-  media:        'media/assets/products/item-3d.jpg'
-
 - title:        'Comanderos'
-  headline:     '<strong>¡Fuerte y Robusta!</strong><br> la tablet profesional <strong>IT-G400</strong> es el comandero perfecto'
+  headline:     'La tablet profesional <strong>IT-G400</strong> es el <strong>comandero perfecto</strong>'
   text:         > # this means to ignore newlines until next key
     Ideal y versátil para todos los negocios. Comandero, TPV táctil, admisión de pedidos, gestión de venta al por menor… 
     <br><br>
@@ -52,7 +52,7 @@
   url:          'https://www.casio-europe.com/es/productos/la-captura-movil-de-datos/it-g400/'
   call:         'Ergonómicas y equipadas con protección anti-robo'
   pdf_url:      ''
-  media:        'media/assets/products/item-4a.jpg'
+  media:        'media/assets/products/item-4b.jpg'
 
 - title:        'Modelos SE-400+'
   headline:     '<strong>Su registradora ideal</strong> para hostelería y comercio modernos'

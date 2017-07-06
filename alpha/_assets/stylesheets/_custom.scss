@@ -250,12 +250,10 @@ section {
 	  background: none;
 	  text-decoration: underline;
 	}
-
-
 }
 
 .promo-item::after {
-	background: rgba(0,0,0,0.4);
+	background: rgba(0,0,0,0.35);
 }
 
 @media (max-width: 991px) {
