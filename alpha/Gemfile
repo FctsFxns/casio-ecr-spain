@@ -7,7 +7,6 @@ gem 'sprockets', '3.6.3'
 gem 'sass'
 gem 'jekyll-paginate', '1.1.0'
 
-
 # To compile sass + .js files while don't use grunt or similar
 gem "jekyll-assets"
 
