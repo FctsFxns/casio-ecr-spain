@@ -1,10 +1,10 @@
 $(function() {
 	var slider = $(".promo-section");
   slider.slick({
-		autoplay: false,
+		autoplay: true,
 	  autoplaySpeed: 4000,
 	  speed: 1000,
-		arrows: true,
+		arrows: false,
 		dots: true,
 		pauseOnDotsHover: true,
 		slidesToShow: 1,
