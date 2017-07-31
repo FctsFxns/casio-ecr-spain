@@ -16,19 +16,6 @@
 #   media:        'media/assets/products/sample-1900x1329.png'
 #
 
-- title:        'Terminales de red'
-  headline:     'La gama <strong>V-R200</strong> ofrece un nuevo estilo para tu punto de venta'
-  text:         > # this means to ignore newlines until next key
-    Una nueva plataforma para la innovación en los comercios minoristas y la transformación de los puntos de venta. 
-    <br><br>
-    Más que simples cajas registradoras, se trata de terminales de información que mejoran la gestión de los comercios.
-  button:       'Consultar modelos'
-  url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/terminales-de-red/#article-1'
-  call:         'Primera solución Android™ en el mercado'
-  class:        ''
-  pdf_url:      'media/pdf/Ficha_V-R200.pdf'
-  media:        'media/assets/products/item-3a.jpg'
-
 - title:        'Soluciones para sistemas'
   headline:     '<strong>V-R7000/7100</strong> Solución inteligente y de diseño elegante'
   text:         > # this means to ignore newlines until next key
@@ -40,6 +27,19 @@
   call:         'Compatible con el estándar de montaje VESA'
   pdf_url:      ''
   media:        'media/assets/products/item-2.jpg'
+
+- title:        'Terminales de red'
+  headline:     'La gama <strong>V-R200</strong> ofrece un nuevo estilo para tu punto de venta'
+  text:         > # this means to ignore newlines until next key
+    Una nueva plataforma para la innovación en los comercios minoristas y la transformación de los puntos de venta. 
+    <br><br>
+    Más que simples cajas registradoras, se trata de terminales de información que mejoran la gestión de los comercios.
+  button:       'Consultar modelos'
+  url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/terminales-de-red/#article-1'
+  call:         'Primera solución Android™ en el mercado'
+  class:        ''
+  pdf_url:      'media/pdf/Ficha_V-R200.pdf'
+  media:        'media/assets/products/item-3g.jpg'
 
 - title:        'Comanderos'
   headline:     'La tablet profesional <strong>IT-G400</strong> es el <strong>comandero perfecto</strong>'

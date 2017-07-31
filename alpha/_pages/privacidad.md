@@ -18,6 +18,76 @@ sitemap: 0
 <p>Una "cookie" es un registro de un archivo que se deja en el disco duro del usuario y que guarda datos sobre la visita a una página Web para poder identificar las nuevas visitas a esta página. Sólo la página que ha escrito los datos puede acceder a su lectura, siendo en este caso <a href="http://www.casio-europe.com/es">www.casio-europe.com/es</a>, es decir sólo CASIO ESPAÑA, S.L.&nbsp;No se guardarán datos personales sobre los usuarios.&nbsp;</p>
 <p>Se pueden configurar las propiedades de su explorador para desactivar el uso de "cookies", pero de esta forma también puede restringirse el uso, debido a motivos técnicos del programa, de ciertas ofertas de servicios y opciones de la Web que se encuentran disponibles en las páginas Web de CASIO. Las "cookies" se pueden eliminar también en cualquier momento de forma manual siguiendo las instrucciones de su software de navegación en relación a la eliminación de "cookies".&nbsp;</p>
 <p>Además se obtendrán datos relativos a personas, p.ej. en el marco de concursos o pedidos. En este campo, la empresa CASIO ESPAÑA, S.L presta también atención al respeto de las disposiciones legales en cuanto a protección de datos. Los datos se emplearán con fines publicitarios sólo dentro de las disposiciones legales. En las respectivas instrucciones de participación o de compra se pueden obtener detalles a este respecto.&nbsp;</p>
+
+
+<h4>A. Cookies Propías</h4>
+<table class="cookies-table" border="0" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+    <th>Nombre</th>
+    <th>Para qué sirve</th>
+    <th>Expira</th>
+  </tr>
+  <tr>
+    <td>cookieconsent_status</td>
+    <td>Nos permite gestionar si se ha mostrado o no el mensaje de de información de uso de cookies.</td>
+    <td>1 año</td>
+  </tr>
+
+  </tbody><div></div></table>
+
+<h4>B. Cookies de Google Analytics</h4>
+<table class="cookies-table" border="0" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+    <th>Nombre</th>
+    <th>Para qué sirve</th>
+    <th>Expira</th>
+  </tr>
+  <tr>
+    <td>_ga, _gat, _gid</td>
+    <td>Ayuda a contar cuanta gente visita el sitio web guardando si lo has visitado antes</td>
+    <td>2 años</td>
+  </tr>
+  <tr>
+    <td>__utma</td>
+    <td>Como _ga, Ayuda a contar cuanta gente visita el sitio web guardando si lo has visitado antes o una página del sitio</td>
+    <td>2 años</td>
+  </tr>
+  <tr>
+    <td>__utmb</td>
+    <td>Funciona conjutamente con _utmc para calcular la duración media del tiempo que el usuario emplea en el sitio web</td>
+    <td>1 hora</td>
+  </tr>
+  <tr>
+    <td>__utmc</td>
+    <td>Funciona conjuntamente con _utmb para calcular cuándo el usuario cierra el navegador. </td>
+    <td>Cuando el usuario cierra el navegador</td>
+  </tr>
+  <tr>
+    <td>__utmz</td>
+    <td>Esto índica cómo has llegado al sitio web (e.j. de otro sitio web o de un motor de búsqueda)</td>
+    <td>6 meses</td>
+  </tr>
+  </tbody><div></div></table>
+
+<h4>C. Analytics (Segment)</h4>
+<table class="cookies-table" border="0" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+    <th>Nombre</th>
+    <th>Para qué sirve</th>
+    <th>Expira</th>
+  </tr>
+  <tr>
+    <td>ajs_group_id</td>
+    <td>This doesn't currently store anything</td>
+    <td>1 year</td>
+  </tr>
+  <tr>
+    <td>ajs_user_id</td>
+    <td>This allows segment.io to collect data about your usage of Deliveroo</td>
+    <td>1 year</td>
+  </tr>
+
+</tbody></table>
 <h3>3. Derecho de información</h3>
 <p>De acuerdo con las normas vigentes CASIO le comunicará, en caso de que así lo solicite, de forma gratuita y por escrito, si tenemos datos guardados relativos a su persona y de cuáles se trata.&nbsp;</p>
 <h3>4. Google Analytics</h3>
