@@ -25,7 +25,7 @@
   button:       'Consultar modelos'
   url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/soluciones-para-sistemas/#article-1'
   call:         'Compatible con el estándar de montaje VESA'
-  pdf_url:      ''
+  pdf_url:      'media/pdf/Ficha_V-R7000.pdf'
   media:        'media/assets/products/item-2.jpg'
 
 - title:        'Terminales de red'
