@@ -2,6 +2,9 @@
 # ------------------
 #
 # Textos para la sección de promociones de producto que encabeza la homepage
+#
+# @todo:
+#
 
 # Ejemplo de formato para un copiar/pegar
 #
@@ -16,6 +19,7 @@
 #   media:        'media/assets/products/sample-1900x1329.png'
 #
 
+# [√] V-R7000
 - title:        'Soluciones para sistemas'
   headline:     '<strong>V-R7000/7100</strong> Solución inteligente y de diseño elegante'
   text:         > # this means to ignore newlines until next key
@@ -26,8 +30,9 @@
   url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/soluciones-para-sistemas/#article-1'
   call:         'Compatible con el estándar de montaje VESA'
   pdf_url:      'media/pdf/Ficha_V-R7000.pdf'
-  media:        'media/assets/products/item-2.jpg'
+  media:        'media/assets/products/item-VR7000.jpg'
 
+# [√] V-R200 blanca en restaurante chulo
 - title:        'Terminales de red'
   headline:     'La gama <strong>V-R200</strong> ofrece un nuevo estilo para tu punto de venta'
   text:         > # this means to ignore newlines until next key
@@ -39,8 +44,9 @@
   call:         'Primera solución Android™ en el mercado'
   class:        ''
   pdf_url:      'media/pdf/Ficha_V-R200.pdf'
-  media:        'media/assets/products/item-3g.jpg'
+  media:        'media/assets/products/item-VR200-blur.jpg'
 
+# [√] IT-G400 comandero que no sembli que flota
 - title:        'Comanderos'
   headline:     'La tablet profesional <strong>IT-G400</strong> es el <strong>comandero perfecto</strong>'
   text:         > # this means to ignore newlines until next key
@@ -52,8 +58,9 @@
   url:          'https://www.casio-europe.com/es/productos/la-captura-movil-de-datos/it-g400/'
   call:         'Ergonómicas y equipadas con protección anti-robo'
   pdf_url:      ''
-  media:        'media/assets/products/item-4b.jpg'
+  media:        'media/assets/products/item-ITG400.jpg'
 
+# [√] SE-S400 amb fons de mosaic colorit de productes
 - title:        'Modelos SE-400+'
   headline:     '<strong>Su registradora ideal</strong> para hostelería y comercio modernos'
   text:         > # this means to ignore newlines until next key
@@ -65,10 +72,11 @@
   call:         'Diseño elegante y funciones innovadoras'
   pdf_url:      'media/pdf/Ficha_SE-S400.pdf'
   class:        ''
-  media:        'media/assets/products/item-5.jpg'
+  media:        'media/assets/products/item-SE400.jpg'
 
+# [√] SE-S100 dorada amb glow sobre restaurant xulo en blanc i negre
 - title:        'Cajas individuales'
-  headline:     '<strong>SE-S100</strong> Pon un toque de estilo a tu negocio'
+  headline:     '<strong>SE-S100</strong> Pon un toque de <strong>estilo</strong> a tu negocio'
   text:         > # this means to ignore newlines until next key
       Diseñada para una óptima operatividad, tiene teclado práctico y eficaz con el que, 
       con un simple toque, accedes a las funciones más utilizadas. 
@@ -78,19 +86,5 @@
   call:         'La mejor manera de trabajar con factura simplificada'
   url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/cajas-individuales/'
   pdf_url:      'media/pdf/Ficha_SE-S100.pdf'
-  media:        'media/assets/products/item-6a.jpg'
+  media:        'media/assets/products/item-SE100.jpg'
 
-
-# - title:        'La compañía'
-#   headline:     '<strong>CASIO</strong> te ofrece una <strong>solución a la medida</strong> de tu negocio'
-#   text:         > # this means to ignore newlines until next key
-#     Nuestros modelos se adaptan a las necesidades del comercio y te
-#     ayudan a la gestión del establecimiento.
-#     <br><br>
-#     Con equipos que reducen costes energéticos y 
-#     comprenden el ciclo de compra completo de los clientes tomarás las mejores decisiones en tu negocio.
-#   button:       'Soluciones por sector'
-#   url:          '#soluciones'
-#   call:         'Tecnología para la hostelería y el comercio en español'
-#   class:        ''
-#   media:        'media/assets/products/item-1.jpg'
