@@ -20,17 +20,17 @@
 #
 
 # # [√] V-R7000
-# - title:        'Soluciones para sistemas'
-#   headline:     '<strong>V-R7000/7100</strong> Solución inteligente y de diseño elegante'
-#   text:         > # this means to ignore newlines until next key
-#     Una nueva plataforma para la innovación en los comercios minoristas y la transformación de los puntos de venta.
-#     <br><br>
-#     Incluyen aplicaciones preinstaladas que van de la gestión de información de ventas o tiempo a funciones de análisis exhaustivo categorizables según el producto, departamento o grupo.
-#   button:       'Consultar modelos'
-#   url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/soluciones-para-sistemas/#article-1'
-#   call:         'Compatible con el estándar de montaje VESA'
-#   pdf_url:      'media/pdf/Ficha_V-R7000.pdf'
-#   media:        'media/assets/products/item-VR7000.jpg'
+- title:        'Soluciones para sistemas'
+  headline:     '<strong>V-R7000/7100</strong> Solución inteligente y de diseño elegante'
+  text:         > # this means to ignore newlines until next key
+    Una nueva plataforma para la innovación en los comercios minoristas y la transformación de los puntos de venta.
+    <br><br>
+    Incluyen aplicaciones preinstaladas que van de la gestión de información de ventas o tiempo a funciones de análisis exhaustivo categorizables según el producto, departamento o grupo.
+  button:       'Consultar modelos'
+  url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/soluciones-para-sistemas/#article-1'
+  call:         'Compatible con el estándar de montaje VESA'
+  pdf_url:      'media/pdf/Ficha_V-R7000.pdf'
+  media:        'media/assets/products/item-VR7000.jpg'
 
 # [√] V-R200 blanca 2017 en restaurante chulo o tienda 
 - title:        'Terminales de red'
