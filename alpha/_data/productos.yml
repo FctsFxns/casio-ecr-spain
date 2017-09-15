@@ -19,20 +19,20 @@
 #   media:        'media/assets/products/sample-1900x1329.png'
 #
 
-# [√] V-R7000
-- title:        'Soluciones para sistemas'
-  headline:     '<strong>V-R7000/7100</strong> Solución inteligente y de diseño elegante'
-  text:         > # this means to ignore newlines until next key
-    Una nueva plataforma para la innovación en los comercios minoristas y la transformación de los puntos de venta.
-    <br><br>
-    Incluyen aplicaciones preinstaladas que van de la gestión de información de ventas o tiempo a funciones de análisis exhaustivo categorizables según el producto, departamento o grupo.
-  button:       'Consultar modelos'
-  url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/soluciones-para-sistemas/#article-1'
-  call:         'Compatible con el estándar de montaje VESA'
-  pdf_url:      'media/pdf/Ficha_V-R7000.pdf'
-  media:        'media/assets/products/item-VR7000.jpg'
+# # [√] V-R7000
+# - title:        'Soluciones para sistemas'
+#   headline:     '<strong>V-R7000/7100</strong> Solución inteligente y de diseño elegante'
+#   text:         > # this means to ignore newlines until next key
+#     Una nueva plataforma para la innovación en los comercios minoristas y la transformación de los puntos de venta.
+#     <br><br>
+#     Incluyen aplicaciones preinstaladas que van de la gestión de información de ventas o tiempo a funciones de análisis exhaustivo categorizables según el producto, departamento o grupo.
+#   button:       'Consultar modelos'
+#   url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/soluciones-para-sistemas/#article-1'
+#   call:         'Compatible con el estándar de montaje VESA'
+#   pdf_url:      'media/pdf/Ficha_V-R7000.pdf'
+#   media:        'media/assets/products/item-VR7000.jpg'
 
-# [√] V-R200 blanca en restaurante chulo
+# [√] V-R200 blanca 2017 en restaurante chulo o tienda 
 - title:        'Terminales de red'
   headline:     'La gama <strong>V-R200</strong> ofrece un nuevo estilo para tu punto de venta'
   text:         > # this means to ignore newlines until next key
@@ -44,9 +44,9 @@
   call:         'Primera solución Android™ en el mercado'
   class:        ''
   pdf_url:      'media/pdf/Ficha_V-R200.pdf'
-  media:        'media/assets/products/item-VR200-blur.jpg'
+  media:        'media/assets/products/item-VR200a.jpg'
 
-# [√] IT-G400 comandero que no sembli que flota
+# [√] IT-G400 comandero que no sembli que flota i amb la pantalla d'aplicació casio
 - title:        'Comanderos'
   headline:     'La tablet profesional <strong>IT-G400</strong> es el <strong>comandero perfecto</strong>'
   text:         > # this means to ignore newlines until next key
@@ -58,7 +58,7 @@
   url:          'https://www.casio-europe.com/es/productos/la-captura-movil-de-datos/it-g400/'
   call:         'Ergonómicas y equipadas con protección anti-robo'
   pdf_url:      ''
-  media:        'media/assets/products/item-ITG400.jpg'
+  media:        'media/assets/products/item-ITG400-b.jpg'
 
 # [√] SE-S400 amb fons de mosaic colorit de productes
 - title:        'Modelos SE-400+'
