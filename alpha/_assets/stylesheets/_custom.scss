@@ -160,6 +160,56 @@ section {
 }
 
 /** > Promo section **/
+.promo-section-wrapper {
+	position: relative;
+
+}
+
+ul.promo-section-direction-nav {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	li {
+		a {
+				position: absolute;
+				top: 50%;
+				z-index: 10;
+				cursor: pointer;
+				color: rgba(0,0,0,0.8);
+				text-shadow: 1px 1px 0 rgba(255,255,255,0.3);
+				transition: all .3s ease;
+		    display: block;
+		    background: #D1DCE4;
+		    opacity: .4;
+		    margin-top: -60px;
+		    height: 130px;
+		    width: 50px;
+		    text-indent: -999em;
+		    overflow: hidden;
+		    border-radius: 5px;
+		    background-image: url(/media/images/arrow-slider.png);
+		    background-position: center;
+		    background-repeat: no-repeat;
+		    background-size: 12px;
+		  &:hover {
+		  	opacity: .8;
+		  	display: block;
+		  }
+
+
+			&.promo-section-prev {
+				left: 0;
+				transform: rotate(180deg);					
+			}
+			&.promo-section-next {
+				right: 0;
+				text-align: left;
+			}
+		}
+	}
+}
+
+
 .promo-section {
 	.promo-item-content {
 		text-align: left;

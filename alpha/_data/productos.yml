@@ -19,7 +19,7 @@
 #   media:        'media/assets/products/sample-1900x1329.png'
 #
 
-# # [√] V-R7000
+# [√] V-R7000
 - title:        'Soluciones para sistemas'
   headline:     '<strong>V-R7000/7100</strong> Solución inteligente y de diseño elegante'
   text:         > # this means to ignore newlines until next key
@@ -30,6 +30,7 @@
   url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/soluciones-para-sistemas/#article-1'
   call:         'Compatible con el estándar de montaje VESA'
   pdf_url:      'media/pdf/Ficha_V-R7000.pdf'
+  pdf_guia_url: ''
   media:        'media/assets/products/item-VR7000.jpg'
 
 # [√] V-R200 blanca 2017 en restaurante chulo o tienda 
@@ -44,6 +45,7 @@
   call:         'Primera solución Android™ en el mercado'
   class:        ''
   pdf_url:      'media/pdf/Ficha_V-R200.pdf'
+  pdf_guia_url: ''
   media:        'media/assets/products/item-VR200a.jpg'
 
 # [√] IT-G400 comandero que no sembli que flota i amb la pantalla d'aplicació casio
@@ -58,11 +60,12 @@
   url:          'https://www.casio-europe.com/es/productos/la-captura-movil-de-datos/it-g400/'
   call:         'Ergonómicas y equipadas con protección anti-robo'
   pdf_url:      ''
+  pdf_guia_url: ''
   media:        'media/assets/products/item-ITG400-b.jpg'
 
 # [√] SE-S400 amb fons de mosaic colorit de productes
 - title:        'Modelos SE-400+'
-  headline:     '<strong>Su registradora ideal</strong> para hostelería y comercio modernos'
+  headline:     '<strong>Su registradora ideal</strong> para hostelería y comercio modernos <strong>SE-S400+</strong>'
   text:         > # this means to ignore newlines until next key
     Ya sea en un restaurante, bar o tienda: gracias a su diseño elegante, las nuevas cajas registradoras de la serie SE400+ encajan perfectamente en el entorno moderno de la hostelería y el comercio.
     <br><br>
@@ -71,6 +74,7 @@
   url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/se-400-modelos/'
   call:         'Diseño elegante y funciones innovadoras'
   pdf_url:      'media/pdf/Ficha_SE-S400.pdf'
+  pdf_guia_url: 'media/pdf/Guia_rapida_SE-S400.pdf'
   class:        ''
   media:        'media/assets/products/item-SE400.jpg'
 
@@ -86,5 +90,6 @@
   call:         'La mejor manera de trabajar con factura simplificada'
   url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/cajas-individuales/'
   pdf_url:      'media/pdf/Ficha_SE-S100.pdf'
+  pdf_guia_url: 'media/pdf/Guia_rapida_SE-S100.pdf'
   media:        'media/assets/products/item-SE100.jpg'
 

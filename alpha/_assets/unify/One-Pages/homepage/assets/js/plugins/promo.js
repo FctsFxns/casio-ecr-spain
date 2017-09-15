@@ -14,6 +14,10 @@ $(function() {
 		},
   });
 
+  // Slider Custom arrows
+	$(".promo-section-direction-nav a.promo-section-prev").click(function(){  slider.slick('slickNext'); });
+	$(".promo-section-direction-nav a.promo-section-next").click(function(){  slider.slick('slickPrev'); });
+
   // It's fine, but 'pauseOnDotsHover' and 'pauseOnHover' stops working, then it doesn't works for us. 
 	// var durationList = $('.promo-item', slider).map(function(index, item) {
 	//   return item.getAttribute('data-time');
