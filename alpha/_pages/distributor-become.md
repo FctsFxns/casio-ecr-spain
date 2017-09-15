@@ -55,7 +55,6 @@ intro:        'Lorem ipsum…'
 		            </label>
 			  			</div>
 			  		</div>
-
 			  		<div class="row">
 			  			<div class="col-sm-6 g-mb-30">
 		 		  			<label class="label" >Email de trabajo *</label>
@@ -70,7 +69,6 @@ intro:        'Lorem ipsum…'
 		            </label>
 			  			</div>
 			  		</div>
-
 			  		<div class="row">
 			  			<div class="col-sm-6 g-mb-30">
 				  			<label class="label" >Nombre de la empresa *</label>
@@ -93,14 +91,12 @@ intro:        'Lorem ipsum…'
 								</label>
 			  			</div>
 			  		</div>
-
 			  		<div class="row">
 			  			<div class="col-sm-6 g-mb-30">
 				  			<label class="label" >Ciudad *</label>
 		            <label class="input">
 		              <input required type="text" id="fielddylidtkk" name="cm-f-dylidtkk" placeholder="Ciudad">
 		            </label>
-
 			  			</div>
 			  			<div class="col-sm-6 g-mb-30">
 		            <label class="label">Provincia *</label>
@@ -159,14 +155,11 @@ intro:        'Lorem ipsum…'
 		                     <option value='vizcaya'>Vizcaya</option>
 		                     <option value='zamora'>Zamora</option>
 		                     <option value='zaragoza'>Zaragoza</option>
-
 		                </select>
 										<i></i>
 		            </label>
-
 			  			</div>
 			  		</div>
-
 			  		<div class="row">
 			  			<div class="col-sm-6 g-mb-30">
 				  			<label class="label" >Página web *</label>
@@ -175,13 +168,12 @@ intro:        'Lorem ipsum…'
 		            </label>
 			  			</div>
 			  			<div class="col-sm-6 g-mb-30">
-				  			<label class="label" >Explíquenos un poco sobre su interés</label>
-		            <label class="textarea textarea-expandable">
-			            <textarea rows="3" id="fielddylidtur" name="cm-f-dylidtur" ></textarea>
+				  			<label class="label" >CIF de la compañía</label>
+		            <label class="input">
+		              <input type="text" id="fielddylidtul" name="cm-f-dylidtul" placeholder="CIF">
 		            </label>
 			  			</div>
 			  		</div>
-			  		
 			  		<div class="row">
 			  			<div class="col-sm-6 g-mb-30">
 				  			<label class="label" >¿En qué soluciones CASIO está usted interesado principalmente? *</label>
@@ -198,8 +190,13 @@ intro:        'Lorem ipsum…'
 									<i></i>
 								</label>
 			  			</div>			  			
+			  			<div class="col-sm-6 g-mb-30">
+				  			<label class="label" >Explíquenos un poco sobre su interés</label>
+		            <label class="textarea textarea-expandable">
+			            <textarea rows="3" id="fielddylidtur" name="cm-f-dylidtur" ></textarea>
+		            </label>
+			  			</div>
 			  		</div>
-			  		
 			  		<div class="row">
 			  			<div class="col-sm-6 g-mb-60">
 								<label class="label">Apúntese a recibir comunicaciones de CASIO System Solutions.<br>Podrá darse de baja en cualquier momento.</label>
@@ -209,7 +206,6 @@ intro:        'Lorem ipsum…'
 								</div>
 			  			</div>
 			  		</div>
-
 			  		<div class="row">
 			  			<div class="col-sm-6 g-mb-30 action-buttons">
 			  				<p><span class="color-red">Por favor, debe rellenar todos los campos requeridos antes de continuar.</span></p>
@@ -219,23 +215,18 @@ intro:        'Lorem ipsum…'
 				  				* Campo requerido
 		 							<br><br>
 									Su información será empleada de cuadro a la <a href="{{ '/' | prepend: site.data.global.url }}politica-de-privacidad/">política de privacidad</a> de CASIO System Solutions. Al enviar este formulario, está usted de acuerdo a compartir esta información con CASIO.
-
 				  			</p>
 			  			</div>
 			  		</div>
-
 		  		</fieldset>
-
 					<div class="message text-center">
 						<i class="sky-form__message-icon rounded-x fa fa-check"></i>
 						<p>Your message was successfully sent!</p>
 					</div>
 				</form>
 		    <!-- /Contact Form -->
-				
 			</div>
 		</div>
-
 	</div>
 </section>
 <!-- /Contact Section -->
