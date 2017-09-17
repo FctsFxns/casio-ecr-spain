@@ -1,22 +1,40 @@
 		<section class="login-section g-bg-dark g-pt-50 g-pb-25">
 			<div class="container">
-	      <!-- Newsletter Form -->
-	  		<form action="http://email.casio-ecr.es/t/r/s/ddurtit/" class="sky-form g-margin-side-auto" method="post" id="sky-form1">
+	      <!-- Newsletter Form, acumba integration -->
+	  		<form action="https://acumbamail.com/newform/subscribe/e1fcQ4VIblfO9s3LEdz3WFhmd/6209/" class="sky-form g-margin-side-auto" method="post" id="sky-form1">
 		  		<div class="row">
 		  			<div class="col-sm-4 col-xs-6 col-2xs-12 g-mb-20">
 	            <h3 class="g-mb-15 g-mt-10 g-color-white">Suscríbete a nuestro newsletter</h3>
 		  			</div>
 		  			<div class="col-sm-6 col-xs-6 col-2xs-12 g-mb-20">
 	            <label class="input">
-	              <input id="fieldEmail" name="cm-ddurtit-ddurtit" type="email" required placeholder="Tu correo electrónico">
+	              <input id="fieldEmail" name="email_1" type="email" required placeholder="Tu correo electrónico">
 	            </label>
 		  			</div>
 			  		<div class="col-sm-2 g-mb-20">
-			  			<input id="fielddyliyult" name="cm-f-dyliyult" type="hidden" value="website homepage" />
-			  			<button type="submit" class="btn-u btn-u-lg btn-u-upper btn-block btn-u-dark">Suscribir</button>
+			  			<input name="char_02" type="hidden" value="website::boletin" />
+	   					<input type="hidden" name="ok_redirect" value="http://www.casio-ecr.es/hemos-recibido-tu-suscription-al-newsletter/" />
+			  			<input type="submit" value="Suscribir" class="btn-u btn-u-lg btn-u-upper btn-block btn-u-dark" />
 			  		</div>
 		  		</div>
 	  		</form>
 	      <!-- /Newsletter Form -->
 			</div>
 		</section>
+
+
+{% comment %}
+	<!-- Form Acumbamail -->
+	<form action="https://acumbamail.com/newform/subscribe/e1fcQ4VIblfO9s3LEdz3WFhmd/6209/" method="post" class="yourFormCustomContainer">
+	   <div class="yourFormCustomStyle">
+	      <div style="width: 100%; position:relative;"> <br />
+	      	<input type="text" name="email_1" required><br /> 
+	      	<label for="char_02"><p>Origen</p> </label> 
+	      	<br /><input type="text" name="char_02" required><br />
+	      </div>
+	   </div>
+	   <input type="hidden" name="ok_redirect" value="http://www.casio-ecr.es/hemos-recibido-tu-suscription-al-newsletter/">
+	   <input type="submit" value="Suscribirme a la lista" class="yourButtonCustomStyle">
+	</form>
+	<!-- End Form Acumbamail -->
+{% endcomment %}
