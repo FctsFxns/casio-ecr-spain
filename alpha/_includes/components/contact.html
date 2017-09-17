@@ -38,12 +38,12 @@
 		     <div class="row text-center g-mt-60">
 		        <h4>Formulario de contacto</h4>
 		      </div>
-		  		<form action="http://email.casio-ecr.es/t/r/s/uytulri/" method="post" id="sky-form5" class="sky-form g-max-width--770 g-margin-side-auto">
+		  		<form action="https://acumbamail.com/newform/subscribe/e1fcQ4VIblfO9s3LEdz3WFhmd/6210/" method="post" id="sky-form5" class="sky-form g-max-width--770 g-margin-side-auto">
 		  			<fieldset>
 				  		<div class="row g-mb-30">
 				  			<div class="col-sm-12">
 			            <label class="input">
-			              <input type="text" id="fieldName" name="cm-name" placeholder="Su nombre" required>
+			              <input type="text" id="fieldName" name="char_01" placeholder="Su nombre" required>
 			            </label>
 				  			</div>
 				  		</div>
@@ -52,12 +52,12 @@
 				  		<div class="row">
 				  			<div class="col-sm-6 g-mb-30">
 			            <label class="input">
-			              <input type="text"  id="fieldEmail" name="cm-uytulri-uytulri" placeholder="Su e-mail" required >
+			              <input type="text"  id="fieldEmail" name="email_1" placeholder="Su e-mail" required >
 			            </label>
 				  			</div>
 				  			<div class="col-sm-6 g-mb-30">
 			            <label class="input">
-			              <input type="text" id="fielddyolhdk" name="cm-f-dyolhdk" placeholder="Su nº de teléfono" required >
+			              <input type="text" id="fielddyolhdk" name="char_03" placeholder="Su nº de teléfono" required >
 			            </label>
 				  			</div>
 				  		</div>
@@ -65,7 +65,7 @@
 				  		<div class="row g-mb-30">
 				  			<div class="col-sm-12">
 			            <label class="input">
-			              <input type="text" id="fielddyolhdu" name="cm-f-dyolhdu"  placeholder="Motivo de la consulta">
+			              <input type="text" id="fielddyolhdu" name="char_04"  placeholder="Motivo de la consulta">
 			            </label>
 				  			</div>
 				  		</div>
@@ -73,14 +73,15 @@
 				  		<div class="row g-mb-40">
 				  			<div class="col-sm-12">
 			            <label class="textarea textarea-expandable">
-			              <textarea rows="3" id="fielddyolhhl" name="cm-f-dyolhhl" placeholder="Explíquenos su consulta, por favor" required></textarea>
+			              <textarea rows="3" id="fielddyolhhl" name="text_1" placeholder="Explíquenos su consulta, por favor" required></textarea>
 			            </label>
 				  			</div>
 				  		</div>
 
 				  		<div class="text-center">
-				        <input id="fielddyolhdh" name="cm-f-dyolhdh"  type="hidden" value="website" />
-				  			<button type="submit" class="btn-u btn-u-lg btn-u-upper btn-brd ">Enviar solicitud de contacto</button>
+				        <input name="char_02"  type="hidden" value="website::contacto" />
+				        <input type="hidden" name="ok_redirect" value="http://www.casio-ecr.es/hemos-recibido-tu-solicitud-de-contacto/">
+				  			<input type="submit" value="Enviar solicitud de contacto" class="btn-u btn-u-lg btn-u-upper btn-brd "/>
 				  		</div>
 			  		</fieldset>
 
@@ -91,33 +92,34 @@
 			</div>
 		</section>
 		{% comment %}
-			<form action="http://email.casio-ecr.es/t/r/s/uytulri/" method="post" id="subForm">
-			    <p>
-			        <label for="fieldName">Name</label><br />
-			        <input id="fieldName" name="cm-name" type="text" />
-			    </p>
-			    <p>
-			        <label for="fieldEmail">Email</label><br />
-			        <input id="fieldEmail" name="cm-uytulri-uytulri" type="email" required />
-			    </p>
-			    <p>
-			        <label for="fielddyolhdk">Telefono</label><br />
-			        <input id="fielddyolhdk" name="cm-f-dyolhdk" type="text" />
-			    </p>
-			    <p>
-			        <label for="fielddyolhdu">Motivo de la consulta</label><br />
-			        <input id="fielddyolhdu" name="cm-f-dyolhdu" type="text" />
-			    </p>
-			    <p>
-			        <label for="fielddyolhhl">Consulta</label><br />
-			        <input id="fielddyolhhl" name="cm-f-dyolhhl" type="text" />
-			    </p>
-			    <p>
-			        <label for="fielddyolhdh">Origen</label><br />
-			        <input id="fielddyolhdh" name="cm-f-dyolhdh" type="text" />
-			    </p>
-			    <p>
-			        <button type="submit">Subscribe</button>
-			    </p>
-			</form>
+
+				<!-- Form Acumbamail -->
+				<form action="https://acumbamail.com/newform/subscribe/e1fcQ4VIblfO9s3LEdz3WFhmd/6210/" method="post" class="yourFormCustomContainer">
+				   <div class="yourFormCustomStyle">
+				      <div style="width: 100%; position:relative;"> 
+
+				      	<label for="char_01"><p>Nombre</p> </label> <br />
+				      	<input type="text" name="char_01" required><br /> 
+
+				      	<label for="email_1"><p style="font-family: Trebuchet MS;">Email</p> </label> <br />
+				      	<input type="text" name="email_1" required><br /> 
+
+				      	<label for="char_03"><p>Telefono</p> </label> <br />
+				      	<input type="text" name="char_03" required><br /> 
+
+				      	<label for="char_04"><p>Motivo de la consulta</p> </label> <br />
+				      	<input type="text" name="char_04" required><br /> 
+
+				      	<label for="text_1"><p>Consulta</p> </label> <br />
+				      	<input type="text" name="text_1" required><br /> 
+
+				      	<label for="char_02"><p>Origen</p> </label> <br />
+				      	<input type="text" name="char_02" required><br />
+				      </div>
+				   </div>
+				   <input type="hidden" name="ok_redirect" value="http://www.casio-ecr.es/hemos-recibido-tu-solicitud-de-contacto/">
+				   <input type="submit" value="Suscribirme a la lista" class="yourButtonCustomStyle">
+				</form>
+				<!-- End Form Acumbamail -->			
+
 		{% endcomment %}
