@@ -46,7 +46,7 @@
   class:        ''
   pdf_url:      'media/pdf/Ficha_V-R200.pdf'
   pdf_guia_url: ''
-  media:        'media/assets/products/item-VR200a.jpg'
+  media:        'media/assets/products/item-VR200.jpg'
 
 # [√] IT-G400 comandero que no sembli que flota i amb la pantalla d'aplicació casio
 - title:        'Comanderos'
