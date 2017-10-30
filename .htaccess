@@ -9,6 +9,13 @@
 #   perishablepress.com/press/2006/01/10/stupid-htaccess-tricks/
 #   Sample .htaccess file of CMS MODx: modxcms.com
 
+# ----------------------------------------------------------------------
+# CUSTOM: activated server SSL certificate
+# ----------------------------------------------------------------------
+RewriteEngine On 
+RewriteCond %{HTTPS} off 
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
 
 # ----------------------------------------------------------------------
 # Better website experience for IE users

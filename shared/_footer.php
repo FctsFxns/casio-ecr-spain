@@ -6,8 +6,8 @@
       </div>
       <div class="row">
         <div class="large-3 medium-3 columns">
-          <a href="http://www.casio-europe.com/es/corporate/imprint/privacy/" target="_blank" class="track" data-category="outbound-link" data-action="visit" data-label="privacy" data-value="0">Política de Privacidad</a> <br/>
-          <a href="http://www.casio-europe.com/es/corporate/imprint/termsofuse/" target="_blank" class="track" data-category="outbound-link" data-action="visit" data-label="terms-of-use" data-value="0">Términos de Uso</a> <br/>
+          <a href="https://www.casio-europe.com/es/corporate/imprint/privacy/" target="_blank" class="track" data-category="outbound-link" data-action="visit" data-label="privacy" data-value="0">Política de Privacidad</a> <br/>
+          <a href="https://www.casio-europe.com/es/corporate/imprint/termsofuse/" target="_blank" class="track" data-category="outbound-link" data-action="visit" data-label="terms-of-use" data-value="0">Términos de Uso</a> <br/>
           <a href="mailto:info@casio-ecr.es" class="track" data-category="goal" data-action="contact" data-label="email" data-value="10">Contacto</a> <br/>
         </div>
         <div class="large-3 medium-3 columns">
