@@ -3,9 +3,6 @@
 #
 # Textos para la sección de promociones de producto que encabeza la homepage
 #
-# @todo:
-#
-
 # Ejemplo de formato para un copiar/pegar
 #
 # - title:        'Xxxx'
@@ -18,6 +15,8 @@
 #   class:        'inverse'   # optional, aligns right
 #   media:        'media/assets/products/sample-1900x1329.png'
 #
+# El campo 'url' ya no se usa
+# El principal ahora es pdf_url
 
 # [√] V-R7000
 - title:        'Soluciones para sistemas'
@@ -26,12 +25,12 @@
     Una nueva plataforma para la innovación en los comercios minoristas y la transformación de los puntos de venta.
     <br><br>
     Incluyen aplicaciones preinstaladas que van de la gestión de información de ventas o tiempo a funciones de análisis exhaustivo categorizables según el producto, departamento o grupo.
-  button:       'Consultar modelos'
-  url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/soluciones-para-sistemas/#article-1'
-  call:         'Compatible con el estándar de montaje VESA'
-  pdf_url:      'media/pdf/Ficha_V-R7000.pdf'
-  pdf_guia_url: ''
   media:        'media/assets/products/item-VR7000.jpg'
+  pdf_url:      'media/pdf/Ficha_V-R7000.pdf'
+  button:       'Descargar hoja de producto'
+  call:         'Compatible con el estándar de montaje VESA'
+  pdf_guia_url: ''
+  url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/soluciones-para-sistemas/#article-1'
 
 # [√] V-R200 blanca 2017 en restaurante chulo o tienda 
 - title:        'Terminales de red'
@@ -40,13 +39,13 @@
     Una nueva plataforma para la innovación en los comercios minoristas y la transformación de los puntos de venta. 
     <br><br>
     Más que simples cajas registradoras, se trata de terminales de información que mejoran la gestión de los comercios.
-  button:       'Consultar modelos'
-  url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/terminales-de-red/#article-1'
-  call:         'Primera solución Android™ en el mercado'
-  class:        ''
   pdf_url:      'media/pdf/Ficha_V-R200.pdf'
-  pdf_guia_url: ''
+  button:       'Consultar especificaciones'
   media:        'media/assets/products/item-VR200.jpg'
+  call:         'Primera solución Android™ en el mercado'
+  url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/terminales-de-red/#article-1'
+  class:        ''
+  pdf_guia_url: ''
 
 # [√] IT-G400 comandero que no sembli que flota i amb la pantalla d'aplicació casio
 - title:        'Comanderos'
@@ -55,11 +54,11 @@
     Ideal y versátil para todos los negocios. Comandero, TPV táctil, admisión de pedidos, gestión de venta al por menor… 
     <br><br>
     Cuenta con sistema operativo Android™, pueden aguantar una caída de un metro y cumplen con los estándares IP54 de resistencia al polvo y agua.
-  button:       'Más detalles'
+  button:       'Consultar especificaciones'
   call:         ''
   url:          'https://www.casio-europe.com/es/productos/la-captura-movil-de-datos/it-g400/'
   call:         'Ergonómicas y equipadas con protección anti-robo'
-  pdf_url:      ''
+  pdf_url:      'media/pdf/Ficha_IT-G400_EN.pdf'
   pdf_guia_url: ''
   media:        'media/assets/products/item-ITG400-b.jpg'
 
@@ -70,7 +69,7 @@
     Ya sea en un restaurante, bar o tienda: gracias a su diseño elegante, las nuevas cajas registradoras de la serie SE400+ encajan perfectamente en el entorno moderno de la hostelería y el comercio.
     <br><br>
     Rápida y silenciosa es perfecta para entornos tranquilos y hace que trabajar con la caja registradora sea una tarea agradable.
-  button:       'Consultar modelos'
+  button:       'Consultar especificaciones'
   url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/se-400-modelos/'
   call:         'Diseño elegante y funciones innovadoras'
   pdf_url:      'media/pdf/Ficha_SE-S400.pdf'
@@ -86,7 +85,7 @@
       con un simple toque, accedes a las funciones más utilizadas. 
       <br><br>
       Incorpora una silenciosa impresora térmica de alto rendimiento y es compatible con tarjetas SD.
-  button:       'Consultar modelos'
+  button:       'Consultar especificaciones'
   call:         'La mejor manera de trabajar con factura simplificada'
   url:          'http://www.casio-europe.com/es/productos/sistemas-de-caja/cajas-individuales/'
   pdf_url:      'media/pdf/Ficha_SE-S100.pdf'
