@@ -12,21 +12,38 @@
 #     El restaurante situado en plena Plaça Revolució de Setembre 1868, en el corazón del barrio de Gracia, Barcelona, tiene como credo el hacer viajar a sus comensales a las auténticas sensaciones Thai.
 #   pdf:          '/media/pdf/casos/Banna.pdf'
 #
-# Donde el jamon
-- title:        'Donde el Jamón'
-  media:        'media/noticias/caso-dondeeljamon.jpg'
-  headline:     'Así ayudó la plataforma Android de CASIO a una taberna de ibéricos'
-  text:         > # this means to ignore newlines until next key
-    El propietario de <b>“Donde el jamón”</b>, en pleno centro de Palma de Mallorca sabía que, para atender a un gran volumen de clientes, debía tener un sistema ágil y sencillo para su personal.
-  pdf:          '/media/pdf/casos/Donde-el-jamon.pdf'
 
-# Restaurant La Cala Cal Pep
-- title:        'Restaurant La Cala Cal Pep'
-  media:        'media/noticias/caso-La-Cala-Cal-Pep.jpg'
-  headline:     'La "Cala Cal Pep" apuesta por la excelencia de las soluciones CASIO'
+# Mar y Mar
+- title:        'Mar y Mar'
+  media:        'media/noticias/caso-marymar-3.jpg'
+  headline:     'Durabilidad y ahorro energético, claves para el "Mar y Mar" Beach Club'
   text:         > # this means to ignore newlines until next key
-    La cocina, el restaurante, los clientes, el entorno paradisiaco que nos rodea, el apoyo incondicional de la familia y el uso de nuevas tecnologías. Han confiado a **Vila Torrent** y Casio el Control y Registro del negocio.
-  pdf:          '/media/pdf/casos/La-Cala-Cal-Pep.pdf'
+    "La arena de la playa hace que otros equipos se estropeen con facilidad. Como los CASIO no necesitan ventiladores es una ventaja brutal para nuestro tipo de establecimiento."
+  pdf:          '/media/pdf/casos/Mar-y-Mar.pdf'
+
+# Marítimo
+- title:        'Bar Restaurante Marítimo'
+  media:        'media/noticias/caso-maritimo.jpg'
+  headline:     '"Bar Restaurante Marítimo" nos da un caluroso saludo desde Mallorca'
+  text:         > # this means to ignore newlines until next key
+    Francisco Martínez, al frente de este negocio nos explica que lleva confiando 20 años en la profesionalidad y las soluciones de CASIO, de la mano de **ECR Balear**.
+  pdf:          '/media/pdf/casos/bar-restaurante-maritimo.pdf'
+
+# Gatsby
+- title:        'Sala Gatsby Barcelona'
+  media:        'media/noticias/caso-sala-gatsby.jpg'
+  headline:     '"Sala Gatsby" se decide por las V-R7000 con sistema operativo Android'
+  text:         > # this means to ignore newlines until next key
+    En la cresta de la ola. No es casualidad que los locales más exclusivos busquen herramientas acordes a sus instalaciones. **TAHC4** se ha encargado de dirigir este proyecto.
+  pdf:          '/media/pdf/casos/gran-gatsby.pdf'
+
+# The Blue Bar
+- title:        'The Blue Bar Mallorca'
+  media:        'media/noticias/caso-the-blue-bar.jpg'
+  headline:     '"The Blue Bar Mallorca" explica la facilidad de uso de las TPV CASIO'
+  text:         > # this means to ignore newlines until next key
+    Haciendo sencilla la gestión de un restaurante en zona turística situado en Palmanova, **ECR Balear** ha acertado con los TPV de Casio. Además, ahorran hasta cuatro veces en la factura de la luz.
+  pdf:          '/media/pdf/casos/The-blue-bar-Mallorca.pdf'
 
 # Restaurante Banna
 - title:        'Restaurante Banna'
@@ -36,42 +53,26 @@
     El restaurante situado en plena Plaça Revolució de Setembre 1868, en el corazón del barrio de Gracia, Barcelona, tiene como credo el hacer viajar a sus comensales a las auténticas sensaciones Thai.
   pdf:          '/media/pdf/casos/Banna.pdf'
 
-# Gatsby
-- title:        'Sala Gatsby Barcelona'
-  media:        'media/noticias/caso-sala-gatsby.jpg'
-  headline:     'Sala Gatsby se decide por las V-R7000 con sistema operativo Android'
+# Restaurant La Cala Cal Pep
+- title:        'Restaurant La Cala Cal Pep'
+  media:        'media/noticias/caso-La-Cala-Cal-Pep.jpg'
+  headline:     'La "Cala Cal Pep" apuesta por la excelencia de las soluciones CASIO'
   text:         > # this means to ignore newlines until next key
-    En la cresta de la ola. No es casualidad que los locales más exclusivos busquen herramientas acordes a sus instalaciones. **TAHC4** se ha encargado de dirigir este proyecto.
-  pdf:          '/media/pdf/casos/gran-gatsby.pdf'
-
-# Marítimo
-- title:        'Bar Restaurante Marítimo'
-  media:        'media/noticias/caso-maritimo.jpg'
-  headline:     'El Bar Restaurante Marítimo nos da un caluroso saludo desde Mallorca'
-  text:         > # this means to ignore newlines until next key
-    Francisco Martínez, al frente de este negocio nos explica que lleva confiando 20 años en la profesionalidad y las soluciones de CASIO, de la mano de **ECR Balear**.
-  pdf:          '/media/pdf/casos/bar-restaurante-maritimo.pdf'
-
-# Mar y Mar
-- title:        'Mar y Mar'
-  media:        'media/noticias/caso-marymar-3.jpg'
-  headline:     'Durabilidad y ahorro energético, claves para el Mar y Mar Beach Club'
-  text:         > # this means to ignore newlines until next key
-    "La arena de la playa hace que otros equipos se estropeen con facilidad. Como los CASIO no necesitan ventiladores es una ventaja brutal para nuestro tipo de establecimiento."
-  pdf:          '/media/pdf/casos/Mar-y-Mar.pdf'
+    La cocina, el restaurante, los clientes, el entorno paradisiaco que nos rodea, el apoyo incondicional de la familia y el uso de nuevas tecnologías. Han confiado a **Vila Torrent** y Casio el Control y Registro del negocio.
+  pdf:          '/media/pdf/casos/La-Cala-Cal-Pep.pdf'
 
 # El Petit Mos
 - title:        'El Petit Mos'
-  media:        'media/noticias/default.jpg'
-  headline:     'Esto es un ejemplo de caso de éxito de CASIO'
+  media:        'media/noticias/caso-petit-mos.jpg'
+  headline:     '"El Petit Mos" se pone a la última con las TPV de Casio'
   text:         > # this means to ignore newlines until next key
-    Lorem ipsum…
+    Las TPV Android de Casio han sido clave para darnos una imagen innovadora. Además, funcionan genial y se ha notado mucho el cambio orquestado por **TAHC4**.
   pdf:          '/media/pdf/casos/petit-mos.pdf'
 
-# The Blue Bar
-- title:        'Ejemplo'
-  media:        'media/noticias/default.jpg'
-  headline:     'Esto es un ejemplo de caso de éxito de CASIO'
+# Donde el jamon
+- title:        'Donde el Jamón'
+  media:        'media/noticias/caso-dondeeljamon.jpg'
+  headline:     'Así ayudó la plataforma Android de CASIO a una taberna de ibéricos'
   text:         > # this means to ignore newlines until next key
-    Lorem ipsum…
-  pdf:          '/media/pdf/casos/The-blue-bar-Mallorca.pdf'
+    El propietario de <b>“Donde el jamón”</b>, en el centro de Palma de Mallorca sabía que, para atender a un gran volumen de clientes, debía tener un sistema ágil y sencillo para su equipo.
+  pdf:          '/media/pdf/casos/Donde-el-jamon.pdf'
