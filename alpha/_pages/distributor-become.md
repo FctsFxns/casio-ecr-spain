@@ -180,19 +180,35 @@ intro:        'Lorem ipsum…'
 								<label class="select">
 									<select required id="fielddylidtuy" name="char_10">
 										<option disabled selected>Escoja una opción</option>
-										<option value="Sistemas de Caja Individual">Cajas Registradoras</option>
-										<option value="Puntos de venta">Terminales de punto de venta (TPV)</option>
-										<option value="Comanderos y PDAs">Comanderos</option>
+										<option value="Cajas Registradoras">Cajas Registradoras</option>
+										<option value="Terminales de punto de venta (TPV)">Terminales de punto de venta (TPV)</option>
+										<option value="Comanderos">Comanderos</option>
 										<option value="Software y aplicaciones Android">Software y aplicaciones Android</option>
 									</select>
 									<i></i>
 								</label>
 			  			</div>			  			
 			  			<div class="col-sm-6 g-mb-30">
-				  			<label class="label" >Explíquenos un poco sobre su interés</label>
+				  			<label class="label" >Horario preferente de contacto</label>
+								<label class="select">
+									<select id="char_13" name="char_13">
+										<option disabled selected>Escoja una opción</option>
+										<option value="Manyana">Mañana</option>
+										<option value="Tarde">Tarde</option>
+										<option value="Todo el dia">Todo el día</option>
+									</select>
+									<i></i>
+								</label>
+			  			</div>
+			  		</div>
+			  		<div class="row">
+			  			<div class="col-sm-6 g-mb-30">
+				  			<label class="label">Explíquenos un poco sobre su interés</label>
 		            <label class="textarea textarea-expandable">
 			            <textarea rows="3" id="fielddylidtur" name="text_1" ></textarea>
 		            </label>
+			  			</div>
+			  			<div class="col-sm-6 g-mb-30">
 			  			</div>
 			  		</div>
 			  		<div class="row">
@@ -230,28 +246,14 @@ intro:        'Lorem ipsum…'
 </section>
 <!-- /Contact Section -->
 	{% comment %}
-		<!-- Form Acumbamail -->
-		<form action="https://acumbamail.com/newform/subscribe/e1fcQ4VIblfO9s3LEdz3WFhmd/6211/" method="post" class="yourFormCustomContainer">
-		   <div class="yourFormCustomStyle">
-		      <div style="width: 100%; position:relative;"> 
-	      		<label for="char_01"><p>Nombre</p> </label> <br /><input type="text" name="char_01" required><br /> 
-		      	<label for="char_03"><p>Telefono</p> </label> <br /><input type="text" name="char_03" required><br /> 
-		      	<label for="email_1"><p>Email</p> </label> <br /><input type="text" name="email_1" required><br /> 
-		      	<label for="char_04"><p>Posicion laboral</p> </label> <br /><input type="text" name="char_04" required><br /> 
-		      	<label for="char_05"><p>Empresa</p> </label> <br /><input type="text" name="char_05" required><br /> 
-		      	<label for="char_06"><p>Num de empleados </p> </label> <br /><input type="text" name="char_06" required><br /> 
-		      	<label for="char_07"><p>Ciudad</p> </label> <br /><input type="text" name="char_07" required><br /> 
-		      	<label for="char_08"><p>Provincia</p> </label> <br /><input type="text" name="char_08" required><br /> 
-		      	<label for="char_09"><p>Pagina web</p> </label> <br /><input type="text" name="char_09" required><br /> 
-		      	<label for="char_12"><p>CIF</p> </label> <br /><input type="text" name="char_12" required><br /> 
-		      	<label for="char_10"><p>Interes principal</p> </label> <br /><input type="text" name="char_10" required><br /> 
-		      	<label for="text_1"><p>Comentarios</p> </label> <br /><input type="text" name="text_1" required><br /> 
-		      	<label for="char_02"><p>Origen</p> </label> <br /><input type="text" name="char_02" required><br /> 
-		      	<label for="char_11"><p>Recibir comunicaciones</p> </label> <br /><input type="text" name="char_11" required><br />
-		      </div>
-		   </div>
-		   <input type="hidden" name="ok_redirect" value="http://www.casio-ecr.es/hemos-recibido-tu-solicitud-al-programa-de-distribuidores/">
-		   <input type="submit" value="Suscribirme a la lista" class="yourButtonCustomStyle">
-		</form>
-		<!-- End Form Acumbamail -->
+	<!-- Form Acumbamail -->
+	<form action="https://acumbamail.com/newform/subscribe/e1fcQ4VIblfO9s3LEdz3WFhmd/6211/" method="post" class="yourFormCustomContainer">
+	   <div class="yourFormCustomStyle">
+	      <div style="width: 100%; position:relative;"> <label for="char_01"><p>Nombre</p> </label> <br /><input type="text" name="char_01" required><br /> <label for="char_03"><p>Telefono</p> </label> <br /><input type="text" name="char_03" required><br /> <label for="email_1"><p>Email</p> </label> <br /><input type="text" name="email_1" required><br /> <label for="char_04"><p>Posicion laboral</p> </label> <br /><input type="text" name="char_04" required><br /> <label for="char_05"><p>Empresa</p> </label> <br /><input type="text" name="char_05" required><br /> <label for="char_06"><p>Num de empleados </p> </label> <br /><input type="text" name="char_06" required><br /> <label for="char_07"><p>Ciudad</p> </label> <br /><input type="text" name="char_07" required><br /> <label for="char_08"><p>Provincia</p> </label> <br /><input type="text" name="char_08" required><br /> <label for="char_09"><p>Pagina web</p> </label> <br /><input type="text" name="char_09" required><br /> <label for="char_12"><p>CIF</p> </label> <br /><input type="text" name="char_12" required><br /> <label for="char_10"><p>Interes principal</p> </label> <br /><input type="text" name="char_10" required><br /> <label for="text_1"><p>Comentarios</p> </label> <br /><input type="text" name="text_1" required><br /> <label for="char_02"><p>Origen</p> </label> <br /><input type="text" name="char_02" required><br /> <label for="char_11"><p>Recibir comunicaciones</p> </label> <br /><input type="text" name="char_11" required><br /> <label for="char_13"><p>Horario</p> </label> <br /><input type="text" name="char_13" required><br />
+	      </div>
+	   </div>
+	   <input type="hidden" name="ok_redirect" value="http://www.casio-ecr.es/hemos-recibido-tu-solicitud-al-programa-de-distribuidores/">
+	   <input type="submit" value="Suscribirme a la lista" class="yourButtonCustomStyle">
+	</form>
+	<!-- End Form Acumbamail -->
 	{% endcomment %}

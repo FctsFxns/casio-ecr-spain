@@ -1,6 +1,6 @@
 ---
 layout: default
-layout_class: page-distribuidor  page-gracias 
+layout_class: page-distribuidor page-gracias 
 layout_id: page-distribuidor-gracias   
 title: ¡Gracias por enviarnos su solicitud! | Programa para distribuidores de CASIO
 permalink: /hemos-recibido-tu-solicitud-al-programa-de-distribuidores/

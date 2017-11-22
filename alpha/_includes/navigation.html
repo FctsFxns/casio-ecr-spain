@@ -17,7 +17,7 @@
       <div class="collapse navbar-collapse navbar-ex1-collapse">
         <div class="menu-container">
           <ul class="nav navbar-nav">
-            {% if page.layout_class == 'page-distribuidor' %}
+            {% if page.layout_class contains 'page-distribuidor'  %}
               <li class="page-scroll">
                 <a href="{% if page.layout_id != 'home' %}{{ '/' | prepend: site.data.global.url }}{% endif %}"><span data-hover="< Volver al Inicio">< Volver al Inicio</span></a>
               </li>

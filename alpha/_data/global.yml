@@ -35,7 +35,7 @@ url_distribuidor: 'ser-distribuidor'
 # Contact
 author:           CASIO España
 email:            info@casio-ecr.es
-
+horario:          de lunes a jueves de 9:00 a 19:00h y los viernes de 9:00 a 14:00h
 footer_contact:   > # …
             C/Josep Pla, 2. Torre B2 Planta 12. <br/>
             08019 Barcelona (ES)<br>

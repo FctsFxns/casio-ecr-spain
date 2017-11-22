@@ -16,7 +16,7 @@ sitemap: 0
       <p class="g-color-white g-mb-20 g-margin-side-auto">
       	Próximamente, te contactará un representante de CASIO System Solutions España que te ayudará a resolver la consulta que nos acabas de enviar. 
         <br><br>
-        Ten en cuenta que nuestro horario es de lunes a jueves de 9AM-7PM y viernes de 9AM-14PM.         
+        Ten en cuenta que nuestro horario es {{ site.data.global.horario }}.         
       </p>
     </div>
 	</div>
