@@ -27,7 +27,7 @@
         }
       })});
 
-     // SmoothScroll to Contacto, nyapa!
+      // SmoothScroll to Contacto, nyapa!
       var reSmooth = /^#contacto/;
       var id;
       if (reSmooth.test(location.hash)) {
@@ -38,4 +38,11 @@
         });
       }
 
+      // Show more 'noticias' button
+      $("#projects div.row-projects:not(:first)").hide();
+      $("#projects div.row-more a.btn-more").click(function(e){
+        e.preventDefault();
+        $("#projects div.row-projects:not(:first)").slideToggle();
+        $(this).toggle();
+      }).show();
   });

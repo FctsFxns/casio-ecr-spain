@@ -8,7 +8,41 @@
 	        <p  class="g-color-dark lead">Comprueba como se beneficiaron los establecimientos y visualiza las posibilidades de tu negocio.</p>
 	      </div>
 
-	      <div class="row">
+	      <!-- More News -->
+				{% for item in site.data.noticias %}
+					{% capture currentmod %}{{ forloop.index0 | mod:3 }}{% endcapture %}
+					{% if currentmod == '0' or forloop.first %}
+		      <div class="row row-projects">
+  				{% endif %}
+		      	<div class="col-sm-4 g-mb-40">
+		      		<div class="project-item">
+				        <img src="{{ item.media }}" alt="{{ item.title }}" title="{{ item.title }}"  class="img-responsive">
+				        <div class="project-item__content">
+				          <h3 class="g-mb-20">{{ item.headline }}</h3>
+				          {{ item.text | markdownify }}
+									<p class="no-margin-bottom g-mt-30"><a class="read-more" href="{{ item.pdf }}" target="_blank"><i class="fa fa-file-pdf-o"></i> Leer en PDF</a></p>
+				        </div>
+		      		</div>
+		      	</div>
+					<!-- Modulo 3 equals 0, only -->
+					{% if currentmod == '2' or forloop.last %}
+					</div>
+	     		{% endif %}
+
+					{% if forloop.last %}
+		      <!-- More news -->
+		      <div class="row row-more">
+		      	<div class="col-sm-12 g-mb-30 text-center">
+								<a class="btn-more btn-u btn-u-lg btn-u-upper btn-u-blue" href="#" title="Ver todas las noticias y casos de éxito">
+										Ver más noticias
+								</a>
+		      	</div>	
+		      </div>
+	     		{% endif %}
+  			{% endfor %}
+
+	      {% comment %}
+	      <div class="row row-projects">
 	      	<div class="col-sm-4 g-mb-30">
 	      		<div class="project-item">
 			        <img src="media/noticias/caso-banna-thai.jpg" alt="Restaurante Banna" class="img-responsive">
@@ -42,14 +76,7 @@
 	      		</div>
 	      	</div>
 	      </div>
-
-	      <div class="row">
-	      	<div class="col-sm-12 g-mb-30 text-center">
-							<a class="btn-u btn-u-lg btn-u-upper btn-u-blue" href="#" title="Ver todas las noticias y casos de éxito">
-									Ver más noticias
-							</a>
-	      	</div>	
-	      </div>
+	      {% endcomment %}
 
 	    </div>
 	  </section>
