@@ -180,11 +180,9 @@ intro:        'Lorem ipsum…'
 								<label class="select">
 									<select required id="fielddylidtuy" name="char_10">
 										<option disabled selected>Escoja una opción</option>
-										<option value="Sistemas de Caja Individual">Sistemas de Caja Individual</option>
-										<option value="Puntos de venta">Puntos de venta</option>
-										<option value="Soluciones para Sistemas">Soluciones para Sistemas</option>
-										<option value="Terminales de Red">Terminales de Red</option>
-										<option value="Comanderos y PDAs">Comanderos y PDA's</option>
+										<option value="Sistemas de Caja Individual">Cajas Registradoras</option>
+										<option value="Puntos de venta">Terminales de punto de venta (TPV)</option>
+										<option value="Comanderos y PDAs">Comanderos</option>
 										<option value="Software y aplicaciones Android">Software y aplicaciones Android</option>
 									</select>
 									<i></i>
