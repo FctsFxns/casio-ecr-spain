@@ -6,13 +6,11 @@
   <div class="v-align">
     <div class="row">
       <div class="large-5 medium-6 columns">
-          <h2>Un nuevo estilo para tu punto de venta en hostelería y retail</h2>
-          <p>Las soluciones de Casio ECR son herramientas inteligentes, seguras y elegantes para trabajar. Tecnología de alto rendimiento que hará tu jornada laboral más eficiente y eficaz.</p>
-          <a href="https://www.casio-europe.com/es/productos/sistemas-de-caja/" class="link" target="_blank">Consulte nuestros productos de ECR</a>
-
+          <h2>Próximamente</h2>
+          <p>Estamos trabajando en el nuevo portal en internet de CASIO System Solutions. </p>
       </div>
       <div class="large-7 medium-6 columns">
-        <img src="images/ecr-product-01.jpg" alt="Electronic cash register V-R100" class="stillimg"/>
+        <img src="images/itg400.png" alt="Electronic cash register V-R100" class="stillimg"/>
       </div>
     </div>
   </div>
