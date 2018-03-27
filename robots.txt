@@ -3,3 +3,6 @@
 User-agent: *
 Disallow: /alpha/     # This is for the development of the new wite
 Disallow: /demo/      # This is the demo for the EPA
+Disallow: /proteccion-de-datos.php
+Disallow: /politica-de-cookies.php
+Disallow: /aviso-legal.php
