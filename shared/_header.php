@@ -20,8 +20,6 @@
     <script src="bower_components/modernizr/modernizr.js"></script>
     <link rel="shortcut icon" type="image/x-icon" href="favicon32.ico">
   </head>
-
-
   <body ondragstart="return false">
     <header role="banner">
       <div class="row">

@@ -100,4 +100,4 @@
   </div>
 </section>
 
-<?php require_once('shared/_footer.php'); ?>
+<?php require_once('shared/_footer_legal.php'); ?>
