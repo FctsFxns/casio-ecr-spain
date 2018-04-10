@@ -16,6 +16,10 @@ h3 {
     	background: rgba(255,255,255,1);
     }
 }
+.action-section-inner {
+	height: 600px;
+}
+
 
 .headline-after {
 	position: relative;
@@ -44,6 +48,17 @@ h3 {
     background: $primary-color;
 	}
 }
+
+#partners-intro .headline-after {
+	.headline-name {
+		color: $third-color;
+	}
+	&:after {
+    background: $third-color;
+    left: 40px;
+	}
+}
+
 
 .g-max-width--900 {
   max-width: 900px;
@@ -118,7 +133,7 @@ a.btn-u-lg,
 .btn-u.btn-brd {
   font-size: 12px;
   font-weight: bold;
-  border-radius: 3px;
+  border-radius: 6px;
   padding: 15px 25px;
 }
 
@@ -150,7 +165,7 @@ a.btn-u-lg,
 section {
 	p {
 		&.lead {
-			font-size: 18px;
+			font-size: 20px;
 			font-weight: 300;
 			strong, b {
 				font-weight: 400;
@@ -230,7 +245,7 @@ ul.promo-section-direction-nav {
 	}
 	p {
 		color: #fafafa;
-		font-size: 18px;
+		font-size: 24px;
 		max-width: 70%;
 		margin: 0 0 35px;
 		font-weight: 300;
@@ -269,6 +284,10 @@ ul.promo-section-direction-nav {
     font-size: 18px;
     padding: 10px 0;
     text-align: center;
+	}
+	.btn-u-lg, a.btn-u-lg, .btn-u.btn-brd {
+		font-size: 16px;
+		font-weight: 600;
 	}
 
 	.slick-dots {

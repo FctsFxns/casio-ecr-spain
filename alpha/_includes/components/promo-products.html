@@ -13,8 +13,8 @@
 
 			          <!-- <a class="btn-u btn-u-lg btn-u-upper btn-u-primary g-mt-20 g-mr-30 g-3xs-mb-20 g-3xs-mr-0" href="{{ item.url }}">{{ item.button }} &nbsp;<i class="fa fa-angle-double-right  "></i></a> -->
 
-	              {% if item.pdf_url != '' %}
-				          <a class="btn-u btn-u-lg btn-u-upper btn-u-primary g-mt-20 g-mr-30 g-3xs-mb-20 g-3xs-mr-0" href="{{ item.pdf_url }}">{{ item.button }} &nbsp;<i class="fa fa-file-pdf-o "></i></a>
+	              {% if item.url != '' %}
+				          <a class="btn-u btn-u-lg btn-u-upper btn-u-primary g-mr-30 g-3xs-mb-20 g-3xs-mr-0" href="{{ item.url }}">{{ item.button }} </a>
 
 										<!-- 									<a href="{{ item.pdf_url | prepend: site.data.global.url }}" target="_blank" class="btn-u btn-brd btn-u-lg btn-u-upper btn-pdf-doc">
 																			<i class="fa fa-file-pdf-o "></i>Descarga ficha en PDF </a> 
