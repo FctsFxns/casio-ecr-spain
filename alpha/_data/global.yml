@@ -30,7 +30,7 @@ call_url:              ''
 
 # URL's como constantes
 url_distribuidor: 'ser-distribuidor'
-
+url_historia: 'nuestra-historia'
 
 # Contact
 author:           CASIO España

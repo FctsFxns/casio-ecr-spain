@@ -22,12 +22,9 @@
                 <a href="{% if page.layout_id != 'home' %}{{ '/' | prepend: site.data.global.url }}{% endif %}"><span data-hover="< Volver al Inicio">< Volver al Inicio</span></a>
               </li>
             {% else %}
-              <li class="page-scroll">
+              <!-- <li class="page-scroll">
                 <a href="{% if page.layout_id != 'home' %}{{ '/' | prepend: site.data.global.url }}{% endif %}#welcome"><span data-hover="Inicio">Inicio</span></a>
-              </li>
-              <li class="page-scroll">
-                <a href="{% if page.layout_id != 'home' %}{{ '/' | prepend: site.data.global.url }}{% endif %}#about"><span data-hover="Quienes somos">Quienes somos</span></a>
-              </li>
+              </li> -->
               <li class="page-scroll">
                 <a href="{% if page.layout_id != 'home' %}{{ '/' | prepend: site.data.global.url }}{% endif %}#soluciones"><span data-hover="Soluciones">Soluciones</span></a>
               </li>
@@ -35,7 +32,10 @@
                 <a href="{% if page.layout_id != 'home' %}{{ '/' | prepend: site.data.global.url }}{% endif %}#projects"><span data-hover="Casos de éxito">Casos de éxito</span></a>
               </li>
               <li class="page-scroll">
-                <a href="{% if page.layout_id != 'home' %}{{ '/' | prepend: site.data.global.url }}{% endif %}#partners"><span data-hover="Programa para Partners">Programa para Partners</span></a>
+                <a href="{% if page.layout_id != 'home' %}{{ '/' | prepend: site.data.global.url }}{% endif %}#partners"><span data-hover="Programa para Partners">Area Distribuidores</span></a>
+              </li>
+              <li class="page-scroll">
+                <a href="{% if page.layout_id != 'home' %}{{ '/' | prepend: site.data.global.url }}{{site.data.global.url_historia}}{% endif %}"><span data-hover="Nuestra historia">Nuestra historia</span></a>
               </li>
               <li class="page-scroll">
                 <a href="{% if page.layout_id != 'home' %}{{ '/' | prepend: site.data.global.url }}{% endif %}#contacto"><span data-hover="Contacto">Contacto</span></a>
