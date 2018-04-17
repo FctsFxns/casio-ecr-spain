@@ -758,7 +758,7 @@ ul.promo-section-direction-nav {
 	}
 	.copyright {
 		display: inline-block;
-		font-size: 10px;
+		font-size: 12px;
 	}
 	.casio-logo {
 		display: inline-block;
@@ -778,8 +778,12 @@ ul.promo-section-direction-nav {
 		}
 	}
 	.legal {
-		ul li a {
-			font-size: 12px;
+		ul {
+			display: inline-block;
+			margin: 1.5em 0;
+			li a {
+				font-size: 12px;
+			}
 		}
 	}
 

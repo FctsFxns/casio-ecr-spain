@@ -59,24 +59,28 @@
 	  <footer class="footer text-center--2xs">
 	    <div class="container g-pt-40 g-pb-20">
 	      <div class="row">
-	        <div class="col-md-8 col-xs-12 col-2xs-12 g-pb-20">
+	        <div class="col-md-12 col-xs-12 col-2xs-12 text-center--md text-left">
 	        	<span class="casio-logo">   
                 <a href="http://www.casio-europe.com/es/">
                   <img src="/media/images/logo-casio.png" alt="CASIO"> 
                   <em>España</em>
                 </a>              
             </span>
+	          <p class="copyright text-center--md text-left">{{ site.data.global.footer_text }}</a></p>
 
-	          <p class="copyright">{{ site.data.global.footer_text }}</a></p>
 	        </div>
 
-	        <div class="col-md-4 col-xs-12 col-2xs-12 text-right g-pb-20 legal">
-		        <ul class="list-inline g-margin-0">
+	        <div class="col-md-12 col-xs-12 col-2xs-12 g-pb-20 legal text-center--md text-left">
+		        <ul class="list-inline ">
 		          <li>
-								<a href="{{ '/' | prepend: site.data.global.url }}politica-de-privacidad/" >Política de Privacidad</a>	            
+								<a href="{{ '/' | prepend: site.data.global.url }}aviso-legal/" >Aviso legal</a>	            
 		          </li>
 		          <li>
-								<a href="{{ '/' | prepend: site.data.global.url }}terminos-de-uso/" >Términos de uso</a>	          </li>
+								<a href="{{ '/' | prepend: site.data.global.url }}proteccion-de-datos/" >Política de Protección de Datos</a>	            
+		          </li>
+		          <li>
+								<a href="{{ '/' | prepend: site.data.global.url }}politica-de-cookies/" >Política de Cookies</a>	          
+							</li>
 		        </ul>
 	        </div>
 	      </div>
