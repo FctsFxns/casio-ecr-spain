@@ -85,7 +85,61 @@ small {
  {
   border-color: #ececec;
   border-radius: 3px;
-  color: #444;
+  color: #999;
+}
+.sky-form .input input:focus, .sky-form .textarea textarea:focus, .sky-form .select select:focus {
+	color: #ccc;
+}
+.login-section {
+	.sky-form .input input:focus, .sky-form .textarea textarea:focus, .sky-form .select select:focus {
+		color: #999;
+	}
+	.sky-form .state-error input, .sky-form .state-error select, .sky-form .state-error select + i, .sky-form .state-error textarea, .sky-form .radio.state-error i, .sky-form .checkbox.state-error i, .sky-form .toggle.state-error i, .sky-form .toggle.state-error input:checked + i {
+		background: none !important;
+		border-color: #a00;
+	}
+	.sky-form .state-success input, .sky-form .state-success select, .sky-form .state-success select + i, .sky-form .state-success textarea, .sky-form .radio.state-success i, .sky-form .checkbox.state-success i, .sky-form .toggle.state-success i, .sky-form .toggle.state-success input:checked + i {
+			background: none !important;
+			color: #ccc;		
+	}
+}
+
+.sky-form .checkbox {
+  color: #999;
+  font-size: 12px;
+  a, a:focus, a:hover {
+  	color: #ccc;
+  }
+}
+
+.sky-form .radio:hover i, .sky-form .checkbox:hover i, .sky-form .toggle:hover i, .sky-form .ui-slider-handle:hover {
+	border-color: #999;
+	background: #999;
+}
+
+.sky-form .radio input:checked + i, .sky-form .checkbox input:checked + i, .sky-form .toggle input:checked + i {
+	background: none !important;
+	border: none;
+}
+.sky-form .radio i, .sky-form .checkbox i {
+	width: 12px;
+	height: 12px;
+	border-width: 1px;
+	border-color: #999;
+	background: none;
+	border-radius: 30px;
+	top: 8px;
+}
+
+.sky-form .radio input:checked + i::after, .sky-form .checkbox input:checked + i::after {
+		background: none;
+    opacity: 1;
+    left: -2px;
+}
+.sky-form .checkbox input + i::after {
+    color: #999;
+		background: #999;
+		border-color: #999;
 }
 
 .sky-form .select select {
@@ -666,7 +720,10 @@ ul.promo-section-direction-nav {
 /* Subscribe section */
 .login-section {
 	.btn-u-lg  {
-		padding: 13px 25px;
+		padding: 13px 40px;
+		&:hover, &:focus {
+			background: #fff;
+		}
 	}
 }
 
