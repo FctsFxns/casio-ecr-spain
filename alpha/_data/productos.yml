@@ -23,23 +23,23 @@
   headline:     '<strong>Soluciones</strong> Profesionales'
   text:         > # this means to ignore newlines until next key
     Equipos de punto de venta de gran fiabilidad y robustez, con un diseño moderno, elegante y funcional.
-  media:        'media/assets/products/item-ITG400-b.jpg'
+  media:        'media/assets/products/slide01-sample.jpg'
   pdf_url:      ''
   call:         ''
   button:       'Más información'
   pdf_guia_url: ''
   url:          '#contacto'
 
-- title:        'Soluciones de consumo'
-  headline:     'Soluciones de <strong>Consumo</strong>'
-  text:         > # this means to ignore newlines until next key
-    Cras tempus metus sit amet ipsum gravida, vitae euismod magna lacinia. Sed sit amet neque non dui pharetra porttitor.
-  media:        'media/assets/products/item-SE100.jpg'
-  pdf_url:      ''
-  call:         ''
-  button:       'Más información'
-  pdf_guia_url: ''
-  url:          '#contacto'
+# - title:        'Soluciones de consumo'
+#   headline:     'Soluciones de <strong>Consumo</strong>'
+#   text:         > # this means to ignore newlines until next key
+#     Cras tempus metus sit amet ipsum gravida, vitae euismod magna lacinia. Sed sit amet neque non dui pharetra porttitor.
+#   media:        'media/assets/products/item-SE100.jpg'
+#   pdf_url:      ''
+#   call:         ''
+#   button:       'Más información'
+#   pdf_guia_url: ''
+#   url:          '#contacto'
 
 # # [√] V-R7000
 # - title:        'Soluciones para sistemas'

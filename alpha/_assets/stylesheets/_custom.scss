@@ -2,7 +2,9 @@ body {
 	font-family: $font-family-sans-serif;
 	font-size: 14px;
 }
-
+h1, .h1, h2, .h2 {
+  font-size: 34px; 
+}
 h3 {
 	font-size: 18px;
 	font-weight: 400;
@@ -59,9 +61,13 @@ h3 {
 	}
 }
 
-
 .g-max-width--900 {
   max-width: 900px;
+  position: relative;
+}
+
+.g-max-width--650 {
+  max-width: 650px;
   position: relative;
 }
 
@@ -166,9 +172,10 @@ section {
 	p {
 		&.lead {
 			font-size: 20px;
-			font-weight: 300;
+			line-height: 32px;
+			font-weight: 400;
 			strong, b {
-				font-weight: 400;
+				font-weight: 600;
 			}
 		}
 	}
@@ -362,6 +369,34 @@ ul.promo-section-direction-nav {
 				font-size: 15px;
 				line-height: 1.375;
 				}
+		}
+	}
+}
+
+/* Productos Prof. Section */
+.soluciones-section {
+	background: #fafafa;
+}
+.service-block-v8 {
+	background: none;
+	i {
+		color: #fff;
+	}
+	.service-block-desc {
+		h3 {
+			font-size: 14px;
+			font-weight: 600;
+			letter-spacing: 0;
+			text-transform: uppercase;
+			color: $primary-color;
+			&::after {
+				top: 32px;
+				background: $primary-color;
+			}
+		}
+		p {
+			font-weight: 100;
+			margin-right: 1em;
 		}
 	}
 }

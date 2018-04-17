@@ -10,6 +10,8 @@
 .g-color-default { color: $primary-color !important; }
 .g-color-link { color: $link-color !important; }
 .g-color-dark { color: #333 !important;}
+.g-color-third { color: $third-color !important; }
+
 
 
 .g-color-white { color: #fff !important; }
@@ -30,9 +32,13 @@
   }
 }
 
+i.icon-bg-default {
+  background: $primary-color;
+}
+
 i.icon-color-default {
   border-color: $primary-color;
-  color: $primary-color;
+  color: $primary-color !important;
 }
 i.icon-color-link {
   border-color: $link-color;

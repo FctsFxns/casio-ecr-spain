@@ -32,7 +32,7 @@
                 <a href="{% if page.layout_id != 'home' %}{{ '/' | prepend: site.data.global.url }}{% endif %}#projects"><span data-hover="Casos de éxito">Casos de éxito</span></a>
               </li>
               <li class="page-scroll">
-                <a href="{% if page.layout_id != 'home' %}{{ '/' | prepend: site.data.global.url }}{% endif %}#partners"><span data-hover="Programa para Partners">Area Distribuidores</span></a>
+                <a href="{% if page.layout_id != 'home' %}{{ '/' | prepend: site.data.global.url }}{% endif %}#partners"><span data-hover="Area Distribuidores">Area Distribuidores</span></a>
               </li>
               <li class="page-scroll">
                 <a href="{% if page.layout_id != 'home' %}{{ '/' | prepend: site.data.global.url }}{{site.data.global.url_historia}}{% endif %}"><span data-hover="Nuestra historia">Nuestra historia</span></a>
@@ -44,7 +44,7 @@
           </ul>
           <div class="header-buttons page-scroll">         
             {% if page.layout_class != 'page-distribuidor' %}
-              <a class="btn-u btn-u-lg btn-u-upper btn-distribuidor btn-u-green" href="{{ '/' | prepend: site.data.global.url }}{{site.data.global.url_distribuidor}}">Quiero Ser Distribuidor</a>
+              <a class="btn-u btn-u-lg btn-u-upper btn-distribuidor btn-u-blue" href="{{ '/' | prepend: site.data.global.url }}{{site.data.global.url_distribuidor}}">Quiero Ser Distribuidor</a>
             {% else %}
               <a class="btn-u btn-u-lg btn-brd btn-u-upper " href="{{ '/' | prepend: site.data.global.url }}#contacto">Contactar con Soporte</a>            
             {% endif %}  
