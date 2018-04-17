@@ -8,7 +8,7 @@ var ContactForm = function () {
 	            rules:
 	            {
 	            		// E-mail
-	                'cm-ddurtit-ddurtit':
+	                'email_1':
 	                {
 	                    required: true,
 	                    email: true
@@ -18,10 +18,18 @@ var ContactForm = function () {
 	            messages:
 	            {
 	            		// E-mail
-	                'cm-ddurtit-ddurtit':
+	                'email_1':
 	                {
 	                    required: 'Debes indicar tu dirección de email',
 	                    email: 'Por favor, introduce un dirección de email válida'
+	                },
+	                'legal-1':
+	                {
+	                    required: 'Es necesario aceptar las condiciones legales antes de continuar',
+	                },
+	                'legal-2':
+	                {
+	                    required: 'Es necesario aceptar las condiciones legales antes de continuar',
 	                },
 	            },
 	            // Do not change code below
@@ -90,6 +98,11 @@ var ContactForm = function () {
 	                {
 	                    required: 'Es preciso informar este campo',
 	                },
+	                'subscription':
+	                {
+	                    required: 'Es necesario aceptar las condiciones legales antes de continuar',
+
+	                }
 
 	          	}, 
 	            // Do not change code below
@@ -104,58 +117,73 @@ var ContactForm = function () {
 	            // Rules for form validation
 	            rules:
 	            {
-	                'cm-name':
+	                'char_01':
 	                {
 	                    required: true
 	                },
-	                'cm-f-dyolhdk':
+	                // Phone
+	                'char_03':
+	                {	                	
+	                    required: true,
+	                },
+	                // Motivo
+	                'char_04':
 	                {	                	
 	                    required: true,
 	                },
 	                // Email
-	                'cm-uytulri-uytulri':
+	                'email_1':
 	                {
 	                    required: true,
 	                    email: true
 	                },
 	                // message
-	                'cm-f-dyolhhl':
+	                'text_1':
 	                {
 	                    required: true,
 	                    minlength: 10
 	                },
+	                'subscription':
+	                {
+	                    required: true,
+	                }
 	            },
 
 	            // Messages for form validation
 	            messages:
 	            {
-	                'cm-name':
+	                'char_01':
 	                {
 	                    required: 'Indique su nombre, por favor',
 	                },
 	                // Phone
-	                'cm-f-dyolhdk':
+	                'char_03':
 	                {
 	                    required: 'Indique su nº de teléfono, por favor',
 	                },
 	                // Email
-	                'cm-uytulri-uytulri':
+	                'email_1':
 	                {
 	                    required: 'Por favor, indique su dirección de correo electrónico',
 	                    email: 'Por favor, indique su dirección de correo electrónico'
 	                },
 	                // Asunto
-	                'cm-f-dyolhdu':
+	                'char_04':
 	                {
 	                		required: 'Por favor, indique el motivo de su consulta'
 	                },
 	                // message
-	                'cm-f-dyolhhl':
+	                'text_1':
 	                {
 	                    required: 'Por favor, introduzca su mensaje',
 	                    minlength: 'El mensaje debe ser más largo de 10 carácteres'
 
 	                },
+	                'subscription':
+	                {
+	                    required: 'Es necesario aceptar las condiciones legales antes de continuar',
+
+	                }
 	            },
 
 	            // Do not change code below

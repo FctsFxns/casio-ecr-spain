@@ -53,13 +53,13 @@
     El restaurante situado en plena Plaça Revolució de Setembre 1868, en el corazón del barrio de Gracia, Barcelona, tiene como credo el hacer viajar a sus comensales a las auténticas sensaciones Thai.
   pdf:          '/media/pdf/casos/Banna.pdf'
 
-#Jardín 1900 y pico
-- title:        'Jardín 1900 y Pico'
-  media:        'media/noticias/caso-taberna-1900-y-pico.jpg'
-  headline:     'Equipos potentes, de diseño ergonómico, y con tecnología punta'
+# Restaurant La Cala Cal Pep
+- title:        'Restaurant La Cala Cal Pep'
+  media:        'media/noticias/caso-La-Cala-Cal-Pep.jpg'
+  headline:     'La "Cala Cal Pep" apuesta por la excelencia de las soluciones CASIO'
   text:         > # this means to ignore newlines until next key
-    **Jardín 1900 y Pico** se aprovecha de una nueva generación de comanderos profesionales, que mejoran la atención al cliente y la rentabilidad del negocio.
-  pdf:          '/media/pdf/casos/caso-jardin-1900-y-pico.pdf' 
+    La cocina, el restaurante, los clientes, el entorno paradisiaco que nos rodea, el apoyo incondicional de la familia y el uso de nuevas tecnologías. Han confiado a **Vila Torrent** y Casio el Control y Registro del negocio.
+  pdf:          '/media/pdf/casos/La-Cala-Cal-Pep.pdf'
 
 # El Petit Mos
 - title:        'El Petit Mos'
@@ -77,10 +77,10 @@
     El propietario de **“Donde el Jamón”**, en el centro de Palma de Mallorca sabía que, para atender a un gran volumen de clientes, debía tener un sistema ágil y sencillo para su equipo.
   pdf:          '/media/pdf/casos/Donde-el-jamon.pdf' 
 
-# Restaurant La Cala Cal Pep
-- title:        'Restaurant La Cala Cal Pep'
-  media:        'media/noticias/caso-La-Cala-Cal-Pep.jpg'
-  headline:     'La "Cala Cal Pep" apuesta por la excelencia de las soluciones CASIO'
+#Jardín 1900 y pico
+- title:        'Jardín 1900 y Pico'
+  media:        'media/noticias/caso-taberna-1900-y-pico.jpg'
+  headline:     'Equipos potentes, de diseño ergonómico, y con tecnología punta'
   text:         > # this means to ignore newlines until next key
-    La cocina, el restaurante, los clientes, el entorno paradisiaco que nos rodea, el apoyo incondicional de la familia y el uso de nuevas tecnologías. Han confiado a **Vila Torrent** y Casio el Control y Registro del negocio.
-  pdf:          '/media/pdf/casos/La-Cala-Cal-Pep.pdf'
+    **Jardín 1900 y Pico** se aprovecha de una nueva generación de comanderos profesionales, que mejoran la atención al cliente y la rentabilidad del negocio.
+  pdf:          '/media/pdf/casos/caso-jardin-1900-y-pico.pdf' 

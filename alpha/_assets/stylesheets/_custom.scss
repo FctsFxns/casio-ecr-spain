@@ -51,7 +51,7 @@ h3 {
 	}
 }
 
-#partners-intro .headline-after {
+#area-distribuidores .headline-after {
 	.headline-name {
 		color: $third-color;
 	}
@@ -617,6 +617,7 @@ ul.promo-section-direction-nav {
 }
 
 .ventajas-section {
+
 	.intro {
 		p {
 		}
@@ -624,6 +625,13 @@ ul.promo-section-direction-nav {
 	h3 {
 		color: $primary-color;
 	}
+
+	a.btn-u-lg {
+	    padding: 18px 40px !important;
+	    font-size: 16px;
+	    font-weight: 600;
+	}
+
 }
 
 .project-item {
@@ -709,7 +717,10 @@ ul.promo-section-direction-nav {
 		  border-color: red !important;
 			background: none !important;
 		}
-
+		.checkbox {
+			color: $secondary-color !important;
+			font-size: 14px;
+		}
 	}
 
 
@@ -808,7 +819,7 @@ section.history-section {
 		color: #fff;
 	}
 	a.btn-u-lg {
-		padding: 15px 40px !important;
+		padding: 18px 40px !important;
 		font-size: 16px;
 		font-weight: 600;
 	}
