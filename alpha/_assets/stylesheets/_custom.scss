@@ -228,6 +228,7 @@ section {
 			font-size: 20px;
 			line-height: 32px;
 			font-weight: 400;
+			color: $cc-dark-color;
 			strong, b {
 				font-weight: 600;
 			}
@@ -457,7 +458,7 @@ ul.promo-section-direction-nav {
 		}
 		p {
 			color: $cc-dark-color !important;
-			font-size: 16px;
+			font-size: 15px;
 			font-weight: 100;
 			margin-right: 1em;
 		}
@@ -545,7 +546,7 @@ ul.promo-section-direction-nav {
 	.infoblock-trio-col-1 {}
 	.infoblock-trio-col-2 {
 		p, li {
-			color: #333 !important;
+			color: $cc-dark-color !important;
 		}
 	}
 	.infoblock-trio-col-3 {}
@@ -605,6 +606,8 @@ ul.promo-section-direction-nav {
 
 /* Projects Section */
 .projects-section {
+	a.btn-more {
+	}
 	.projects-intro {
 		p {
 		}
@@ -612,13 +615,16 @@ ul.promo-section-direction-nav {
 }
 .project-item {
 	h3 {
-		font-size: 14px;
+		color: $primary-color;
+		font-size: 15px;
 		font-weight: 600;
 		letter-spacing: 0;
 		text-transform: uppercase;		
 	}
 	p {
-		font-weight: 300;
+		color: $cc-dark-color;
+		font-size: 14px;
+		font-weight: 100;
 		strong, b {
 			font-weight: 400;
 		}
@@ -631,8 +637,20 @@ ul.promo-section-direction-nav {
 		p {
 		}
 	}
+	.ventajas {
+		p {
+			color: $cc-dark-color;
+			font-size: 15px;
+			font-weight: 100;
+		}
+	}
+
 	h3 {
 		color: $primary-color;
+		font-size: 16px;
+		font-weight: 600;
+		letter-spacing: 0;
+		text-transform: uppercase;
 	}
 
 	a.btn-u-lg {
