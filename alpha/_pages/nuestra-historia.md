@@ -9,7 +9,7 @@ intro:      'Consigue las soluciones profesionales y servicios más avanzados. R
 ---
 <br/><br/><br/><br/><br>
 <!-- Our history banner Section -->
-<section id="nuestra-historia" class="history-section g-pt-70 g-pb-70" >
+<section id="nuestra-historia" class="history-section g-pt-70 g-pb-20" >
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-6 col-lg-offset-0 col-md-10 col-md-offset-1 col-xs-12 col-2xs-12">

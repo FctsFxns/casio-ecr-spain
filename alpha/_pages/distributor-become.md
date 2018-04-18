@@ -23,7 +23,7 @@ intro:        'Lorem ipsum…'
 	    <p class="g-color-white g-mb-20  lead">
 				Rellena el formulario y contactaremos con tu negocio para empezar colaboración. 
 				<br><br>
-				¿Ya eres distribuidor y necesitas ayuda? <a href="{{ '/' | prepend: site.data.global.url }}#contacto">Contacta con soporte</a>. 
+				¿Ya eres distribuidor y necesitas ayuda? <a href="{{ '/' | prepend: site.data.global.url }}contacto">Contacta con soporte</a>. 
       </p>
       <div class="action-follow page-scroll">
       	<a href="#contacto-distribuidor" class="" title="Scroll"><i class="icon-custom icon-lg rounded-x fa fa-angle-down "></i></a>
