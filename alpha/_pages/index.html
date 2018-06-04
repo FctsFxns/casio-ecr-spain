@@ -2,6 +2,7 @@
 layout:       default
 layout_class: page-home   
 layout_id:    home   
+permalink:    /
 sitemap:      1
 title:        CASIO System Solutions | TPV, Cajas registradoras y Soluciones en red para hostelería y retail
 intro:        'Optimiza y sácale el máximo partido a todas las soluciones TPV de CASIO y prepárate para empezar la temporada con el mejor terminal de punto de venta.'
@@ -19,13 +20,10 @@ intro:        'Optimiza y sácale el máximo partido a todas las soluciones TPV 
 		{% include components/soluciones-profesionales.html %}
 	  <!-- /Productos Profesionales Section -->
 
-		<!-- Our history banner Section -->
-		{% include components/our-history.html %}
-		<!-- /Our history banner Section -->
-
 		<!-- Casos de éxito Section -->
 		{% include components/noticias.html %}
 	  <!-- /Projects/Casos de éxito Section -->
+
 		<!-- Partners Section -->
 		{% include components/partners.html %}
 		<!-- /Partners Section -->
@@ -34,6 +32,9 @@ intro:        'Optimiza y sácale el máximo partido a todas las soluciones TPV 
 		{% include components/partners-ventajas.html %}
 	  <!-- /Partners Ventajas Section -->
 
+		<!-- Our history banner Section -->
+		{% include components/our-history.html %}
+		<!-- /Our history banner Section -->
 
 		{% comment %}
 			<!-- Contact Section -->
@@ -41,9 +42,11 @@ intro:        'Optimiza y sácale el máximo partido a todas las soluciones TPV 
 			<!-- /Contact Section -->
 		{% endcomment %}
 
-		<!-- Newsletter Section -->
-		{% include components/newsletter.html %}
-		<!-- /Newsletter Section -->
+		{% comment %}
+			<!-- Newsletter Section -->
+			{% include components/newsletter.html %}
+			<!-- /Newsletter Section -->
+		{% endcomment %}
 
 
 

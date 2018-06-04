@@ -1,12 +1,10 @@
-
-
 		<!-- Pre-Footer -->
-		<section class="pre-footer g-bg-dark text-center--2xs">
-			<div class="container g-pt-40 g-pb-20">
+		<section class="pre-footer g-bg-white text-center--2xs">
+			<div class="container-fluid g-pt-40 g-pb-20">
 				<div class="row">
 					<div class="col-md-4 g-mb-25">
-						<h3 class="g-mb-15 g-color-white">{{ site.data.global.title }}</h3>
-						<p class="g-color-white--darker">
+						<h3 class="g-mb-15 ">{{ site.data.global.title }}</h3>
+						<p class="">
 							{{ site.data.global.footer_contact }} 
 							<br><a href="mailto:{{ site.data.global.email }} ">{{ site.data.global.email }} </a>
 						</p>
@@ -15,7 +13,7 @@
 					<div class="col-md-8">
 						<div class="row">
 							<div class="col-sm-3 col-xs-6 col-2xs-12 g-mb-25">
-								<h3 class="g-mb-15 g-color-white">Asistencia</h3>
+								<h3 class="g-mb-15 ">Asistencia</h3>
 								<ul class="list-unstyled">
 									<li><a href="https://www.casio-europe.com/es/asistencia/">Asistencia técnica</a></li>
 									<li><a href="http://support.casio.com/es/support/faq.php?cid=006">Preguntas más frecuentes</a></li>
@@ -23,7 +21,7 @@
 								</ul>
 							</div>
 							<div class="col-sm-3 col-xs-6 col-2xs-12 g-mb-25">
-								<h3 class="g-mb-15 g-color-white">Enlaces de interés</h3>
+								<h3 class="g-mb-15 ">Enlaces de interés</h3>
 								<ul class="list-unstyled">
 									<li><a href="https://secure.casio-europe.com/registration/es/ecr/">Registro de producto</a></li>
 									<li><a href="http://www.casio-europe.com/es/asistencia/reparacion-de-productos/sistemas-de-caja/">Reparación de productos</a></li>
@@ -31,7 +29,7 @@
 								</ul>
 							</div>
 							<div class="col-sm-3 col-xs-6 col-2xs-12 g-mb-25">
-								<h3 class="g-mb-15 g-color-white">Linea de productos</h3>
+								<h3 class="g-mb-15 ">Linea de productos</h3>
 								<ul class="list-unstyled">
 									<li><a href="https://www.casio-europe.com/es/productos/sistemas-de-caja/soluciones-para-sistemas/">Soluciones para sistemas</a></li>
 									<li><a href="https://www.casio-europe.com/es/productos/sistemas-de-caja/cajas-individuales/">Cajas individuales</a></li>
@@ -39,7 +37,7 @@
 								</ul>
 							</div>
 							<div class="col-sm-3 col-xs-6 col-2xs-12 g-mb-25">
-								<h3 class="g-mb-15 g-color-white">Mapa del sitio</h3>
+								<h3 class="g-mb-15 ">Mapa del sitio</h3>
 								<ul class="list-unstyled">
 									<li><a href="{{ site.data.global.url }}">Quienes somos</a></li>
 									<li><a href="{{ site.data.global.url }}">Noticias</a></li>
@@ -57,21 +55,11 @@
 
 	  <!-- Footer -->
 	  <footer class="footer text-center--2xs">
-	    <div class="container g-pt-40 ">
-	      <div class="row">
-	        <div class="col-md-12 col-xs-12 col-2xs-12 text-center--md text-left">
-	        	<span class="casio-logo">   
-                <a href="http://www.casio-europe.com/es/">
-                  <img src="/media/images/logo-casio.png" alt="CASIO"> 
-                  <em>España</em>
-                </a>              
-            </span>
-	          <p class="copyright text-center--md text-left">{{ site.data.global.footer_text }}</a></p>
+	    <div class="container-fluid g-pt-40 ">
+	      <div class="row g-pb-30">
 
-	        </div>
-
-	        <div class="col-md-12 col-xs-12 col-2xs-12 legal text-center--md text-right">
-		        <ul class="list-inline ">
+	        <div class="col-md-8 col-xs-12 col-2xs-12 legal text-center--md text-left">
+		        <ul class="list-inline g-mb-30 g-mb-0--md">
 		          <li>
 								<a href="{{ '/' | prepend: site.data.global.url }}aviso-legal/" >Aviso legal</a>	            
 		          </li>
@@ -83,6 +71,19 @@
 							</li>
 		        </ul>
 	        </div>
+
+	        <div class="casio-logo-wrapper col-md-4 col-xs-12 col-2xs-12">
+	        	<span class="casio-logo">   
+                <a href="http://www.casio-europe.com/es/">
+                  <img src="/media/images/logo-casio.png" alt="CASIO"> 
+                  <em>España</em>
+                </a>              
+            </span>
+	         
+	          <!-- <p class="copyright text-center--md text-left">{{ site.data.global.footer_text }}</a></p> -->
+
+	        </div>
+
 	      </div>
 	    </div>
 	  </footer>

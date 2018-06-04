@@ -1,7 +1,11 @@
 <div class="promo-section-wrapper">
 		<section class="promo-section text-center"  id="welcome">
 			{% for item in site.data.productos %}
-		    <div class="promo-item" data-time="3000" data-title="{{ item.title }}" style="background-image: url({{ item.media }});">
+		    <div class="promo-item" data-time="3000" data-title="{{ item.title }}" 
+		    {% comment %}
+		    style="background-image: url({{ item.media }});
+		    {% endcomment %}
+		    ">
 		      <div class="container">
 		        <div class="promo-item-content {{ item.class }}">
 		          <h3>
@@ -10,9 +14,7 @@
 	          	</h3>
 	          	{{ item.text | markdownify }}
 		          <div class="page-scroll">
-
 			          <!-- <a class="btn-u btn-u-lg btn-u-upper btn-u-primary g-mt-20 g-mr-30 g-3xs-mb-20 g-3xs-mr-0" href="{{ item.url }}">{{ item.button }} &nbsp;<i class="fa fa-angle-double-right  "></i></a> -->
-
 	              {% if item.url != '' %}
 				          <a class="btn-u btn-u-lg btn-u-upper btn-u-primary g-mr-30 g-3xs-mb-20 g-3xs-mr-0" href="{{ item.url }}">{{ item.button }} </a>
 

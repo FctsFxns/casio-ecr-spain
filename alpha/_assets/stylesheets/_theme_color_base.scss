@@ -12,8 +12,6 @@
 .g-color-dark { color: #333 !important;}
 .g-color-third { color: $third-color !important; }
 
-
-
 .g-color-white { color: #fff !important; }
 .g-color-white--dark { color: rgba(255,255,255,.7) !important; }
 .g-color-white--darker { color: rgba(255,255,255,.5) !important; }
@@ -26,6 +24,19 @@
 
 
 /* Custom */
+.btn-u.btn-u-sea {
+  background: #00babe;
+}
+.btn-u.btn-u-sea:hover,
+.btn-u.btn-u-sea:focus,
+.btn-u.btn-u-sea:active,
+.btn-u.btn-u-sea.active,
+.open .dropdown-toggle.btn-u.btn-u-sea {
+  background: lighten(#00babe, 8%);
+  // background: #00babe;
+  // color: #222222;
+}
+
 
 .headline-after {
   &:after {

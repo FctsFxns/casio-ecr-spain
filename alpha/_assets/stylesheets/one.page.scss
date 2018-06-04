@@ -12,7 +12,10 @@ $link-color:      #00BDF5;
 $secondary-color: #e7e7e7;
 $third-color:     #00bfa5;
 
+$cc-darker-color: #111;
+
 $cc-dark-color:   #333;
+$cc-light-color:  #dedede;
 
 $primary-color-dark:  darken($primary-color, 20%);
 $primary-color-light: lighten($primary-color, 30%);
@@ -21,5 +24,7 @@ $primary-color-light: lighten($primary-color, 30%);
 @import 'custom';
 @import 'distribuidor';
 @import 'legal';
+@import 'history';
+@import 'carrousel';
 
 

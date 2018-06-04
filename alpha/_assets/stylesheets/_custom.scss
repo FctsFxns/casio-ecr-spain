@@ -22,6 +22,14 @@ h3 {
 	height: 600px;
 }
 
+.headline-title {
+	font-size: 26px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 1.3;
+	color: $primary-color;
+	letter-spacing: 0;
+}
 
 .headline-after {
 	position: relative;
@@ -191,19 +199,20 @@ small {
 .btn-u-lg,
 a.btn-u-lg,
 .btn-u.btn-brd {
-  font-size: 12px;
-  font-weight: bold;
-  border-radius: 6px;
-  padding: 15px 25px;
+	font-size: 14px;
+	font-weight: 800;
+  // border-radius: 3px;
+  // padding: 15px 25px;
 }
 
 .header-buttons {
 	.btn-u.btn-brd {
-		color: $link-color;
-		border: solid 1px $link-color;
-		border-color: $link-color;
+		color: $primary-color;
+		border: solid 3px $primary-color;
+		border-color: $primary-color;
+		padding: 12px 25px;
 		&:hover {
-			background: $link-color;
+			background: $primary-color;
 			color: #fff;
 		}
 	}	
@@ -213,13 +222,28 @@ a.btn-u-lg,
 .one-page-header.top-nav-collapse .navbar-brand,
 .one-page-header.top-nav-collapse .navbar-nav > li > a,
 .one-page-header.top-nav-collapse .navbar-nav > li > a:before {
-  font-size: 12px;
+  // color: $primary-color;
+  font-size: 14px;
+  font-weight: 800;
+	padding: 0px 18px;
 }
 
 .one-page-header .navbar-nav > li > a {
-  font-size: 12px;
+  // color: $primary-color;
+  font-size: 14px;
+  font-weight: 800;
 }
-
+.one-page-header .navbar-nav > li > a span[data-hover] {
+  // color: $primary-color;
+}
+.one-page-header .navbar-nav > li > a span[data-hover]:before {
+	color: $link-color;
+  font-size: 14px;
+  font-weight: 800;
+}
+.one-page-header .navbar-nav > li > a:hover span[data-hover] {
+  font-weight: 800;	
+}
 /** Homepage **/
 
 section {
@@ -348,8 +372,8 @@ ul.promo-section-direction-nav {
     text-align: center;
 	}
 	.btn-u-lg, a.btn-u-lg, .btn-u.btn-brd {
-		font-size: 16px;
-		font-weight: 600;
+		// font-size: 16px;
+		// font-weight: 600;
 	}
 
 	.slick-dots {
@@ -431,6 +455,8 @@ ul.promo-section-direction-nav {
 /* Productos Prof. Section */
 .soluciones-section {
 	background: #fafafa;
+
+
 	i.icon-custom {
 		border: none;
 		background: #0057AC !important;
@@ -445,13 +471,20 @@ ul.promo-section-direction-nav {
 		color: #fff;
 	}
 	.service-block-desc {
-		h3 {
-			font-size: 16px;
-			font-weight: 600;
-			letter-spacing: 0;
+		h4 {
+			font-size: 18px;
+			font-weight: 300;
+			letter-spacing: 1;
 			text-transform: uppercase;
 			color: $primary-color;
+			margin: 0 0 30px;
+			position: relative;
 			&::after {
+		    left: 0;
+		    height: 1px;
+		    width: 30px;
+		    content: " ";
+		    position: absolute;
 				top: 38px;
 				background: $primary-color;
 			}
@@ -607,6 +640,7 @@ ul.promo-section-direction-nav {
 /* Projects Section */
 .projects-section {
 	a.btn-more {
+		color: $link-color;
 	}
 	.projects-intro {
 		p {
@@ -615,12 +649,27 @@ ul.promo-section-direction-nav {
 }
 .project-item {
 	h3 {
-		color: $primary-color;
+		color: $cc-darker-color;
 		font-size: 15px;
 		font-weight: 600;
 		letter-spacing: 0;
 		text-transform: uppercase;		
+		a {
+			color: #111;
+			&:hover {
+				color: $primary-color;
+			}
+		}
 	}
+	a.read-more {
+		font-size: 14px;
+		text-transform: uppercase;
+		i {
+			font-size: 18px;
+			margin-right: 4px;
+		}
+	}
+
 	p {
 		color: $cc-dark-color;
 		font-size: 14px;
@@ -661,24 +710,7 @@ ul.promo-section-direction-nav {
 
 }
 
-.project-item {
-	h3 {
-		a {
-			color: #111;
-			&:hover {
-				color: $primary-color;
-			}
-		}
-	} 
-	a.read-more {
-		font-size: 14px;
-		text-transform: uppercase;
-		i {
-			font-size: 18px;
-			margin-right: 4px;
-		}
-	}
-}
+
 
 /* Contact Section */
 .contacts-section {
@@ -770,7 +802,8 @@ ul.promo-section-direction-nav {
 	h3 {
 		letter-spacing: 0;
 		text-transform: uppercase;
-		font-size: 14px;
+		color: $primary-color;
+		font-size: 12px;
 		line-height: 1.4;
 		font-weight: 700;
 	}
@@ -778,9 +811,20 @@ ul.promo-section-direction-nav {
 
 
 .pre-footer {
-	li {
+	.container {
+		border-top: none;
+	}
+	p {
+		font-size: 92.5%;
+		color: #505050;
 		a {
-			color: #aaa;
+			color: #343434;
+		}
+	}
+	li {
+		font-size: 92.5%;
+		a {
+			color: #505050;
 		}
 	}
 }
@@ -788,19 +832,25 @@ ul.promo-section-direction-nav {
 
 /* Footer */
 .footer {
+
+	border-top: 2px solid $cc-light-color;
 	.container {
 	  border-top: none;
 	}
 	a {
-	  color: $primary-color;
+	  color: $text-color;
 	}
 	.copyright {
 		display: inline-block;
 		font-size: 12px;
 	}
+	.casio-logo-wrapper  {
+		text-align: right;
+	}
 	.casio-logo {
 		display: inline-block;
-		padding-right: 30px;
+
+		padding-right: 0;
 		padding-bottom: 10px;
 		em {
 			display: inline-block;
@@ -818,7 +868,6 @@ ul.promo-section-direction-nav {
 	.legal {
 		ul {
 			display: inline-block;
-			margin: 1.5em 0;
 			li a {
 				font-size: 12px;
 			}
@@ -828,6 +877,10 @@ ul.promo-section-direction-nav {
 }
 @media (max-width: 768px) {
 	.footer {
+		.casio-logo-wrapper  {
+			text-align: center;
+		}
+
 		.legal {
 			text-align: center;
 			ul li a {
@@ -837,6 +890,7 @@ ul.promo-section-direction-nav {
 	}
 }
 
+/** SECTION: "OUR HISTORY"  **/
 
 section.history-section {
 	text-align: center;
@@ -844,6 +898,9 @@ section.history-section {
 	color: #fff;
 	h1, h2, h3, h4, h5, p {
 		color: #fff;
+	}
+	h2 {
+		font-size: 40px;
 	}
 	a.btn-u-lg {
 		padding: 18px 40px !important;
@@ -865,31 +922,5 @@ section.history-section {
 @media (min-width: 1199px) {
 	section.history-section {
 		text-align: left;
-	}
-}
-
-.page-historia {
-	.history-section {
-    background: url(../media/assets/611404.jpg) no-repeat 50% 50% / cover;    
-		background: #4fbebe;
-    img {
-    	display: none;
-    }
-		a.btn-u {
-			display: none;
-		}
-	}
-	.history-text {
-		h3 {
-			color: #4fbebe;
-			font-size: 24px;
-			font-weight: 700;
-		}
-		p {
-			font-size: 19px;
-			margin: 1.5em 0;
-			color: $cc-dark-color;
-			font-weight: 100;
-		}
 	}
 }
