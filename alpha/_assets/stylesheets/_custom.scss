@@ -27,7 +27,7 @@ h3 {
 	font-style: normal;
 	font-weight: 700;
 	line-height: 1.3;
-	color: $primary-color;
+	color: $cc-darker-color;
 	letter-spacing: 0;
 }
 
@@ -200,7 +200,7 @@ small {
 a.btn-u-lg,
 .btn-u.btn-brd {
 	font-size: 14px;
-	font-weight: 800;
+	font-weight: bold;
   // border-radius: 3px;
   // padding: 15px 25px;
 }
@@ -225,7 +225,7 @@ a.btn-u-lg,
   // color: $primary-color;
   font-size: 14px;
   font-weight: 800;
-	padding: 0px 18px;
+	// padding: 0px 18px;
 }
 
 .one-page-header .navbar-nav > li > a {
@@ -235,9 +235,10 @@ a.btn-u-lg,
 }
 .one-page-header .navbar-nav > li > a span[data-hover] {
   // color: $primary-color;
+  font-size: 14px;
 }
 .one-page-header .navbar-nav > li > a span[data-hover]:before {
-	color: $link-color;
+	color: $primary-color;
   font-size: 14px;
   font-weight: 800;
 }
@@ -251,7 +252,7 @@ section {
 		&.lead {
 			font-size: 20px;
 			line-height: 32px;
-			font-weight: 400;
+			font-weight: 300;
 			color: $cc-dark-color;
 			strong, b {
 				font-weight: 600;
@@ -464,7 +465,44 @@ ul.promo-section-direction-nav {
 		color: #fff !important;
 		// font-size: 42px;
 	}
+
+	.soluciones-product-pack {
+		img {
+			margin-top: -10em;
+			display: inline !important;
+		}
+	}
+
 }
+
+.product-thumbnail {
+	// background: $cc-light-color;
+	text-align: center;
+	img {
+		display: inline;
+		max-width: 80%;
+	}
+	h4 {
+		font-weight: 600;
+		font-size: 22px;
+		color: $cc-darker-color;
+	}
+	.caption {
+		padding: 20px;
+		// background: $cc-light-color;
+		text-align: center;
+	}
+	p {
+		color: $cc-dark-color;
+		font-size: 16px;
+		font-weight: 100;
+	}
+	a.btn-u {
+		border-radius: 10px;
+		padding: 10px;
+	}
+}
+
 .service-block-v8 {
 	background: none;
 	i {
@@ -472,16 +510,16 @@ ul.promo-section-direction-nav {
 	}
 	.service-block-desc {
 		h4 {
-			font-size: 18px;
-			font-weight: 300;
-			letter-spacing: 1;
+			font-size: 16px;
+			font-weight: 600;
+			letter-spacing: 0;
 			text-transform: uppercase;
 			color: $primary-color;
 			margin: 0 0 30px;
 			position: relative;
 			&::after {
 		    left: 0;
-		    height: 1px;
+		    height: 2px;
 		    width: 30px;
 		    content: " ";
 		    position: absolute;
@@ -491,7 +529,7 @@ ul.promo-section-direction-nav {
 		}
 		p {
 			color: $cc-dark-color !important;
-			font-size: 15px;
+			font-size: 16px;
 			font-weight: 100;
 			margin-right: 1em;
 		}
@@ -641,6 +679,7 @@ ul.promo-section-direction-nav {
 .projects-section {
 	a.btn-more {
 		color: $link-color;
+		font-weight: 500;
 	}
 	.projects-intro {
 		p {
@@ -650,10 +689,10 @@ ul.promo-section-direction-nav {
 .project-item {
 	h3 {
 		color: $cc-darker-color;
-		font-size: 15px;
+		font-size: 16px;
 		font-weight: 600;
 		letter-spacing: 0;
-		text-transform: uppercase;		
+		text-transform: uppercase;
 		a {
 			color: #111;
 			&:hover {
@@ -664,6 +703,7 @@ ul.promo-section-direction-nav {
 	a.read-more {
 		font-size: 14px;
 		text-transform: uppercase;
+		font-weight: 400;
 		i {
 			font-size: 18px;
 			margin-right: 4px;
@@ -672,7 +712,7 @@ ul.promo-section-direction-nav {
 
 	p {
 		color: $cc-dark-color;
-		font-size: 14px;
+		font-size: 16px;
 		font-weight: 100;
 		strong, b {
 			font-weight: 400;
@@ -689,17 +729,18 @@ ul.promo-section-direction-nav {
 	.ventajas {
 		p {
 			color: $cc-dark-color;
-			font-size: 15px;
+			font-size: 16px;
 			font-weight: 100;
 		}
 	}
 
 	h3 {
 		color: $primary-color;
+		text-transform: uppercase;
 		font-size: 16px;
 		font-weight: 600;
 		letter-spacing: 0;
-		text-transform: uppercase;
+
 	}
 
 	a.btn-u-lg {
