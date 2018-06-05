@@ -469,11 +469,22 @@ ul.promo-section-direction-nav {
 
 
 	i.icon-custom {
-		border: none;
-		background: #0057AC !important;
+		background: $cs-blue !important;
 		border-radius: 100%;
 		color: #fff !important;
 		// font-size: 42px;
+
+		border: none;
+		background: none !important;
+		border-radius: 100%;
+		color: $cs-blue-light !important;
+	
+		&.icon-lg {
+			width: 100px;
+			height: 100px;
+			line-height: 96px;
+			font-size: 48px;
+		}
 	}
 
 	.soluciones-product-pack {
@@ -524,7 +535,7 @@ ul.promo-section-direction-nav {
 			font-weight: 600;
 			letter-spacing: 0;
 			text-transform: uppercase;
-			color: $primary-color;
+			color: $cs-blue-light;
 			margin: 0 0 30px;
 			position: relative;
 			&::after {
@@ -534,12 +545,12 @@ ul.promo-section-direction-nav {
 		    content: " ";
 		    position: absolute;
 				top: 38px;
-				background: $primary-color;
+				background: $cs-blue-light;
 			}
 		}
 		p {
 			color: $cc-dark-color !important;
-			font-size: 16px;
+			font-size: 14px;
 			font-weight: 100;
 			margin-right: 1em;
 		}
