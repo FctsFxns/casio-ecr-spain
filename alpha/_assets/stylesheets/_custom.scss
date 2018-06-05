@@ -32,13 +32,17 @@ h3 {
 	position: relative;
 	padding-bottom: 40px;
 	margin-bottom: 40px;
+	color: $cc-darker-color;
+	span {
+		color: $cs-green;
+	}
 	.headline-name {
 		font-size: 12px;
 		font-style: normal;
 		font-weight: 600;
 		text-transform: uppercase;
 		display: block;
-		color: $primary-color;
+		color: $cc-dark-color;
 		margin-bottom: 20px;
 		letter-spacing: 2px;
 	}	
@@ -52,16 +56,16 @@ h3 {
     bottom: 0;		
 		left: 50%;
 		margin-left: -35px;
-    background: $primary-color;
+    background: $cs-green;
 	}
 }
 
 #area-distribuidores .headline-after {
 	.headline-name {
-		color: $third-color;
+		color: $cs-green;
 	}
 	&:after {
-    background: $third-color;
+    background: $cs-green;
     left: 40px;
 	}
 }
@@ -110,10 +114,10 @@ small {
 }
 
 .sky-form .checkbox {
-  color: #999;
+  color: #7a808e;
   font-size: 12px;
   a, a:focus, a:hover {
-  	color: #ccc;
+  	color: #bababa;
   }
 }
 
@@ -472,11 +476,9 @@ ul.promo-section-direction-nav {
 
 /* Productos Prof. Section */
 .soluciones-section {
-	background: #fafafa;
-
-
+	background: #fff;
 	i.icon-custom {
-		background: $cs-blue !important;
+		background: $cs-green !important;
 		border-radius: 100%;
 		color: #fff !important;
 		// font-size: 42px;
@@ -484,7 +486,7 @@ ul.promo-section-direction-nav {
 		border: none;
 		background: none !important;
 		border-radius: 100%;
-		color: $cs-blue !important;
+		color: $cs-green !important;
 	
 		&.icon-lg {
 			width: 100px;
@@ -492,6 +494,28 @@ ul.promo-section-direction-nav {
 			line-height: 96px;
 			font-size: 48px;
 		}
+	}
+
+	.soluciones-imagen {
+		position: relative;
+	  background: linear-gradient(0deg, $cs-green 50%, #fefefe 50%);
+		// &::before {
+		//     position: absolute;
+		//     top: 20%;
+		//     left: 0;
+		// 		background: $cs-green;
+		//     height: 500px;
+		//     width: 100%;
+		//     content: " ";
+		//     z-index: -1;
+		// }
+	}
+	.soluciones-beneficios {
+		// background: $cs-green;
+		background: $cs-lightest;
+	}
+	.soluciones-productos {
+		background: $cs-lightest;
 	}
 
 	.soluciones-product-pack {
@@ -504,7 +528,7 @@ ul.promo-section-direction-nav {
 }
 
 .product-thumbnail {
-	// background: $cc-light-color;
+	// background: #fff;
 	text-align: center;
 	img {
 		display: inline;
@@ -517,12 +541,12 @@ ul.promo-section-direction-nav {
 	}
 	.caption {
 		padding: 20px;
-		// background: $cc-light-color;
+		background: #fff;
 		text-align: center;
 	}
 	p {
 		color: $cc-dark-color;
-		font-size: 16px;
+		font-size: 14px;
 		font-weight: 100;
 	}
 	a.btn-u {
@@ -542,7 +566,7 @@ ul.promo-section-direction-nav {
 			font-weight: 600;
 			letter-spacing: 0;
 			text-transform: uppercase;
-			color: $cs-blue;
+			color: $cc-darker-color;
 			margin: 0 0 30px;
 			position: relative;
 			&::after {
@@ -552,7 +576,7 @@ ul.promo-section-direction-nav {
 		    content: " ";
 		    position: absolute;
 				top: 38px;
-				background: $cs-blue;
+				background: $cs-green;
 			}
 		}
 		p {
@@ -701,6 +725,7 @@ ul.promo-section-direction-nav {
 
 /* Projects Section */
 .projects-section {
+	background: $cs-blue-light;
 	a.btn-more {
 		color: $link-color;
 		font-weight: 500;
@@ -736,7 +761,7 @@ ul.promo-section-direction-nav {
 
 	p {
 		color: $cc-dark-color;
-		font-size: 16px;
+		font-size: 14px;
 		font-weight: 100;
 		strong, b {
 			font-weight: 400;
@@ -779,22 +804,22 @@ ul.promo-section-direction-nav {
 
 /* Contact Section */
 .contacts-section {
-	background-color: $primary-color-dark;
+	background-color: $cs-darkest;
 	color: #fff ; 
 	h2 {
 		color: #fff;
 	}
 	.headline-after  {
 		&::after {
-			background: rgba(255,255,255,.5);
+			background: $cs-green;
 		}
 	}
 	.headline-after .headline-name,
 	h3 {
-		color: rgba(255,255,255,.5);
+		color: $cs-green;
 	}
 	h4 {
-		color: rgba(255,255,255,.5);
+		color: $cs-green;
 		font-size: 12px;
 		text-transform: uppercase;
 		letter-spacing: 1px;
@@ -809,7 +834,7 @@ ul.promo-section-direction-nav {
 	}
 
 	.contact-blocks {
-		border-right: 1px solid rgba(255,255,255,.5);
+		border-right: 1px solid $cs-green;
 		&:last-child {
 			border: none;
 		}
@@ -827,7 +852,7 @@ ul.promo-section-direction-nav {
 			margin-bottom: 18px;
 			border: none;
 			font-weight: normal;		
-			color: rgba(255,255,255,0.5) !important;	
+			color: $cs-green !important;	
 		}
 	}
 

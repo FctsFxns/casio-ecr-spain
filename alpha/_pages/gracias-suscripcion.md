@@ -7,12 +7,12 @@ permalink: /hemos-recibido-tu-suscription-al-newsletter/
 sitemap: 0
 ---
 <!-- Gracias Section -->
-<section class="action-section g-color-white--darker g-pt-10 g-mt-90" id="partners">
+<section class="action-section g-color-white--darker g-pt-10 g-mt-10" id="partners">
 	<div class="action-section-inner">
     <div class="g-max-width--770 g-margin-side-auto page-scroll text-center">
     	<i class="icon-custom icon-lg rounded-x fa fa-check"></i>
     	<h3 class="g-mb-10 g-color-white-dark">Boletín de Noticias CASIO System Solution</h3>
-      <h2 class="g-mb-20 g-color-white">¡Gracias por registrarte en nuestra lista!</h2>
+      <h2 class="g-mb-20 g-color-white">¡Gracias por registrarte en nuestro boletín de noticias!</h2>
       <p class="g-color-white g-mb-20 g-margin-side-auto">
         ¡Felicidades! Eres parte de la comunidad de usuarios que recibirá noticias en primicia de los productos CASIO, ofertas exclusivas, descuentos para productos y eventos del sector.
         <br><br>

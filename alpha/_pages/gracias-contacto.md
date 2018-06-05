@@ -7,7 +7,7 @@ permalink: /hemos-recibido-tu-solicitud-de-contacto/
 sitemap: 0
 ---
 <!-- Gracias Section -->
-<section class="action-section g-color-white--darker g-pt-10 g-mt-90" id="partners">
+<section class="action-section g-color-white--darker g-pt-10 g-mt-10" id="partners">
 	<div class="action-section-inner">
     <div class="g-max-width--770 g-margin-side-auto page-scroll text-center">
     	<i class="icon-custom icon-lg rounded-x fa fa-check "></i>
