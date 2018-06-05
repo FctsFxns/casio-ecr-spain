@@ -18,9 +18,6 @@ h3 {
     	background: rgba(255,255,255,1);
     }
 }
-.action-section-inner {
-	height: 600px;
-}
 
 .headline-title {
 	font-size: 26px;
@@ -232,6 +229,11 @@ a.btn-u-lg,
   // color: $primary-color;
   font-size: 14px;
   font-weight: 800;
+  &:hover, &:active {
+  	span[data-hover] {
+	  	color: $primary-color;
+  	}
+  }
 }
 .one-page-header .navbar-nav > li > a span[data-hover] {
   // color: $primary-color;
@@ -258,11 +260,16 @@ a.btn-u-lg,
 /** Homepage **/
 
 section {
+	.main-title {
+		font-size: 46px;
+		letter-spacing: 0;
+		font-weight: 800;
+	}
 	p {
 		&.lead {
-			font-size: 20px;
+			font-size: 21px;
 			line-height: 32px;
-			font-weight: 300;
+			font-weight: 400;
 			color: $cc-dark-color;
 			strong, b {
 				font-weight: 600;
@@ -477,7 +484,7 @@ ul.promo-section-direction-nav {
 		border: none;
 		background: none !important;
 		border-radius: 100%;
-		color: $cs-blue-light !important;
+		color: $cs-blue !important;
 	
 		&.icon-lg {
 			width: 100px;
@@ -535,7 +542,7 @@ ul.promo-section-direction-nav {
 			font-weight: 600;
 			letter-spacing: 0;
 			text-transform: uppercase;
-			color: $cs-blue-light;
+			color: $cs-blue;
 			margin: 0 0 30px;
 			position: relative;
 			&::after {
@@ -545,7 +552,7 @@ ul.promo-section-direction-nav {
 		    content: " ";
 		    position: absolute;
 				top: 38px;
-				background: $cs-blue-light;
+				background: $cs-blue;
 			}
 		}
 		p {
@@ -591,7 +598,7 @@ ul.promo-section-direction-nav {
   // url(../media/assets/software-hero.jpg)   
   // no-repeat 50% 50% / cover
   .action-section-inner {
-  	height: 500px;
+  	// height: 500px;
   }  
 }
 
@@ -676,15 +683,11 @@ ul.promo-section-direction-nav {
 		position: relative;
 		overflow: hidden;
     background: url(../media/assets/partners-hero.jpg) no-repeat 50% 50% / cover;    
-    p {
-    	font-size: 20px;
-    	font-weight: 100;
-    }
-
     .action-follow {
     	position: absolute;
     	z-index: 100;
     	left: 50%;
+    	bottom: -6%;
 			margin-left: -25px;
 			text-align: center;
 			i.icon-custom {
@@ -781,6 +784,11 @@ ul.promo-section-direction-nav {
 	h2 {
 		color: #fff;
 	}
+	.headline-after  {
+		&::after {
+			background: rgba(255,255,255,.5);
+		}
+	}
 	.headline-after .headline-name,
 	h3 {
 		color: rgba(255,255,255,.5);
@@ -801,7 +809,7 @@ ul.promo-section-direction-nav {
 	}
 
 	.contact-blocks {
-		border-right: 1px solid $primary-color;
+		border-right: 1px solid rgba(255,255,255,.5);
 		&:last-child {
 			border: none;
 		}
@@ -818,7 +826,8 @@ ul.promo-section-direction-nav {
 			font-size: 50px;
 			margin-bottom: 18px;
 			border: none;
-			font-weight: normal;			
+			font-weight: normal;		
+			color: rgba(255,255,255,0.5) !important;	
 		}
 	}
 
@@ -873,30 +882,30 @@ ul.promo-section-direction-nav {
 	h3 {
 		letter-spacing: 0;
 		text-transform: uppercase;
-		color: $cs-blue;
+		color: $cs-light-color;
 		font-size: 12px;
 		line-height: 1.4;
 		font-weight: 700;
 	}
 }
 
-
 .pre-footer {
-	border-top: 1px solid $cs-blue;
+	background-color: $cs-green; 
 	.container {
 		border-top: none;
 	}
 	p {
 		// font-size: 92.5%;
-		color: #505050;
+		color: #fff;
 		a {
-			color: #343434;
+			color: #fff;
+			text-decoration: underline;
 		}
 	}
 	li {
 		// font-size: 92.5%;
 		a {
-			color: #505050;
+			color: #fff;
 		}
 	}
 }
@@ -970,9 +979,6 @@ section.history-section {
 	color: #fff;
 	h1, h2, h3, h4, h5, p {
 		color: #fff;
-	}
-	h2 {
-		font-size: 40px;
 	}
 	a.btn-u-lg {
 		padding: 18px 40px !important;

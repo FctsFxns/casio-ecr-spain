@@ -3,7 +3,16 @@
 	.history-section {
     background: url(../media/assets/611404.jpg) no-repeat 50% 50% / cover;    
 		background: $cs-green;
-    img {
+		h3 {
+			color: $cc-light-color;
+			font-size: 12px;
+			font-style: normal;
+			font-weight: 600;
+			text-transform: uppercase;
+			display: block;
+			letter-spacing: 2px;
+		}
+		img {
     	display: none;
     }
 		a.btn-u {
@@ -13,14 +22,20 @@
 	.history-text {
 		h3 {
 			color: $cs-green;
-			font-size: 24px;
+			font-size: 30px;
 			font-weight: 700;
 		}
 		p {
-			font-size: 19px;
+			font-size: 16px;
+			font-weight: 400;
 			margin: 1.5em 0;
 			color: $cc-dark-color;
-			font-weight: 100;
+			&.lead {
+				color: $cc-darker-color;
+				font-size: 21px;
+				font-weight: 100;
+				line-height: 36px;
+			}
 		}
 	}
 }

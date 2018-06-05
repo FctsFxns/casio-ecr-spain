@@ -8,27 +8,29 @@ sitemap: 1
 intro:        'Lorem ipsum…'
 ---
 <!-- Intro Section -->
-<section class="action-section g-color-white--darker g-pt-10 g-mt-90" id="intro">
-	<div class="action-section-inner">
-    <div class="g-max-width--770 g-margin-side-auto">
-    	<h3 class="g-mb-10 g-color-white-dark">Habla con un representante de ventas de la compañía</h3>
-      <h2 class="g-mb-20 g-color-white">
-				Hazte distribuidor oficial CASIO
-      </h2>
-      <p class="g-color-white lead">
-      	Consigue ventajas competitivas además de ser acreditado por CASIO System Solutions España como un negocio referente en experiencia y calidad. 
-      	<br><br>
-	      Sé el referente CASIO en tu zona de negocio. Marca la diferencia con tus competidores y amplía la base de tus clientes. 
-	    </p>
-	    <p class="g-color-white g-mb-20  lead">
-				Rellena el formulario y contactaremos con tu negocio para empezar colaboración. 
-				<br><br>
-				¿Ya eres distribuidor y necesitas ayuda? <a href="{{ '/' | prepend: site.data.global.url }}contacto">Contacta con soporte</a>. 
-      </p>
+<section class="action-section g-color-white--darker g-pt-20 g-pb-70 g-mt-90" id="intro">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-0 col-md-10 col-md-offset-1 col-xs-12 col-2xs-12">
+	    	<h3 class="g-mb-10 g-color-white-dark">Habla con un representante de ventas de la compañía</h3>
+	      <h2 class="g-color-white g-mb-10 main-title">
+					Hazte distribuidor oficial CASIO
+	      </h2>
+	      <p class="g-color-white lead">
+	      	Consigue ventajas competitivas además de ser acreditado por CASIO System Solutions España como un negocio referente en experiencia y calidad. Sé el referente CASIO en tu zona de negocio. 
+	      	<br>
+		      Marca la diferencia con tus competidores y amplía la base de tus clientes. 
+		    </p>
+		    <p class="g-color-white g-mb-20">
+					Rellena el formulario y contactaremos con tu negocio para empezar colaboración. 
+					<br>
+					¿Ya eres distribuidor y necesitas ayuda? <a href="{{ '/' | prepend: site.data.global.url }}contacto">Contacta con soporte</a>. 
+	      </p>
+	    </div>
       <div class="action-follow page-scroll">
       	<a href="#contacto-distribuidor" class="" title="Scroll"><i class="icon-custom icon-lg rounded-x fa fa-angle-down "></i></a>
       </div>
-    </div>
+	  </div>
 	</div>
 </section>
 <!-- /Intro Section -->

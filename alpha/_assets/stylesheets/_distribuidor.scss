@@ -5,8 +5,11 @@
 			display: none;
 		}		
 	}
-
 	.sky-form {
+		fieldset {
+			padding: 25px 0 5px;
+		}
+
 		.action-buttons {
 			p {
 				line-height: 1.75;
@@ -22,30 +25,33 @@
 	}
 
 	// Capçalera principal
-	.action-section-inner {
-		height: 500px;
-	}
 	.action-section {
+		padding-top: 80px;
+		position: relative;
 		i.icon-custom {
 			border-color: #fff;
 			color: #fff;
 		}
 		h3 {
-			color: #eee;
-			letter-spacing: 1px;
+			color: $cc-light-color;
+			font-size: 12px;
+			font-style: normal;
+			font-weight: 600;
+			text-transform: uppercase;
+			display: block;
+			letter-spacing: 2px;
 		}
-		p {
-			font-size: 16px;
-			font-weight: 300;
-			strong, b {
-				font-weight: 400;
-			}
 
-			&.lead {				
-				font-size: 17px;
-				font-weight: 300;
+    p {
+			font-size: 16px;
+			font-weight: 400;
+			&.lead {
+					font-size: 21px;
+					line-height: 32px;
+					font-weight: 400;
 			}
-		}
+    }
+
 		a {
 			color: #fff;
 			text-decoration: underline;
@@ -59,7 +65,7 @@
 			display: none;
 		}
 		background-image: none;
-		background-color: $primary-color;
+		background-color: $cs-green;
 	}
 	&.page-gracias {
 		.action-section {

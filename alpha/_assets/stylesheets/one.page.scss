@@ -9,6 +9,7 @@ $cs-darkest:  		#000D2B;
 $cs-green:  			#00BABE;
 $cs-blue-light:		#00BDF5;
 $cs-blue:					#0057AC;
+$cs-light-color:  #dedede;
 
 // Colors
 $cc-primary:      #593F7F;
@@ -16,15 +17,21 @@ $text-color:      #999;
 $primary-color:   #0057AC;
 $link-color:      #00BDF5;
 $secondary-color: #e7e7e7;
-$third-color:     #00bfa5;
+$third-color:     #00BABE;
 
 $cc-darker-color: #111;
-
 $cc-dark-color:   #333;
 $cc-light-color:  #dedede;
 
 $primary-color-dark:  darken($primary-color, 20%);
 $primary-color-light: lighten($primary-color, 30%);
+
+@media (min-width: 1440px)   {
+	.container-fluid {
+		padding-right: 8em;
+		padding-left: 8em;
+	}
+}
 
 @import 'theme_color_base';
 @import 'custom';
