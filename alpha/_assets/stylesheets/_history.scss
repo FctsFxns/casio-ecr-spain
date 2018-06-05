@@ -2,7 +2,7 @@
 .page-historia {
 	.history-section {
     background: url(../media/assets/611404.jpg) no-repeat 50% 50% / cover;    
-		background: #4fbebe;
+		background: $cs-green;
     img {
     	display: none;
     }
@@ -12,7 +12,7 @@
 	}
 	.history-text {
 		h3 {
-			color: #4fbebe;
+			color: $cs-green;
 			font-size: 24px;
 			font-weight: 700;
 		}

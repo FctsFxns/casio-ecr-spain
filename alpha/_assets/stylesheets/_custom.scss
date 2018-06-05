@@ -245,6 +245,16 @@ a.btn-u-lg,
 .one-page-header .navbar-nav > li > a:hover span[data-hover] {
   font-weight: 800;	
 }
+.one-page-header .navbar-brand {
+	margin-right: 60px;
+}
+@media (min-width: 768px)  {
+	.navbar-brand {
+    // margin-left: -15px;
+    // margin-left: 0;
+	}
+}
+
 /** Homepage **/
 
 section {
@@ -760,6 +770,7 @@ ul.promo-section-direction-nav {
 	h2 {
 		color: #fff;
 	}
+	.headline-after .headline-name,
 	h3 {
 		color: rgba(255,255,255,.5);
 	}
@@ -770,6 +781,12 @@ ul.promo-section-direction-nav {
 		letter-spacing: 1px;
 		margin: 0;
 		font-weight: 600;
+	}
+	p {
+		font-size: 16px;
+	}
+	p, p.lead {
+		color: #fff;
 	}
 
 	.contact-blocks {
@@ -818,8 +835,10 @@ ul.promo-section-direction-nav {
 			background: none !important;
 		}
 		.checkbox {
-			color: $secondary-color !important;
 			font-size: 14px;
+			a {
+
+			}
 		}
 	}
 
@@ -843,7 +862,7 @@ ul.promo-section-direction-nav {
 	h3 {
 		letter-spacing: 0;
 		text-transform: uppercase;
-		color: $primary-color;
+		color: $cs-blue;
 		font-size: 12px;
 		line-height: 1.4;
 		font-weight: 700;
@@ -852,18 +871,19 @@ ul.promo-section-direction-nav {
 
 
 .pre-footer {
+	border-top: 1px solid $cs-blue;
 	.container {
 		border-top: none;
 	}
 	p {
-		font-size: 92.5%;
+		// font-size: 92.5%;
 		color: #505050;
 		a {
 			color: #343434;
 		}
 	}
 	li {
-		font-size: 92.5%;
+		// font-size: 92.5%;
 		a {
 			color: #505050;
 		}
@@ -935,7 +955,7 @@ ul.promo-section-direction-nav {
 
 section.history-section {
 	text-align: center;
-	background-color: #000d2b;
+	background-color: $cs-darkest;
 	color: #fff;
 	h1, h2, h3, h4, h5, p {
 		color: #fff;
