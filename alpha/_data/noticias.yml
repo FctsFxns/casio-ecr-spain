@@ -58,7 +58,7 @@
   media:        'media/noticias/caso-La-Cala-Cal-Pep.jpg'
   headline:     'La "Cala Cal Pep" apuesta por la excelencia de las soluciones CASIO'
   text:         > # this means to ignore newlines until next key
-    La cocina, el restaurante, los clientes, el entorno paradisiaco que nos rodea, el apoyo incondicional de la familia y el uso de nuevas tecnologías. Han confiado a **Vila Torrent** y Casio el Control y Registro del negocio.
+    La cocina, el restaurante, los clientes, el entorno paradisiaco que nos rodea, el apoyo de la familia y las nuevas tecnologías. Han confiado a **Vila Torrent** y Casio el Control y Registro del negocio.
   pdf:          '/media/pdf/casos/La-Cala-Cal-Pep.pdf'
 
 # El Petit Mos
@@ -82,5 +82,5 @@
   media:        'media/noticias/caso-taberna-1900-y-pico.jpg'
   headline:     'Equipos potentes, de diseño ergonómico, y con tecnología punta'
   text:         > # this means to ignore newlines until next key
-    **Jardín 1900 y Pico** se aprovecha de una nueva generación de comanderos profesionales, que mejoran la atención al cliente y la rentabilidad del negocio.
+    **Jardín 1900 y Pico** aprovecha la nueva generación de comanderos profesionales, que mejoran la atención al cliente y la rentabilidad del negocio.
   pdf:          '/media/pdf/casos/caso-jardin-1900-y-pico.pdf' 

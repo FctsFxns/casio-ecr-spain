@@ -67,10 +67,10 @@ h3 {
 
 #area-distribuidores .headline-after {
 	.headline-name {
-		color: $cs-green;
+		color: $cs-blue;
 	}
 	&:after {
-    background: $cs-green;
+    background: $cs-blue;
     left: 40px;
 	}
 }
@@ -500,7 +500,7 @@ ul.promo-section-direction-nav {
 .soluciones-section {
 	background: #fff;
 	i.icon-custom {
-		background: $cs-green !important;
+		background: $cs-blue !important;
 		border-radius: 100%;
 		color: #fff !important;
 		// font-size: 42px;
@@ -508,7 +508,7 @@ ul.promo-section-direction-nav {
 		border: none;
 		background: none !important;
 		border-radius: 100%;
-		color: $cs-green !important;
+		color: $cs-blue !important;
 	
 		&.icon-lg {
 			width: 100px;
@@ -520,12 +520,12 @@ ul.promo-section-direction-nav {
 
 	.soluciones-imagen {
 		position: relative;
-	  background: linear-gradient(0deg, $cs-green 50%, #fefefe 50%);
+	  background: linear-gradient(0deg, $cs-blue 50%, #fefefe 50%);
 		// &::before {
 		//     position: absolute;
 		//     top: 20%;
 		//     left: 0;
-		// 		background: $cs-green;
+		// 		background: $cs-blue;
 		//     height: 500px;
 		//     width: 100%;
 		//     content: " ";
@@ -533,7 +533,7 @@ ul.promo-section-direction-nav {
 		// }
 	}
 	.soluciones-beneficios {
-		// background: $cs-green;
+		// background: $cs-blue;
 		background: $cs-lightest;
 	}
 	.soluciones-productos {
@@ -543,23 +543,23 @@ ul.promo-section-direction-nav {
 
 }
 
-// .row-product-thumbnail {
-// 	.col-md-4:nth-child(1) {
-// 		.product-thumbnail:hover {
-// 			background: $cs-blue-triad-2;
-// 		}
-// 	}
-// 	.col-md-4:nth-child(2) {
-// 		.product-thumbnail:hover {
-// 			background: $cs-blue-triad-4;
-// 		}
-// 	}
-// 	.col-md-4:nth-child(3) {
-// 		.product-thumbnail:hover {
-// 			background: $cs-blue-triad-5;
-// 		}
-// 	}
-// }
+.row-product-thumbnail {
+	.col-md-4:nth-child(1) {
+		.product-thumbnail:hover {
+			background: $cs-blue-light;
+		}
+	}
+	.col-md-4:nth-child(2) {
+		.product-thumbnail:hover {
+			background: $cs-blue-compound-4;
+		}
+	}
+	.col-md-4:nth-child(3) {
+		.product-thumbnail:hover {
+			background: $cs-blue-triad-5;
+		}
+	}
+}
 
 .product-thumbnail {
 	// background: #fff;

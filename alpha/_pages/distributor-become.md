@@ -8,7 +8,7 @@ sitemap: 1
 intro:        'Lorem ipsum…'
 ---
 <!-- Intro Section -->
-<section class="action-section g-color-white--darker g-pt-20 g-pb-70 g-mt-90" id="intro">
+<section class="action-section g-color-white--darker g-bg-blue-light g-pt-20 g-pb-70 g-mt-90" id="intro">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-0 col-md-10 col-md-offset-1 col-xs-12 col-2xs-12">
@@ -227,7 +227,7 @@ intro:        'Lorem ipsum…'
 			  				<p><span class="color-red">Por favor, debe rellenar todos los campos requeridos antes de continuar.</span></p>
 				        <input name="char_02" type="hidden" value="website::distribuidores" />
 							  <input type="hidden" name="ok_redirect" value="http://www.casio-ecr.es/hemos-recibido-tu-solicitud-al-programa-de-distribuidores/">
-				  			<input type="submit" class="btn-u btn-u-lg btn-u-upper g-mt-20 g-mb-50" value="Enviar solicitud"/>
+				  			<input type="submit" class="btn-u btn-u-lg btn-u-upper g-mt-20 g-mb-50 btn-u-sea" value="Enviar solicitud"/>
 				  			<p>
 				  				* Campo requerido
 		 							<br><br>
