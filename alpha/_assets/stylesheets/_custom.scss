@@ -34,6 +34,10 @@ h3 {
 	padding-bottom: 40px;
 	margin-bottom: 40px;
 	color: $cc-darker-color;
+	
+	font-weight: 800;
+	font-size: 42px;
+	
 	span {
 		// color: $cs-green;
 	}
@@ -226,15 +230,15 @@ a.btn-u-lg,
 .one-page-header.top-nav-collapse .navbar-nav > li > a,
 .one-page-header.top-nav-collapse .navbar-nav > li > a:before {
   // color: $primary-color;
-  font-size: 14px;
-  font-weight: 800;
+  font-size: 13px;
+  font-weight: 700;
 	// padding: 0px 18px;
 }
 
 .one-page-header .navbar-nav > li > a {
   // color: $primary-color;
-  font-size: 14px;
-  font-weight: 800;
+  font-size: 13px;
+  font-weight: 700;
   &:hover, &:active {
   	span[data-hover] {
 	  	color: $primary-color;
@@ -243,15 +247,15 @@ a.btn-u-lg,
 }
 .one-page-header .navbar-nav > li > a span[data-hover] {
   // color: $primary-color;
-  font-size: 14px;
+  font-size: 13px;
 }
 .one-page-header .navbar-nav > li > a span[data-hover]:before {
 	color: $primary-color;
-  font-size: 14px;
-  font-weight: 800;
+  font-size: 13px;
+  font-weight: 700;
 }
 .one-page-header .navbar-nav > li > a:hover span[data-hover] {
-  font-weight: 800;	
+  font-weight: 700;	
 }
 .one-page-header .navbar-brand {
 	margin-right: 20px;
@@ -530,6 +534,23 @@ ul.promo-section-direction-nav {
 
 }
 
+.row-product-thumbnail {
+	.col-md-4:nth-child(1) {
+		.product-thumbnail:hover {
+			background: $cs-blue-triad-2;
+		}
+	}
+	.col-md-4:nth-child(2) {
+		.product-thumbnail:hover {
+			background: $cs-blue-triad-4;
+		}
+	}
+	.col-md-4:nth-child(3) {
+		.product-thumbnail:hover {
+			background: $cs-blue-triad-5;
+		}
+	}
+}
 
 .product-thumbnail {
 	// background: #fff;
@@ -540,7 +561,7 @@ ul.promo-section-direction-nav {
 			background: $cs-lightest;
 		}
 		p {
-			display: inline-block;
+			visibility: visible;
 		}
 	}
 	text-align: center;
@@ -561,7 +582,7 @@ ul.promo-section-direction-nav {
 		text-align: center;
 	}
 	p {
-		display: none;
+		visibility: hidden;
 		color: $cc-dark-color;
 		font-size: 14px;
 		font-weight: 100;
@@ -595,8 +616,8 @@ ul.promo-section-direction-nav {
 		}
 	}
 	.soluciones-consumo-imagen {
-		  background: linear-gradient(0deg, #ffffff 50%, $cs-green 50%);	
 		  background: $cs-green;	
+		  background: linear-gradient(0deg, #ffffff 50%, $cs-green 50%);	
 	}
 
 }
@@ -771,10 +792,11 @@ ul.promo-section-direction-nav {
 
 /* Projects Section */
 .projects-section {
-	background: $cs-blue-light;
+	background: $cs-lightest;
 	a.btn-more {
 		font-weight: 500;
-		color: #fff;
+		// color: #fff;
+		color: $cs-blue-light;
 		i {
 			margin-left: 2px;
 			font-size: 18px;
@@ -786,6 +808,9 @@ ul.promo-section-direction-nav {
 	}
 }
 .project-item {
+	.project-item__content {
+		background: #fff;
+	}
 	h3 {
 		color: $cc-darker-color;
 		font-size: 16px;
@@ -793,7 +818,7 @@ ul.promo-section-direction-nav {
 		letter-spacing: 0;
 		text-transform: uppercase;
 		a {
-			color: #111;
+			color: $cs-darkest;
 			&:hover {
 				color: $primary-color;
 			}
