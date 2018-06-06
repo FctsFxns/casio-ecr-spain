@@ -17,7 +17,7 @@ intro:      'Consigue las soluciones profesionales y servicios más avanzados. R
         <h2 class="g-mb-10 main-title">
         	40 años de experiencia
       	</h2>
-				<p class="lead g-mb-30">Casio ha estado en el negocio de la caja registradora electrónica durante más de 40 años, y lanzó su primer producto en 1976.</p>
+				<p class="lead g-mb-30 g-color-white">Casio ha estado en el negocio de la caja registradora electrónica durante más de 40 años, y lanzó su primer producto en 1976.</p>
 			</div>
 		</div>
 	</div>
