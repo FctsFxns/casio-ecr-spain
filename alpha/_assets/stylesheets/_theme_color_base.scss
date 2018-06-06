@@ -9,7 +9,7 @@
 /* Global */
 .g-color-default { color: $primary-color !important; }
 .g-color-link { color: $link-color !important; }
-.g-color-dark { color: #333 !important;}
+.g-color-dark { color: $cs-darkest !important;}
 .g-color-third { color: $third-color !important; }
 .g-color-green { color: $cs-green !important; }
 .g-color-light { color: $cs-light-color !important; }
@@ -24,6 +24,9 @@
 .g-bg-dark {    background-color: #222222 !important; }
 .g-bg-gray {    background-color: #505050 !important; }
 .g-bg-gray--light { background-color: #fafafa !important; }
+.g-bg-green {    background-color: $cs-green !important; }
+.g-bg-blue {    background-color: $cs-blue !important; }
+.g-bg-light {    background-color: $cs-light-color !important; }
 
 
 /* Custom */
