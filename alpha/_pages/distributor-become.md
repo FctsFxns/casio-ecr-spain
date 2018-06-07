@@ -217,7 +217,7 @@ intro:        'Lorem ipsum…'
 			  			<div class="col-sm-6 g-mb-30">
 								<label class="checkbox"><input name="char_11a" id="subscription" type="checkbox" required><i></i>He leído y acepto la <a href="{{ '/' | prepend: site.data.global.url }}proteccion-de-datos/" target="_blank" title="Política de protección de datos">Política de protección de datos</a></label>
 								<br>
-								<label class="checkbox"><input name="char_11" id="subscription" type="checkbox"><i></i>Apúntese a recibir comunicaciones de CASIO System Solutions.<br>Podrá darse de baja en cualquier momento.</label>
+								<label class="checkbox"><input name="char_11" id="subscription" type="checkbox" required><i></i>Apúntese a recibir comunicaciones de CASIO System Solutions.<br>Podrá darse de baja en cualquier momento.</label>
 							</div>
 					  </div>
 			  		<div class="row">

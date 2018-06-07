@@ -48,7 +48,7 @@ var ContactForm = function () {
 	          	},
 	          	messages: 
 	          	{
-	                'cm-name':
+	                'char_01':
 	                {
 	                    required: 'Indique su nombre, por favor',
 	                },
@@ -67,6 +67,14 @@ var ContactForm = function () {
 	                'char_04':
 	                {
 	                    required: 'Es preciso informar este campo',
+	                },
+	                'char_11a':
+	                {
+	                    required: 'Es preciso aceptar las condiciones legales',
+	                },
+	                'char_11':
+	                {
+	                    required: 'Es preciso aceptar las condiciones legales',
 	                },
 	                // Nombre de la empresa
 	                'char_05':
