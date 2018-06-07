@@ -307,6 +307,11 @@ section {
 	position: relative;
 	background: transparent;
 	overflow: hidden;
+	.wrapper, .img-wrapper {
+		z-index: 1;
+		background: none;
+	}
+
 	&::before {
     left: 0;
   	top: 0;
@@ -315,22 +320,48 @@ section {
     height: 68%;
     position: absolute;
 
-	  background-image: url(../media/assets/software-hero.png);
+	  background-image: url(../media/assets/partners-hero.png);
 	  background-position: center 112%;
 		background-size: 58%;
 		background-repeat: no-repeat;
 
-		background-image: url(https://epos.casio.co.uk/hubfs/EPOS%202017/epos-hero-home-purple5.jpg?t=1528345715855);
+	  background-image: url(../media/assets/partners-hero.jpg);
+
+	  background-image: url(../media/assets/stock-photo-andalusia-spain-march-waiters-inside-a-decorated-and-typical-tapas-bar-in-a-central-1105709234.jpg);
+
+	  background-image: url(../media/assets/epos-hero-solution2.jpg);
+	  background-image: url(../media/assets/epos-hero-solutions.jpg);
 	  background-position: center 20%;
 		background-size: cover;
 		min-height: 500px !important;
 
 	}
+
+	// &::after {
+	//     left: 0;
+	//   	top: 0;
+	//     content: '';
+	//     width: 100%;
+	//     height: 68%;
+	//     position: absolute;
+	// 	  background-image: url(../media/assets/0052A2-0.7.png);
+	// 		background-repeat: repeat;
+	// 		min-height: 500px !important;
+	// }
+
 	img {
 		margin-left: 4em;
 		margin-top: 6em;
 	}
 
+	.btn-brd {
+		border: 2px solid;
+		&:hover {
+			border: 2px solid #fff;
+			background: #fff;
+			color: $cs-green;
+		}
+	}
 
 		// background-image: url(../media/assets/39309401_l.jpg);
 
