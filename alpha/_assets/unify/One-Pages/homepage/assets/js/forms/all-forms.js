@@ -53,48 +53,48 @@ var ContactForm = function () {
 	                    required: 'Indique su nombre, por favor',
 	                },
 	                // Teléfono
-	                'cm-f-dylidtkt':
+	                'char_03':
 	                {
 	                    required: 'Indique su nº de teléfono, por favor',
 	                },
 	                // Email
-	                'cm-uylhwu-uylhwu':
+	                'email_1':
 	                {
 	                    required: 'Por favor, indique su dirección de correo electrónico',
 	                    email: 'Por favor, indique su dirección de correo electrónico'
 	                },
 	                // Posicion laboral
-	                'cm-f-dylidtki':
+	                'char_04':
 	                {
 	                    required: 'Es preciso informar este campo',
 	                },
 	                // Nombre de la empresa
-	                'cm-f-dylidtkd':
+	                'char_05':
 	                {
 	                    required: 'Es preciso informar este campo',
 	                },
 	                // Ciudad
-	                'cm-f-dylidtkk':
+	                'char_07':
 	                {
 	                    required: 'Es preciso informar este campo',
 	                },
 	                // Asunto
-	                'cm-f-dylidtur':
+	                'text_1':
 	                {
 	                    required: 'Es preciso informar este campo',
 	                },
 	                // Provincia
-	                'cm-f-dylidtku':
+	                'char_08':
 	                {
 	                    required: 'Es preciso informar este campo',
 	                },
 	                // Nº de empleados
-	                'cm-fo-dylidtkh':
+	                'char_06':
 	                {
 	                    required: 'Es preciso informar este campo',
 	                },
 	                // Soluciones , intereses.
-	                'cm-f-dylidtuy':
+	                'char_10':
 	                {
 	                    required: 'Es preciso informar este campo',
 	                },

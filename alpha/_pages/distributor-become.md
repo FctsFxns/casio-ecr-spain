@@ -164,7 +164,7 @@ intro:        'Lorem ipsum…'
 			  		</div>
 			  		<div class="row">
 			  			<div class="col-sm-6 g-mb-30">
-				  			<label class="label" >Página web *</label>
+				  			<label class="label" >Página web</label>
 		            <label class="input">
 		              <input type="text" id="fielddylidtul" name="char_09" placeholder="Página web">
 		            </label>
