@@ -5,9 +5,10 @@
 
 
 // Page legal
-.page-legal {
+.page-legal .legal-wrapper {
 	word-wrap: break-word;
 	text-size-adjust: 100%;
+	background: $cs-lightest;
 	h1 {
 		color: #000;
 		font-size: 2em;
