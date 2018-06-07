@@ -11,16 +11,16 @@
 				{% for item in site.data.noticias %}
 					{% capture currentmod %}{{ forloop.index0 | mod:3 }}{% endcapture %}
 					{% if currentmod == '0' or forloop.first %}
-		      <div class="row row-projects">
+		      <div class="row row-projects ">
   				{% endif %}
-		      	<div class="col-sm-4 g-mb-40">
-		      		<div class="project-item">
-				        <img src="{{ item.media }}" alt="{{ item.title }}" title="{{ item.title }}"  class="img-responsive">
-				        <div class="project-item__content">
-				          <h3 class="g-mb-20">{{ item.headline }}</h3>
-				          {{ item.text | markdownify }}
-									<p class="no-margin-bottom g-mt-30"><a class="read-more " href="{{ item.pdf }}" target="_blank"><i class="fa fa-file-pdf-o">&nbsp;</i>Leer en PDF</a></p>
-				        </div>
+		      	<div class="col-sm-4 g-mb-40 ">
+		      		<div class="project-item ">
+					        <img src="{{ item.media }}" alt="{{ item.title }}" title="{{ item.title }}"  class="img-responsive">
+					        <div class="project-item__content">
+					          <h3 class="g-mb-20">{{ item.headline }}</h3>
+					          {{ item.text | markdownify }}
+										<p class="no-margin-bottom g-mt-30"><a class="read-more " href="{{ item.pdf }}" target="_blank"><i class="fa fa-file-pdf-o">&nbsp;</i>Leer en PDF</a></p>
+					        </div>
 		      		</div>
 		      	</div>
 					<!-- Modulo 3 equals 0, only -->

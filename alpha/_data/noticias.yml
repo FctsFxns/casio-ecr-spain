@@ -34,7 +34,7 @@
   media:        'media/noticias/caso-sala-gatsby.jpg'
   headline:     '"Sala Gatsby" se decide por las V-R7000 con sistema operativo Android'
   text:         > # this means to ignore newlines until next key
-    En la cresta de la ola. No es casualidad que los locales más exclusivos busquen herramientas acordes a sus instalaciones. **TAHC4** se ha encargado de dirigir este proyecto.
+    En la cresta de la ola. No es casualidad que los locales más exclusivos busquen herramientas acordes a sus instalaciones. **TAHC4** se ha encargado de este proyecto.
   pdf:          '/media/pdf/casos/gran-gatsby.pdf'
 
 # The Blue Bar
@@ -74,7 +74,7 @@
   media:        'media/noticias/caso-dondeeljamon.jpg'
   headline:     'Así ayudó la plataforma Android de CASIO a una taberna de ibéricos'
   text:         > # this means to ignore newlines until next key
-    El propietario de **“Donde el Jamón”**, en el centro de Palma de Mallorca sabía que, para atender a un gran volumen de clientes, debía tener un sistema ágil y sencillo para su equipo.
+    El propietario de **Donde el Jamón**, en Palma de Mallorca sabía que, para atender a un gran volumen de clientes, precisaba de un sistema ágil y sencillo para su equipo.
   pdf:          '/media/pdf/casos/Donde-el-jamon.pdf' 
 
 #Jardín 1900 y pico

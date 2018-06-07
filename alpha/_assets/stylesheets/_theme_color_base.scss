@@ -45,6 +45,32 @@
 }
 
 
+.btn-u.btn-u-blue {
+  background: $cs-blue;
+}
+.btn-u.btn-u-blue:hover,
+.btn-u.btn-u-blue:focus,
+.btn-u.btn-u-blue:active,
+.btn-u.btn-u-blue.active,
+.open .dropdown-toggle.btn-u.btn-u-blue {
+  background: lighten($cs-blue, 8%);
+  // background: $cs-green;
+  // color: #222222;
+}
+
+.btn-u.btn-u-aqua {
+  background: $cs-blue-light;
+}
+.btn-u.btn-u-aqua:hover,
+.btn-u.btn-u-aqua:focus,
+.btn-u.btn-u-aqua:active,
+.btn-u.btn-u-aqua.active,
+.open .dropdown-toggle.btn-u.btn-u-aqua {
+  background: darken($cs-blue-light, 8%);
+  // background: $cs-green;
+  // color: #222222;
+}
+
 .headline-after {
   &:after {
     background: $primary-color;
