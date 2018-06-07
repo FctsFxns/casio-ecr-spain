@@ -13,7 +13,7 @@ intro:      'Consigue las soluciones profesionales y servicios más avanzados. R
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-7 col-lg-offset-0 col-md-10 col-md-offset-1 col-xs-12 col-2xs-12">
-	    	<h3 class="g-mb-10 g-color-white-dark">Conoce nuestra historia</h3>
+	    	<h3 class="g-mb-10 ">Conoce nuestra historia</h3>
         <h2 class="g-mb-10 main-title">
         	40 años de experiencia
       	</h2>
