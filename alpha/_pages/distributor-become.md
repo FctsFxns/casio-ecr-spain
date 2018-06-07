@@ -11,17 +11,17 @@ intro:        'Lorem ipsum…'
 <section class="action-section g-color-white--darker g-bg-blue-light g-pt-20 g-pb-70 g-mt-90" id="intro">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-lg-8 col-lg-offset-0 col-md-10 col-md-offset-1 col-xs-12 col-2xs-12">
+			<div class="col-lg-8 col-lg-offset-1 col-md-10 col-md-offset-1 col-xs-12 col-2xs-12">
 	    	<h3 class="g-mb-10 g-color-white-dark">Habla con un representante de ventas de la compañía</h3>
 	      <h2 class="g-color-white g-mb-10 main-title">
 					Hazte distribuidor oficial CASIO
 	      </h2>
-	      <p class="g-color-white lead">
+	      <p class="g-color-white lead ">
 	      	Consigue ventajas competitivas además de ser acreditado por CASIO System Solutions España como un negocio referente en experiencia y calidad. Sé el referente CASIO en tu zona de negocio. 
 	      	<br>
 		      Marca la diferencia con tus competidores y amplía la base de tus clientes. 
 		    </p>
-		    <p class="g-color-white g-mb-20">
+		    <p class="g-color-white g-mb-20 ">
 					Rellena el formulario y contactaremos con tu negocio para empezar colaboración. 
 					<br>
 					¿Ya eres distribuidor y necesitas ayuda? <a href="{{ '/' | prepend: site.data.global.url }}contacto">Contacta con soporte</a>. 
@@ -36,7 +36,7 @@ intro:        'Lorem ipsum…'
 <!-- /Intro Section -->
 
 <!-- Contact Section -->
-<section class="contacto-distribuidor-section g-pt-60 g-pb-90" id="contacto-distribuidor">
+<section class="contacto-distribuidor-section g-pt-60 g-pb-40" id="contacto-distribuidor">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
@@ -213,32 +213,25 @@ intro:        'Lorem ipsum…'
 			  			<div class="col-sm-6 g-mb-30">
 			  			</div>
 			  		</div>
-			  		<div class="row">
-			  			<div class="col-sm-6 g-mb-60">
-								<label class="label">Apúntese a recibir comunicaciones de CASIO System Solutions.<br>Podrá darse de baja en cualquier momento.</label>
-								<div class="inline-group">
-									<label class="radio"><input type="radio" name="radio-inline" checked id="fielddylidtuj" name="char_11" value="SI"><i class="rounded-x"></i>Sí</label>
-									<label class="radio"><input type="radio" name="radio-inline" id="fielddylidtuj" name="char_11" value="NO"><i class="rounded-x"></i>No</label>
-								</div>
-			  			</div>
-			  		</div>
+						<div class="row ">
+			  			<div class="col-sm-6 g-mb-30">
+								<label class="checkbox"><input name="char_11a" id="subscription" type="checkbox" required><i></i>He leído y acepto la <a href="{{ '/' | prepend: site.data.global.url }}proteccion-de-datos/" target="_blank" title="Política de protección de datos">Política de protección de datos</a></label>
+								<br>
+								<label class="checkbox"><input name="char_11" id="subscription" type="checkbox"><i></i>Apúntese a recibir comunicaciones de CASIO System Solutions.<br>Podrá darse de baja en cualquier momento.</label>
+							</div>
+					  </div>
 			  		<div class="row">
 			  			<div class="col-sm-6 g-mb-30 action-buttons">
-			  				<p><span class="color-red">Por favor, debe rellenar todos los campos requeridos antes de continuar.</span></p>
+			  				<p class="hidden"><span class="color-red">Por favor, debe rellenar todos los campos requeridos antes de continuar.</span></p>
 				        <input name="char_02" type="hidden" value="website::distribuidores" />
 							  <input type="hidden" name="ok_redirect" value="http://www.casio-ecr.es/hemos-recibido-tu-solicitud-al-programa-de-distribuidores/">
-				  			<input type="submit" class="btn-u btn-u-lg btn-u-upper g-mt-20 g-mb-50 btn-u-sea" value="Enviar solicitud"/>
-				  			<p>
-				  				* Campo requerido
-		 							<br><br>
-									Su información será empleada de cuadro a la <a href="{{ '/' | prepend: site.data.global.url }}politica-de-privacidad/">política de privacidad</a> de CASIO System Solutions. Al enviar este formulario, está usted de acuerdo a compartir esta información con CASIO.
-				  			</p>
+				  			<input type="submit" class="btn-u btn-u-lg btn-u-upper g-mt-20 g-mb-50 btn-u-aqua" value="Enviar solicitud"/>
 			  			</div>
 			  		</div>
 		  		</fieldset>
 					<div class="message text-center">
 						<i class="sky-form__message-icon rounded-x fa fa-check"></i>
-						<p>Your message was successfully sent!</p>
+						<p>Tu mensaje se ha enviado con éxito.</p>
 					</div>
 				</form>
 		    <!-- /Contact Form -->

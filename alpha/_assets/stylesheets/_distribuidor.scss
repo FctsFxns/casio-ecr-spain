@@ -9,7 +9,23 @@
 		fieldset {
 			padding: 25px 0 5px;
 		}
-
+		label {
+			color: $cs-blue;
+		}
+		.checkbox {
+			font-size: 14px;
+			line-height: 1.666;
+			color: #555;
+			color: $cs-blue;
+			i {
+				top: 5px;
+				width: 14px;
+				height: 14px;
+			}
+			a {
+				color: $cs-blue-light;
+			}
+		}
 		.action-buttons {
 			p {
 				line-height: 1.75;

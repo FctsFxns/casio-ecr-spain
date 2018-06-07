@@ -23,7 +23,7 @@
           "message": "Utilizamos cookies propias y de terceros para mejorar nuestros servicios mediante el análisis de sus hábitos de navegación. Si continua navegando, consideramos que acepta su uso.",
           "dismiss": "De acuerdo",
           "link": "Saber más",
-          "href": "/politica-de-privacidad/#cookies"
+          "href": "/proteccion-de-datos/"
         }
       })});
 
