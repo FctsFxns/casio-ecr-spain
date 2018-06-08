@@ -224,7 +224,7 @@ intro:        'Lorem ipsum…'
 			  			<div class="col-sm-6 g-mb-30 action-buttons">
 			  				<p class="hidden"><span class="color-red">Por favor, debe rellenar todos los campos requeridos antes de continuar.</span></p>
 				        <input name="char_02" type="hidden" value="website::distribuidores" />
-							  <input type="hidden" name="ok_redirect" value="http://www.alpha.casio-ecr.es//hemos-recibido-tu-solicitud-al-programa-de-distribuidores/">
+							  <input type="hidden" name="ok_redirect" value="http://www.alpha.casio-ecr.es/hemos-recibido-tu-solicitud-al-programa-de-distribuidores/">
 				  			<input type="submit" class="btn-u btn-u-lg btn-u-upper g-mt-20 g-mb-50 btn-u-aqua" value="Enviar solicitud"/>
 			  			</div>
 			  		</div>
