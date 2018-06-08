@@ -230,8 +230,8 @@ intro:        'Lorem ipsum…'
 			  		</div>
 		  		</fieldset>
 					<div class="message text-center">
-						<i class="sky-form__message-icon rounded-x fa fa-check"></i>
-						<p>Tu mensaje se ha enviado con éxito.</p>
+						 <i class="sky-form__message-icon rounded-x fa fa-check"></i>
+						 <p>Tu mensaje se ha enviado con éxito.</p>
 					</div>
 				</form>
 		    <!-- /Contact Form -->
