@@ -8,7 +8,7 @@ sitemap: 0
 ---
 <h2>1. Responsable del tratamiento</h2>
 
-<p>La presente política de protección de datos se aplica a los datos de carácter personal que CASIO ESPAÑA, S.L. (Casio), con domicilio en C/ Josep Plà, 2 Torre B2, 08019 Barcelona, dirección e-mail <a href="mailto:miguelmesa@casio.es">miguelmesa@casio.es</a> , en calidad de Responsable del Tratamiento, recoge y trata a través de este sitio web.</p>
+<p>La presente política de protección de datos se aplica a los datos de carácter personal que CASIO ESPAÑA, S.L. (Casio), con domicilio en C/ Josep Plà, 2 Torre B2, 08019 Barcelona, dirección e-mail <a href="mailto:rgpd@casiocloud.info">rgpd@casiocloud.info</a> , en calidad de Responsable del Tratamiento, recoge y trata a través de este sitio web.</p>
 
 <h2>2. Información relativa a datos recogidos a través del formulario de contacto o a través de la dirección de correo electrónico de contacto</h2>
 
@@ -44,11 +44,14 @@ sitemap: 0
 
 <p>En el caso de las cookies puede consultar la <a href="{{ '/' | prepend: site.data.global.url }}politica-de-cookies">Política de cookies</a> donde se indica cómo rechazarlas.</p>
 
-<p>Los usuarios que quieran ejercer estos derechos ante Casio, deberán dirigir un correo electrónico a <a href="mailto:miguelmesa@casio.es">miguelmesa@casio.es</a> indicando los datos que proporcionaron al cumplimentar el formulario.</p>
+<p>Los usuarios que quieran ejercer estos derechos ante Casio, deberán dirigir un correo electrónico a <a href="mailto:rgpd@casiocloud.info">rgpd@casiocloud.info</a> indicando los datos que proporcionaron al cumplimentar el formulario.</p>
+
 
 <p>Se recuerda a los usuarios que tienen derecho a presentar una reclamación ante la autoridad de control competente o si desean obtener más información sobre su derecho a la protección de datos. En España la autoridad de control competente sería la Agencia Española de Protección de Datos. Pueden ponerse en contacto con la misma a través de su sitio web www.agpd.es.</p>
 
+<p>La presente Política de Privacidad se emite al amparo de la Ley Orgánica 15/1999 de 13 de diciembre, el R.D. de desarrollo de la misma, 1720/2007, y por el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo de 27 de abril de 2016.</p>
+
 <p>Casio mantendrá un registro de las versiones de esta Política de protección de datos.</p>
 
-<p><em>Versión de fecha: 20 de Marzo de 2018</em></p>         
+<p><small>Versión de fecha: 18 de Mayo de 2018</small></p>	  			
       

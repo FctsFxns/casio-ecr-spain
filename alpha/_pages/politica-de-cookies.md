@@ -56,5 +56,4 @@ Preferencias -> Seguridad. Para más información, puede consultar el <a href="
 
 <p>Casio mantendrá un registro de las versiones de esta Política de cookies.</p>
 
-
-<p><em>Versión de fecha: 20 de Marzo de 2018</em></p>	  			
+<p><em>Versión de fecha: 18 de Mayo de 2018</em></p>	  			

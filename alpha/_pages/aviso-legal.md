@@ -8,7 +8,7 @@ sitemap: 0
 ---
 <h2>1. Información del titular del sitio web</h2>
 
-<p>El titular del sitio web es la sociedad Casio España, S.L. (en adelante, "Casio"), con domicilio social en la calle Josep Plà, 2 – Torre B-2 – 12 - 08019 Barcelona y correo electrónico <a href="mailto:info@casio-ecr.es">info@casio-ecr.es</a>. Casio es una sociedad inscrita en el Registro Mercantil de Barcelona, Tomo 33.673, folio 1, hoja B-233.746, con CIF número B-62600234.</p>
+<p>El titular del sitio web es la sociedad Casio España, S.L. (en adelante, "Casio"), con domicilio social en la calle Josep Plà, 2 – Torre B-2 – 12 - 08019 Barcelona y correo electrónico <a href="mailto:rgpd@casiocloud.info">rgpd@casiocloud.info</a>. Casio es una sociedad inscrita en el Registro Mercantil de Barcelona, Tomo 33.673, folio 1, hoja B-233.746, con CIF número B-62600234.</p>
 
 <h2>2. Objeto</h2>
 
@@ -84,4 +84,4 @@ sitemap: 0
 
 <p>Casio mantendrá un registro de las versiones de este Aviso legal.</p>
 
-<p><em>Versión de fecha: 20 de Marzo de 2018</em></p>	  			
+<p><em>Versión de fecha: 18 de Mayo de 2018</em></p>	  			

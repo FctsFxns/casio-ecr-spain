@@ -320,16 +320,16 @@ section {
     height: 68%;
     position: absolute;
 
-	  background-image: url(../media/assets/partners-hero.png);
+	  // background-image: url(../media/assets/partners-hero.png);
 	  background-position: center 112%;
 		background-size: 58%;
 		background-repeat: no-repeat;
 
-	  background-image: url(../media/assets/partners-hero.jpg);
+	  // background-image: url(../media/assets/partners-hero.jpg);
 
-	  background-image: url(../media/assets/stock-photo-andalusia-spain-march-waiters-inside-a-decorated-and-typical-tapas-bar-in-a-central-1105709234.jpg);
+	  // background-image: url(../media/assets/stock-photo-andalusia-spain-march-waiters-inside-a-decorated-and-typical-tapas-bar-in-a-central-1105709234.jpg);
 
-	  background-image: url(../media/assets/epos-hero-solution2.jpg);
+	  // background-image: url(../media/assets/epos-hero-solution2.jpg);
 	  background-image: url(../media/assets/epos-hero-solutions.jpg);
 	  background-position: center 20%;
 		background-size: cover;
@@ -665,7 +665,7 @@ ul.promo-section-direction-nav {
 	.row-product-thumbnail {
 		.col-md-4:nth-child(1) {
 			.product-thumbnail:hover {
-				background: $cs-blue-light;
+				background:  $cs-green-triad-2;
 			}
 		}
 		.col-md-4:nth-child(2) {
@@ -675,7 +675,7 @@ ul.promo-section-direction-nav {
 		}
 		.col-md-4:nth-child(3) {
 			.product-thumbnail:hover {
-				background:  $cs-green-triad-2;
+				background: $cs-blue-light;
 			}
 		}
 	}
