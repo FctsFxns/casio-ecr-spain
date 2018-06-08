@@ -11,7 +11,7 @@ bundle check || bundle install
 export JEKYLL_ENV=production
 
 # Download analytics
-# wget https://www.google-analytics.com/analytics.js
+wget https://www.google-analytics.com/analytics.js
 
 # Add credentials
 echo "ftp_username: ${ftp_username}" >> _glynn.yml
