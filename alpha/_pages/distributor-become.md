@@ -83,11 +83,11 @@ intro:        'Lorem ipsum…'
 								<label class="select">
 									<select required  id="fielddylidtkh" name="char_06">
 										<option disabled selected>Nº de empleados</option>
-										<option value="9549764">0 - 2</option>
-										<option value="9549765">3 - 5</option>
-										<option value="9549766">6 - 10</option>
-										<option value="9549767">11 - 50</option>
-										<option value="9549768">50+</option>
+										<option value="0-2">0 - 2</option>
+										<option value="3-5">3 - 5</option>
+										<option value="6-10">6 - 10</option>
+										<option value="11-50">11 - 50</option>
+										<option value="+50">50+</option>
 									</select>
 									<i></i>
 								</label>
