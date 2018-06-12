@@ -178,7 +178,7 @@ intro:        'Lorem ipsum…'
 			  		</div>
 			  		<div class="row">
 			  			<div class="col-sm-6 g-mb-30">
-				  			<label class="label" >¿En qué soluciones CASIO está usted interesado principalmente? *</label>
+				  			<label class="label" >¿En qué soluciones CASIO estás interesado principalmente? *</label>
 								<label class="select">
 									<select required id="fielddylidtuy" name="char_10">
 										<option disabled selected>Escoja una opción</option>
@@ -205,7 +205,7 @@ intro:        'Lorem ipsum…'
 			  		</div>
 			  		<div class="row">
 			  			<div class="col-sm-6 g-mb-30">
-				  			<label class="label">Explíquenos un poco sobre su interés</label>
+				  			<label class="label">Explícanos un poco sobre tu interés</label>
 		            <label class="textarea textarea-expandable">
 			            <textarea rows="3" id="fielddylidtur" name="text_1" ></textarea>
 		            </label>
@@ -217,7 +217,7 @@ intro:        'Lorem ipsum…'
 			  			<div class="col-sm-6 g-mb-30">
 								<label class="checkbox"><input name="char_11a" id="subscription" type="checkbox" required><i></i>He leído y acepto la <a href="{{ '/' | prepend: site.data.global.url }}proteccion-de-datos/" target="_blank" title="Política de protección de datos">Política de protección de datos</a></label>
 								<br>
-								<label class="checkbox"><input name="char_11" id="subscription" type="checkbox" required><i></i>Apúntese a recibir comunicaciones de CASIO System Solutions.<br>Podrá darse de baja en cualquier momento.</label>
+								<label class="checkbox"><input name="char_11" id="subscription" type="checkbox" required><i></i>Apúntate a recibir comunicaciones de CASIO System Solutions.<br>Podrás darte de baja en cualquier momento.</label>
 							</div>
 					  </div>
 			  		<div class="row">

@@ -334,10 +334,8 @@ section {
 	  background-image: url(../media/assets/shutterstock_1056447152.jpg);
 	  background-position: center top;
 		background-size: cover;
-		min-height: 600px !important;
-
+		min-height: 500px !important;
 	}
-
 	&::after {
 	    left: 0;
 	  	top: 0;
@@ -347,14 +345,12 @@ section {
 	    position: absolute;
 		  background-image: url(../media/assets/0052A2-0.6.png);
 			background-repeat: repeat;
-			min-height: 600px !important;
+			min-height: 500px !important;
 	}
-
 	img {
-		margin-left: 4em;
+		margin-left: 6em;
 		margin-top: 6em;
 	}
-
 	.btn-brd {
 		border: 2px solid;
 		&:hover {
