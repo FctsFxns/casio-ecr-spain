@@ -5,6 +5,22 @@
       App.init();
       ContactForm.initContactForm();
 
+      if ($("body").hasClass("page-home-show-demo")) {
+          $(window).scroll(function() {
+              if ($(window).scrollTop() > $(window).height() * 3)
+              {
+                  // middle of page hit, load extra content here
+                  $.jsdvPopup({
+                    icon: '',
+                    text: 'Pide que te hagamos una DEMO.',
+                    button: '<a href="/contacto" class="btn-u btn-u-default btn-u-lg btn-u-upper btn-block ">Solicita una demo</a>' 
+                  });
+                  // Don't repeat
+                  $(this).unbind('scroll');
+              }
+          });
+      }
+
       // Cookie consent
       window.addEventListener("load", function(){
       window.cookieconsent.initialise({
@@ -18,7 +34,7 @@
             "text": "#e7e7e7"
           }
         },
-        "position": "top",
+        "position": "bottom",
         "content": {
           "message": "Utilizamos cookies propias y de terceros para mejorar nuestros servicios mediante el análisis de sus hábitos de navegación. Si continua navegando, consideramos que acepta su uso.",
           "dismiss": "De acuerdo",

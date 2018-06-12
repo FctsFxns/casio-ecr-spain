@@ -16,3 +16,5 @@
 //= require One-Pages/homepage/assets/js/forms/all-forms
 //= require One-Pages/homepage/assets/js/plugins/infoblock
 //= require One-Pages/homepage/assets/js/plugins/promo
+
+//= require jsdvPopup.js
