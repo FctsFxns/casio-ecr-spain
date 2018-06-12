@@ -18,7 +18,7 @@
             "text": "#e7e7e7"
           }
         },
-        "position": "bottom-right",
+        "position": "top",
         "content": {
           "message": "Utilizamos cookies propias y de terceros para mejorar nuestros servicios mediante el análisis de sus hábitos de navegación. Si continua navegando, consideramos que acepta su uso.",
           "dismiss": "De acuerdo",
