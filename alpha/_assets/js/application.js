@@ -13,7 +13,7 @@
                   $.jsdvPopup({
                     icon: '',
                     text: 'Pide que te hagamos una DEMO.',
-                    button: '<a href="/contacto" class="btn-u btn-u-default btn-u-lg btn-u-upper btn-block ">Solicita una demo</a>' 
+                    button: '<a href="/contacto" class="btn-u btn-u-blue btn-u-lg btn-u-upper btn-block ">Solicita una demo</a>' 
                   });
                   // Don't repeat
                   $(this).unbind('scroll');
