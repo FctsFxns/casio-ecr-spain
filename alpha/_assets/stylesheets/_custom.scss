@@ -1182,22 +1182,25 @@ a.btn-more {
 }
 
 .pre-footer {
-	background-color: $cs-blue; 
+	background-color: $cs-lightest; 
+	h3 {
+		color: $cs-blue;
+	}
 	.container {
 		border-top: none;
 	}
 	p {
 		// font-size: 92.5%;
-		color: #fff;
+		color: darken($text-color,10%);
 		a {
-			color: #fff;
+			color: darken($text-color,10%);
 			text-decoration: underline;
 		}
 	}
 	li {
 		// font-size: 92.5%;
 		a {
-			color: #fff;
+			color: darken($text-color, 10%);
 		}
 	}
 }
@@ -1205,8 +1208,7 @@ a.btn-more {
 
 /* Footer */
 .footer {
-
-	border-top: 2px solid $cc-light-color;
+	border-top: none;
 	.container {
 	  border-top: none;
 	}
