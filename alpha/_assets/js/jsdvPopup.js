@@ -39,6 +39,7 @@
         function hide() {
             this.animate({'bottom': -1 * this.outerHeight()}, 'fast', 'swing', function () {
                 $(this).remove();
+                $('.popup').css({'visibility': 'hidden', 'border': 'none'});
             });
         }
     };
