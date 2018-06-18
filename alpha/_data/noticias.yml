@@ -16,7 +16,7 @@
 # Mar y Mar
 - title:        'Mar y Mar'
   media:        'media/noticias/caso-marymar-3.jpg'
-  headline:     'Durabilidad y ahorro energético, claves para el "Mar y Mar" Beach Club'
+  headline:     'Durabilidad y ahorro energético, claves para "Mar y Mar Beach Club"'
   text:         > # this means to ignore newlines until next key
     "La arena de la playa hace que otros equipos se estropeen con facilidad. Como los CASIO no necesitan ventiladores es una ventaja brutal para nuestro tipo de establecimiento."
   pdf:          '/media/pdf/casos/Mar-y-Mar.pdf'
@@ -24,18 +24,19 @@
 # Marítimo
 - title:        'Bar Restaurante Marítimo'
   media:        'media/noticias/caso-maritimo.jpg'
-  headline:     '"Bar Restaurante Marítimo" nos da un caluroso saludo desde Mallorca'
+  headline:     '"Bar Restaurant Marítimo" envía un caluroso saludo desde Mallorca'
   text:         > # this means to ignore newlines until next key
     Francisco Martínez, al frente de este negocio nos explica que lleva confiando 20 años en la profesionalidad y las soluciones de CASIO, de la mano de **ECR Balear**.
   pdf:          '/media/pdf/casos/bar-restaurante-maritimo.pdf'
 
-# Gatsby
-- title:        'Sala Gatsby Barcelona'
-  media:        'media/noticias/caso-sala-gatsby.jpg'
-  headline:     '"Sala Gatsby" se decide por las V-R7000 con sistema operativo Android'
+
+# Restaurant La Cala Cal Pep
+- title:        'Restaurant La Cala Cal Pep'
+  media:        'media/noticias/caso-La-Cala-Cal-Pep.jpg'
+  headline:     'La "Cala Cal Pep" apuesta por la excelencia de las soluciones CASIO'
   text:         > # this means to ignore newlines until next key
-    En la cresta de la ola. No es casualidad que los locales más exclusivos busquen herramientas acordes a sus instalaciones. **TAHC4** se ha encargado de este proyecto.
-  pdf:          '/media/pdf/casos/gran-gatsby.pdf'
+    La cocina, el restaurante, los clientes, el entorno paradisiaco que nos rodea, el apoyo de la familia y las nuevas tecnologías. Han confiado a **Vila Torrent** y Casio el Control y Registro del negocio.
+  pdf:          '/media/pdf/casos/La-Cala-Cal-Pep.pdf'
 
 # The Blue Bar
 - title:        'The Blue Bar Mallorca'
@@ -53,14 +54,6 @@
     El restaurante situado en plena Plaça Revolució de Setembre 1868, en el corazón del barrio de Gracia, Barcelona, tiene como credo el hacer viajar a sus comensales a las auténticas sensaciones Thai.
   pdf:          '/media/pdf/casos/Banna.pdf'
 
-# Restaurant La Cala Cal Pep
-- title:        'Restaurant La Cala Cal Pep'
-  media:        'media/noticias/caso-La-Cala-Cal-Pep.jpg'
-  headline:     'La "Cala Cal Pep" apuesta por la excelencia de las soluciones CASIO'
-  text:         > # this means to ignore newlines until next key
-    La cocina, el restaurante, los clientes, el entorno paradisiaco que nos rodea, el apoyo de la familia y las nuevas tecnologías. Han confiado a **Vila Torrent** y Casio el Control y Registro del negocio.
-  pdf:          '/media/pdf/casos/La-Cala-Cal-Pep.pdf'
-
 # El Petit Mos
 - title:        'El Petit Mos'
   media:        'media/noticias/caso-petit-mos.jpg'
@@ -68,6 +61,14 @@
   text:         > # this means to ignore newlines until next key
     Las TPV Android de Casio han sido clave para darnos una imagen innovadora. Además, funcionan genial y se ha notado mucho el cambio orquestado por **TAHC4**.
   pdf:          '/media/pdf/casos/petit-mos.pdf'
+
+# Gatsby
+- title:        'Sala Gatsby Barcelona'
+  media:        'media/noticias/caso-sala-gatsby.jpg'
+  headline:     '"Sala Gatsby" se decide por las V-R7000 con plataforma Android™'
+  text:         > # this means to ignore newlines until next key
+    En la cresta de la ola. No es casualidad que los locales más exclusivos busquen herramientas acordes a sus instalaciones. **TAHC4** se ha encargado de este proyecto.
+  pdf:          '/media/pdf/casos/gran-gatsby.pdf'
 
 # Donde el jamon
 - title:        'Donde el Jamón'
@@ -80,7 +81,7 @@
 #Jardín 1900 y pico
 - title:        'Jardín 1900 y Pico'
   media:        'media/noticias/caso-taberna-1900-y-pico.jpg'
-  headline:     'Equipos potentes, de diseño ergonómico, y con tecnología punta'
+  headline:     'Equipos potentes, de diseño ergonómico, y tecnología punta'
   text:         > # this means to ignore newlines until next key
-    **Jardín 1900 y Pico** aprovecha la nueva generación de comanderos profesionales, que mejoran la atención al cliente y la rentabilidad del negocio.
+    El Restaurante **Jardín 1900 y Pico** aprovecha la nueva generación de comanderos profesionales, que mejoran la atención al cliente y aumentan la rentabilidad del negocio.
   pdf:          '/media/pdf/casos/caso-jardin-1900-y-pico.pdf' 

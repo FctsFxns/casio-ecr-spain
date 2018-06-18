@@ -116,10 +116,12 @@ a:focus {
 
 /* Highlight */
 ::-moz-selection {
-  background: $secondary-color;
+  background: $cs-blue;
+  color: $cs-light-color;
 }
 ::selection {
-  background: $secondary-color;
+  background: $cs-blue;
+  color: $cs-light-color;
 }
 
 /* Buttons */
