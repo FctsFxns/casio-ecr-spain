@@ -12,19 +12,16 @@ intro:        'Lorem ipsum…'
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-1 col-md-10 col-md-offset-1 col-xs-12 col-2xs-12">
-	    	<h3 class="g-mb-10 g-color-white-dark">Habla con un representante de ventas de la compañía</h3>
 	      <h2 class="g-color-white g-mb-10 main-title">
-					Hazte distribuidor oficial CASIO
+					Distribuidor oficial autorizado
 	      </h2>
 	      <p class="g-color-white lead ">
-	      	Consigue ventajas competitivas además de ser acreditado por CASIO System Solutions España como un negocio referente en experiencia y calidad. Sé el referente CASIO en tu zona de negocio. 
+	      	Consigue ventajas competitivas además de ser acreditado por CASIO System Solutions España como un negocio referente en experiencia y calidad. Sé el referente CASIO en tu zona de influencia. 
 	      	<br>
 		      Marca la diferencia con tus competidores y amplía la base de tus clientes. 
 		    </p>
 		    <p class="g-color-white g-mb-20 ">
-					Rellena el formulario y contactaremos con tu negocio para empezar colaboración. 
-					<br>
-					¿Ya eres distribuidor y necesitas ayuda? <a href="{{ '/' | prepend: site.data.global.url }}contacto">Contacta con soporte</a>. 
+					Rellena el formulario y contactaremos contigo para empezar colaboración. 
 	      </p>
 	    </div>
       <div class="action-follow page-scroll">
@@ -177,20 +174,18 @@ intro:        'Lorem ipsum…'
 			  			</div>
 			  		</div>
 			  		<div class="row">
-			  			<div class="col-sm-6 g-mb-30">
+			  			<div class="col-sm-6 g-mb-50">
 				  			<label class="label" >¿En qué soluciones CASIO estás interesado principalmente? *</label>
 								<label class="select">
 									<select required id="fielddylidtuy" name="char_10">
 										<option disabled selected>Escoja una opción</option>
 										<option value="Cajas Registradoras">Cajas Registradoras</option>
 										<option value="Terminales de punto de venta (TPV)">Terminales de punto de venta (TPV)</option>
-										<option value="Comanderos">Comanderos</option>
-										<option value="Software y aplicaciones Android">Software y aplicaciones Android</option>
 									</select>
 									<i></i>
 								</label>
 			  			</div>			  			
-			  			<div class="col-sm-6 g-mb-30">
+			  			<div class="col-sm-6 g-mb-50">
 				  			<label class="label" >Horario preferente de contacto</label>
 								<label class="select">
 									<select id="char_13" name="char_13">
@@ -203,21 +198,11 @@ intro:        'Lorem ipsum…'
 								</label>
 			  			</div>
 			  		</div>
-			  		<div class="row">
-			  			<div class="col-sm-6 g-mb-30">
-				  			<label class="label">Explícanos un poco sobre tu interés</label>
-		            <label class="textarea textarea-expandable">
-			            <textarea rows="3" id="fielddylidtur" name="text_1" ></textarea>
-		            </label>
-			  			</div>
-			  			<div class="col-sm-6 g-mb-30">
-			  			</div>
-			  		</div>
 						<div class="row ">
 			  			<div class="col-sm-6 g-mb-30">
 								<label class="checkbox"><input name="char_11a" id="subscription" type="checkbox" required><i></i>He leído y acepto la <a href="{{ '/' | prepend: site.data.global.url }}proteccion-de-datos/" target="_blank" title="Política de protección de datos">Política de protección de datos</a></label>
 								<br>
-								<label class="checkbox"><input name="char_11" id="subscription" type="checkbox" required><i></i>Apúntate a recibir comunicaciones de CASIO System Solutions.<br>Podrás darte de baja en cualquier momento.</label>
+								<label class="checkbox"><input name="char_11" id="subscription" type="checkbox" required><i></i>Apúntate a recibir comunicaciones de CASIO System Solutions.<br>Podrás darte de baja en cualquier momento y en un solo click.</label>
 							</div>
 					  </div>
 			  		<div class="row">
