@@ -39,8 +39,8 @@ intro:      'Consigue las soluciones profesionales y servicios más avanzados. R
 				<h3>HOY EN DÍA- 2018</h3>
 				<p>Ampliando la serie V-R, Casio ahora ofrece dos productos clave diseñados específicamente para la industria de la hostelería. El V-R7000 está equipado con una pantalla de 15.6" que lo hace ideal para bares y restaurantes multipuesto. El V-R200 ofrece exactamente la misma funcionalidad y un software potente en un tamaño compacto con una impresora integrada y una pantalla emergente, ideal para cafeterías y locales delicatesen donde el espacio es limitado. Casio mejora constantemente sus productos tanto internamente como a través de integraciones con partners.</p>
 			</div>
-			<div class="col-md-5 col-md-offset-0 col-lg-4 col-lg-offset-1 col-sm-6 col-xs-12 g-mt-30">
-				<img src="{{ '/' | prepend: site.data.global.url }}media/assets/image4-es-2.png" alt="40 años de Casio System Solutions" class="img-responsive " />						
+			<div class="col-md-5 col-md-offset-0 col-lg-5 col-lg-offset-0 col-sm-6 col-xs-12 g-mt-30">
+				<img src="{{ '/' | prepend: site.data.global.url }}media/assets/historia-ecr.jpg" alt="40 años de Casio System Solutions" class="img-responsive " />						
 			</div>		
 		</div>		
 	</div>
