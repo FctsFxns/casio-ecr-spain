@@ -21,14 +21,13 @@
     "La arena de la playa hace que otros equipos se estropeen con facilidad. Como los CASIO no necesitan ventiladores es una ventaja brutal para nuestro tipo de establecimiento."
   pdf:          '/media/pdf/casos/Mar-y-Mar.pdf'
 
-# Marítimo
-- title:        'Bar Restaurante Marítimo'
-  media:        'media/noticias/caso-maritimo.jpg'
-  headline:     '"Bar Restaurant Marítimo" envía un caluroso saludo desde Mallorca'
+# Restaurante Banna
+- title:        'Restaurante Banna'
+  media:        'media/noticias/caso-banna-thai.jpg'
+  headline:     'El restaurante "Banna" escoge la solución TPV V-R7000'
   text:         > # this means to ignore newlines until next key
-    Francisco Martínez, al frente de este negocio nos explica que lleva confiando 20 años en la profesionalidad y las soluciones de CASIO, de la mano de **ECR Balear**.
-  pdf:          '/media/pdf/casos/bar-restaurante-maritimo.pdf'
-
+    El restaurante situado en plena Plaça Revolució de Setembre 1868, en el corazón del barrio de Gracia, Barcelona, tiene como credo el hacer viajar a sus comensales a las auténticas sensaciones Thai.
+  pdf:          '/media/pdf/casos/Banna.pdf'
 
 # Restaurant La Cala Cal Pep
 - title:        'Restaurant La Cala Cal Pep'
@@ -46,13 +45,13 @@
     Haciendo sencilla la gestión de un restaurante en zona turística situado en Palmanova, **ECR Balear** ha acertado con los TPV de Casio. Además, ahorran hasta cuatro veces en la factura de la luz.
   pdf:          '/media/pdf/casos/The-blue-bar-Mallorca.pdf'
 
-# Restaurante Banna
-- title:        'Restaurante Banna'
-  media:        'media/noticias/caso-banna-thai.jpg'
-  headline:     'El restaurante "Banna" escoge la solución TPV V-R7000'
+# Marítimo
+- title:        'Bar Restaurante Marítimo'
+  media:        'media/noticias/caso-maritimo.jpg'
+  headline:     '"Bar Restaurant Marítimo" envía un caluroso saludo desde Mallorca'
   text:         > # this means to ignore newlines until next key
-    El restaurante situado en plena Plaça Revolució de Setembre 1868, en el corazón del barrio de Gracia, Barcelona, tiene como credo el hacer viajar a sus comensales a las auténticas sensaciones Thai.
-  pdf:          '/media/pdf/casos/Banna.pdf'
+    Francisco Martínez, al frente de este negocio nos explica que lleva confiando 20 años en la profesionalidad y las soluciones de CASIO, de la mano de **ECR Balear**.
+  pdf:          '/media/pdf/casos/bar-restaurante-maritimo.pdf'
 
 # El Petit Mos
 - title:        'El Petit Mos'

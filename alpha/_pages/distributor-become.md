@@ -12,8 +12,9 @@ intro:        'Lorem ipsum…'
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-1 col-md-10 col-md-offset-1 col-xs-12 col-2xs-12">
+				<h3 class="g-mb-10 g-color-white-dark">Distribuidor oficial autorizado</h3>
 	      <h2 class="g-color-white g-mb-10 main-title">
-					Distribuidor oficial autorizado
+					Programa Partners
 	      </h2>
 	      <p class="g-color-white lead ">
 	      	Consigue ventajas competitivas además de ser acreditado por CASIO System Solutions España como un negocio referente en experiencia y calidad. Sé el referente CASIO en tu zona de influencia. 

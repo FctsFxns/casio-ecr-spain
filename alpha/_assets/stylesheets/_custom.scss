@@ -235,15 +235,15 @@ a.btn-u-lg,
 .one-page-header.top-nav-collapse .navbar-nav > li > a,
 .one-page-header.top-nav-collapse .navbar-nav > li > a:before {
   // color: $primary-color;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 700;
-	// padding: 0px 18px;
 }
 
 .one-page-header .navbar-nav > li > a {
   // color: $primary-color;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 700;
+	padding: 0px 12px;
   &:hover, &:active {
   	span[data-hover] {
 	  	color: $cs-blue;
@@ -252,18 +252,18 @@ a.btn-u-lg,
 }
 .one-page-header .navbar-nav > li > a span[data-hover] {
   // color: $primary-color;
-  font-size: 12px;
+  font-size: 11px;
 }
 .one-page-header .navbar-nav > li > a span[data-hover]:before {
 	color: $cs-blue;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 700;
 }
 .one-page-header .navbar-nav > li > a:hover span[data-hover] {
   font-weight: 700;	
 }
 .one-page-header .navbar-brand {
-	margin-right: 20px;
+	margin-right: 12px;
 	padding: 8px 15px;
 }
 @media (min-width: 768px)  {
