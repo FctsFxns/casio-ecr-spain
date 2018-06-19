@@ -122,10 +122,26 @@
 						</div>
 						<div class="col-md-4">
 							<div class="product-thumbnail ">
-								<img class="img-responsive" src="{{ '/' | prepend: site.data.global.url }}media/images/products/profesional-2.png" alt="Casio V-R200">
+
+								<div id="carousel-V-R200" class="carousel slide " data-ride="carousel">
+									<ol class="carousel-indicators">
+										<li data-target="#carousel-V-R200" data-slide-to="0" class="color color-V-R200-negro"></li>
+										<li data-target="#carousel-V-R200" data-slide-to="1" class="color color-V-R200-blanco"></li>
+									</ol>
+									<div class="text-center carousel-inner" role="listbox">
+								    <div class="item text-center active" >
+											<img class="img-responsive" src="{{ '/' | prepend: site.data.global.url }}media/images/products/profesional-2.png" alt="Casio V-R200 Black">
+								    </div>
+								    <div class="item text-center" >
+											<img class="img-responsive" src="{{ '/' | prepend: site.data.global.url }}media/images/products/profesional-2.png" alt="Casio V-R200 White">
+								    </div>
+									</div>
+								</div>
+
+
 								<div class="caption">
 									<h4>V-R200</h4>
-									<p  class="g-mb-20">El terminal empresarial V-R200 funciona en la plataforma Android™ ideal para hostelería y proceedores de servicios.</p>
+									<p class="g-mb-20">El terminal empresarial V-R200 funciona en la plataforma Android™ ideal para hostelería y proceedores de servicios.</p>
 									<p class="text-center"><a href="{{ '/' | prepend: site.data.global.url }}media/pdf/Ficha_V-R200.pdf" class="btn-u btn-u-default btn-u-xs btn-u-blue"><i class="fa fa-file-pdf-o "></i>Ficha técnica</a></p>
 								</div>
 							</div>

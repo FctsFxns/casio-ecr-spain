@@ -23,7 +23,7 @@
 
       // Products Carousel
       $('.product-thumbnail .carousel').carousel({
-        interval: 0,
+        interval: false,
         keyboard: false
       }); 
 

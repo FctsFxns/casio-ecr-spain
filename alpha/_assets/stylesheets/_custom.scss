@@ -648,7 +648,7 @@ ul.promo-section-direction-nav {
 		text-align: center;		
 	}
 	p {
-		// visibility: hidden;
+		visibility: hidden;
 		color: $cc-dark-color;
 		font-size: 14px;
 		font-weight: 100;
@@ -674,7 +674,7 @@ ul.promo-section-direction-nav {
 	}
 
 	.carousel-indicators {
-	  bottom: -4px;
+	  bottom: -6px;
 	  z-index: 2;
 	}
 	.carousel-indicators li {
@@ -695,7 +695,18 @@ ul.promo-section-direction-nav {
 	  bottom: -6px;
 	}
 
-	/* Slider Stylish colors */
+	/* Slider SE-G1 colors */
+	.carousel-indicators li.color-V-R200-blanco,
+	.carousel-indicators li.color-V-R200-blanco.active::after {
+	  background-color: #ededed;
+	}
+	.carousel-indicators li.color-V-R200-negro,
+	.carousel-indicators li.color-V-R200-negro.active::after {
+	  background-color: #191919;
+	}
+
+
+	/* Slider SE-G1 colors */
 	.carousel-indicators li.color-SE-G1-azul,
 	.carousel-indicators li.color-SE-G1-azul.active::after {
 	  background-color: #2a3b8a;
