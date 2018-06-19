@@ -21,6 +21,12 @@
           });
       }
 
+      // Products Carousel
+      $('.product-thumbnail .carousel').carousel({
+        interval: 0,
+        keyboard: false
+      }); 
+
       // Cookie consent
       window.addEventListener("load", function(){
       window.cookieconsent.initialise({
@@ -44,13 +50,31 @@
       })});
 
       // SmoothScroll to Contacto, nyapa!
-      var reSmooth = /^#contacto/;
+      var reSmooth = /^#soluciones/;
       var id;
       if (reSmooth.test(location.hash)) {
         // Strip the "#smoothScroll" part off (and put "#" back on the beginning)
         id = '#' + location.hash.replace(reSmooth, '');
         $.smoothScroll({
-          scrollTarget: '#contacto'
+          scrollTarget: '#soluciones'
+        });
+      }
+      var reSmooth = /^#projects/;
+      var id;
+      if (reSmooth.test(location.hash)) {
+        // Strip the "#smoothScroll" part off (and put "#" back on the beginning)
+        id = '#' + location.hash.replace(reSmooth, '');
+        $.smoothScroll({
+          scrollTarget: '#projects'
+        });
+      }
+      var reSmooth = /^#programa-partners/;
+      var id;
+      if (reSmooth.test(location.hash)) {
+        // Strip the "#smoothScroll" part off (and put "#" back on the beginning)
+        id = '#' + location.hash.replace(reSmooth, '');
+        $.smoothScroll({
+          scrollTarget: '#programa-partners'
         });
       }
 
