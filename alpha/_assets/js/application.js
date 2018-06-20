@@ -5,6 +5,7 @@
       App.init();
       ContactForm.initContactForm();
 
+      // Show 'Solicita una demo' popup
       if ($("body").hasClass("page-home-show-demo")) {
           $(window).scroll(function() {
               if ($(window).scrollTop() > $(window).height() * 3)
@@ -21,11 +22,20 @@
           });
       }
 
-      // Products Carousel
+      // Products Carousel x3
       $('.product-thumbnail .carousel').carousel({
         interval: false,
         keyboard: false
       }); 
+
+      // Show more 'noticias' button
+      $("#projects div.row-projects:not(:first)").hide();
+      $("#projects div.row-more a.btn-more").click(function(e){
+        e.preventDefault();
+        $("#projects div.row-projects:not(:first)").slideToggle();
+        $(this).toggle();
+      }).show();
+
 
       // Cookie consent
       window.addEventListener("load", function(){
@@ -50,39 +60,33 @@
       })});
 
       // SmoothScroll to Contacto, nyapa!
-      var reSmooth = /^#soluciones/;
-      var id;
-      if (reSmooth.test(location.hash)) {
-        // Strip the "#smoothScroll" part off (and put "#" back on the beginning)
-        id = '#' + location.hash.replace(reSmooth, '');
-        $.smoothScroll({
-          scrollTarget: '#soluciones'
-        });
-      }
-      var reSmooth = /^#projects/;
-      var id;
-      if (reSmooth.test(location.hash)) {
-        // Strip the "#smoothScroll" part off (and put "#" back on the beginning)
-        id = '#' + location.hash.replace(reSmooth, '');
-        $.smoothScroll({
-          scrollTarget: '#projects'
-        });
-      }
-      var reSmooth = /^#programa-partners/;
-      var id;
-      if (reSmooth.test(location.hash)) {
-        // Strip the "#smoothScroll" part off (and put "#" back on the beginning)
-        id = '#' + location.hash.replace(reSmooth, '');
-        $.smoothScroll({
-          scrollTarget: '#programa-partners'
-        });
-      }
+      // var reSmooth = /^#soluciones/;
+      // var id;
+      // if (reSmooth.test(location.hash)) {
+      //   // Strip the "#smoothScroll" part off (and put "#" back on the beginning)
+      //   id = '#' + location.hash.replace(reSmooth, '');
+      //   $.smoothScroll({
+      //     scrollTarget: '#soluciones'
+      //   });
+      // }
+      // var reSmooth = /^#projects/;
+      // var id;
+      // if (reSmooth.test(location.hash)) {
+      //   // Strip the "#smoothScroll" part off (and put "#" back on the beginning)
+      //   id = '#' + location.hash.replace(reSmooth, '');
+      //   $.smoothScroll({
+      //     scrollTarget: '#projects'
+      //   });
+      // }
+      // var reSmooth = /^#programa-partners/;
+      // var id;
+      // if (reSmooth.test(location.hash)) {
+      //   // Strip the "#smoothScroll" part off (and put "#" back on the beginning)
+      //   id = '#' + location.hash.replace(reSmooth, '');
+      //   $.smoothScroll({
+      //     scrollTarget: '#programa-partners'
+      //   });
+      // }
 
-      // Show more 'noticias' button
-      $("#projects div.row-projects:not(:first)").hide();
-      $("#projects div.row-more a.btn-more").click(function(e){
-        e.preventDefault();
-        $("#projects div.row-projects:not(:first)").slideToggle();
-        $(this).toggle();
-      }).show();
+
   });

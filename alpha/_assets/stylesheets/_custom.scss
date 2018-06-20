@@ -265,7 +265,7 @@ a.btn-u-lg,
   font-weight: 700;	
 }
 .one-page-header .navbar-brand {
-	margin-right: 12px;
+	margin-right: 20px;
 	padding: 8px 15px;
 }
 @media (min-width: 768px)  {
@@ -620,7 +620,7 @@ ul.promo-section-direction-nav {
 .product-thumbnail {
 	// background: #fff;
 	&:hover {
-		background: $cs-light-color;
+		background: $cs-blue-light;
 		.caption {
 			border-color: $cs-light-color;
 			background: $cs-lightest;
@@ -709,41 +709,41 @@ ul.promo-section-direction-nav {
 	/* Slider SE-G1 colors */
 	.carousel-indicators li.color-SE-G1-azul,
 	.carousel-indicators li.color-SE-G1-azul.active::after {
-	  background-color: #2a3b8a;
+	  background-color: #223377;
 	}
 	.carousel-indicators li.color-SE-G1-rojo,
 	.carousel-indicators li.color-SE-G1-rojo.active::after {
-	  background-color: #971435;
+	  background-color: #961d1d;
 	}
 	.carousel-indicators li.color-SE-G1-rosa,
 	.carousel-indicators li.color-SE-G1-rosa.active::after {
-	  background-color: #b32186;
+	  background-color: #e31b98;
 	}
 	.carousel-indicators li.color-SE-G1-blanco,
 	.carousel-indicators li.color-SE-G1-blanco.active::after {
-	  background-color: #ededed;
+	  background-color: #eeeeee;
 	}
 	.carousel-indicators li.color-SE-G1-negro,
 	.carousel-indicators li.color-SE-G1-negro.active::after {
-	  background-color: #191919;
+	  background-color: #000000;
 	}
 
 	/* Slider SE-100 colors */
 	.carousel-indicators li.color-SE-S100-rojo,
 	.carousel-indicators li.color-SE-S100-rojo.active::after {
-	  background-color: #82002a;
+	  background-color: #961d1d;
 	}
 	.carousel-indicators li.color-SE-S100-oro,
 	.carousel-indicators li.color-SE-S100-oro.active::after {
-	  background-color: #827b40;
+	  background-color: #e9dacb;
 	}
 	.carousel-indicators li.color-SE-S100-plata,
 	.carousel-indicators li.color-SE-S100-plata.active::after {
-	  background-color: #A1A4A3;
+	  background-color: #b8b6b7;
 	}
 	.carousel-indicators li.color-SE-S100-negro,
 	.carousel-indicators li.color-SE-S100-negro.active::after {
-	  background-color: #191919;
+	  background-color: #000000;
 	}
 
 }
