@@ -16,7 +16,7 @@ sitemap: 0
 
 <p>Los datos personales que nos proporcione se utilizarán para responder a su solicitud.</p>
 
-<p>Asimismo, en el caso de que señale afirmativamente la casilla específica incluida bajo el formulario, los datos del formulario se utilizarán con el fin de poder remitirle información comercial relativa a sus productos (como relojes, calculadoras, proyectores, cajas registradoras). El usuario acepta que en este envío de comunicaciones comerciales por correo electrónico se puedan utilizar herramientas de monitorización de la actividad realizada respecto al correo enviado con el fin de poder evaluar la efectividad de las campañas y ajustarlas a los intereses de los usuarios. Estos datos serán conservados de forma indefinida por Casio, mientras no ejerza su derecho de oposición.</p>
+<p>Asimismo, en el caso de que señale afirmativamente la casilla específica incluida bajo el formulario, los datos del formulario se utilizarán con el fin de poder remitirle información comercial relativa a sus productos (como relojes, calculadoras, proyectores, cajas registradoras). El usuario acepta que en este envío de comunicaciones comerciales por correo electrónico se puedan utilizar herramientas de monitorización de la actividad realizada respecto al correo enviado con el fin de poder evaluar la efectividad de las campañas y ajustarlas a los intereses de los usuarios. Los datos serán conservados durante 10 años por CASIO ESPAÑA, S.L., mientras no ejerza su derecho de oposición.</p>
 
 <p><em>Legitimación para el tratamiento de sus datos</em></p>
 
@@ -24,7 +24,7 @@ sitemap: 0
 
 <p><em>Destinatarios a los que se comunicarán los datos</em></p>
 
-<p>No se han previsto comunicaciones de estos datos. No obstante, Casio informa que contrata el alojamiento de este sitio web a <a href="http://www.factsandfictions.net">facts &amp; fictions</a> que emplea la infraestructura de servidores ofrecida por <a href="https://www.hetzner.de">Hetzner Online GmbH</a>.</p>
+<p>No se han previsto comunicaciones de estos datos. No obstante, Casio informa que contrata el alojamiento de este sitio web a <a href="http://www.factsandfictions.net">facts &amp; fictions</a>, que actua como encargado de tratamiento, y que emplea la infraestructura de servidores ofrecida por <a href="https://www.hetzner.de">Hetzner Online GmbH</a>.  Los datos no se transferirán a terceros paises.</p>
 
 <p><em>Obligatoriedad</em></p>
 <p>Los datos marcados con asteriscos que se solicitan mediante los formularios son necesarios para poder atender la consulta realizada, por lo que es obligatorio cumplimentar todos estos campos. En caso de no hacerlo, no se podrá responder al usuario.</p>
