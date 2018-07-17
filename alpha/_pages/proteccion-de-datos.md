@@ -39,5 +39,5 @@ sitemap: 0
 <p>Se recuerda a los usuarios que tienen derecho a presentar una reclamación ante la autoridad de control competente o si desean obtener más información sobre su derecho a la protección de datos. En España la autoridad de control competente sería la Agencia Española de Protección de Datos. Pueden ponerse en contacto con la misma a través de su sitio web www.agpd.es.</p>
 <p>La presente Política de Privacidad se emite al amparo de la Ley Orgánica 15/1999 de 13 de diciembre, el R.D. de desarrollo de la misma, 1720/2007, y por el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo de 27 de abril de 2016.</p>
 <p>Casio mantendrá un registro de las versiones de esta Política de protección de datos.</p>
-<p><small>Versión de fecha: 18 de Mayo de 2018</small></p>	  			
+<p><small>Versión de fecha: 12 de Julio de 2018</small></p>	  			
       
