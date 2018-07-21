@@ -1,79 +1,31 @@
-		{% comment %}
-		<!-- Pre-Footer -->
-		<section class="pre-footer g-bg-white text-center--2xs">
-			<div class="container-fluid g-pt-40 g-pb-0">
-				<div class="row g-mb-25" >
-					<div class="col-md-4 ">
-						<h3 class="g-mb-15 ">{{ site.data.global.title }}</h3>
-						<p class="">
-							{{ site.data.global.footer_contact }} 
-							<br><a href="mailto:{{ site.data.global.email }} ">{{ site.data.global.email }} </a>
-						</p>
-
-					</div>
-					<div class="col-md-6 col-md-offset-0">
-						<div class="row">
-							<div class="col-md-6 col-sm-3 col-xs-6 col-2xs-12 g-mb-25">
-								<h3 class="g-mb-15 ">Mapa del sitio</h3>
-								<ul class="list-unstyled">
-									<li><a href="{{ site.data.global.url }}">Presentación</a></li>
-									<li><a href="{{ site.data.global.url }}/{{site.data.global.url_historia}}">Nuestra historia</a></li>
-									<li><a href="{{ site.data.global.url }}/{{site.data.global.url_distribuidor}}">Programa partners</a></li>
-								</ul>
-							</div>
-							<div class="col-md-6 col-sm-3 col-xs-6 col-2xs-12 g-mb-25">
-								<h3 class="g-mb-15 ">Asistencia</h3>
-								<ul class="list-unstyled">
-									<li><a href="{{ '/' | prepend: site.data.global.url }}soporte">Soporte técnico</a></li>
-									<li><a href="http://support.casio.com/es/manual/manuallist.php?cid=006">Manuales y descargas</a></li>
-									<li><a href="http://bit.ly/casioayuda">Contacta con nosotros</a></li>
-								</ul>
-							</div>
-						</div>
-
-
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- /Pre-Footer -->
-		{% endcomment %}
-
-
-	  <!-- Footer -->
-	  <footer class="footer text-center--2xs">
-	    <div class="container-fluid g-pt-20 ">
-	      <div class="row g-mb-10 ">
-
-	        <div class="col-md-8 col-xs-12 col-2xs-12 legal text-center--md text-left">
-		        <ul class="list-inline">
-		          <li>
-								<a href="{{ '/' | prepend: site.data.global.url }}aviso-legal/" >Aviso legal</a>	            
-		          </li>
-		          <li>
-								<a href="{{ '/' | prepend: site.data.global.url }}proteccion-de-datos/" >Política de Protección de Datos</a>	            
-		          </li>
-		          <li>
-								<a href="{{ '/' | prepend: site.data.global.url }}politica-de-cookies/" >Política de Cookies</a>	          
-							</li>
-		        </ul>
-	        </div>
-
-	        <div class="casio-logo-wrapper col-md-4 col-xs-12 col-2xs-12 g-pr-40">
-	        	<span class="casio-logo">   
-                <a href="http://www.casio-europe.com/es/">
-                  <img src="/media/images/logo-casio.png" alt="CASIO"> 
-                  <em>España</em>
-                </a>              
-            </span>
-	         
-	          <!-- <p class="copyright text-center--md text-left">{{ site.data.global.footer_text }}</a></p> -->
-
-	        </div>
-
-	      </div>
-	    </div>
-	  </footer>
-	  <!-- /Footer -->
+<!-- Footer -->
+<footer class="footer text-center--2xs">
+  <div class="container-fluid g-pt-20 ">
+    <div class="row g-mb-10 ">
+      <div class="col-md-8 col-xs-12 col-2xs-12 legal text-center--md text-left">
+        <ul class="list-inline">
+          <li>
+						<a href="{{ '/' | prepend: site.data.global.url }}aviso-legal/" >Aviso legal</a>	            
+          </li>
+          <li>
+						<a href="{{ '/' | prepend: site.data.global.url }}proteccion-de-datos/" >Política de Protección de Datos</a>	            
+          </li>
+          <li>
+						<a href="{{ '/' | prepend: site.data.global.url }}politica-de-cookies/" >Política de Cookies</a>	          
+					</li>
+        </ul>
+      </div>
+      <div class="casio-logo-wrapper col-md-4 col-xs-12 col-2xs-12 g-pr-40">
+      	<span class="casio-logo">   
+            <a href="http://www.casio-europe.com/es/">
+              <img src="/media/assets/logo.png" alt="Imagen del logo de CASIO"> 
+              <em>España</em>
+            </a>              
+        </span>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- /Footer -->
 
 

@@ -1,13 +1,10 @@
   </body>
-
   <!-- Les scripts from third parties -->
   {% javascript vendor %}
   {% javascript application %}
-
   <!--[if lt IE 10]>
     {% javascript vendor.ie10 %}
   <![endif]-->
-
   {% if site.env == 'development' %}
     <!-- Only in development mode -->
     <script src="//localhost:35729/livereload.js"></script>
@@ -22,5 +19,4 @@
           ga('create','{{ site.ga_analytics }}', 'auto');ga('send','pageview');
     </script>
   {% endif %}
-
 </html>

@@ -1,86 +1,86 @@
-# P R O D U C T O S 
+# CASOS DE ÉXITO 
 # ------------------
 #
-# Textos para la sección de Noticias del sitio web
+# Textos para la sección de Casos de éxito del sitio web
 #
 # Ejemplo de formato para un copiar/pegar
 #
 # - title:        'Restaurante Banna'
-#   media:        'media/noticias/default.jpg'
+#   media:        'media/casos/default.jpg'
 #   headline:     'El restaurante "Banna" escoge la solución TPV V-R7000'
 #   text:         > # this means to ignore newlines until next key
 #     El restaurante situado en plena Plaça Revolució de Setembre 1868, en el corazón del barrio de Gracia, Barcelona, tiene como credo el hacer viajar a sus comensales a las auténticas sensaciones Thai.
-#   pdf:          '/media/pdf/casos/Banna.pdf'
+#   pdf:          '/media/casos/pdf/Banna.pdf'
 #
 
 # Mar y Mar
 - title:        'Mar y Mar'
-  media:        'media/noticias/caso-marymar-3.jpg'
+  media:        'media/casos/caso-marymar-3.jpg'
   headline:     'Durabilidad y ahorro energético, claves para "Mar y Mar Beach Club"'
   text:         > # this means to ignore newlines until next key
     "La arena de la playa hace que otros equipos se estropeen con facilidad. Como los CASIO no necesitan ventiladores es una ventaja brutal para nuestro tipo de establecimiento."
-  pdf:          '/media/pdf/casos/Mar-y-Mar.pdf'
+  pdf:          '/media/casos/pdf/Mar-y-Mar.pdf'
 
 # Restaurante Banna
 - title:        'Restaurante Banna'
-  media:        'media/noticias/caso-banna-thai.jpg'
+  media:        'media/casos/caso-banna-thai.jpg'
   headline:     'El restaurante "Banna" escoge la solución TPV V-R7000'
   text:         > # this means to ignore newlines until next key
     El restaurante situado en plena Plaça Revolució de Setembre 1868, en el corazón del barrio de Gracia, Barcelona, tiene como credo el hacer viajar a sus comensales a las auténticas sensaciones Thai.
-  pdf:          '/media/pdf/casos/Banna.pdf'
+  pdf:          '/media/casos/pdf/Banna.pdf'
 
 # Restaurant La Cala Cal Pep
 - title:        'Restaurant La Cala Cal Pep'
-  media:        'media/noticias/caso-La-Cala-Cal-Pep.jpg'
+  media:        'media/casos/caso-La-Cala-Cal-Pep.jpg'
   headline:     'La "Cala Cal Pep" apuesta por la excelencia de las soluciones CASIO'
   text:         > # this means to ignore newlines until next key
     La cocina, el restaurante, los clientes, el entorno paradisiaco que nos rodea, el apoyo de la familia y las nuevas tecnologías. Han confiado a **Vila Torrent** y Casio el Control y Registro del negocio.
-  pdf:          '/media/pdf/casos/La-Cala-Cal-Pep.pdf'
+  pdf:          '/media/casos/pdf/La-Cala-Cal-Pep.pdf'
 
 # The Blue Bar
 - title:        'The Blue Bar Mallorca'
-  media:        'media/noticias/caso-the-blue-bar.jpg'
+  media:        'media/casos/caso-the-blue-bar.jpg'
   headline:     '"The Blue Bar Mallorca" explica la facilidad de uso de las TPV CASIO'
   text:         > # this means to ignore newlines until next key
     Haciendo sencilla la gestión de un restaurante en zona turística situado en Palmanova, **ECR Balear** ha acertado con los TPV de Casio. Además, ahorran hasta cuatro veces en la factura de la luz.
-  pdf:          '/media/pdf/casos/The-blue-bar-Mallorca.pdf'
+  pdf:          '/media/casos/pdf/The-blue-bar-Mallorca.pdf'
 
 # Marítimo
 - title:        'Bar Restaurante Marítimo'
-  media:        'media/noticias/caso-maritimo.jpg'
+  media:        'media/casos/caso-maritimo.jpg'
   headline:     '"Bar Restaurant Marítimo" envía un caluroso saludo desde Mallorca'
   text:         > # this means to ignore newlines until next key
     Francisco Martínez, al frente de este negocio nos explica que lleva confiando 20 años en la profesionalidad y las soluciones de CASIO, de la mano de **ECR Balear**.
-  pdf:          '/media/pdf/casos/bar-restaurante-maritimo.pdf'
+  pdf:          '/media/casos/pdf/bar-restaurante-maritimo.pdf'
 
 # El Petit Mos
 - title:        'El Petit Mos'
-  media:        'media/noticias/caso-petit-mos.jpg'
+  media:        'media/casos/caso-petit-mos.jpg'
   headline:     '"El Petit Mos" se pone a la última con las TPV de Casio'
   text:         > # this means to ignore newlines until next key
     Las TPV Android de Casio han sido clave para darnos una imagen innovadora. Además, funcionan genial y se ha notado mucho el cambio orquestado por **TAHC4**.
-  pdf:          '/media/pdf/casos/petit-mos.pdf'
+  pdf:          '/media/casos/pdf/petit-mos.pdf'
 
 # Gatsby
 - title:        'Sala Gatsby Barcelona'
-  media:        'media/noticias/caso-sala-gatsby.jpg'
+  media:        'media/casos/caso-sala-gatsby.jpg'
   headline:     '"Sala Gatsby" se decide por las V-R7000 con plataforma Android™'
   text:         > # this means to ignore newlines until next key
     En la cresta de la ola. No es casualidad que los locales más exclusivos busquen herramientas acordes a sus instalaciones. **TAHC4** se ha encargado de este proyecto.
-  pdf:          '/media/pdf/casos/gran-gatsby.pdf'
+  pdf:          '/media/casos/pdf/gran-gatsby.pdf'
 
 # Donde el jamon
 - title:        'Donde el Jamón'
-  media:        'media/noticias/caso-dondeeljamon.jpg'
+  media:        'media/casos/caso-dondeeljamon.jpg'
   headline:     'Así ayudó la plataforma Android de CASIO a una taberna de ibéricos'
   text:         > # this means to ignore newlines until next key
     El propietario de **Donde el Jamón**, en Palma de Mallorca sabía que, para atender a un gran volumen de clientes, precisaba de un sistema ágil y sencillo para su equipo.
-  pdf:          '/media/pdf/casos/Donde-el-jamon.pdf' 
+  pdf:          '/media/casos/pdf/Donde-el-jamon.pdf' 
 
 #Jardín 1900 y pico
 - title:        'Jardín 1900 y Pico'
-  media:        'media/noticias/caso-taberna-1900-y-pico.jpg'
+  media:        'media/casos/caso-taberna-1900-y-pico.jpg'
   headline:     'Equipos potentes, de diseño ergonómico, y tecnología punta'
   text:         > # this means to ignore newlines until next key
     El Restaurante **Jardín 1900 y Pico** aprovecha la nueva generación de comanderos profesionales, que mejoran la atención al cliente y aumentan la rentabilidad del negocio.
-  pdf:          '/media/pdf/casos/caso-jardin-1900-y-pico.pdf' 
+  pdf:          '/media/casos/pdf/caso-jardin-1900-y-pico.pdf' 

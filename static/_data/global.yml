@@ -5,32 +5,17 @@ slogan:           > # …
   …
 
 description:      > # No dejar espacios
- Optimiza y sácale el máximo partido a 
- todas las soluciones TPV de CASIO y 
- prepárate para empezar la temporada con el mejor 
- terminal de punto de venta.
+ Optimiza y sácale el máximo partido a todas las soluciones TPV de CASIO y 
+ prepárate para empezar la temporada con el mejor terminal de punto de venta.
 
 tagline:           > # …
   What?!
 
-#
-# Call to Action for '_includes/marketing-cta.html'
-#
-call_title:           > # …
-  **En negrita** sin negrita.
-
-call_intro:           > # …
-  … 
-  …
-
-call_link:             > # …
-  Contacta con nosotros
-
-call_url:              ''
-
 # URL's como constantes
 url_distribuidor: 'ser-distribuidor'
-url_historia: 'nuestra-historia'
+url_historia:     'nuestra-historia'
+
+url_contacto:     'http://bit.ly/casioayuda'
 
 # Contact
 author:           CASIO España

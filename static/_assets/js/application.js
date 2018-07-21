@@ -1,6 +1,4 @@
 //= require_self
-
-
   jQuery(document).ready(function() {
       App.init();
       ContactForm.initContactForm();
@@ -14,7 +12,7 @@
                   $.jsdvPopup({
                     icon: '',
                     text: 'Pide que te hagamos una DEMO.',
-                    button: '<a href="/contacto" class="btn-u btn-u-blue btn-u-lg btn-u-upper btn-block ">Solicita una demo</a>' 
+                    button: '<a href="http://bit.ly/casioayuda" class="btn-u btn-u-blue btn-u-lg btn-u-upper btn-block ">Solicita una demo</a>' 
                   });
                   // Don't repeat
                   $(this).unbind('scroll');

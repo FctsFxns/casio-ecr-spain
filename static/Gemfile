@@ -1,20 +1,16 @@
 source "https://rubygems.org"
 # Dependencies
-# Fix build with travis on jekyll 3.1.6
+# Fix build with travis on jekyll 3.4.3
 gem 'jekyll', '3.4.3'
 gem 'jekyll-watch', '1.4.0'
 gem 'sprockets', '3.6.3'
 gem 'sass'
 gem 'jekyll-paginate', '1.1.0'
-
-# To compile sass + .js files while don't use grunt or similar
+# To compile sass + .js files while also using grunt
 gem "jekyll-assets"
-
-
 # In case we use circle or travis to deploy we will need this
 # à la 'kickster'
 gem 'html-proofer'
-
 # We can let the user upload the site with glynn
 # They will need to clone the project and execute
 # the bin/setup script on their machine and then
@@ -26,4 +22,3 @@ gem 'glynn', '1.2.3'
 
 # Resize images
 # gem 'jekyll-minimagick', '0.0.3'
-

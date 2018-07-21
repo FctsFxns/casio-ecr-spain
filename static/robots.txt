@@ -24,3 +24,4 @@ Crawl-delay: 10
 # Folders
 # Just in case scenario
 Disallow: /sandbox/
+

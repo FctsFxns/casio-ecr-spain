@@ -11,7 +11,9 @@
 
 - Ruby & [Bundler](http://bundler.io/)
   - [jekyll-minimagick](https://github.com/zroger/jekyll-minimagick)
-- [ImageMagick®](http://www.imagemagick.org/)
+- Glynn
+- HTML proofer
+- Sass & Sprockets
 - [Bower](http://bower.io/)
 - Node
 - [Grunt](http://gruntjs.com/)
@@ -94,6 +96,18 @@ Este proyecto emplea [Jekyll](http://jekyllrb.com/) para la generación dinámic
 
 El contenido y configuración de la web se encuentra en la carpeta **static**  y se gestiona a través de este mismo repositorio de código.
 
+### Ficheros e imágenes
+
+Todos los ficheros e imágenes del contenido del sitio web se encuentra en la carpeta **/media**.
+
+Nos referimos a imágenes, documentos PDF, … para casos de éxito, productos, … y que no forman parte de la plantilla de diseño del sitio web. 
+
+Contiene las siguientes carpetas:
+
+**/media/casos**
+
+En esta carpeta se encuentran las imágenes y PDF's de los casos de éxito.
+
 
 ### Configuración
 
@@ -107,7 +121,9 @@ formato YAML que te van a permitir gestionar los valores de:
 
 ### Navegación principal
 
-	@todo
+Los enlaces de la navegación principal, en este caso, están puestos directamente en el HTML de la plantilla de código, ya que no son dinámicos.
+
+> *Para añadir y/o modificar enlaces de la navegación editar el contenido del fichero 'static/_includes/navigation.html'.*
 
 ### Páginas
 
