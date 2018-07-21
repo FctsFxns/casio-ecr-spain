@@ -3,13 +3,13 @@ rvm:
 - 2.2.3
 
 install:
-- "./alpha/bin/setup"
+- "./static/bin/setup"
 
 script:
-- "./alpha/bin/travis"
+- "./static/bin/travis"
 
 after_success:
-- "./alpha/bin/deploy"
+- "./static/bin/deploy"
 
 env:
   global:
