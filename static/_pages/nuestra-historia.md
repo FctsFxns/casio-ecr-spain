@@ -1,6 +1,6 @@
 ---
 layout: default
-layout_class: page-historia   
+layout_class: page-historia page-content  
 layout_id: page-historia   
 title: 40 años de experiencia
 permalink: /nuestra-historia/
