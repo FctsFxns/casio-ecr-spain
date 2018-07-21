@@ -17,7 +17,8 @@ bundle check || bundle install
 bower --version > /dev/null || npm install -g bower
 bower install
 
-# Set variable
+# Set variable for local environment. 
+# It will be overriden on production server, if it's the case
 export JEKYLL_ENV=development
 
 # Not necessary to build the Less files since they're in the repo already

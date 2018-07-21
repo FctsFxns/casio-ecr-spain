@@ -40,6 +40,10 @@ Antes de nada es necesario instalar [Grunt](http://gruntjs.com/). Desde el direc
 
 `$ npm install`
 
+A partir de aqui, y si todo se instala correctamente, basta ejectuar grunt para poder editar el código y ver los cambios en local en la url 'http://localhost:8004'.
+
+`$ grunt `
+
 Los comandos de theming son los siguientes:
 
 `$ grunt --help`
