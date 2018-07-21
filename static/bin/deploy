@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Set pwd to sub-dir 
+cd static
+
+# Install dependencies
+gem install bundler --conservative
+bundle check || bundle install
+
+# Set variable
+export JEKYLL_ENV=production
+
+# Download analytics
+wget https://www.google-analytics.com/analytics.js
+
+# Add credentials
+echo "ftp_username: ${ftp_username}" >> _glynn.yml
+echo "ftp_password: ${ftp_password}" >> _glynn.yml
+bundle exec glynn
