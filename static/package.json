@@ -1,9 +1,9 @@
 {
   "name": "casio-es-ecr-web",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "Website de CASIO ECR España",
   "author": "facts & fictions <daniel@factsandfictions.net>",
-  "homepage": "http://www.factsandfictions.net/",
+  "homepage": "https://www.casio-ecr.es/",
   "license": "MIT",
   "devDependencies": {
     "grunt": "~0.4.5",

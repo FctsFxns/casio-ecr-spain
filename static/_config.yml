@@ -6,6 +6,10 @@
 # - Main navigation is stored in /_data/nav.yml
 # - Content plages are stored at /…
 
+# Custom vars
+current_version:  1.0.0
+repo:             https://bitbucket.org/casioecr/casio-ecr.es
+
 # Where things are
 plugins_dir:      ./_plugins
 layouts_dir:      ./_layouts
@@ -66,19 +70,16 @@ future:          true
 # include:        [".htaccess,images"]
 exclude:          [
   'node_modules'
+  , '_assets/vendor'           # necessary for travis integration
   , 'bin'
+  , 'sandbox'
+  , 'unify'
   , '_glynn.yml'
   , 'package.json'
   , 'Gemfile'
   , 'Gemfile.lock'
   , 'Gruntfile.js'
   , 'bower.json'
-  , 'node_modules'  
-  , 'README.md'  
-  , 'sandbox'
-  , '_assets/vendor'           # necessary for travis integration
-  , 'unify'
-  , '_snapshots'
   ]
 
 include:        
@@ -90,6 +91,7 @@ include:
   -  'humans.txt' 
   -  'robots.txt'
   -  'favicon.ico'
+  -  'apple-touch-icon-precomposed.png'
   -  'unify/One-Pages/assets/css/blocks.css'
   -  'google64c4ce35184cada9.html'
   -  'Acumbamail_bff03334-8ce0-11e7-b016-0050569a455d.html'
@@ -119,10 +121,6 @@ compress_html:
   blanklines: false
   profile: false
   startings: []
-
-# Custom vars
-current_version:  1.0.0
-repo:             https://bitbucket.org/casioecr/casio-ecr.es
 
 #minimagik
 mini_magick:

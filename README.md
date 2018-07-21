@@ -62,7 +62,7 @@ Empleamos variables de desarrollo para aprovechar el uso de livereload, por ejem
 
 El despliegue se realiza de manera automática mediante [Travis](https://travis-ci.org/).
 
-Para ello se emplea un repositorio de código en github para que toda véz que haga un push se intenté desplegar el código en el servidor web.
+Para ello se emplea un repositorio de código en GitHub para que toda véz que haga un push se intenté desplegar el código en el servidor web.
 
 - [https://github.com/FctsFxns/casio-ecr-spain](https://github.com/FctsFxns/casio-ecr-spain)
 
@@ -78,7 +78,7 @@ De tal modo, basta con hacer push en este repositorio para que se publiquen los 
 
 **Notas:**
 
-- Solo se realiza el despliegue si se valida correctamente el sitio web con 'html_proofer'
+- Solo se realiza el despliegue si se valida correctamente el sitio web con 'html_proofer'*.
 
 - El despliegue se realiza mediante 'glynn' tan solo para la rama 'master' en el repositorio de despliegue definido en Travis; en este caso, en GitHub.
 
@@ -92,7 +92,8 @@ De tal modo, basta con hacer push en este repositorio para que se publiquen los 
 
 Este proyecto emplea [Jekyll](http://jekyllrb.com/) para la generación dinámica de las páginas del sitio web.
 
-El contenido de la web se gestiona a través de este mismo repositorio de código.
+El contenido y configuración de la web se encuentra en la carpeta **static**  y se gestiona a través de este mismo repositorio de código.
+
 
 ### Configuración
 
