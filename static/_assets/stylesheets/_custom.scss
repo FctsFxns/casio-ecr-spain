@@ -90,6 +90,17 @@ small {
 	font-style: italic;
 }
 
+a.read-more {
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 100;
+	i {
+		font-size: 18px;
+		margin-right: 4px;
+	}
+}
+
+
 /* Sky Form Styles */
 .sky-form .input input,
 .sky-form .textarea textarea,
@@ -284,6 +295,8 @@ section {
 		font-weight: 800;
 	}
 	p {
+		font-size: 16px;
+		font-weight: 400;
 		&.lead {
 			font-size: 21px;
 			line-height: 32px;
@@ -912,15 +925,6 @@ a.btn-more {
 			}
 		}
 	}
-	a.read-more {
-		font-size: 14px;
-		text-transform: uppercase;
-		font-weight: 100;
-		i {
-			font-size: 18px;
-			margin-right: 4px;
-		}
-	}
 
 	p {
 		color: $cc-dark-color;
@@ -1106,7 +1110,7 @@ a.btn-more {
 
 /* Footer */
 .footer {
-	border-top: none;
+	border-top: 1px solid $cc-light-color;
 	.container {
 	  border-top: none;
 	}

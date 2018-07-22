@@ -13,12 +13,16 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-1 col-md-10 col-md-offset-1 col-xs-12 col-2xs-12 g-mb-40">
-	    	<h3 class="g-mb-10 ">Area de descargas</h3>
+	    	<h1 class="g-mb-10 ">Area de descargas</h1>
         <h2 class="g-mb-10 main-title g-color-white">
         	Manuales y guías de usuario
       	</h2>
 				<p class="lead g-mb-30 g-color-white">
-					Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas registradoras electrónicas. Aprenderás a utilizar nuestros equipos con más facilidad.</p>
+					Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas registradoras electrónicas. Aprenderás a utilizar nuestros equipos con más facilidad.
+				</p>
+		    <p class="g-color-white g-mb-20 ">
+					Si tienes alguna pregunta, contacta con nosotros y aclararemos tus dudas. 
+	      </p>
 			</div>
       <div class="action-follow page-scroll">
       	<a href="#contacto-distribuidor" class="" title="Scroll"><i class="icon-custom icon-lg rounded-x fa fa-angle-down g-color-white"></i></a>
@@ -26,15 +30,140 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
 		</div>
 	</div>
 </section>
-<section  class="g-pt-40 g-pb-70 history-text">
+<section  class="g-pt-40 g-pb-70 manuales-list">
 	<div class="container-fluid">
+
 		<div class="row">
-			<div class="col-xs-12">
-				<p class="lead">Casio ha estado en el negocio de cajas registradoras durante más de 40 años, lanzando su primer producto en 1976. El equipo de I + D de Casio HQ en Japón mejora continuamente los productos y se esfuerza por proporcionar las soluciones más innovadoras y potentes del mercado a medida especialmente para negocios como pubs, restaurantes, cafés y muchos más.</p>
-				<h3>Lorem ipsum que te vienes o te vas</h3>
-				<p>El principal objetivo de Casio es proporcionar una solución todo en uno fiable y sólida que funcione tan rápido como su negocio, al tiempo que mantiene los costes de funcionamiento al mínimo. Las soluciones son completamente personalizables y flexibles para necesidades comerciales específicas, lo que permite que los sistemas crezcan con su negocio.</p>
+			<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-xs-12 col-2xs-12">
+				<h3 class="">Descarga de documentos</h3>				
+				<p class="lead">Manuales, fichas formativas y guías de usuario específicas para cada dispositivo.</p>
+			</div>		
+		</div>
+
+ 		<!-- Producto 1 -->
+		<div class="row">			
+			<div class="col-lg-8 col-lg-offset-1 col-md-10 col-md-offset-1 col-xs-12 col-2xs-12">
+				<h4>SE-G1</h4>				
+			</div>
+		</div>
+		<!-- hr -->
+		<div class="row">
+			<div class="col-lg-11 col-lg-offset-1 col-md-10 col-md-offset-1 col-xs-12 col-2xs-12">
+				<hr class="g-mt-10 g-mb-10"/>
+			</div>
+		</div>
+		<div class="row">					
+			<div class="col-lg-4 col-lg-offset-1 ">
+				<img class="img-responsive" src="{{ '/' | prepend: site.data.global.url }}media/products/consumo/consumo-6-BK.png" alt="Imagen de Casio SE-G1">
+			</div>
+			<div class="col-lg-7">
+				<!-- Download #1 -->
+				<div class="row g-mt-40">
+					<div class="col-xs-7 col-xs-offset-1">
+						<h5 class="g-mt-20">Ficha Formativa</h5>
+						<p>Documento PDF (1,2 MB)</p>
+					</div>
+					<div class="col-xs-4 ">
+						<p>
+							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-G1.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua g-mt-20" target="_blank">Descargar ahora</a>
+						</p>
+					</div>									
+				</div>	
+				<!-- Download #2 -->
+				<div class="row g-mt-10">
+					<div class="col-xs-7 col-xs-offset-1">
+						<h5 class="g-mt-20">Manual de usuario</h5>
+						<p>Documento PDF (1,5 MB)</p>
+					</div>
+					<div class="col-xs-4 ">
+						<p>
+							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-G1.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua g-mt-20" target="_blank">Descargar ahora</a>
+						</p>
+					</div>									
+				</div>	
+				<!-- Download #3 -->
+				<div class="row g-mt-10">
+					<div class="col-xs-7 col-xs-offset-1">
+						<h5 class="g-mt-20">Guía rápida</h5>
+						<p>Documento PDF (3,1 MB)</p>
+					</div>
+					<div class="col-xs-4 ">
+						<p>
+							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-G1.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua g-mt-20" target="_blank">Descargar ahora</a>
+						</p>
+					</div>									
+				</div>	
+
 			</div>
 		</div>		
+ 		<!-- Fin Producto 1 -->
+
+ 		<!-- Producto 2 -->
+		<div class="row">			
+			<div class="col-lg-8 col-lg-offset-1 col-md-10 col-md-offset-1 col-xs-12 col-2xs-12">
+				<h4>SE-S100</h4>				
+			</div>
+		</div>
+		<!-- hr -->
+		<div class="row">
+			<div class="col-lg-11 col-lg-offset-1 col-md-10 col-md-offset-1 col-xs-12 col-2xs-12">
+				<hr class="g-mt-10 g-mb-10"/>
+			</div>
+		</div>
+		<div class="row">					
+			<div class="col-lg-4 col-lg-offset-1 ">
+				<img class="img-responsive" src="{{ '/' | prepend: site.data.global.url }}media/products/consumo/consumo-5-BK.png" alt="Casio SE-S100-S-RD" title="Casio SE-S100-S-RD">
+			</div>
+			<div class="col-lg-7">
+				<!-- Download #1 -->
+				<div class="row g-mt-40">
+					<div class="col-xs-7 col-xs-offset-1">
+						<h5 class="g-mt-20">Guía rápida de configuración</h5>
+						<p>Documento PDF (2,5 MB)</p>
+					</div>
+					<div class="col-xs-4 ">
+						<p>
+							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-S100.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua g-mt-20" target="_blank">Descargar ahora</a>
+						</p>
+					</div>									
+				</div>	
+			</div>
+		</div>		
+ 		<!-- Fin Producto 2 -->
+
+ 		<!-- Producto 3 -->
+		<div class="row">			
+			<div class="col-lg-8 col-lg-offset-1 col-md-10 col-md-offset-1 col-xs-12 col-2xs-12">
+				<h4>SE-S400</h4>				
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-11 col-lg-offset-1 col-md-10 col-md-offset-1 col-xs-12 col-2xs-12">
+				<hr class="g-mt-10 g-mb-10"/>
+			</div>
+		</div>
+		<div class="row ">					
+			<div class="col-lg-4 col-lg-offset-1">
+				<img class="img-responsive" src="{{ '/' | prepend: site.data.global.url }}media/products/consumo/consumo-1c.png" alt="Imagen de Casio SE-S400">
+			</div>
+			<div class="col-lg-7">
+				<!-- Download #1 -->
+				<div class="row g-mt-40">
+					<div class="col-xs-7 col-xs-offset-1">
+						<h5 class="g-mt-20">Ficha Formativa</h5>
+						<p>Documento PDF (2,6 MB)</p>
+					</div>
+					<div class="col-xs-4 ">
+						<p>
+							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-S400.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua g-mt-20" target="_blank">Descargar ahora</a>
+						</p>
+					</div>									
+				</div>	
+			</div>
+		</div>		
+ 		<!-- Fin Producto 3 -->
+
+
 	</div>
 </section>
 <!-- /Our history banner Section -->
