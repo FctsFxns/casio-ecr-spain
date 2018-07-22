@@ -8,7 +8,7 @@ sitemap: 1
 intro:        'Consigue ventajas competitivas además de ser acreditado por CASIO System Solutions España como un negocio referente en experiencia y calidad. Sé el referente CASIO en tu zona de influencia.'
 ---
 <!-- Intro Section -->
-<section class="action-section g-color-white--darker g-bg-blue-light g-pt-20 g-pb-70 g-mt-90" id="intro">
+<section class="action-section g-color-white--darker g-bg-default g-pt-20 g-pb-70 g-mt-90" id="intro">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-1 col-md-10 col-md-offset-1 col-xs-12 col-2xs-12">
@@ -203,7 +203,7 @@ intro:        'Consigue ventajas competitivas además de ser acreditado por CASI
 			  			<div class="col-sm-6 g-mb-30">
 								<label class="checkbox"><input name="char_11a" id="subscription" type="checkbox" required><i></i>He leído y acepto la <a href="{{ '/' | prepend: site.data.global.url }}proteccion-de-datos/" target="_blank" title="Política de protección de datos">Política de protección de datos</a></label>
 								<br>
-								<label class="checkbox"><input name="char_11" id="subscription" type="checkbox" required><i></i>Apúntate a recibir comunicaciones de CASIO System Solutions.<br>Podrás darte de baja en cualquier momento y en un solo click.</label>
+								<label class="checkbox"><input name="char_11" id="subscription" type="checkbox" required><i></i>Acepto el envío de información comercial, incluso por medios electrónicos, por parte de Casio España, S.L.</label>
 							</div>
 					  </div>
 			  		<div class="row">

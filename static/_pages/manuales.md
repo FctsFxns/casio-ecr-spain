@@ -9,17 +9,20 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
 ---
 <br/><br/><br/><br/>
 <!-- Our history banner Section -->
-<section id="nuestra-historia" class="history-section g-pt-70 g-pb-40" >
+<section id="manuales" class="action-section manuales-section g-pt-70 g-pb-30 g-bg-blue">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-lg-7 col-lg-offset-0 col-md-10 col-md-offset-1 col-xs-12 col-2xs-12">
+			<div class="col-lg-8 col-lg-offset-1 col-md-10 col-md-offset-1 col-xs-12 col-2xs-12 g-mb-40">
 	    	<h3 class="g-mb-10 ">Area de descargas</h3>
-        <h2 class="g-mb-10 main-title">
+        <h2 class="g-mb-10 main-title g-color-white">
         	Manuales y guías de usuario
       	</h2>
 				<p class="lead g-mb-30 g-color-white">
 					Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas registradoras electrónicas. Aprenderás a utilizar nuestros equipos con más facilidad.</p>
 			</div>
+      <div class="action-follow page-scroll">
+      	<a href="#contacto-distribuidor" class="" title="Scroll"><i class="icon-custom icon-lg rounded-x fa fa-angle-down g-color-white"></i></a>
+      </div>
 		</div>
 	</div>
 </section>

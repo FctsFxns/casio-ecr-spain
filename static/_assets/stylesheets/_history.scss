@@ -1,8 +1,6 @@
-
 .page-historia {
 	.history-section {
-    background: url(../media/assets/611404.jpg) no-repeat 50% 50% / cover;    
-		background: $cs-green;
+		background: darken($cs-green, 5%);
 		h3 {
 			color: $cc-light-color;
 			font-size: 12px;
@@ -11,6 +9,13 @@
 			text-transform: uppercase;
 			display: block;
 			letter-spacing: 2px;
+		}
+		p {
+			&.lead {
+				font-size: 21px;
+				line-height: 36px;
+				font-weight: 100;
+			}
 		}
 		img {
     	display: none;
@@ -36,6 +41,20 @@
 				font-weight: 100;
 				line-height: 36px;
 			}
+		}
+	}
+}
+
+.page-manuales {
+	.action-section {
+		h3 {
+			color: $cs-light-color;
+			font-size: 12px;
+			font-style: normal;
+			font-weight: 600;
+			text-transform: uppercase;
+			display: block;
+			letter-spacing: 2px;			
 		}
 	}
 }
