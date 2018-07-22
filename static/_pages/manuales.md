@@ -25,12 +25,12 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
 	      </p>
 			</div>
       <div class="action-follow page-scroll">
-      	<a href="#contacto-distribuidor" class="" title="Scroll"><i class="icon-custom icon-lg rounded-x fa fa-angle-down g-color-white"></i></a>
+      	<a href="#lista" class="" title="Scroll"><i class="icon-custom icon-lg rounded-x fa fa-angle-down g-color-white"></i></a>
       </div>
 		</div>
 	</div>
 </section>
-<section  class="g-pt-40 g-pb-70 manuales-list">
+<section id="lista" class="g-mt-40 g-pb-70 manuales-list">
 	<div class="container-fluid">
 
 		<div class="row">
