@@ -32,7 +32,6 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
 </section>
 <section id="lista" class="g-mt-40 g-pb-70 manuales-list">
 	<div class="container-fluid">
-
 		<div class="row">
 			<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-xs-12 col-2xs-12">
 				<h3 class="">Descarga de documentos</h3>				
@@ -54,7 +53,7 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
 		</div>
 		<div class="row">					
 			<div class="col-lg-3 col-lg-offset-1">
-				<img class="img-responsive" src="{{ '/' | prepend: site.data.global.url }}media/products/consumo/consumo-6-BL.png" alt="Imagen de Casio SE-G1">
+				<img class="img-responsive g-ml-20" src="{{ '/' | prepend: site.data.global.url }}media/products/consumo/consumo-6-BL.png" alt="Imagen de Casio SE-G1">
 			</div>
 			<div class="col-lg-8">
 				<!-- Download #1 -->
@@ -65,7 +64,7 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
 					</div>
 					<div class="col-xs-4 ">
 						<p>
-							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-G1.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua" target="_blank">Descargar ahora</a>
+							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-G1.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua" target="_blank">Descargar</a>
 						</p>
 					</div>									
 				</div>	
@@ -77,7 +76,7 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
 					</div>
 					<div class="col-xs-4 ">
 						<p>
-							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-G1.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua" target="_blank">Descargar ahora</a>
+							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-G1.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua" target="_blank">Descargar</a>
 						</p>
 					</div>									
 				</div>	
@@ -89,7 +88,7 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
 					</div>
 					<div class="col-xs-4 ">
 						<p>
-							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-G1.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua" target="_blank">Descargar ahora</a>
+							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-G1.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua" target="_blank">Descargar</a>
 						</p>
 					</div>									
 				</div>	
@@ -112,7 +111,7 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
 		</div>
 		<div class="row">					
 			<div class="col-lg-3 col-lg-offset-1 ">
-				<img class="img-responsive" src="{{ '/' | prepend: site.data.global.url }}media/products/consumo/consumo-5-GD.png" alt="Casio SE-S100-S-RD" title="Casio SE-S100-S-RD">
+				<img class="img-responsive g-ml-20" src="{{ '/' | prepend: site.data.global.url }}media/products/consumo/consumo-5-GD.png" alt="Casio SE-S100-S-RD" title="Casio SE-S100-S-RD">
 			</div>
 			<div class="col-lg-8">
 				<!-- Download #1 -->
@@ -123,7 +122,7 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
 					</div>
 					<div class="col-xs-4 ">
 						<p>
-							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-S100.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua" target="_blank">Descargar ahora</a>
+							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-S100.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua" target="_blank">Descargar</a>
 						</p>
 					</div>									
 				</div>	
@@ -144,7 +143,7 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
 		</div>
 		<div class="row ">					
 			<div class="col-lg-3 col-lg-offset-1">
-				<img class="img-responsive" src="{{ '/' | prepend: site.data.global.url }}media/products/consumo/consumo-1c.png" alt="Imagen de Casio SE-S400">
+				<img class="img-responsive g-ml-20" src="{{ '/' | prepend: site.data.global.url }}media/products/consumo/consumo-1c.png" alt="Imagen de Casio SE-S400">
 			</div>
 			<div class="col-lg-8">
 				<!-- Download #1 -->
@@ -155,7 +154,7 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
 					</div>
 					<div class="col-xs-4 ">
 						<p>
-							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-S400.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua" target="_blank">Descargar ahora</a>
+							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-S400.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua" target="_blank">Descargar</a>
 						</p>
 					</div>									
 				</div>	
