@@ -36,7 +36,7 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
 		<div class="row">
 			<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-xs-12 col-2xs-12">
 				<h3 class="">Descarga de documentos</h3>				
-				<p class="lead">Manuales, fichas formativas y guías de usuario específicas para cada dispositivo.</p>
+				<p class="lead">Manuales, fichas formativas y guías de usuario específicas, clasificadas por dispositivo.</p>
 			</div>		
 		</div>
 
@@ -53,10 +53,10 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
 			</div>
 		</div>
 		<div class="row">					
-			<div class="col-lg-4 col-lg-offset-1 ">
-				<img class="img-responsive" src="{{ '/' | prepend: site.data.global.url }}media/products/consumo/consumo-6-BK.png" alt="Imagen de Casio SE-G1">
+			<div class="col-lg-3 col-lg-offset-1">
+				<img class="img-responsive" src="{{ '/' | prepend: site.data.global.url }}media/products/consumo/consumo-6-BL.png" alt="Imagen de Casio SE-G1">
 			</div>
-			<div class="col-lg-7">
+			<div class="col-lg-8">
 				<!-- Download #1 -->
 				<div class="row g-mt-40">
 					<div class="col-xs-7 col-xs-offset-1">
@@ -65,7 +65,7 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
 					</div>
 					<div class="col-xs-4 ">
 						<p>
-							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-G1.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua g-mt-20" target="_blank">Descargar ahora</a>
+							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-G1.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua" target="_blank">Descargar ahora</a>
 						</p>
 					</div>									
 				</div>	
@@ -77,7 +77,7 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
 					</div>
 					<div class="col-xs-4 ">
 						<p>
-							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-G1.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua g-mt-20" target="_blank">Descargar ahora</a>
+							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-G1.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua" target="_blank">Descargar ahora</a>
 						</p>
 					</div>									
 				</div>	
@@ -89,7 +89,7 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
 					</div>
 					<div class="col-xs-4 ">
 						<p>
-							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-G1.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua g-mt-20" target="_blank">Descargar ahora</a>
+							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-G1.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua" target="_blank">Descargar ahora</a>
 						</p>
 					</div>									
 				</div>	
@@ -111,10 +111,10 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
 			</div>
 		</div>
 		<div class="row">					
-			<div class="col-lg-4 col-lg-offset-1 ">
-				<img class="img-responsive" src="{{ '/' | prepend: site.data.global.url }}media/products/consumo/consumo-5-BK.png" alt="Casio SE-S100-S-RD" title="Casio SE-S100-S-RD">
+			<div class="col-lg-3 col-lg-offset-1 ">
+				<img class="img-responsive" src="{{ '/' | prepend: site.data.global.url }}media/products/consumo/consumo-5-GD.png" alt="Casio SE-S100-S-RD" title="Casio SE-S100-S-RD">
 			</div>
-			<div class="col-lg-7">
+			<div class="col-lg-8">
 				<!-- Download #1 -->
 				<div class="row g-mt-40">
 					<div class="col-xs-7 col-xs-offset-1">
@@ -123,7 +123,7 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
 					</div>
 					<div class="col-xs-4 ">
 						<p>
-							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-S100.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua g-mt-20" target="_blank">Descargar ahora</a>
+							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-S100.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua" target="_blank">Descargar ahora</a>
 						</p>
 					</div>									
 				</div>	
@@ -143,10 +143,10 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
 			</div>
 		</div>
 		<div class="row ">					
-			<div class="col-lg-4 col-lg-offset-1">
+			<div class="col-lg-3 col-lg-offset-1">
 				<img class="img-responsive" src="{{ '/' | prepend: site.data.global.url }}media/products/consumo/consumo-1c.png" alt="Imagen de Casio SE-S400">
 			</div>
-			<div class="col-lg-7">
+			<div class="col-lg-8">
 				<!-- Download #1 -->
 				<div class="row g-mt-40">
 					<div class="col-xs-7 col-xs-offset-1">
@@ -155,7 +155,7 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
 					</div>
 					<div class="col-xs-4 ">
 						<p>
-							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-S400.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua g-mt-20" target="_blank">Descargar ahora</a>
+							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-S400.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua" target="_blank">Descargar ahora</a>
 						</p>
 					</div>									
 				</div>	
