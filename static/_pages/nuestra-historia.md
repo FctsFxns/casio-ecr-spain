@@ -2,10 +2,10 @@
 layout: default
 layout_class: page-historia page-content  
 layout_id: page-historia   
-title: 40 años de experiencia
+title: Conoce nuestra historia | CASIO System Solutions
 permalink: /nuestra-historia/
 sitemap: 1
-intro:      'Consigue las soluciones profesionales y servicios más avanzados. Resolveremos tus cuestiones de forma personalizada. '
+intro:      'Casio ha estado en el negocio de la caja registradora electrónica durante más de 40 años, y lanzó su primer producto en 1976. '
 ---
 <br/><br/><br/><br/>
 <!-- Our history banner Section -->

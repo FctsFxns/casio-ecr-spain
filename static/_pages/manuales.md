@@ -2,10 +2,10 @@
 layout: default
 layout_class: page-manuales page-content 
 layout_id: page-manuales   
-title: Descarga de manuales y guías de usuario
+title: Manuales y guías de usuario | CASIO System Solutions
 permalink: /manuales/
 sitemap: 1
-intro:   ''
+intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas registradoras electrónicas. Aprenderás a utilizar nuestros equipos con más facilidad'
 ---
 <br/><br/><br/><br/>
 <!-- Our history banner Section -->
@@ -18,7 +18,7 @@ intro:   ''
         	Manuales y guías de usuario
       	</h2>
 				<p class="lead g-mb-30 g-color-white">
-					Te ayudamos en la puesta en marcha inicial y conocimiento de nuestras cajas registradoras electrónicas. Para que aprendas a utilizar nuestros equipos con más facilidad.</p>
+					Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas registradoras electrónicas. Aprenderás a utilizar nuestros equipos con más facilidad.</p>
 			</div>
 		</div>
 	</div>

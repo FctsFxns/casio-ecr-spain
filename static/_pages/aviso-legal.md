@@ -2,7 +2,7 @@
 layout: legal
 layout_class: page-legal   
 layout_id: page-legal    
-title: Términos de uso
+title: Términos de uso | CASIO System Solutions
 permalink: /aviso-legal/
 sitemap: 0
 ---

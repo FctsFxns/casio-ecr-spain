@@ -40,6 +40,7 @@
 
 Antes de nada es necesario instalar [Grunt](http://gruntjs.com/). Desde el directorio de instalación:
 
+`$ cd static`  
 `$ npm install`
 
 A partir de aqui, y si todo se instala correctamente, basta ejectuar grunt para poder editar el código y ver los cambios en local en la url 'http://localhost:8004'.

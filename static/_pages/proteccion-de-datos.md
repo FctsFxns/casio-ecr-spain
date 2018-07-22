@@ -2,7 +2,7 @@
 layout: legal
 layout_class: page-legal   
 layout_id: page-privacidad   
-title: Política de Protección de Datos
+title: Política de Protección de Datos | CASIO System Solutions
 permalink: /proteccion-de-datos/
 sitemap: 0
 ---

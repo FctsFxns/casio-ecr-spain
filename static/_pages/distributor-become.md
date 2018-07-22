@@ -2,10 +2,10 @@
 layout: default
 layout_class: page-distribuidor   
 layout_id: page-distribuidor   
-title: Participa en el programa de distribuidores
+title: Participa en el programa para partners | CASIO System Solutions
 permalink: /ser-distribuidor/
 sitemap: 1
-intro:        'Lorem ipsum…'
+intro:        'Consigue ventajas competitivas además de ser acreditado por CASIO System Solutions España como un negocio referente en experiencia y calidad. Sé el referente CASIO en tu zona de influencia.'
 ---
 <!-- Intro Section -->
 <section class="action-section g-color-white--darker g-bg-blue-light g-pt-20 g-pb-70 g-mt-90" id="intro">

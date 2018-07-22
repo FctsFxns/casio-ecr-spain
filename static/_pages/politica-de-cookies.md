@@ -2,7 +2,7 @@
 layout: legal
 layout_class: page-legal   
 layout_id: page-cookies    
-title: Política de Cookies
+title: Política de Cookies | CASIO System Solutions
 permalink: /politica-de-cookies/
 sitemap: 0
 ---
