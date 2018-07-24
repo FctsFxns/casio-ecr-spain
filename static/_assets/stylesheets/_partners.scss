@@ -134,6 +134,9 @@
 		 {
 			color: $cs-light-color;
 		}
+		.beneficios p {
+			font-size: 18px;
+		}
 		.area-distribuidores-img {
 			margin-bottom: -20%;
 			img {
@@ -162,13 +165,17 @@
 			img {
 				max-width: 120%;
 			}
-		}		
+		}
+		.beneficios p {
+			font-size: 16px;
+		}
 	}
 }
 
 @media (min-width: 1200px)  { 
 	.area-distribuidores {
 		.inner {
+			padding-top: 6em;
 			padding-left: 2em;
 			padding-right: 2em;		
 		}

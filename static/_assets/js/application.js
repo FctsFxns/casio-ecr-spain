@@ -75,7 +75,7 @@
       // Show 'Solicita una demo' popup
       if ($("body").hasClass("page-home-show-demo")) {
         $(window).scroll(function() {
-          if ($(window).scrollTop() > $(window).height() * 3)
+          if ($(window).scrollTop() > $(window).height() * 4.5)
           {
             // // middle of page hit, load extra content here
             $.jsdvPopup({
