@@ -1,27 +1,35 @@
 
 // Butó gran de la navegació
-.header-buttons {
-	top: 6px;
-	.btn-u.btn-brd {
-		color: $cs-green;
-		border: solid 3px $cs-green;
-		border-color: $cs-green;
-		padding: 12px 25px;
-		&:hover {
-			background: $cs-green;
-			color: #fff;
-		}
-	}	
-}
-
 .container-fluid > .navbar-collapse, 
 .container-fluid > .navbar-header, 
 .container > .navbar-collapse, 
 .container > .navbar-header {
 	.header-buttons {
-		margin: 0 1em;
-		margin-top: -1.5em;
-		padding-bottom: 20px;
+		top: 6px;
+		.btn-u.btn-brd {
+			color: $cs-green;
+			border: solid 3px $cs-green;
+			border-color: $cs-green;
+			padding: 12px 25px;
+			margin-top: 0;
+			&:hover {
+				background: $cs-green;
+				color: #fff;
+			}
+		}	
+	}
+}
+
+@media (max-width: 991px)  {
+	.container-fluid > .navbar-collapse, 
+	.container-fluid > .navbar-header, 
+	.container > .navbar-collapse, 
+	.container > .navbar-header {
+		.header-buttons {
+			margin: 0 1em;
+			margin-top: -1.5em;
+			padding-bottom: 20px;
+		}
 	}
 }
 
@@ -109,9 +117,6 @@
 }
 
 // Menú desplegat
-.navbar-collapse {
-	margin-top: 0;
-}
 @media (max-width: 991px)  {
 	.navbar-collapse {
 		margin-top: 1em;
