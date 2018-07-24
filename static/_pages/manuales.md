@@ -8,7 +8,7 @@ sitemap: 1
 intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas registradoras electrónicas. Aprenderás a utilizar nuestros equipos con más facilidad'
 ---
 <br/><br/><br/><br/>
-<!-- Our history banner Section -->
+<!-- Manuales header Section -->
 <section id="manuales" class="action-section manuales-section g-pt-70 g-pb-30 g-bg-blue">
 	<div class="container-fluid">
 		<div class="row">
@@ -30,6 +30,8 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
 		</div>
 	</div>
 </section>
+<!-- /Manuales header Section -->
+<!-- Manuales lista Section -->
 <section id="lista" class="g-mt-40 g-pb-70 manuales-list">
 	<div class="container-fluid">
 		<div class="row">
@@ -64,35 +66,36 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
 					</div>
 					<div class="col-xs-4 ">
 						<p>
-							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-G1.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua" target="_blank">Descargar</a>
+							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-G1.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua" target="_blank" title="Descargar ficha formativa de SE-G1">Descargar</a>
 						</p>
 					</div>									
 				</div>	
-				<!-- Download #2 -->
-				<div class="row g-mt-10">
-					<div class="col-xs-7 col-xs-offset-1">
-						<h5 class="g-mt-20">Manual de usuario</h5>
-						<p>Documento PDF (1,5 MB)</p>
-					</div>
-					<div class="col-xs-4 ">
-						<p>
-							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-G1.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua" target="_blank">Descargar</a>
-						</p>
-					</div>									
-				</div>	
-				<!-- Download #3 -->
-				<div class="row g-mt-10">
-					<div class="col-xs-7 col-xs-offset-1">
-						<h5 class="g-mt-20">Guía rápida</h5>
-						<p>Documento PDF (3,1 MB)</p>
-					</div>
-					<div class="col-xs-4 ">
-						<p>
-							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-G1.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua" target="_blank">Descargar</a>
-						</p>
-					</div>									
-				</div>	
-
+				{% comment %}
+					<!-- Download #2 -->
+					<div class="row g-mt-10">
+						<div class="col-xs-7 col-xs-offset-1">
+							<h5 class="g-mt-20">Manual de usuario</h5>
+							<p>Documento PDF (1,5 MB)</p>
+						</div>
+						<div class="col-xs-4 ">
+							<p>
+								<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-G1.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua" target="_blank" title="Descargar ficha formativa de SE-G1">Descargar</a>
+							</p>
+						</div>									
+					</div>	
+					<!-- Download #3 -->
+					<div class="row g-mt-10">
+						<div class="col-xs-7 col-xs-offset-1">
+							<h5 class="g-mt-20">Guía rápida</h5>
+							<p>Documento PDF (3,1 MB)</p>
+						</div>
+						<div class="col-xs-4 ">
+							<p>
+								<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-G1.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua" target="_blank">Descargar</a>
+							</p>
+						</div>									
+					</div>	
+			{% endcomment %}
 			</div>
 		</div>		
  		<!-- Fin Producto 1 -->
@@ -122,7 +125,7 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
 					</div>
 					<div class="col-xs-4 ">
 						<p>
-							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-S100.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua" target="_blank">Descargar</a>
+							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-S100.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua" target="_blank" title="Descargar ficha formativa de SE-S100">Descargar</a>
 						</p>
 					</div>									
 				</div>	
@@ -154,7 +157,7 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
 					</div>
 					<div class="col-xs-4 ">
 						<p>
-							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-S400.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua" target="_blank">Descargar</a>
+							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-S400.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua" target="_blank" title="Descargar ficha formativa de SE-S400">Descargar</a>
 						</p>
 					</div>									
 				</div>	
@@ -165,5 +168,5 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
 
 	</div>
 </section>
-<!-- /Our history banner Section -->
+<!-- /Manuales lista Section -->
 
