@@ -1,4 +1,5 @@
 
+// 1. Navegació principal
 // Butó gran de la navegació
 .container-fluid > .navbar-collapse, 
 .container-fluid > .navbar-header, 
@@ -20,6 +21,8 @@
 	}
 }
 
+/* Navbar */
+// Fem que colapsi a 992px(md) i no pas a 768 (sm)
 @media (max-width: 991px)  {
 	.container-fluid > .navbar-collapse, 
 	.container-fluid > .navbar-header, 
@@ -33,7 +36,6 @@
 	}
 }
 
-/* Navbar */
 .one-page-header .navbar-brand {
 	padding-top: 15px !important;
 }
@@ -117,6 +119,8 @@
 }
 
 // Menú desplegat
+// Per evitar animacions indesitjades, apliquem estil per viewport
+// , estigui o no, desplegat. ;)
 @media (max-width: 991px)  {
 	.navbar-collapse {
 		margin-top: 1em;
@@ -142,3 +146,128 @@
 	border: none;
 }
 
+// 2. Navegació principal
+// Peu de página
+
+/* Pre-Footer */
+.login-section, .pre-footer {
+	h3 {
+		letter-spacing: 0;
+		text-transform: uppercase;
+		color: $cs-blue-light;
+		font-size: 12px;
+		line-height: 1.4;
+		font-weight: 700;
+	}
+}
+
+.pre-footer {
+	background-color: $cs-lightest; 
+	h3 {
+		color: $cs-darkest;
+	}
+	.container {
+		border-top: none;
+	}
+	p {
+		font-weight: 100;
+		// font-size: 92.5%;
+		color: darken($text-color,10%);
+		a {
+			color: darken($text-color,10%);
+			text-decoration: underline;
+		}
+	}
+	li {
+		font-weight: 100;
+		// font-size: 92.5%;
+		a {
+			color: darken($text-color, 10%);
+		}
+	}
+}
+
+
+/* Footer */
+.footer {
+	background: #fafafa;
+	border-top: none;
+	.container {
+	  border-top: none;
+	}
+	a {
+	  color: $text-color;
+	}
+	.copyright {
+		display: inline-block;
+		font-size: 12px;
+	}
+	.casio-logo-wrapper  {
+		text-align: right;
+		padding-right: 40px;
+		margin-top: 1em;
+
+	}
+	.casio-logo {
+		display: inline-block;
+
+		padding-right: 0;
+		padding-bottom: 10px;
+		em {
+			display: inline-block;
+			font-family: "Helvetica Neue",HelveticaNeue,Helvetica,Arial,"Arial Unicode MS",sans-serif;
+			font-size: .9em;
+			margin-left: .25em;
+			padding-left: 1em;
+			font-style: normal;
+			font-weight: 200;
+			line-height: 2em;
+			color: #5977b3;
+			border-left: 1px solid #dae0f2;			
+		}
+	}
+	.legal {
+		ul {
+			display: inline-block;
+			li {
+				display: inline-block;
+				margin-right: 1em;
+				border-right: 1px solid $cs-light-color;
+				padding-right: 1em;
+				&:last-child {
+			    border-right: none;
+			    padding-right: 0;
+			    margin-right: 0;
+				}
+				a {
+					font-size: 12px;
+					font-weight: 100;
+				}
+			}
+		}
+	}
+
+}
+
+@media (min-width: 768px) {
+	.footer {
+		.casio-logo-wrapper {
+			margin-top: 0;
+			padding-right: 0;
+		}
+	}
+}
+@media (max-width: 768px) {
+	.footer {
+		.casio-logo-wrapper  {
+			text-align: center;
+		}
+
+		.legal {
+			text-align: center;
+			ul li a {
+				font-size: 11px;
+			}
+		}
+	}
+}

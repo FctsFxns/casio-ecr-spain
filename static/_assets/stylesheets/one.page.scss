@@ -44,8 +44,9 @@ $primary-color-light: lighten($primary-color, 30%);
 		padding-left: 8em;
 	}
 }
-
+// Colors
 @import 'theme_color_base';
+// Common layout elements
 @import 'layout';
 @import 'custom';
 @import 'distribuidor';

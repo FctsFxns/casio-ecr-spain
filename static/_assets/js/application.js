@@ -8,14 +8,14 @@
           $(window).scroll(function() {
               if ($(window).scrollTop() > $(window).height() * 3)
               {
-                  // middle of page hit, load extra content here
-                  $.jsdvPopup({
-                    icon: '',
-                    text: 'Pide que te hagamos una DEMO.',
-                    button: '<a href="http://bit.ly/casioayuda" class="btn-u btn-u-blue btn-u-lg btn-u-upper btn-block ">Solicita una demo</a>' 
-                  });
-                  // Don't repeat
-                  $(this).unbind('scroll');
+                  // // middle of page hit, load extra content here
+                  // $.jsdvPopup({
+                  //   icon: '',
+                  //   text: 'Pide que te hagamos una DEMO.',
+                  //   button: '<a href="http://bit.ly/casioayuda" class="btn-u btn-u-blue btn-u-lg btn-u-upper btn-block ">Solicita una demo</a>' 
+                  // });
+                  // // Don't repeat
+                  // $(this).unbind('scroll');
               }
           });
       }
