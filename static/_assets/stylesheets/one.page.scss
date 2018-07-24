@@ -46,9 +46,9 @@ $primary-color-light: lighten($primary-color, 30%);
 }
 
 @import 'theme_color_base';
+@import 'layout';
 @import 'custom';
 @import 'distribuidor';
 @import 'legal';
 @import 'history';
-@import 'carrousel';
 @import 'manuales';
