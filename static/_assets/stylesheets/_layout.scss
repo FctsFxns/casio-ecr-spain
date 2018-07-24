@@ -146,48 +146,7 @@
 	border: none;
 }
 
-// 2. Navegació principal
-// Peu de página
-
-/* Pre-Footer */
-.login-section, .pre-footer {
-	h3 {
-		letter-spacing: 0;
-		text-transform: uppercase;
-		color: $cs-blue-light;
-		font-size: 12px;
-		line-height: 1.4;
-		font-weight: 700;
-	}
-}
-
-.pre-footer {
-	background-color: $cs-lightest; 
-	h3 {
-		color: $cs-darkest;
-	}
-	.container {
-		border-top: none;
-	}
-	p {
-		font-weight: 100;
-		// font-size: 92.5%;
-		color: darken($text-color,10%);
-		a {
-			color: darken($text-color,10%);
-			text-decoration: underline;
-		}
-	}
-	li {
-		font-weight: 100;
-		// font-size: 92.5%;
-		a {
-			color: darken($text-color, 10%);
-		}
-	}
-}
-
-
+// 2. Peu de página
 /* Footer */
 .footer {
 	background: #fafafa;
@@ -204,9 +163,8 @@
 	}
 	.casio-logo-wrapper  {
 		text-align: right;
-		padding-right: 40px;
+		padding-right: 0;
 		margin-top: 1em;
-
 	}
 	.casio-logo {
 		display: inline-block;
@@ -253,10 +211,12 @@
 	.footer {
 		.casio-logo-wrapper {
 			margin-top: 0;
-			padding-right: 0;
+			padding-right: 20px;
 		}
 	}
 }
+
+
 @media (max-width: 768px) {
 	.footer {
 		.casio-logo-wrapper  {

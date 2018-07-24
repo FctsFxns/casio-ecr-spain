@@ -1009,7 +1009,7 @@ a.btn-more {
 }
 
 
-/** SECTION: "OUR HISTORY"  **/
+/** CALL TO ACTION: "OUR HISTORY"  **/
 section.history-section {
 	text-align: center;
 	background-color: $cs-darkest;
@@ -1033,6 +1033,25 @@ section.history-section {
 				border-color: $cs-green;
 				background: $cs-green;
 			}
+		}
+	}
+	.img-banner {
+		margin-top: 2em;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px)  { 
+	section.history-section {
+		.img-banner {
+			margin-top: 0;
+		}
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px)  { 
+	section.history-section {
+		.img-banner {
+			margin-top: 2em;
 		}
 	}
 }
