@@ -54,26 +54,26 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
 			</div>
 		</div>
 		<div class="row">					
-			<div class="col-lg-3 col-lg-offset-1">
+			<div class="col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2">
 				<img class="img-responsive g-ml-20" src="{{ '/' | prepend: site.data.global.url }}media/products/consumo/consumo-6-BL.png" alt="Imagen de Casio SE-G1">
 			</div>
-			<div class="col-lg-8">
+			<div class="visible-xs clearfix"></div>
+			<div class="col-lg-8 col-md-8 col-md-offset-0 col-sm-8 col-sm-offset-0 col-xs-12 col-xs-offset-0">
 				<!-- Download #1 -->
 				<div class="row g-mt-40">
-					<div class="col-xs-7 col-xs-offset-1">
+					<div class="col-md-7 col-md-offset-1 col-xs-8 col-xs-offset-0">
 						<h5 class="g-mt-20">Ficha Formativa</h5>
 						<p>Documento PDF (1,2 MB)</p>
 					</div>
-					<div class="col-xs-4 ">
+					<div class="col-md-4 col-xs-3">
 						<p>
 							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-G1.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua" target="_blank" title="Descargar ficha formativa de SE-G1">Descargar</a>
 						</p>
 					</div>									
 				</div>	
-				{% comment %}
 					<!-- Download #2 -->
 					<div class="row g-mt-10">
-						<div class="col-xs-7 col-xs-offset-1">
+						<div class="col-md-7 col-md-offset-1 col-xs-8 col-xs-offset-0">
 							<h5 class="g-mt-20">Manual de usuario</h5>
 							<p>Documento PDF (1,5 MB)</p>
 						</div>
@@ -85,7 +85,7 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
 					</div>	
 					<!-- Download #3 -->
 					<div class="row g-mt-10">
-						<div class="col-xs-7 col-xs-offset-1">
+						<div class="col-md-7 col-md-offset-1 col-xs-8 col-xs-offset-0 ">
 							<h5 class="g-mt-20">Guía rápida</h5>
 							<p>Documento PDF (3,1 MB)</p>
 						</div>
@@ -95,7 +95,6 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
 							</p>
 						</div>									
 					</div>	
-			{% endcomment %}
 			</div>
 		</div>		
  		<!-- Fin Producto 1 -->
@@ -113,13 +112,14 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
 			</div>
 		</div>
 		<div class="row">					
-			<div class="col-lg-3 col-lg-offset-1 ">
+			<div class="col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2">
 				<img class="img-responsive g-ml-20" src="{{ '/' | prepend: site.data.global.url }}media/products/consumo/consumo-5-GD.png" alt="Casio SE-S100-S-RD" title="Casio SE-S100-S-RD">
 			</div>
-			<div class="col-lg-8">
+			<div class="visible-xs clearfix"></div>
+			<div class="col-lg-8 col-md-8 col-md-offset-0 col-sm-8 col-sm-offset-0 col-xs-12 col-xs-offset-0">
 				<!-- Download #1 -->
 				<div class="row g-mt-40">
-					<div class="col-xs-7 col-xs-offset-1">
+					<div class="col-md-7 col-md-offset-1 col-xs-8 col-xs-offset-0">
 						<h5 class="g-mt-20">Guía rápida de configuración</h5>
 						<p>Documento PDF (2,5 MB)</p>
 					</div>
@@ -145,13 +145,14 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
 			</div>
 		</div>
 		<div class="row ">					
-			<div class="col-lg-3 col-lg-offset-1">
+			<div class="col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2">
 				<img class="img-responsive g-ml-20" src="{{ '/' | prepend: site.data.global.url }}media/products/consumo/consumo-1c.png" alt="Imagen de Casio SE-S400">
 			</div>
-			<div class="col-lg-8">
+			<div class="visible-xs clearfix"></div>
+			<div class="col-lg-8 col-md-8 col-md-offset-0 col-sm-8 col-sm-offset-0 col-xs-12 col-xs-offset-0">
 				<!-- Download #1 -->
 				<div class="row g-mt-40">
-					<div class="col-xs-7 col-xs-offset-1">
+					<div class="col-md-7 col-md-offset-1 col-xs-8 col-xs-offset-0">
 						<h5 class="g-mt-20">Ficha Formativa</h5>
 						<p>Documento PDF (2,6 MB)</p>
 					</div>
