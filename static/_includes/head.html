@@ -38,15 +38,7 @@
     <!-- CSS Global Compulsory -->
     {% stylesheet bootstrap/dist/css/bootstrap.min %}
     {% stylesheet One-Pages/assets/css/app %}
-    {% stylesheet cookieconsent/build/cookieconsent.min %}
 
-    {% comment %}
-        <!-- Dona error de Jekyll si ho afegim -->
-        <!-- Liquid Exception: undefined method `gsub' for nil:NilClass in … -->
-        {% stylesheet One-Pages/assets/css/blocks %}
-        <!-- And it looks like it's not necessary at all :) -->
-    {% endcomment %}    
-    <link type="text/css" rel="stylesheet" href="/media/assets/One-Pages/assets/css/blocks.css">
     {% stylesheet One-Pages/assets/css/one.style %}
     {% stylesheet general/css/style %}
 
@@ -56,7 +48,7 @@
         <!-- We don't use line-icons at all. It weights a ton in terms of image assets -->
         {% stylesheet One-Pages/assets/plugins/line-icons/line-icons.css %}
         <link type="text/css" rel="stylesheet" href="/media/assets/One-Pages/assets/plugins/line-icons/line-icons.css">
-        {% stylesheet One-Pages/assets/plugins/font-awesome/css/font-awesome.css %}
+        {% stylesheet One-Pages/assets/plugins/font-awesome/css/font-awesome.min.css %}
     {% endcomment %}
 
     <link type="text/css" rel="stylesheet" href="/media/assets/One-Pages/assets/plugins/font-awesome/css/font-awesome.min.css">
@@ -66,10 +58,10 @@
     {% stylesheet One-Pages/assets/plugins/shhos/shhos.css %}
     <!-- CSS Theme -->
     {% stylesheet One-Pages/homepage/assets/css/homepage.style.css %}
-
     <!-- CSS Customization -->
+    {% stylesheet cookieconsent/build/cookieconsent.min %}
     {% stylesheet one.page.scss %}
-    
+
 </head>
 
 <body id="{% if page.layout_id %} {{page.layout_id}}{% endif %}" class="{{ post.title | downcase | replace:' ','-' | replace:',','' | strip_html }}{% if page.category %} category-{{ page.category }}{% endif %}{% if page.layout_class %} {{ page.layout_class }}{% endif %} {{ work.title | downcase | replace:' ','-' | replace:',','' | strip_html }}">
