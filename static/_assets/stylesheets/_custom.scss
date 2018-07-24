@@ -229,29 +229,42 @@ a.btn-u-lg,
 
 section {
 	.main-title {
-		font-size: 46px;
+		font-size: 38px;
 		letter-spacing: 0;
 		font-weight: 800;
 	}
 	p {
-		font-size: 16px;
+		font-size: 14px;
 		font-weight: 400;
 		&.lead {
-			font-size: 21px;
-			line-height: 32px;
-			font-weight: 400;
-
-			color: $cc-darker-color;
+			font-size: 18px;
 	    font-weight: 100;
 	    line-height: 36px;
-
-
 			color: $cc-dark-color;
 			strong, b {
 				font-weight: 600;
 			}
 		}
 	}
+}
+
+@media (min-width: 768px)  { 
+section {
+	.main-title {
+		font-size: 46px;
+	}
+	p {
+		font-size: 16px;
+		font-weight: 400;
+		&.lead {
+			font-size: 21px;
+	    font-weight: 100;
+	    line-height: 36px;
+			strong, b {
+			}
+		}
+	}
+}
 }
 
 
@@ -261,20 +274,16 @@ section {
 	background: #fff;
 	i.icon-custom {
 		background: $cs-blue !important;
-		border-radius: 100%;
 		color: #fff !important;
-		// font-size: 42px;
-
 		border: none;
 		background: none !important;
 		border-radius: 100%;
 		color: $cs-blue !important;
-	
 		&.icon-lg {
-			width: 100px;
-			height: 100px;
-			line-height: 96px;
-			font-size: 48px;
+			width: 50px;
+			height: 50px;
+			line-height: 48px;
+			font-size: 32px;
 		}
 	}
 
@@ -301,6 +310,39 @@ section {
 		background: #fff;
 	}
 
+}
+
+@media (min-width: 768px)  { 
+	.soluciones-section {
+		i.icon-custom {
+			&.icon-lg {
+				width: 100px;
+				height: 100px;
+				line-height: 96px;
+				font-size: 48px;
+			}
+		}
+	}
+}
+
+// Fem un enfoque diferent al bodegon en pantalles ben petites
+.soluciones-pro-section {
+	.soluciones-imagen {
+		img.img-responsive {
+	    max-width: 150%;
+	    margin-left: -25%;
+		}
+	}
+}
+@media (min-width: 768px)  { 
+	.soluciones-pro-section {
+		.soluciones-imagen {
+			img.img-responsive {
+		    max-width: 100%;
+		    margin-left: 0;
+			}
+		}
+	}
 }
 
 .product-thumbnail {
@@ -434,6 +476,8 @@ section {
 
 }
 
+
+
 // .soluciones-pro-section {
 // 	.row-product-thumbnail {
 // 		.col-md-4:nth-child(1) {
@@ -515,6 +559,7 @@ section {
 			color: $cc-darker-color;
 			margin: 0 0 30px;
 			position: relative;
+			text-align: left;
 			&::after {
 		    left: 0;
 		    height: 2px;
@@ -530,6 +575,7 @@ section {
 			font-size: 14px;
 			font-weight: 100;
 			margin-right: 1em;
+			text-align: left;
 		}
 	}
 }
