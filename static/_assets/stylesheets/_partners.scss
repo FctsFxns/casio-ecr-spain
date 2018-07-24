@@ -94,6 +94,8 @@
 		}
 		.inner {
 			background: none !important;
+			margin-top: 3em !important;
+			margin-bottom: 3em !important;
 		}
 		.headline-after, //#111
 		h3 // #111
@@ -106,7 +108,7 @@
 			color: $cc-dark-color;
 		}
 		.beneficios p {
-			font-size: 12px;
+			font-size: 14px;
 			font-weight: 400;
 		}
 		a.btn-u {
@@ -133,7 +135,7 @@
 			color: $cs-light-color;
 		}
 		.area-distribuidores-img {
-			margin-bottom: -10em;
+			margin-bottom: -20%;
 			img {
 				max-width: 100%;
 			}

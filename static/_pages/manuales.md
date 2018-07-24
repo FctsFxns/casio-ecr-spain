@@ -60,43 +60,41 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
 			<div class="visible-xs clearfix"></div>
 			<div class="col-lg-8 col-md-8 col-md-offset-0 col-sm-8 col-sm-offset-0 col-xs-12 col-xs-offset-0">
 				<!-- Download #1 -->
-				<div class="row g-mt-40">
-					<div class="col-md-7 col-md-offset-1 col-xs-8 col-xs-offset-0">
+				<div class="download row g-mt-40">
+					<div class="col-lg-7 col-md-7 col-md-offset-1 col-sm-7 col-sm-offset-1 col-xs-7 col-xs-offset-0 col-xs-offset-0">
 						<h5 class="g-mt-20">Ficha Formativa</h5>
 						<p>Documento PDF (1,2 MB)</p>
 					</div>
-					<div class="col-md-4 col-xs-3">
+					<div class="col-lg-3 col-md-3 col-sm-4 col-xs-5 text-right ">
 						<p>
 							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-G1.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua" target="_blank" title="Descargar ficha formativa de SE-G1">Descargar</a>
 						</p>
 					</div>									
 				</div>	
-				{% comment %}
 					<!-- Download #2 -->
-					<div class="row g-mt-10">
-						<div class="col-md-7 col-md-offset-1 col-xs-8 col-xs-offset-0">
+					<div class="download row g-mt-10">
+						<div class="col-lg-7 col-md-7 col-md-offset-1 col-sm-7 col-sm-offset-1 col-xs-7 col-xs-offset-0 col-xs-offset-0">
 							<h5 class="g-mt-20">Manual de usuario</h5>
 							<p>Documento PDF (1,5 MB)</p>
 						</div>
-						<div class="col-xs-4 ">
+						<div class="col-lg-3 col-md-3 col-sm-4 col-xs-5 text-right ">
 							<p>
 								<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-G1.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua" target="_blank" title="Descargar ficha formativa de SE-G1">Descargar</a>
 							</p>
 						</div>									
 					</div>	
 					<!-- Download #3 -->
-					<div class="row g-mt-10">
-						<div class="col-md-7 col-md-offset-1 col-xs-8 col-xs-offset-0 ">
+					<div class="download row g-mt-10">
+						<div class="col-lg-7 col-md-7 col-md-offset-1 col-sm-7 col-sm-offset-1 col-xs-7 col-xs-offset-0 col-xs-offset-0 ">
 							<h5 class="g-mt-20">Guía rápida</h5>
 							<p>Documento PDF (3,1 MB)</p>
 						</div>
-						<div class="col-xs-4 ">
+						<div class="col-lg-3 col-md-3 col-sm-4 col-xs-5 text-right ">
 							<p>
 								<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-G1.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua" target="_blank">Descargar</a>
 							</p>
 						</div>									
 					</div>	
-				{% endcomment %}
 			</div>
 		</div>		
  		<!-- Fin Producto 1 -->
@@ -120,12 +118,12 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
 			<div class="visible-xs clearfix"></div>
 			<div class="col-lg-8 col-md-8 col-md-offset-0 col-sm-8 col-sm-offset-0 col-xs-12 col-xs-offset-0">
 				<!-- Download #1 -->
-				<div class="row g-mt-40">
-					<div class="col-md-7 col-md-offset-1 col-xs-8 col-xs-offset-0">
+				<div class="download row g-mt-40">
+					<div class="col-lg-7 col-md-7 col-md-offset-1 col-sm-7 col-sm-offset-1 col-xs-7 col-xs-offset-0 col-xs-offset-0">
 						<h5 class="g-mt-20">Guía rápida de configuración</h5>
 						<p>Documento PDF (2,5 MB)</p>
 					</div>
-					<div class="col-xs-4 ">
+					<div class="col-lg-3 col-md-4 col-sm-4 col-xs-5 text-right ">
 						<p>
 							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-S100.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua" target="_blank" title="Descargar ficha formativa de SE-S100">Descargar</a>
 						</p>
@@ -153,12 +151,12 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
 			<div class="visible-xs clearfix"></div>
 			<div class="col-lg-8 col-md-8 col-md-offset-0 col-sm-8 col-sm-offset-0 col-xs-12 col-xs-offset-0">
 				<!-- Download #1 -->
-				<div class="row g-mt-40">
-					<div class="col-md-7 col-md-offset-1 col-xs-8 col-xs-offset-0">
+				<div class="download row g-mt-40">
+					<div class="col-lg-7 col-md-7 col-md-offset-1 col-sm-7 col-sm-offset-1 col-xs-7 col-xs-offset-0 col-xs-offset-0">
 						<h5 class="g-mt-20">Ficha Formativa</h5>
 						<p>Documento PDF (2,6 MB)</p>
 					</div>
-					<div class="col-xs-4 ">
+					<div class="col-lg-3 col-md-4 col-sm-4 col-xs-5 text-right ">
 						<p>
 							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-S400.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua" target="_blank" title="Descargar ficha formativa de SE-S400">Descargar</a>
 						</p>
