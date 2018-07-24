@@ -1036,7 +1036,7 @@ section.history-section {
 		}
 	}
 	.img-banner {
-		margin-top: 2em;
+		margin-top: 4em;
 	}
 }
 
@@ -1051,7 +1051,15 @@ section.history-section {
 @media (min-width: 992px) and (max-width: 1199px)  { 
 	section.history-section {
 		.img-banner {
-			margin-top: 2em;
+			margin-top: 4em;
+		}
+	}
+}
+
+@media (min-width: 1200px)  { 
+	section.history-section {
+		.img-banner {
+			margin-top: 0;
 		}
 	}
 }
