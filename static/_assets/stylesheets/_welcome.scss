@@ -4,6 +4,7 @@
 	position: relative;
 	background: transparent;
 	overflow: hidden;
+	text-align: left;
 	.wrapper, .img-wrapper {
 		z-index: 1;
 		background: none;
@@ -16,7 +17,7 @@
   	top: 0;
     content: '';
     width: 100%;
-    height: 68%;
+    height: 75%;
     position: absolute;
 	  // background-image: url(../media/assets/partners-hero.png);
 	  background-position: center 112%;
@@ -34,7 +35,7 @@
 	  	top: 0;
 	    content: '';
 	    width: 100%;
-	    height: 68%;
+	    height: 75%;
 	    position: absolute;
 		  background-image: url(../media/assets/patterns/0052A2-0.6.png);
 			background-repeat: repeat;
@@ -57,6 +58,18 @@
 	}
 }
 
+@media (min-width: 481px) and (max-width: 991px)  { 
+	.welcome-section {
+		text-align: center;
+	}
+}
+
+@media (min-width: 992px)  { 
+	.welcome-section {
+		text-align: left;
+	}
+}
+
 @media (min-width: 768px) and (max-width: 991px)  { 
 	.welcome-section {
 		margin-top: 100px;
@@ -74,6 +87,7 @@
 
 @media (min-width: 992px) and (max-width: 1199px)  { 
 	.welcome-section {
+		margin-top: 100px;
 		.wrapper {
 			margin-bottom: 90px;
 		}
@@ -87,13 +101,14 @@
 
 @media (min-width: 1200px)  { 
 	.welcome-section {
+		margin-top: 100px;
 		.wrapper {
 			margin-bottom: 90px;
 		}
 		.img-wrapper img {
 			display: block;
-			margin-left: -2em;
-			margin-top: -5em;
+			margin-left: 12em;
+			margin-top: -3em;
 		}
 	}
 }
