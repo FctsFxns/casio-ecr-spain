@@ -254,78 +254,8 @@ section {
 	}
 }
 
-/** Inicio Section **/
-.welcome-section {
-	margin-top: 100px;
-	position: relative;
-	background: transparent;
-	overflow: hidden;
-	.wrapper, .img-wrapper {
-		z-index: 1;
-		background: none;
-	}
-
-	&::before {
-    left: 0;
-  	top: 0;
-    content: '';
-    width: 100%;
-    height: 68%;
-    position: absolute;
-
-	  // background-image: url(../media/assets/partners-hero.png);
-	  background-position: center 112%;
-		background-size: 58%;
-		background-repeat: no-repeat;
-	  // background-image: url(../media/assets/shutterstock_1056447152.jpg);
-		background-image: url(../media/assets/bg-welcome--test.jpg);
-		background-image: url(../media/assets/bg-welcome.jpg);
-	  background-position: center top;
-		background-size: cover;
-		min-height: 500px !important;
-	}
-	&::after {
-	    left: 0;
-	  	top: 0;
-	    content: '';
-	    width: 100%;
-	    height: 68%;
-	    position: absolute;
-		  background-image: url(../media/assets/patterns/0052A2-0.6.png);
-			background-repeat: repeat;
-			min-height: 500px !important;
-	}
-	img {
-		margin-left: 6em;
-		margin-top: 6em;
-		margin-left: 15em;
-		margin-top: -3em;
-	}
-	.btn-brd {
-		border: 2px solid;
-		&:hover {
-			border: 2px solid #fff;
-			background: #fff;
-			color: $cs-green;
-		}
-	}
-
-		// background-image: url(../media/assets/39309401_l.jpg);
-
-		// background-image: none;
-		// // From http://www.cssportal.com/css-gradient-generator/
-		// background-image: -ms-radial-gradient(center bottom, ellipse farthest-corner, #6a6a6a 0%, #000000 100%);
-		// background-image: -moz-radial-gradient(center bottom, ellipse farthest-corner, #6a6a6a 0%, #000000 100%);
-		// background-image: -o-radial-gradient(center bottom, ellipse farthest-corner, #6a6a6a 0%, #000000 100%);
-		// background-image: -webkit-gradient(radial, center bottom, 0, center bottom, 359, color-stop(0, #6a6a6a), color-stop(100, #000000));
-		// background-image: -webkit-radial-gradient(center bottom, ellipse farthest-corner, #6a6a6a 0%, #000000 100%);
-		// background-image: radial-gradient(ellipse farthest-corner at center bottom, #6a6a6a 0%, #000000 100%);
-
-}
 
 /** > Promo section **/
-
-
 /* Productos Prof. Section */
 .soluciones-section {
 	background: #fff;
@@ -503,9 +433,6 @@ section {
 	}
 
 }
-
-
-
 
 // .soluciones-pro-section {
 // 	.row-product-thumbnail {

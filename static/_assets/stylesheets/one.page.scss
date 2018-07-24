@@ -48,6 +48,8 @@ $primary-color-light: lighten($primary-color, 30%);
 @import 'theme_color_base';
 // Common layout elements
 @import 'layout';
+// Homepage: welcome banner
+@import 'welcome';
 @import 'custom';
 @import 'distribuidor';
 @import 'legal';
