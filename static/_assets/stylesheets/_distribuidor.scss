@@ -42,6 +42,7 @@
 
 	// Capçalera principal
 	.action-section {
+		text-align: left;
 		padding-top: 80px;
 		position: relative;
 		i.icon-custom {
@@ -90,12 +91,20 @@
 	}
 }
 
-@media (min-width: 768px) {
+
+@media (min-width: 481px) and (max-width: 991px)  { 
 	.page-distribuidor {
 		.action-section {
-			p {
-				// max-width: 550px;
-			}
+			text-align: center;
+		}
+	}
+}
+
+
+@media (min-width: 992px)  { 
+	.page-distribuidor {
+		.action-section {
+			text-align: left;
 		}
 	}
 }

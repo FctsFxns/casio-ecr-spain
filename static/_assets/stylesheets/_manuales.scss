@@ -1,4 +1,16 @@
 .page-manuales {
+	.manuales-section {
+		text-align: left;
+		h1 {
+			color: $cs-light-color;
+			font-size: 12px;
+			font-style: normal;
+			font-weight: 600;
+			text-transform: uppercase;
+			display: block;
+			letter-spacing: 2px;			
+		}
+	}
 	.manuales-list {
 		h3 {
 			font-size: 30px;
@@ -37,6 +49,23 @@
 				font-weight: 400;
 				color: $cc-dark-color;
 			}
+		}
+	}
+}
+
+@media (min-width: 481px) and (max-width: 991px)  { 
+	.page-manuales {
+		.manuales-section {
+			text-align: center;
+		}
+	}
+}
+
+
+@media (min-width: 992px)  { 
+	.page-manuales {
+		.manuales-section {
+			text-align: left;
 		}
 	}
 }

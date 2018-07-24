@@ -201,9 +201,9 @@ intro:        'Consigue ventajas competitivas además de ser acreditado por CASI
 			  		</div>
 						<div class="row ">
 			  			<div class="col-sm-6 g-mb-30">
-								<label class="checkbox"><input name="char_11a" id="subscription" type="checkbox" required><i></i>He leído y acepto la <a href="{{ '/' | prepend: site.data.global.url }}proteccion-de-datos/" target="_blank" title="Política de protección de datos">Política de protección de datos</a></label>
+								<label class="checkbox mr-30"><input name="char_11a" id="subscription" type="checkbox" required><i></i>He leído y acepto la <a href="{{ '/' | prepend: site.data.global.url }}proteccion-de-datos/" target="_blank" title="Política de protección de datos">Política de protección de datos</a></label>
 								<br>
-								<label class="checkbox"><input name="char_11" id="subscription" type="checkbox" required><i></i>Acepto el envío de información comercial, incluso por medios electrónicos, por parte de Casio España, S.L.</label>
+								<label class="checkbox mr-30"><input name="char_11" id="subscription" type="checkbox" required><i></i>Acepto el envío de información comercial, incluso por medios electrónicos, por parte de Casio España, S.L.</label>
 							</div>
 					  </div>
 			  		<div class="row">
@@ -211,7 +211,7 @@ intro:        'Consigue ventajas competitivas además de ser acreditado por CASI
 			  				<p class="hidden"><span class="color-red">Por favor, debe rellenar todos los campos requeridos antes de continuar.</span></p>
 				        <input name="char_02" type="hidden" value="website::distribuidores" />
 							  <input type="hidden" name="ok_redirect" value="http://www.alpha.casio-ecr.es/hemos-recibido-tu-solicitud-al-programa-de-distribuidores/">
-				  			<input type="submit" class="btn-u btn-u-lg btn-u-upper g-mt-20 g-mb-50 btn-u-aqua" value="Enviar solicitud"/>
+				  			<input type="submit" class="btn-u btn-u-lg btn-u-upper g-mt-20 g-mb-50 btn-u-green" value="Enviar solicitud"/>
 			  			</div>
 			  		</div>
 		  		</fieldset>
@@ -225,16 +225,3 @@ intro:        'Consigue ventajas competitivas además de ser acreditado por CASI
 		</div>
 	</div>
 </section>
-<!-- /Contact Section -->
-	{% comment %}
-	<!-- Form Acumbamail -->
-	<form action="https://acumbamail.com/newform/subscribe/e1fcQ4VIblfO9s3LEdz3WFhmd/6211/" method="post" class="yourFormCustomContainer">
-	   <div class="yourFormCustomStyle">
-	      <div style="width: 100%; position:relative;"> <label for="char_01"><p>Nombre</p> </label> <br /><input type="text" name="char_01" required><br /> <label for="char_03"><p>Telefono</p> </label> <br /><input type="text" name="char_03" required><br /> <label for="email_1"><p>Email</p> </label> <br /><input type="text" name="email_1" required><br /> <label for="char_04"><p>Posicion laboral</p> </label> <br /><input type="text" name="char_04" required><br /> <label for="char_05"><p>Empresa</p> </label> <br /><input type="text" name="char_05" required><br /> <label for="char_06"><p>Num de empleados </p> </label> <br /><input type="text" name="char_06" required><br /> <label for="char_07"><p>Ciudad</p> </label> <br /><input type="text" name="char_07" required><br /> <label for="char_08"><p>Provincia</p> </label> <br /><input type="text" name="char_08" required><br /> <label for="char_09"><p>Pagina web</p> </label> <br /><input type="text" name="char_09" required><br /> <label for="char_12"><p>CIF</p> </label> <br /><input type="text" name="char_12" required><br /> <label for="char_10"><p>Interes principal</p> </label> <br /><input type="text" name="char_10" required><br /> <label for="text_1"><p>Comentarios</p> </label> <br /><input type="text" name="text_1" required><br /> <label for="char_02"><p>Origen</p> </label> <br /><input type="text" name="char_02" required><br /> <label for="char_11"><p>Recibir comunicaciones</p> </label> <br /><input type="text" name="char_11" required><br /> <label for="char_13"><p>Horario</p> </label> <br /><input type="text" name="char_13" required><br />
-	      </div>
-	   </div>
-	   <input type="hidden" name="ok_redirect" value="http://www.casio-ecr.es/hemos-recibido-tu-solicitud-al-programa-de-distribuidores/">
-	   <input type="submit" value="Suscribirme a la lista" class="yourButtonCustomStyle">
-	</form>
-	<!-- End Form Acumbamail -->
-	{% endcomment %}
