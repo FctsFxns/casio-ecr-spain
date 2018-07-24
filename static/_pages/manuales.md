@@ -71,6 +71,7 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
 						</p>
 					</div>									
 				</div>	
+				{% comment %}
 					<!-- Download #2 -->
 					<div class="row g-mt-10">
 						<div class="col-md-7 col-md-offset-1 col-xs-8 col-xs-offset-0">
@@ -95,6 +96,7 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
 							</p>
 						</div>									
 					</div>	
+				{% endcomment %}
 			</div>
 		</div>		
  		<!-- Fin Producto 1 -->

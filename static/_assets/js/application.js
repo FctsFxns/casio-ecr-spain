@@ -1,24 +1,40 @@
 //= require_self
+
+  $(function() {
+    setTimeout(function() {
+      if (location.hash) {
+        /* we need to scroll to the top of the window first, because the browser will always jump to the anchor first before JavaScript is ready, thanks Stack Overflow: http://stackoverflow.com/a/3659116 */
+        window.scrollTo(0, 0);
+        target = location.hash.split('#');
+        smoothScrollTo($('#'+target[1]));
+      }
+    }, 1);
+    
+    // taken from: https://css-tricks.com/snippets/jquery/smooth-scrolling/
+    $('a[href*="#"]')
+    // Remove links that don't actually link to anything
+    .not('[href="#"]')
+    .not('[href="#0"]').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        smoothScrollTo($(this.hash));
+        return false;
+      }
+    });
+    
+    function smoothScrollTo(target) {
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top - 110
+        }, 1000);
+      }
+    }
+  });
+
   jQuery(document).ready(function() {
       App.init();
       ContactForm.initContactForm();
-
-      // Show 'Solicita una demo' popup
-      if ($("body").hasClass("page-home-show-demo")) {
-          $(window).scroll(function() {
-              if ($(window).scrollTop() > $(window).height() * 3)
-              {
-                  // // middle of page hit, load extra content here
-                  // $.jsdvPopup({
-                  //   icon: '',
-                  //   text: 'Pide que te hagamos una DEMO.',
-                  //   button: '<a href="http://bit.ly/casioayuda" class="btn-u btn-u-blue btn-u-lg btn-u-upper btn-block ">Solicita una demo</a>' 
-                  // });
-                  // // Don't repeat
-                  // $(this).unbind('scroll');
-              }
-          });
-      }
 
       // Products Carousel x3
       $('.product-thumbnail .carousel').carousel({
@@ -33,7 +49,6 @@
         $("#projects div.row-projects:not(:first)").slideToggle();
         $(this).toggle();
       }).show();
-
 
       // Cookie consent
       window.addEventListener("load", function(){
@@ -57,32 +72,20 @@
         }
       })});
 
-      // SmoothScroll to Contacto, nyapa!
-      // var reSmooth = /^#soluciones/;
-      // var id;
-      // if (reSmooth.test(location.hash)) {
-      //   // Strip the "#smoothScroll" part off (and put "#" back on the beginning)
-      //   id = '#' + location.hash.replace(reSmooth, '');
-      //   $.smoothScroll({
-      //     scrollTarget: '#soluciones'
-      //   });
-      // }
-      // var reSmooth = /^#projects/;
-      // var id;
-      // if (reSmooth.test(location.hash)) {
-      //   // Strip the "#smoothScroll" part off (and put "#" back on the beginning)
-      //   id = '#' + location.hash.replace(reSmooth, '');
-      //   $.smoothScroll({
-      //     scrollTarget: '#projects'
-      //   });
-      // }
-      // var reSmooth = /^#programa-partners/;
-      // var id;
-      // if (reSmooth.test(location.hash)) {
-      //   // Strip the "#smoothScroll" part off (and put "#" back on the beginning)
-      //   id = '#' + location.hash.replace(reSmooth, '');
-      //   $.smoothScroll({
-      //     scrollTarget: '#programa-partners'
+      // Show 'Solicita una demo' popup
+      // if ($("body").hasClass("page-home-show-demo")) {
+      //   $(window).scroll(function() {
+      //     if ($(window).scrollTop() > $(window).height() * 3)
+      //     {
+      //       // // middle of page hit, load extra content here
+      //       $.jsdvPopup({
+      //         icon: '',
+      //         text: 'Pide que te hagamos una DEMO.',
+      //         button: '<a href="http://bit.ly/casioayuda" class="btn-u btn-u-blue btn-u-lg btn-u-upper btn-block ">Solicita una demo</a>' 
+      //       });
+      //       // Don't repeat
+      //       $(this).unbind('scroll');
+      //     }
       //   });
       // }
 

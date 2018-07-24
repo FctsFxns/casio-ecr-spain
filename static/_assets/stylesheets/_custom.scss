@@ -815,60 +815,6 @@ section {
 	}
 }
 
-.area-distribuidores {
-	.headline-after {
-		.headline-name {
-			color: $cs-blue;
-		}
-		&:after {
-	    background: $cs-blue;
-	    left: 36px !important;
-		}
-	}
-
-	.inner {
-		padding-left: 2em;
-		padding-right: 2em;		
-	}
-	h3 {
-		font-size: 16px;
-		font-weight: 600;
-		letter-spacing: 0;
-		text-transform: uppercase;
-	}
-	p {
-		font-size: 16px;
-		font-weight: 400;
-		// margin: 1.5em 0;
-		color: #333;
-	}
-	.beneficios p {
-		color: $cc-dark-color;
-		font-size: 14px;
-		font-weight: 100;
-	}
-	a.btn-more {
-		font-weight: 500;
-		color: $cs-blue-light;
-	}
-	.fa-stack {
-		color: $cs-blue;
-		width: 4.5em;
-		height: 4.5em;
-		line-height: 4.5em;
-		margin-bottom: 2em;
-		.icon-lg {
-			font-size: 4.5em;
-			background: $cs-blue
-		}
-		strong {
-			font-size: 1.425em;
-			font-weight: 600;
-			color: white;
-		}
-	}
-}
-
 /* Projects Section */
 a.btn-more {
 	font-weight: 500;
