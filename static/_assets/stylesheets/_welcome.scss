@@ -73,14 +73,15 @@
 @media (min-width: 768px) and (max-width: 991px)  { 
 	.welcome-section {
 		margin-top: 100px;
+		text-align: left;
 		.wrapper {
 			margin-bottom: 70px;
 		}
 		.img-wrapper img {
 			display: block;
 			margin: 0;
-			margin-top: -5em;
-			margin-left: -8em;
+			margin-top: -7em;
+			margin-left: -4em;
 		}
 	}
 }
