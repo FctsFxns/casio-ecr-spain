@@ -18,7 +18,11 @@
 - Node
 - [Grunt](http://gruntjs.com/)
 
-
+# Events
+ -view demo: cat=click + action=demo - 15€
+ -download pdf: cat=click + action=download - 5€
+ -contact us: cat=click + action=ayuda ( + label=<where>) - 10€
+ -partner: <funnel> - 25€
 
 ### Instalación
 

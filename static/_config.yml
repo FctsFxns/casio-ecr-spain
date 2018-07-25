@@ -21,7 +21,7 @@ destination:      ./_site
 host:             127.0.0.1
 port:             9003
 encoding:         UTF-8
-url:              'http://www.alpha.casio-ecr.es'
+url:              'https://www.casio-ecr.es'
 baseurl:          "" # does not include hostname
 #detach:          false
 
@@ -32,7 +32,6 @@ gems:
 
 # Custom var
 ga_analytics:      UA-16011780-5
-ga_site:           alpha.casio-ecr.es
 
 # Dependencies
 markdown:         kramdown
@@ -65,7 +64,7 @@ permalink:       /:title.html
 paginate_path:   /page:num
 #paginate:        3
 timezone:        'ES'
-future:          true
+future:          future
 
 # include:        [".htaccess,images"]
 exclude:          [
@@ -92,7 +91,6 @@ include:
   -  'robots.txt'
   -  'favicon.ico'
   -  'apple-touch-icon-precomposed.png'
-  -  'unify/One-Pages/assets/css/blocks.css'
   -  'google64c4ce35184cada9.html'
   -  'Acumbamail_bff03334-8ce0-11e7-b016-0050569a455d.html'
 #  -  '_pages'
@@ -122,9 +120,9 @@ compress_html:
   profile: false
   startings: []
 
-#minimagik
-mini_magick:
-    thumbnail:
-        source: media/images
-        destination: media/images/thumbnail
-        resize: "600x"
+# #minimagik
+# mini_magick:
+#     thumbnail:
+#         source: media/images
+#         destination: media/images/thumbnail
+#         resize: "600x"
