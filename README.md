@@ -54,7 +54,7 @@ De esta manera, si queremos añadir un documento PDF, una imagen, … basta con 
 
 Contiene las siguientes carpetas:
 
-- **/static//media/casos**
+- **/static/media/casos**
 
 En esta carpeta se encuentran las imágenes y PDF's de los casos de éxito.
 
@@ -82,23 +82,42 @@ formato YAML que te van a permitir gestionar los valores de:
 
 #### GLOBAL.YML
 
-* # Site settings
-* title:            'CASIO System Solutions España'
-* slogan:           > # …
-* description:      > # No dejar espacios
+````
+* title:            CASIO System Solutions España
+* slogan:           '…'
+* description:      '…'
 * url_distribuidor: 'ser-distribuidor'
 * url_historia:     'nuestra-historia'
 * url_contacto:     'http://bit.ly/casioayuda'
+
 * author:           CASIO España
 * email:            info@casio-ecr.es
-* horario:          de lunes a jueves de 9:00 a 19:00h y los viernes de 9:00 a 14:00h
-* footer_contact:   > # …
-*             C/Josep Pla, 2. Torre B2 Planta 12. <br/>
-*             08019 Barcelona (ES)<br>
-*             Tel. 934 858 400  -  Fax. 934 858 440   
-* 
-* footer_text:      '© 2018 CASIO System Solutions es un sitio propiedad de CASIO España, S.L, Todos los derechos reservados.'
 
+* horario:          de lunes a jueves de 9:00 a 19:00h y los viernes de 9:00 a 14:00h
+
+* footer_contact:   > # dirección postal
+* footer_text:      © 2018 CASIO System Solutions es un sitio propiedad de CASIO España, S.L, Todos los derechos reservados.
+````
+
+#### CASOS.YML
+
+Ejemplo:
+
+````
+- title:   'Restaurante Banna'
+- media:    'media/casos/default.jpg' 
+- headline: ''El restaurante Banna …'
+- text: '…'
+- pdf: '/media/casos/pdf/Banna.pdf'
+- 
+````
+
+#### MANUALES.YML
+
+
+### Páginas
+
+	@todo
 
 ### Navegación principal
 
@@ -106,10 +125,7 @@ Los enlaces de la navegación principal, en este caso, están puestos directamen
 
 > *Para añadir y/o modificar enlaces de la navegación editar el contenido del fichero 'static/_includes/navigation.html'.*
 
-### Páginas
-
-	@todo
-
+-----
 
 ## Información para desarrolladores
 
@@ -139,13 +155,9 @@ Los enlaces de la navegación principal, en este caso, están puestos directamen
 
 Antes de nada es necesario tener instalado [Grunt](http://gruntjs.com/).
 
-> Se recomienda también [Bower](http://bower.io/) si se van a descargar nuevas librerías javascript para la programación de la web. Ya que el directorio de descarga de bower, está incluido en el repositorio de código.
-
 Desde el directorio de instalación:
 
-`$ cd static`  
-`gem install bundler --conservative`  
-`bundle check || bundle install`  
+`cd static`  
 `$ npm install`
 
 A partir de aqui, y si todo se instala correctamente, basta ejectuar grunt para poder editar el código y ver los cambios en local en la url 'http://localhost:8004'.
@@ -159,6 +171,15 @@ Los comandos de theming son los siguientes:
 `$ grunt build`
 
 `$ grunt theming`
+
+Se recomienda instalar [Bower](http://bower.io/) si se van a emplear nuevas librerías javascript para modificar la programación de la web.   
+
+> Esto no es necesario, si lo que se desea es editar el contenido.  
+> Además, el directorio de descarga de bower, está incluido en el repositorio de código.   
+
+`cd static`  
+`$ bower --version > /dev/null || npm install -g bower`  
+
 
 ##### Variables de desarrollo
 
@@ -183,7 +204,6 @@ De tal modo, basta con hacer push en este repositorio para que se publiquen los 
 
 `$ git push remote master`  
 
-
 **Notas:**
 
 - Solo se realiza el despliegue si se valida correctamente el sitio web con 'html_proofer'*.
@@ -191,8 +211,6 @@ De tal modo, basta con hacer push en este repositorio para que se publiquen los 
 - El despliegue se realiza mediante 'glynn' tan solo para la rama 'master' en el repositorio de despliegue definido en Travis; en este caso, en GitHub.
 
 - Es necesario indicar las credenciales FTP del servidor en forma de variables de entorno en Travis, y de este modo, no comprometer las credenciales del servidor en el código fuente del proyecto.
-
-
 
 
 ## Events
