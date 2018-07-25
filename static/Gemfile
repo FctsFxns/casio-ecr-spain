@@ -7,7 +7,7 @@ gem 'sprockets', '3.6.3'
 gem 'sass'
 gem 'jekyll-paginate', '1.1.0'
 # To compile sass + .js files while also using grunt
-gem "jekyll-assets"
+gem "jekyll-assets", '2.2.8'
 # In case we use circle or travis to deploy we will need this
 # à la 'kickster'
 gem 'html-proofer'

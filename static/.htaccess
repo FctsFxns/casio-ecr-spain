@@ -410,7 +410,7 @@ AddDefaultCharset utf-8
     RewriteCond %{HTTP_HOST} !^www\. [NC]
     RewriteCond %{SERVER_ADDR} !=127.0.0.1
     RewriteCond %{SERVER_ADDR} !=::1
-    RewriteRule ^ http://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+    RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 </IfModule>
 
 
@@ -585,9 +585,9 @@ AddDefaultCharset utf-8
 # https://tools.ietf.org/html/draft-ietf-websec-strict-transport-sec-14#section-6.1
 # http://blogs.msdn.com/b/ieinternals/archive/2014/08/18/hsts-strict-transport-security-attacks-mitigations-deployment-https.aspx
 
-# <IfModule mod_headers.c>
-#     Header set Strict-Transport-Security "max-age=16070400; includeSubDomains"
-# </IfModule>
+<IfModule mod_headers.c>
+    Header set Strict-Transport-Security "max-age=16070400;"
+</IfModule>
 
 # ----------------------------------------------------------------------
 # | Reducing MIME type security risks                                  |
