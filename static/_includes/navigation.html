@@ -1,19 +1,23 @@
 <nav class="one-page-header navbar navbar-default navbar-fixed-top one-page-nav-scrolling one-page-nav__fixed " data-role="navigation">
   <div class="container-fluid g-pt-20 g-pb-20">
     <div class="menu-container page-scroll">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-        <span class="sr-only">Cambiar navegación</span>
-        <span class="icon-bar" style="position: relative;"></span>
-        <span class="icon-bar" style="position: relative; bottom: 1px;"></span>
-        <span class="icon-bar" style="position: relative;"></span>
+      <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main-collapse" aria-expanded="false"> -->
+
+
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main-collapse" aria-expanded="false"> 
+        <span class="sr-only">Cambiar navegación</span>  
+        <span class="icon-bar "></span>  
+        <span class="icon-bar "></span>  
+        <span class="icon-bar "></span>   
       </button>
+
       <a class="navbar-brand" href="{{ '/' | prepend: site.data.global.url }}">
         <img src="/media/assets/logo-casio.jpg" alt="Imagen del logo de CASIO System Solutions">
       </a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse navbar-ex1-collapse">
+    <div class="collapse navbar-collapse fullwidth" id="navbar-main-collapse">
       <div class="menu-container">
         <ul class="nav navbar-nav">
             <li class="page-scroll">
