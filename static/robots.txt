@@ -25,4 +25,6 @@ Crawl-delay: 10
 # Just in case scenario
 Disallow: /sandbox/
 Disallow: /alpha/
+Disallow: /old-site/
+
 

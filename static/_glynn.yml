@@ -1,6 +1,6 @@
 # Glynn setup
 ftp_host: 'casio-ecr.es.dedi302.your-server.de'
-ftp_dir: '/public_html/alpha'
+ftp_dir: '/public_html'
 
 # Configuration settings for Travis on Hetzner Dedicated Server
 ftp_passive: true
