@@ -72,22 +72,18 @@
         }
       })});
 
-      // Show 'Solicita una demo' popup
       if ($("body").hasClass("page-home-show-demo")) {
-        $(window).scroll(function() {
-          if ($(window).scrollTop() > $(window).height() * 4.5)
-          {
-            // // middle of page hit, load extra content here
-            $.jsdvPopup({
+        var waypoint = new Waypoint({
+          element: document.getElementById('consumo'),
+          handler: function(direction) {
+            jQuery.jsdvPopup({
               icon: '',
               text: 'Pide que te hagamos una DEMO.',
               button: '<a href="http://bit.ly/casioayuda" class="btn-u btn-u-blue btn-u-lg btn-u-upper btn-block ">Solicita una demo</a>' 
             });
-            // Don't repeat
-            $(this).unbind('scroll');
+            this.destroy();
           }
         });
-      }
-
+    }
 
   });

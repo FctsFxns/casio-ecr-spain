@@ -391,6 +391,11 @@ section {
 	overflow: hidden;
 	.soluciones-imagen {
 		img.img-responsive {
+	    -moz-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+	    -webkit-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+	    -moz-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+	    -o-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+	    transition: width 1s ease-in-out, left 1.5s ease-in-out;
 	    max-width: 150%;
 	    margin-left: -25%;
 		}
@@ -414,6 +419,11 @@ section {
 	img {
 		display: inline;
 		max-width: 80%;
+		    -moz-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+    -webkit-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+    -moz-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+    -o-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+    transition: width 1s ease-in-out, left 1.5s ease-in-out;
 	}
 	h4 {
 		font-weight: 800;
@@ -452,6 +462,11 @@ section {
 	.carousel-inner > .item img {
 		max-width: 80%;
 		margin: 0 auto;
+    -moz-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+    -webkit-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+    -moz-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+    -o-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+    transition: width 1s ease-in-out, left 1.5s ease-in-out;
 	}
 
 	.carousel-indicators {

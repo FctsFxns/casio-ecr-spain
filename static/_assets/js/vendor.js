@@ -2,6 +2,7 @@
 //= require jquery.migrate/jquery-migrate-1.2.1.min
 //= require bootstrap/dist/js/bootstrap.min
 //= require cookieconsent/build/cookieconsent.min
+//= require waypoints/lib/jquery.waypoints.min
 
 //= require jquery-smooth-scroll/jquery.smooth-scroll.min
 
