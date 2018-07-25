@@ -1190,6 +1190,21 @@ section.history-section {
 	}
 }
 
+@media (max-width: 480px) { 
+	.popup {
+		span {
+			font-size: 16px;
+		}
+	}
+}
+@media (max-width: 991px) { 
+	.popup {
+		span {
+			font-size: 24px;
+		}
+	}
+}
+
 
 // COOKIE MESSAGE
 
