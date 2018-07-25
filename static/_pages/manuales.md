@@ -15,10 +15,10 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
 			<div class="col-lg-8 col-lg-offset-1 col-md-10 col-md-offset-1 col-xs-12 col-2xs-12 g-mb-40">
 	    	<h1 class="g-mb-10 ">Area de descargas</h1>
         <h2 class="g-mb-10 main-title g-color-white">
-        	Manuales y guías de usuario
+        	Manuales y fichas técnicas
       	</h2>
 				<p class="lead g-mb-30 g-color-white">
-					Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas registradoras electrónicas. Aprenderás a utilizar nuestros equipos con más facilidad.
+					Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas registradoras. Aprenderás a utilizar nuestros equipos con más facilidad.
 				</p>
 		    <p class="g-color-white g-mb-20 ">
 					Si tienes alguna pregunta, contacta con nosotros y aclararemos tus dudas. 
@@ -37,7 +37,7 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
 		<div class="row">
 			<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-xs-12 col-2xs-12">
 				<h3 class="">Descarga de documentos</h3>				
-				<p class="lead">Manuales, fichas formativas y guías de usuario específicas, clasificadas por dispositivo.</p>
+				<p class="lead">Manuales​, fichas técnicas y guías rápidas de usuario, clasificadas por dispositivo.</p>
 			</div>		
 		</div>
 
@@ -55,46 +55,46 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
 		</div>
 		<div class="row">					
 			<div class="col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2">
-				<img class="img-responsive g-ml-20" src="{{ '/' | prepend: site.data.global.url }}media/products/consumo/consumo-6-BL.png" alt="Imagen de Casio SE-G1">
+				<img class="img-responsive g-ml-20" src="{{ '/' | prepend: site.data.global.url }}media/products/consumo/consumo-6-RD.png" alt="Imagen de Casio SE-G1">
 			</div>
 			<div class="visible-xs clearfix"></div>
 			<div class="col-lg-8 col-md-8 col-md-offset-0 col-sm-8 col-sm-offset-0 col-xs-12 col-xs-offset-0">
 				<!-- Download #1 -->
 				<div class="download row g-mt-40">
 					<div class="col-lg-7 col-md-7 col-md-offset-1 col-sm-7 col-sm-offset-1 col-xs-7 col-xs-offset-0 col-xs-offset-0">
-						<h5 class="g-mt-20">Ficha Formativa</h5>
-						<p>Documento PDF (1,2 MB)</p>
+						<h5 class="g-mt-20">Ficha técnica</h5>
+						<p>Documento PDF (2,6 MB)</p>
 					</div>
 					<div class="col-lg-3 col-md-3 col-sm-4 col-xs-5 text-right ">
 						<p>
-							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-G1.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua" target="_blank" title="Descargar ficha formativa de SE-G1">Descargar</a>
+							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/docs/Ficha_SE-G1.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua" target="_blank" title="Descargar ficha técnica de SE-G1">Descargar</a>
 						</p>
 					</div>									
 				</div>	
-					<!-- Download #2 -->
-					<div class="download row g-mt-10">
-						<div class="col-lg-7 col-md-7 col-md-offset-1 col-sm-7 col-sm-offset-1 col-xs-7 col-xs-offset-0 col-xs-offset-0">
-							<h5 class="g-mt-20">Manual de usuario</h5>
-							<p>Documento PDF (1,5 MB)</p>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-4 col-xs-5 text-right ">
-							<p>
-								<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-G1.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua" target="_blank" title="Descargar ficha formativa de SE-G1">Descargar</a>
-							</p>
-						</div>									
-					</div>	
-					<!-- Download #3 -->
-					<div class="download row g-mt-10">
-						<div class="col-lg-7 col-md-7 col-md-offset-1 col-sm-7 col-sm-offset-1 col-xs-7 col-xs-offset-0 col-xs-offset-0 ">
-							<h5 class="g-mt-20">Guía rápida</h5>
-							<p>Documento PDF (3,1 MB)</p>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-4 col-xs-5 text-right ">
-							<p>
-								<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-G1.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua" target="_blank">Descargar</a>
-							</p>
-						</div>									
-					</div>	
+				<!-- Download #2 -->
+				<div class="download row g-mt-10">
+					<div class="col-lg-7 col-md-7 col-md-offset-1 col-sm-7 col-sm-offset-1 col-xs-7 col-xs-offset-0 col-xs-offset-0">
+						<h5 class="g-mt-20">Manual de usuario</h5>
+						<p>Documento PDF (7,9 MB)</p>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-4 col-xs-5 text-right ">
+						<p>
+							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/manuales/SE-G1_Manual_Usuario.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua" target="_blank" title="Descargar manual de usuario de SE-G1">Descargar</a>
+						</p>
+					</div>									
+				</div>	
+				<!-- Download #3 -->
+				<div class="download row g-mt-10">
+					<div class="col-lg-7 col-md-7 col-md-offset-1 col-sm-7 col-sm-offset-1 col-xs-7 col-xs-offset-0 col-xs-offset-0 ">
+						<h5 class="g-mt-20">Guía rápida</h5>
+						<p>Solicitud por formulario</p>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-4 col-xs-5 text-right ">
+						<p>
+							<a href="{{site.data.global.url_contacto}}" class="btn-u btn-u-md btn-u-upper btn-u-aqua" title="Solicitar guía rápida de SE-G1">Solicitar</a>
+						</p>
+					</div>									
+				</div>	
 			</div>
 		</div>		
  		<!-- Fin Producto 1 -->
@@ -120,15 +120,40 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
 				<!-- Download #1 -->
 				<div class="download row g-mt-40">
 					<div class="col-lg-7 col-md-7 col-md-offset-1 col-sm-7 col-sm-offset-1 col-xs-7 col-xs-offset-0 col-xs-offset-0">
-						<h5 class="g-mt-20">Guía rápida de configuración</h5>
+						<h5 class="g-mt-20">Ficha técnica</h5>
 						<p>Documento PDF (2,5 MB)</p>
 					</div>
 					<div class="col-lg-3 col-md-4 col-sm-4 col-xs-5 text-right ">
 						<p>
-							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-S100.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua" target="_blank" title="Descargar ficha formativa de SE-S100">Descargar</a>
+							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/docs/Ficha_SE-S100.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua" target="_blank" title="Descargar ficha técnica de SE-S100">Descargar</a>
+						</p>
+					</div>									
+				</div>
+				<!-- Download #2 -->
+				<div class="download row g-mt-10">
+					<div class="col-lg-7 col-md-7 col-md-offset-1 col-sm-7 col-sm-offset-1 col-xs-7 col-xs-offset-0 col-xs-offset-0">
+						<h5 class="g-mt-20">Manual de usuario</h5>
+						<p>Documento PDF (5,5 MB)</p>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-4 col-xs-5 text-right ">
+						<p>
+							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/manuales/SE-S100_Manual_Usuario.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua" target="_blank" title="Descargar manual de usuario de SE-S100">Descargar</a>
 						</p>
 					</div>									
 				</div>	
+				<!-- Download #3 -->
+				<div class="download row g-mt-10">
+					<div class="col-lg-7 col-md-7 col-md-offset-1 col-sm-7 col-sm-offset-1 col-xs-7 col-xs-offset-0 col-xs-offset-0 ">
+						<h5 class="g-mt-20">Guía rápida</h5>
+						<p>Solicitud por formulario</p>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-4 col-xs-5 text-right ">
+						<p>
+							<a href="{{site.data.global.url_contacto}}" class="btn-u btn-u-md btn-u-upper btn-u-aqua" title="Solicitar guía rápida de SE-S100">Solicitar</a>
+						</p>
+					</div>									
+				</div>	
+
 			</div>
 		</div>		
  		<!-- Fin Producto 2 -->
@@ -136,7 +161,7 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
  		<!-- Producto 3 -->
 		<div class="row">			
 			<div class="col-lg-8 col-lg-offset-1 col-md-10 col-md-offset-1 col-xs-12 col-2xs-12">
-				<h4>SE-S400</h4>				
+				<h4>SE-S400/SE-C450/SE-S3000/SE-C3500​</h4>				
 			</div>
 		</div>
 		<div class="row">
@@ -153,15 +178,39 @@ intro:   'Te ayudamos en la puesta en marcha inicial y a conocer nuestras cajas 
 				<!-- Download #1 -->
 				<div class="download row g-mt-40">
 					<div class="col-lg-7 col-md-7 col-md-offset-1 col-sm-7 col-sm-offset-1 col-xs-7 col-xs-offset-0 col-xs-offset-0">
-						<h5 class="g-mt-20">Ficha Formativa</h5>
-						<p>Documento PDF (2,6 MB)</p>
+						<h5 class="g-mt-20">Ficha técnica</h5>
+						<p>Documento PDF (3,4 MB)</p>
 					</div>
 					<div class="col-lg-3 col-md-4 col-sm-4 col-xs-5 text-right ">
 						<p>
-							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/guias/SE-S400.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua" target="_blank" title="Descargar ficha formativa de SE-S400">Descargar</a>
+							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/docs/Ficha_SE-todas.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua" target="_blank" title="Descargar ficha técnica de SE-S400/SE-C450/SE-S3000/SE-C3500​">Descargar</a>
+						</p>
+					</div>									
+				</div>
+				<!-- Download #2 -->
+				<div class="download row g-mt-10">
+					<div class="col-lg-7 col-md-7 col-md-offset-1 col-sm-7 col-sm-offset-1 col-xs-7 col-xs-offset-0 col-xs-offset-0">
+						<h5 class="g-mt-20">Manual de usuario</h5>
+						<p>Documento PDF (10,1 MB)</p>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-4 col-xs-5 text-right ">
+						<p>
+							<a href="{{ '/' | prepend: site.data.global.url }}media/pdf/manuales/SE-S400_Manual_Usuario.pdf" class="btn-u btn-u-md btn-u-upper btn-u-aqua" target="_blank" title="Descargar manual de usuario de SE-S400">Descargar</a>
 						</p>
 					</div>									
 				</div>	
+				<!-- Download #3 -->
+				<div class="download row g-mt-10">
+					<div class="col-lg-7 col-md-7 col-md-offset-1 col-sm-7 col-sm-offset-1 col-xs-7 col-xs-offset-0 col-xs-offset-0 ">
+						<h5 class="g-mt-20">Guía rápida</h5>
+						<p>Solicitud por formulario</p>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-4 col-xs-5 text-right ">
+						<p>
+							<a href="{{site.data.global.url_contacto}}" class="btn-u btn-u-md btn-u-upper btn-u-aqua" title="Solicitar guía rápida de SE-G1">Solicitar</a>
+						</p>
+					</div>									
+				</div>						
 			</div>
 		</div>		
  		<!-- Fin Producto 3 -->

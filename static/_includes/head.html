@@ -22,12 +22,10 @@
     {% if page.featured_image %}
         <meta property="og:image" content="{{ page.featured_image  | prepend: site.baseurl | prepend: site.url }}" />
     {% endif %}
-
     {% if page.sitemap == 0 %}
         <!-- Exclude from Sitemap -->
         <meta name="robots" content="noindex, nofollow">
     {% endif %}
-
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="{{ site.data.global.url }}/favicon.ico">
     <link rel="apple-touch-icon-precomposed" href="{{ site.data.global.url }}/apple-touch-icon-precomposed.png">
@@ -38,7 +36,6 @@
     <!-- CSS Global Compulsory -->
     {% stylesheet bootstrap/dist/css/bootstrap.min %}
     {% stylesheet One-Pages/assets/css/app %}
-
     {% stylesheet One-Pages/assets/css/one.style %}
     {% stylesheet general/css/style %}
 
