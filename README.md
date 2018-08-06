@@ -5,7 +5,9 @@
 	Julio de 2018
 	url: http://www.casio-ecr.es/
 
-## Instalación
+## Información para desarrolladores
+
+### Instalación
 
 >	*Es necesario tener permisos de acceso al repositorio de código.*
 
@@ -135,6 +137,7 @@ Los enlaces de la navegación principal, en este caso, están puestos directamen
 
 - Git
 - Cuenta en Bitbucket
+- Cuenta en GitHub
 
 **2. Desarrollo:**
 

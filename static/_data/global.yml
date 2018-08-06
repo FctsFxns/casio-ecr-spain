@@ -1,15 +1,9 @@
 # Site settings
 title:            'CASIO System Solutions España'
 
-slogan:           > # …
-  …
-
 description:      > # No dejar espacios
  Optimiza y sácale el máximo partido a todas las soluciones TPV de CASIO y 
  prepárate para empezar la temporada con el mejor terminal de punto de venta.
-
-tagline:           > # …
-  What?!
 
 # URL's como constantes
 url_distribuidor: 'ser-distribuidor'

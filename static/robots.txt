@@ -19,7 +19,7 @@
 # Sitemap: http://www.casio-ecr.es/sitemap.xml
 
 User-agent: *
-Crawl-delay: 10
+# Crawl-delay: 10
 
 # Folders
 # Just in case scenario
