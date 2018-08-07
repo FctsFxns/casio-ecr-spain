@@ -13,15 +13,6 @@ cd static
 gem install bundler --conservative
 bundle check || bundle install
 
-# Set up JS dependencies via Bower.
-# Not necessary to install boeer since resources they're in the repo already
-# Let this to the user/developer
-# bower --version > /dev/null || npm install -g bower
-# bower install
-
 # Set variable for local environment. 
 # It will be overriden on production server, if it's the case
 export JEKYLL_ENV=development
-
-# Not necessary to build the Less files since they're in the repo already
-# npm install
