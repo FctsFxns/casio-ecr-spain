@@ -5,4 +5,6 @@ cd static
 
 bundle exec jekyll build --trace
 
-# bundle exec htmlproofer ./_site --only-4xx --url-ignore "#,/https:\/\/www\.youtube\.com\/.*/,/http:\/\/www\.youtube\.com\/.*/,/http:\/\/www\.casio-ecr\.es\/.*/"
+# bundle exec htmlproofer ./_site --only-4xx --url-ignore "#,/https:\/\/www\.youtube\.com\/.*/,/http:\/\/www\.youtube\.com\/.*/,/https:\/\/www\.casio-ecr\.es\/.*/"
+
+bundle exec htmlproofer ./_site --only-4xx --url-ignore "#,/https:\/\/www\.youtube\.com\/.*/,/http:\/\/www\.youtube\.com\/.*/"
