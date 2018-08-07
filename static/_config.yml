@@ -30,9 +30,6 @@ gems:
   - jekyll-paginate
   - jekyll-assets
 
-# Custom var
-ga_analytics:      UA-16011780-5
-
 # Dependencies
 markdown:         kramdown
 highlighter:      rouge

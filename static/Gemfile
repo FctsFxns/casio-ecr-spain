@@ -22,3 +22,6 @@ gem 'glynn', '1.2.3'
 
 # Resize images
 # gem 'jekyll-minimagick', '0.0.3'
+
+# Site administration via jekyll-admin (https://github.com/jekyll/jekyll-admin)
+# gem 'jekyll-menus', group: :jekyll_plugins
