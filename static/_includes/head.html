@@ -2,68 +2,10 @@
 <!--[if IE 9]> <html lang="es" class="ie9"> <![endif]-->
 <!--[if !IE]><!--> <html lang="es"> <!--<![endif]-->
 <head>
-     <!-- Page metas -->
-    <title>{% if page.title %}{{ page.title }}{% elsif post.title %}{{ post.title }}{% else %}{{ site.data.global.title }} {% endif %}</title>
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <meta name="description" content="{% if page.intro %}{{ page.intro | strip_html | strip_newlines | truncate: 160 | replace:'"',''}}{% else %}{% if work.intro %}{{ work.intro | strip_html | strip_newlines | truncate: 160 | replace:'"','' }}{% else %}{{ site.data.global.description }}{% endif %}{% endif %}">
-
     <!-- Meta -->
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-    <meta name="description" content="{% if page.intro %}{{ page.intro | strip_html | strip_newlines | truncate: 160 | replace:'"',''}}{% else %}{% if post.intro %}{{ post.intro | strip_html | strip_newlines | truncate: 160 | replace:'"','' }}{% else %}{{ site.data.global.description }}{% endif %}{% endif %}">
-    <meta name="author" content="{{ site.data.global.author }}" >
-
-    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% elsif post.title %}{{ post.title }}{% else %}{{ site.data.global.title }} {% endif %}" />
-    <meta property="og:site_name" content="{{ site.data.global.title }}" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
-    <meta property="og:description" content="{% if page.intro %}{{ page.intro | strip_html | strip_newlines | truncate: 160 | replace:'"',''}}{% else %}{% if post.intro %}{{ post.intro | strip_html | strip_newlines | truncate: 160 | replace:'"','' }}{% else %}{{ site.data.global.description }}{% endif %}{% endif %}" />
-    {% if page.featured_image %}
-        <meta property="og:image" content="{{ page.featured_image  | prepend: site.baseurl | prepend: site.url }}" />
-    {% endif %}
-    {% if page.sitemap == 0 %}
-        <!-- Exclude from Sitemap -->
-        <meta name="robots" content="noindex, nofollow">
-    {% endif %}
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="{{ site.data.global.url }}/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" href="{{ site.data.global.url }}/apple-touch-icon-precomposed.png">
-
-    <!-- Web Fonts -->
-    <link rel='stylesheet' type='text/css' href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=cyrillic,latin">
-
-    <!-- CSS Global Compulsory -->
-    {% stylesheet bootstrap/dist/css/bootstrap.min %}
-    {% stylesheet One-Pages/assets/css/app %}
-    {% stylesheet One-Pages/assets/css/one.style %}
-    {% stylesheet general/css/style %}
-
-    <!-- CSS Implementing Plugins -->
-    {% stylesheet One-Pages/assets/plugins/animate.css %}
-
-    <link type="text/css" rel="stylesheet" href="/media/assets/One-Pages/assets/plugins/font-awesome/css/font-awesome.min.css">
-    {% stylesheet One-Pages/assets/plugins/sky-forms-pro/skyforms/css/sky-forms.css %}
-    {% stylesheet One-Pages/assets/plugins/sky-forms-pro/skyforms/custom/custom-sky-forms-v2.css %}
-    {% stylesheet One-Pages/assets/plugins/slick/slick.css %}
-    {% stylesheet One-Pages/assets/plugins/shhos/shhos.css %}
-    <!-- CSS Theme -->
-    {% stylesheet One-Pages/homepage/assets/css/homepage.style.css %}
-    <!-- CSS Customization -->
-    {% stylesheet cookieconsent/build/cookieconsent.min %}
-    {% stylesheet one.page.scss %}
-
-    {% if site.env == 'development' %}
-      <!-- Only in development mode -->
-    {% else %}
-        <!-- Google Tag Manager -->
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-5QG6V8N');</script>
-        <!-- End Google Tag Manager -->
-    {% endif %}
+    {% include metas.html %} 
 </head>
 
 <body id="{% if page.layout_id %} {{page.layout_id}}{% endif %}" class="{{ post.title | downcase | replace:' ','-' | replace:',','' | strip_html }}{% if page.category %} category-{{ page.category }}{% endif %}{% if page.layout_class %} {{ page.layout_class }}{% endif %} {{ work.title | downcase | replace:' ','-' | replace:',','' | strip_html }}">
