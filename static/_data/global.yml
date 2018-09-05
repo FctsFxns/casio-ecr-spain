@@ -1,16 +1,15 @@
 # Site settings
 title:            'CASIO System Solutions España'
-
 author:           CASIO España
 description:      > # No dejar espacios
  Optimiza y sácale el máximo partido a todas las soluciones TPV de CASIO y 
- prepárate para empezar la temporada con el mejor terminal de punto de venta.
+ prepárate para empezar la temporada con el mejor terminal de punto de venta. information
 
 # URL's como constantes
 url_distribuidor: 'ser-distribuidor'
 url_historia:     'nuestra-historia'
 url_contacto:     'http://bit.ly/casioayuda'
 
-# Contact
+# Contact information
 email:            info@casio-ecr.es
 horario:          de lunes a jueves de 9:00 a 19:00h y los viernes de 9:00 a 14:00h
