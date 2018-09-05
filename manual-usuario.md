@@ -5,26 +5,27 @@ Sitio web de CASIO System Solutions (www.casio-ecr.es).
 
 ## Indice
 
-- Portada +
-- Presentación *
-	- Mapa del sitio *
+- Portada √
+- Presentación √
+	- Descripción del portal
+	- Mapa del sitio √
 	- Galería de imágenes *
-- Gestión de contenidos del sitio web *
-	- Configuración del sitio web *
-	- Documentos e imágenes *	
-	- Casos de éxito *
-	- Area de descargas *
-	- Páginas del sitio web *
-- Gestión de datos recogidos a través de formularios *
+- Contenidos del sitio web *
+	- Configuración del sitio web √
+	- Documentos e imágenes √
+	- Casos de éxito √
+	- Area de descargas √
+	- Páginas del sitio web √
+- Datos recogidos mediante formularios *
 	- Programa para partners *
-- Administración del sitio a través del navegador
+- Administración del sitio web
 	- Acceso al panel de control *
 	- Documentos e imágenes *
 	- Casos de éxito *
 	- Area de descargas *
 	- Páginas *
 	- Configuración *
-- Administración del sitio web a través del código fuente *
+- Información para desarrolladores *
 - Créditos *
  
 
@@ -82,10 +83,7 @@ A fecha de publicación del sitio web, éste es el listado de todas las páginas
 
 ### Gestión de contenidos del sitio web
 
-Que no todos los contenidos del sitio web son editables por el usuario y que en este documento, vamos a tratar de aquellos que sí pueden ser administrados por usuarios que no requieran de conocimientos para editar el código fuente del sitio web.
-
-Que para editar el contenido no indicado en este manual, la estructura interna y o el funcionamiento de la plataforma que conformar el sitio web, deberá contactar con el departamento de IT de CASIO España para acceder al código fuente de este proyecto. 
-
+??
 
 
 #### Configuración del sitio web
