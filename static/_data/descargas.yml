@@ -1,0 +1,63 @@
+# DESCARGAS 
+# ------------------
+#
+# Textos para la sección de 'Area de descargas' del sitio web
+#
+# Ejemplo de formato para un copiar/pegar
+#
+# - title: 'SE-G1'
+#   media: 'media/products/consumo/consumo-6-RD.png'
+#     downloads:
+#      - title: Ficha técnica
+#        description: Documento PDF (2,6 MB)
+#        pdf: /media/pdf/docs/Ficha_SE-G1.pdf
+#        text: Descargar 
+
+
+- title: 'SE-G1'
+  media: 'media/products/consumo/consumo-6-RD.png'
+  downloads:
+    - title: Ficha técnica
+      description: Documento PDF (2,6 MB)
+      pdf: /media/pdf/docs/Ficha_SE-G1.pdf
+      text: Descargar 
+    - title: Manual de usuario
+      description: Documento PDF (7,9 MB)
+      pdf: /media/pdf/manuales/SE-G1_Manual_Usuario.pdf
+      text: Descargar         
+    - title: Guía rápida
+      description: Solicitud por formulario
+      pdf: http://bit.ly/casioayuda
+      text: Solicitar         
+
+- title: 'SE-S100'
+  media: 'media/products/consumo/consumo-5-GD.png'
+  downloads:
+    - title: Ficha técnica
+      description: Documento PDF (2,5 MB)
+      pdf: /media/pdf/docs/Ficha_SE-S100.pdf.pdf
+      text: Descargar 
+    - title: Manual de usuario
+      description: Documento PDF (5,5 MB)
+      pdf: /media/pdf/manuales/SE-S100_Manual_Usuario.pdf
+      text: Descargar         
+    - title: Guía rápida
+      description: Solicitud por formulario
+      pdf: http://bit.ly/casioayuda
+      text: Solicitar         
+
+- title: 'SE-S400/SE-C450/SE-S3000/SE-C3500​'
+  media: 'media/products/consumo/consumo-1c.png'
+  downloads:
+    - title: Ficha técnica
+      description: Documento PDF (3,4 MB)
+      pdf: /media/pdf/docs/Ficha_SE-todas.pdf
+      text: Descargar 
+    - title: Manual de usuario
+      description: Documento PDF (10,1 MB)
+      pdf: /media/pdf/manuales/SE-S400_Manual_Usuario.pdf
+      text: Descargar         
+    - title: Guía rápida
+      description: Solicitud por formulario
+      pdf: http://bit.ly/casioayuda
+      text: Solicitar         
