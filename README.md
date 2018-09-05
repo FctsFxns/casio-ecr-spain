@@ -86,19 +86,17 @@ formato YAML que te van a permitir gestionar los valores de:
 
 ````
 * title:            CASIO System Solutions España
-* slogan:           '…'
+* author:           CASIO España
 * description:      '…'
+
 * url_distribuidor: 'ser-distribuidor'
 * url_historia:     'nuestra-historia'
 * url_contacto:     'http://bit.ly/casioayuda'
 
-* author:           CASIO España
-* email:            info@casio-ecr.es
 
+* email:            info@casio-ecr.es
 * horario:          de lunes a jueves de 9:00 a 19:00h y los viernes de 9:00 a 14:00h
 
-* footer_contact:   > # dirección postal
-* footer_text:      © 2018 CASIO System Solutions es un sitio propiedad de CASIO España, S.L, Todos los derechos reservados.
 ````
 
 #### CASOS.YML
@@ -218,10 +216,10 @@ De tal modo, basta con hacer push en este repositorio para que se publiquen los 
 
 ## Events
 
- -view demo: cat=click + action=demo - 15€
- -download pdf: cat=click + action=download - 5€
- -contact us: cat=click + action=ayuda ( + label=<where>) - 10€
- -partner: <funnel> - 25€
+ - view demo: cat=click + action=demo - 15€
+ - download pdf: cat=click + action=download - 5€
+ - contact us: cat=click + action=ayuda ( + label=<where>): 10€
+ - partner: <funnel>: 25€
 
 ## Licencia
 
