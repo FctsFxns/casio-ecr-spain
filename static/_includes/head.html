@@ -9,21 +9,3 @@
 </head>
 
 <body id="{% if page.layout_id %} {{page.layout_id}}{% endif %}" class="{{ post.title | downcase | replace:' ','-' | replace:',','' | strip_html }}{% if page.category %} category-{{ page.category }}{% endif %}{% if page.layout_class %} {{ page.layout_class }}{% endif %} {{ work.title | downcase | replace:' ','-' | replace:',','' | strip_html }}">
-
-{% comment %}
-<!-- RSS -->
-<link rel="alternate" type="application/rss+xml" title="{{ site.data.global.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
-<link rel="alternate" type="application/atom+xml" title="{{ site.data.global.title }}" href="{{ "/atom.xml" | prepend: site.baseurl | prepend: site.url }}">
-<!-- OGP Shite -->
-{% if site.data.global.twitter_username %}
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@{{ site.data.global.twitter_username }}" />
-    <meta name="twitter:creator" content="@{{ site.data.global.twitter_username }}" />
-    <meta name="twitter:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
-    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% elsif post.title %}{{ post.title }}{% else %}{{ site.data.global.title }} {% endif %}" />
-    <meta name="twitter:description" content="{% if page.intro %}{{ page.intro | strip_html | strip_newlines | truncate: 200 | replace:'"',''}}{% else %}{% if work.intro %}{{ work.intro | strip_html | strip_newlines | truncate: 160 | replace:'"','' }}{% else %}{{ site.data.global.description }}{% endif %}{% endif %}" />
-        {% if page.featured_image %}
-            <meta property="twitter:image" content="{{ page.featured_image  | prepend: site.baseurl | prepend: site.url }}" />
-        {% endif %}
-{% endif %}
-{% endcomment %}
