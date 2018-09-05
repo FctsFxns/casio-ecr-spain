@@ -5,27 +5,27 @@ Sitio web de CASIO System Solutions (www.casio-ecr.es).
 
 ## Indice
 
-- Portada
-- Presentación
-	- Mapa del sitio
+- Portada +
+- Presentación *
+	- Mapa del sitio *
 	- Galería de imágenes *
-- Gestión de contenidos del sitio web
-	- Configuración del sitio web
-	- Documentos e imágenes 
-	- Casos de éxito
-	- Area de descargas
-	- Páginas del sitio web
-- Gestión de datos recogidos a través de formularios
-	- Programa para partners 
+- Gestión de contenidos del sitio web *
+	- Configuración del sitio web *
+	- Documentos e imágenes *	
+	- Casos de éxito *
+	- Area de descargas *
+	- Páginas del sitio web *
+- Gestión de datos recogidos a través de formularios *
+	- Programa para partners *
 - Administración del sitio a través del navegador
-	- Acceso al panel de control
-	- Documentos e imágenes
-	- Casos de éxito
-	- Area de descargas
-	- Páginas
-	- Configuración
-- Administración del sitio web a través del código fuente
-- Créditos
+	- Acceso al panel de control *
+	- Documentos e imágenes *
+	- Casos de éxito *
+	- Area de descargas *
+	- Páginas *
+	- Configuración *
+- Administración del sitio web a través del código fuente *
+- Créditos *
  
 
 ## Contenido del manual
@@ -43,16 +43,41 @@ Creado: Julio de 2018.
 
 ### Presentación
 
-Contexto y de qué se trata.
+En verano de 2.018 se publica la versión más reciente del portal en internet de CASIO System Solutions España en la dirección www.casio-ecr.es.
 
-A quién va dirigido.
+Este documento está dirigido a editores/as y describe el gestor de contenidos (CMS) que permite gestionar los contenidos que son administrables a través del CMS que compone el sitio web.
 
-Idiomas disponibles y contenidos que ofrece el sitio web.
+#### Descripción del portal
 
-Qué datos de usuario se registran y dónde.
+El portal en internet sirve como carta de presentación de la compañía, destacando la linea de soluciones que ofrece CASIO, casos de éxito y secciones como la historia de la compañía.
+
+Además, se emplea para la recogida de datos de contacto de compañías interesadas en formar parte de la red de distribuidores oficiales de la marca en España. 
+
+Los contenidos del sitio web se ofrecen en un solo idioma.
+
+#### Contenidos no modificables
+
+Por supuesto, no todos los contenidos del sitio web, así como estilos y comportamiento del portal, pueden ser modificados sin tener conocimientos previos de programación web.
+
+Este sitio web ha sudo desarrollado empleando tecnología JAMstack que ofrece un rendimiento excepcional de cara al usuario, así como un altísimo nivel de seguridad informática. 
+
+En este documento no se describe cómo modificar el código fuente, *source code*, que emplea este sitio web para funcionar.
+
+> Contacte con los autores si desea más información sobre cómo gestionar el codigo HTML/CSS y la programación del portal web.   
 
 #### Mapa del sitio
 
+A fecha de publicación del sitio web, éste es el listado de todas las páginas, y sus respectivas URL's, que componen el mapa completo del sitio web:
+
+- Página de bienvenida (/)
+- Nuestra historia (/nuestra-historia)
+- Manuales y fichas técnicas (/manuales)
+- Programa para partners (/ser-distribuidor)
+- Aviso legal (/aviso-legal)
+- Política de protección de datos (/proteccion-de-datos)
+- Política de cookies (/politica-de-cookies)
+
+> Los/as editores/as pueden modificar y despublicar cualquiera de estas páginas según convenga.
 
 
 ### Gestión de contenidos del sitio web
@@ -60,6 +85,8 @@ Qué datos de usuario se registran y dónde.
 Que no todos los contenidos del sitio web son editables por el usuario y que en este documento, vamos a tratar de aquellos que sí pueden ser administrados por usuarios que no requieran de conocimientos para editar el código fuente del sitio web.
 
 Que para editar el contenido no indicado en este manual, la estructura interna y o el funcionamiento de la plataforma que conformar el sitio web, deberá contactar con el departamento de IT de CASIO España para acceder al código fuente de este proyecto. 
+
+
 
 #### Configuración del sitio web
 
@@ -133,6 +160,8 @@ Por último, a la hora de crear nuevas imágenes se recomienda emplear una herra
 
 Los editores de sitio web pueden administrar completamente los casos de éxito que aparecen en el sitio web, así como la información asociada a cada uno de ellos.
 
+> Los casos de éxito aparecen en la página de bienvenida del sitio web.
+
 También, pueden controlar el orden en el que aparecen en la página.
 
 Esta es la información que es necesario indicar para cada uno de los casos de éxito:
@@ -145,4 +174,28 @@ Esta es la información que es necesario indicar para cada uno de los casos de �
 
 
 #### Area de descargas
+
+El sitio web ofrece una página propia donde es posible consultar los manuales y fichas técnicas disponibles para cada producto de la gama de soluciones CASIO.
+
+Los diferentes manuales aparecen en el area de descargas del sitio web agrupados por apartados, que suelen corresponder con un producto o grupo de productos.
+
+Para cada apartado se deberá indicar:
+
+- Título del apartado o producto
+- Imagen 
+
+De esta manera serà posible, indicar tantos ficheros descargables como haya disponibles. Para cada descarga, es necesario indicar los siguientes valores:
+
+- Nombre de la descarga
+- Descripción
+- Documento PDF o enlace URL
+- Texto para el botón de descarga
+
+
 #### Páginas del sitio web
+
+- Título de la página
+- Texto de descripción para buscadores
+- Dirección URL interna
+ 
+
