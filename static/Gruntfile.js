@@ -63,8 +63,6 @@ module.exports = function(grunt) {
           '_posts/*', 
           '_pages/*',
           'media/*',
-          'media/images/*',
-          'media/pdf/*',
           '_data/*'
           ],
         tasks: ['jekyll:dist'],
