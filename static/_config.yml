@@ -27,8 +27,8 @@ baseurl:          "" # does not include hostname
 
 # Gems var
 gems:
-  - jekyll-paginate
   - jekyll-assets
+#  - jekyll-paginate
 
 # Dependencies
 markdown:         kramdown
@@ -58,7 +58,7 @@ assets:
 
 # Outputting
 permalink:       /:title.html
-paginate_path:   /page:num
+#paginate_path:   /page:num
 #paginate:        3
 timezone:        'ES'
 future:          future

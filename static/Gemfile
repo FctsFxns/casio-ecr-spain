@@ -5,7 +5,7 @@ gem 'jekyll', '3.4.3'
 gem 'jekyll-watch', '1.4.0'
 gem 'sprockets', '3.6.3'
 gem 'sass'
-gem 'jekyll-paginate', '1.1.0'
+# gem 'jekyll-paginate', '1.1.0'
 # To compile sass + .js files while also using grunt
 gem "jekyll-assets", '2.2.8'
 # In case we use circle or travis to deploy we will need this
