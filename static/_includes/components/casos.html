@@ -14,7 +14,7 @@
   				{% endif %}
 		      	<div class="col-xs-12 col-xs-offset-0 col-sm-4 col-sm-offset-0 col-md-4 col-md-offset-0 g-mb-40 ">
 		      		<div class="project-item ">
-					        <img src="{{ item.media }}" alt="{{ item.title }}" title="{{ item.title }}"  class="img-responsive">
+					        <img src="/{{ item.media }}" alt="{{ item.title }}" title="{{ item.title }}"  class="img-responsive">
 					        <div class="project-item__content">
 					          <h3 class="g-mb-20">{{ item.headline }}</h3>
 					          {{ item.text | markdownify }}

@@ -102,8 +102,47 @@ url_contacto
 
 #### Documentos e imágenes 
 
-> Los documentos e imágenes que subas al sitio web se ofrecerán a través de la dirección https://www.casio-ecr.s/media/.
+Como es habitual a la hora de gestionar el contenido de un sitio web, resulta necesario administrar las imágenes que los usuarios pueden visualizar en el sitio web. También, para los documentos que pueden ser descargados, como archivos PDF, etc…
+
+Hemos escogido una carpeta denominada 'media' para almacenar todos los documentos e imágenes subidos por los editores del sitio web.
+
+> Los documentos e imágenes que subas al sitio web estarán disponibles a través de la dirección https://www.casio-ecr.s/media/.
+
+Es importante mantener esta carpeta ordenada y emplear un criterio de denominación de carpetas que sea práctico y sencillo.
+
+Las carpetas creadas actualmente en el directorio 'media/' son las siguientes
+
+**casos/**
+
+Imágenes empleadas para acompañar los casos de éxito publicados en el sitio web. Para una correcta visualización de la información se requiere que las imagenes empleadas tengan exáctamente las dimensiones 800x496px.
+
+**products/**
+
+Imágenes de productos clasificadas por familia. Las imágenes son en formato PNG con transparencia.
+
+**pdf/**
+
+**assets/**
+
+> La carpeta 'assets/' contiene imágenes que son empleadas por la plantilla HTML del sistema. Se recomienda no modificar los contenidos de esta carpeta.
+
+Por último, a la hora de crear nuevas imágenes se recomienda emplear una herramienta de optimización que asegure que el tamaño es el mínimo posible y más adecuado para el entorno web.
+
 
 #### Casos de éxito
+
+Los editores de sitio web pueden administrar completamente los casos de éxito que aparecen en el sitio web, así como la información asociada a cada uno de ellos.
+
+También, pueden controlar el orden en el que aparecen en la página.
+
+Esta es la información que es necesario indicar para cada uno de los casos de éxito:
+
+- Título
+- Imagen (800x496px)
+- Texto del titular
+- Texto para la descripción
+- Documento PDF o enlace URL 
+
+
 #### Area de descargas
 #### Páginas del sitio web
