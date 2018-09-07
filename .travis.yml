@@ -8,8 +8,9 @@ install:
 script:
 - "./static/bin/travis"
 
-after_success:
-- "./static/bin/deploy"
+# Comment this since we are using forestry now and a different repository
+#after_success:
+#- "./static/bin/deploy"
 
 env:
   global:
