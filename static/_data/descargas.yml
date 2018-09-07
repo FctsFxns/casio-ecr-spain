@@ -35,7 +35,7 @@
   downloads:
     - title: Ficha técnica
       description: Documento PDF (2,5 MB)
-      pdf: /media/pdf/docs/Ficha_SE-S100.pdf.pdf
+      pdf: /media/pdf/docs/Ficha_SE-S100.pdf
       text: Descargar 
     - title: Manual de usuario
       description: Documento PDF (5,5 MB)
