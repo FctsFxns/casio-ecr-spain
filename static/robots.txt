@@ -23,6 +23,7 @@ User-agent: *
 
 # Folders
 # Just in case scenario
+Disallow: /demo/
 Disallow: /sandbox/
 Disallow: /alpha/
 Disallow: /old-site/

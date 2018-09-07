@@ -2,10 +2,14 @@
 
 [![Build Status](https://travis-ci.org/FctsFxns/casio-ecr-spain.svg?branch=master)](https://travis-ci.org/FctsFxns/casio-ecr-spain)
 
-	Julio de 2018
+	Septiembre de 2018
 	url: http://www.casio-ecr.es/
 
 ## Información para desarrolladores
+
+Este repositorio deja de ser el principal para el código fuente de este proyecto; también [el repositorio 'casio-ecr-spain' de despliegue en Github](https://github.com/FctsFxns/casio-ecr-spain), espejo de éste.
+
+A partir de septiembre de 2018, el repositorio principal es [casioecr-site en BitBucket](https://bitbucket.org/casioecr/casioecr-site/src/master/), donde está configurado a partir de ahora la información de despliegue del sitio web.
 
 ### Instalación
 
@@ -28,96 +32,11 @@
 
 ## Información para editores
 
-	@todo
+Consulte el manual de usuario disponible como documento de  Google Docs, bajo el nombre [CASIO-ECR.es -- manual para editores](https://docs.google.com/document/d/19w3uc3sa8x2nmdNywEYWg28nKWMy8nHPC7FYzC6Ta0A/edit#).
 
-Este sitio web permite cambiar contenidos de manera cómoda y sin tener qué saber programar, como cualquier otra plataforma conocida como WordPress, Drupal, …
+En la siguiente dirección debería encontrarse el manual de usuario:
 
-La particularidad de este proyecto, es que no empleamos ninguna base de datos, y el contenido que cambia del sitio web está escrito en ficheros de texto.
-
-Esto facilita mucho las cosas y hace que el sitio web sea excepcionalmente seguro y funcione con una rapidez extraordinaria. 
-
-
-### ¿Dónde se guarda la información del sitio web? 
-
-El contenido y configuración de la web se encuentra en la carpeta **static**.
-
-Basta con editar los ficheros adecuados para añadir o borrar nuevos casos de éxito, cambiar el orden de los productos, editar el texto de las páginas legales, añadir más manuales, …
-
-> Este proyecto emplea [Jekyll](http://jekyllrb.com/) para la generación dinámica de las páginas del sitio web.
-
-
-### Carpeta para imágenes y documentos
-
-Todos los ficheros e imágenes del contenido del sitio web se encuentra en la carpeta **/static/media**.
-
-De esta manera, si queremos añadir un documento PDF, una imagen, … basta con pegarlo en '/static/media', y en el directorio que creamos oportuno: 'pdf', 'manuales', …
-
-> El nombre de estas carpetas es arbitrario y por convención. Se han creado según el criterio que no has parecido más conveniente para tener ordenados los materiales de este proyecto.
-
-Contiene las siguientes carpetas:
-
-- **/static/media/casos**
-
-En esta carpeta se encuentran las imágenes y PDF's de los casos de éxito.
-
-- **/static//media/pdf**
-
-Documentos PDF como manuales de usuario, fichas técnicas, …
-
-- **/static//media/products**
-
-Imagenes de los productos.
-
-- **/static//media/assets**
-
-Carpeta con los elementos gráficos del proyecto web. Se recomienda no editar, ni borrar los elementos de esta carpeta, a riesgo de afectar la funcionalidad global del sitio web.
-
-
-### Textos literales y variables del sitio web
-
-En la carpeta '/static/_data' encontrarás los ficheros de configuración en
-formato YAML que te van a permitir gestionar los valores de:
-
-- **global.yml**: textos comunes y valores del sitio web
-- **casos.yml**: entradas de los casos de éxito con textos, enlaces e imágenes.
-- **manuales.yml**: productos y descargas de la sección manuales
-
-#### GLOBAL.YML
-
-````
-* title:            CASIO System Solutions España
-* author:           CASIO España
-* description:      '…'
-
-* url_distribuidor: 'ser-distribuidor'
-* url_historia:     'nuestra-historia'
-* url_contacto:     'http://bit.ly/casioayuda'
-
-
-* email:            info@casio-ecr.es
-* horario:          de lunes a jueves de 9:00 a 19:00h y los viernes de 9:00 a 14:00h
-
-````
-
-#### CASOS.YML
-
-Ejemplo:
-
-````
-- title:   'Restaurante Banna'
-- media:    'media/casos/default.jpg' 
-- headline: ''El restaurante Banna …'
-- text: '…'
-- pdf: '/media/casos/pdf/Banna.pdf'
-- 
-````
-
-#### MANUALES.YML
-
-
-### Páginas
-
-	@todo
+- https://www.casio-ecr.es/admin/manual-de-uso.pdf
 
 ### Navegación principal
 
@@ -135,7 +54,7 @@ Los enlaces de la navegación principal, en este caso, están puestos directamen
 
 - Git
 - Cuenta en Bitbucket
-- Cuenta en GitHub
+- Cuenta en GitHub, (opcional)
 
 **2. Desarrollo:**
 
@@ -144,10 +63,11 @@ Los enlaces de la navegación principal, en este caso, están puestos directamen
 - Sass & Sprockets
 - Node
 - [Grunt](http://gruntjs.com/)
-- [Bower](http://bower.io/), no es imprescindible
-
+- [Bower](http://bower.io/), no es imprescindible ya que los recursos descargados se añaden al repositorio
 
 **3. Despliegue:**
+
+Opción vía Github / Travis, emplea:
 
 - Glynn
 - HTML proofer
